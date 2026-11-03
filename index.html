@@ -1,41 +1,184 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NCAA D-I Basketball TV Ticker</title><style>html,body{margin:0;height:100%;background:#080e1b;color:#fff;font-family:Arial,sans-serif;overflow:hidden}header{height:12vh;display:flex;align-items:center;justify-content:space-between;padding:0 3vw;background:#17243a;box-sizing:border-box}h1{font-size:3vw;margin:0}#updated{font-size:1.3vw;color:#b7c8dd}#viewport{height:88vh;overflow:hidden;position:relative}#track{position:absolute;width:100%;top:0;will-change:transform}.game{min-height:13vh;display:flex;align-items:center;justify-content:space-between;gap:2vw;padding:1vh 3vw;border-bottom:1px solid #344159;box-sizing:border-box}.teams{font-size:2.6vw;font-weight:bold;flex:1}.details{font-size:1.5vw;color:#bcd0e8;text-align:right;min-width:20vw}.score{font-size:2.9vw;color:#ffda74;font-weight:bold;white-space:nowrap}.status{color:#8fe2b4}.network{font-size:1.85vw;font-weight:bold;color:#e5efff;margin-top:.6vh}.ytv{border-left:9px solid #22c55e;background:#102b2b}.ytvtag{display:inline-block;color:#b7ffd1;font-size:1.2vw;font-weight:bold;margin-top:.4vh}.hint{font-size:.85vw;color:#aabdd1}#empty{padding:5vw;font-size:2vw;color:#c6d5e9}.label{font-size:1.2vw;color:#bcd0e8}footer{position:fixed;bottom:0;right:1vw;color:#8192a9;font-size:0.8vw}button{background:#293f61;border:0;color:white;padding:10px;border-radius:6px;cursor:pointer}@media(max-width:650px){h1{font-size:6vw}.teams{font-size:5vw}.score{font-size:5vw}.details{font-size:3vw}#updated{font-size:2.5vw}} .game{cursor:pointer}.game:focus{outline:4px solid #fbbf24;outline-offset:-4px;background:#294567}#overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.86);z-index:20;align-items:center;justify-content:center;padding:3vw;box-sizing:border-box}#overlay.open{display:flex}#dialog{width:min(900px,94vw);max-height:90vh;overflow:auto;background:#17243a;border:3px solid #5c7ba4;border-radius:18px;padding:3vw;box-sizing:border-box;box-shadow:0 12px 50px #000}#dialog h2{font-size:clamp(25px,3.5vw,48px);margin:0 0 1.5vw}#dialog .bigscore{font-size:clamp(26px,4vw,58px);color:#ffda74;font-weight:bold;margin:1vw 0}#dialog .meta{font-size:clamp(18px,2.2vw,30px);margin:1.3vw 0}#dialog .actions{display:flex;gap:16px;flex-wrap:wrap;margin-top:2vw}#dialog button{font-size:clamp(18px,1.8vw,26px);padding:16px 24px}#watch{background:#176f43}#close{background:#42536b}#dialog .note{font-size:clamp(13px,1.2vw,18px);color:#c3d1e2;margin-top:1.5vw} </style></head><body><header><h1>🏀 NCAA D-I MEN'S BASKETBALL</h1><div id="updated">Connecting to live scores…</div></header><div id="viewport"><div id="track"><div id="empty">Loading all Division I games…</div></div></div><footer>Green = likely on YouTube TV; local availability varies · ESPN public scores feed · 60-sec refresh</footer><div id="overlay" role="dialog" aria-modal="true" aria-label="Game details"><div id="dialog"><h2 id="modalteams"></h2><div class="bigscore" id="modalscore"></div><div class="meta" id="modalstatus"></div><div class="meta" id="modalnetwork"></div><div class="meta" id="modalytv"></div><div class="actions"><button id="watch" type="button">Watch on YouTube TV</button><button id="close" type="button">Back to Scores</button></div><div class="note">Watch opens YouTube TV. Search for the team or game there; exact-game tuning is not guaranteed. TV network listings and YouTube TV availability can vary.</div></div></div><script>
-// Public ESPN scoreboard endpoint is unofficial and may change or restrict browser access.
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HSN Sports Network — Live NCAA Basketball — Version 8</title><style>
+:root{--bg:#07101f;--panel:#12243b;--line:#29435c;--green:#4be08b;--text:#f4f8ff}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;overflow:hidden}button,select{font:inherit}button{cursor:pointer;background:#203a57;border:2px solid #42627f;color:#fff;border-radius:9px;padding:10px 17px;font-weight:700}button:focus-visible,.card:focus-visible,select:focus-visible{outline:4px solid #ffdc65;outline-offset:2px}header{height:13%;min-height:80px;padding:12px 2.3vw;display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:2px solid var(--line)}h1{font-size:clamp(21px,2.4vw,42px);margin:0}#updated{font-size:clamp(12px,1.2vw,19px);color:#a9c1d9;margin-top:5px}.controls{display:flex;align-items:center;gap:9px}.controls button{font-size:clamp(13px,1.15vw,20px)}#board{height:87%;display:flex;flex-direction:column;gap:0;padding:0 1.2vw}.lane{flex:1;min-height:0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}.lanehead{height:24%;min-height:26px;display:flex;align-items:center;gap:10px;font-size:clamp(13px,1.25vw,22px);font-weight:800;letter-spacing:.5px}.count{color:#a4c1dc;font-weight:400}.window{position:relative;flex:1;overflow:hidden}.belt{display:flex;align-items:stretch;gap:12px;width:max-content;height:100%;will-change:transform}.set{display:flex;gap:12px;height:100%;padding-right:12px}.card{flex:none;width:clamp(250px,27vw,500px);height:94%;padding:10px 15px;border:2px solid #34526e;border-radius:12px;background:var(--panel);color:#fff;text-align:left;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer}.card.ytv{border-color:#29965b;background:#12382e}.card:focus,.card.selected{border-color:#ffdc65;background:#21466b}.names{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:clamp(14px,1.4vw,25px);font-weight:800}.names span:first-child{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.score{white-space:nowrap;color:#fff}.bottom{display:flex;justify-content:space-between;gap:8px;font-size:clamp(12px,1.08vw,19px);color:#bcd0e5}.network{color:#fff;font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:55%}.ytv .network{color:#72f5a5}.empty{padding:20px;color:#a9c1d9;font-size:20px}.shade{position:fixed;inset:0;background:#000b;z-index:10;display:none;align-items:center;justify-content:center;padding:25px}.shade.open{display:flex}.dialog{background:#11253e;border:3px solid #527da3;border-radius:20px;width:min(780px,96vw);max-height:95vh;overflow:auto;padding:30px;text-align:center;box-shadow:0 15px 60px #000}.dialog h2{font-size:clamp(24px,3vw,40px);margin:5px 0 16px}.big{font-size:clamp(28px,4vw,56px);font-weight:900;margin:10px}.dialog p{font-size:clamp(17px,1.8vw,25px)}.dialog .actions{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;margin-top:25px}.dialog .actions button{font-size:20px}.note{color:#a8bfd5;font-size:15px!important}.setting{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:18px 0;font-size:22px}.setting select{background:#213a56;color:white;border:2px solid #5b829f;border-radius:7px;padding:10px}.hint{position:absolute;right:18px;bottom:5px;font-size:12px;color:#90a9c1}@media(max-width:700px){header{height:18%}#board{height:82%}h1{font-size:19px}.controls button{padding:8px}.lanehead{height:28%}.card{width:250px}}
+
+/* Final polish: keep every network and time INSIDE its card at all viewport sizes. */
+.card{height:calc(100% - 8px);min-height:0;padding:8px 14px 12px;overflow:hidden;gap:3px}
+.card .names{flex:1;min-height:0;overflow:hidden}
+.card .matchup{gap:3px;justify-content:center;min-height:0}
+.card .teamlogo{height:clamp(25px,2.5vw,44px);width:clamp(25px,2.5vw,44px)}
+.card .bottom{flex:none;min-height:22px;line-height:1.2;align-items:center;padding-top:3px;gap:8px;font-size:clamp(11px,.95vw,18px)}
+.card .bottom>span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .bottom .network{max-width:55%;text-align:right}
+.card .badges{flex:none}
+/* Team crests for distant TV viewing */
+.matchup{display:flex;flex-direction:column;gap:7px;min-width:0;flex:1}.teamline{display:flex;align-items:center;gap:10px;min-width:0}.teamlogo{width:clamp(34px,3.5vw,62px);height:clamp(34px,3.5vw,62px);object-fit:contain;flex:none}.teamlabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.names .matchup{min-width:0}.names{align-items:center}.names .score{flex:none;font-size:clamp(19px,1.9vw,36px)}
+
+/* Version 5: compact bottom favorites bar, full-width scrolling lanes */
+#layout{height:87%;display:flex;flex-direction:column;min-height:0}
+#board{height:auto;flex:1;min-height:0;width:100%}
+#favorites{height:clamp(125px,19vh,210px);flex:none;border-top:2px solid #e8b74b;padding:7px 1.2vw;background:#0c192b;display:flex;align-items:stretch;gap:12px;overflow:hidden}
+#favorites h2{font-size:clamp(16px,1.35vw,25px);margin:0;width:clamp(130px,12vw,210px);align-self:center;flex:none;color:#ffdc65;line-height:1.2}
+#favoriteGames{flex:1;min-width:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.favcard{background:#1b3049;border:2px solid #e8b74b;border-radius:12px;padding:9px 12px;cursor:pointer;color:white;text-align:left;width:100%;min-width:0;display:flex;flex-direction:column;justify-content:space-between;gap:4px}
+.favcard:focus-visible{outline:4px solid #fff;outline-offset:-4px}.favtitle{font-weight:900;font-size:clamp(16px,1.3vw,23px);color:#ffdc65}.favteams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:7px}.favteam{display:flex;align-items:center;gap:7px;min-width:0;font-size:clamp(14px,1.2vw,23px);font-weight:800}.favteam span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.favteam img{height:clamp(27px,2.6vw,48px);width:clamp(27px,2.6vw,48px);object-fit:contain;flex:none}.favscore{font-size:clamp(20px,1.8vw,34px);font-weight:900;white-space:nowrap}.favmeta{font-size:clamp(13px,1vw,19px);color:#c4d7ed;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.favrank{font-size:.82em;color:#fff0b0}.favpolls{font-size:clamp(10px,.84vw,15px);font-weight:700;color:#bbcee2}.favempty{font-size:clamp(14px,1.1vw,19px);color:#adc3dc;line-height:1.4;align-self:center}
+#favoriteGames .favempty{padding:10px;border:1px dashed #456078;border-radius:10px}
+.card.espnplus{border-color:#b9923a;background:#332d1d}.espnplus .network{color:#ffd778}
+#watchESPN{background:#604715;border-color:#d5ac45}
+@media(max-width:900px){#favorites{gap:6px;padding:5px}#favorites h2{width:100px;font-size:13px}.favcard{padding:5px}.favteam{font-size:12px}.favteam img{width:25px;height:25px}.favmeta{font-size:11px}}
+
+/* V6 alerts and countdowns */
+#alertsNow{font-size:clamp(12px,1.05vw,19px);font-weight:800;color:#ffdf86;white-space:nowrap}
+.card.closegame{border:3px solid #ff5366;box-shadow:inset 0 0 0 1px #ff536644}
+.card.upset{border:3px solid #ffac3c;background:#49311f}
+.card.closegame.upset{border-color:#ff5366;background:#4a292a}
+.badges{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:3px}
+.badge{font-size:clamp(11px,.9vw,16px);font-weight:900;padding:2px 7px;border-radius:6px;background:#d44937;color:#fff;white-space:nowrap}
+.badge.upsetbadge{background:#f5a623;color:#1c170b}
+.badge.otbadge{background:#d84d95}
+.favcountdown{font-weight:900;color:#ffdc65;font-size:clamp(15px,1.45vw,27px)}
+.favcard.upset{border-color:#ffac3c}.favcard.closegame{border-color:#ff5366}
+/* Animated attention cues, active only for real alerts */
+.alert-symbol{display:inline-block;transform-origin:center;vertical-align:middle;margin-right:4px}
+.alert-symbol.siren{animation:sirenTurn 1.35s ease-in-out infinite,alertGlow 1.35s ease-in-out infinite}
+.alert-symbol.flame{animation:flameDance .8s ease-in-out infinite,alertGlow 1.5s ease-in-out infinite}
+.badge.animated-close{animation:alertPulse 1.5s ease-in-out infinite}
+.badge.animated-upset{animation:upsetPulse 1.8s ease-in-out infinite}
+#alertsNow .alert-count{display:inline-block;padding:3px 5px;border-radius:7px}
+#alertsNow .alert-count.active-close{color:#fff;background:#a91d35;animation:alertPulse 1.5s ease-in-out infinite}
+#alertsNow .alert-count.active-upset{color:#201000;background:#ffba44;animation:upsetPulse 1.8s ease-in-out infinite}
+@keyframes sirenTurn{0%,100%{transform:rotate(-17deg) scale(1)}50%{transform:rotate(17deg) scale(1.22)}}
+@keyframes flameDance{0%,100%{transform:rotate(-12deg) scale(1)}50%{transform:rotate(12deg) scale(1.24)}}
+@keyframes alertGlow{0%,100%{filter:brightness(1)}50%{filter:brightness(1.65)}}
+@keyframes alertPulse{0%,100%{box-shadow:0 0 0 0 rgba(255,70,90,.15)}50%{box-shadow:0 0 0 5px rgba(255,70,90,.45);filter:brightness(1.3)}}
+@keyframes upsetPulse{0%,100%{box-shadow:0 0 0 0 rgba(255,180,40,.1)}50%{box-shadow:0 0 0 5px rgba(255,180,40,.42);filter:brightness(1.2)}}
+@media(prefers-reduced-motion:reduce){.alert-symbol.siren,.alert-symbol.flame,.badge.animated-close,.badge.animated-upset,#alertsNow .alert-count{animation:none!important}}
+@media(max-width:900px){#alertsNow{font-size:11px}}
+
+/* HSN v8 broadcast theme — retains v7 continuous lane scrolling and navigation */
+:root{--bg:#050b16;--panel:#0c203c;--line:#2871c3;--text:#f7faff}
+body{background:radial-gradient(ellipse at 50% -20%,#19395d 0%,#06101f 56%,#02050b 100%)}
+header{height:17%;min-height:100px;padding:6px 1.4vw;background:linear-gradient(105deg,#07111f,#0c2745 55%,#090e1b);border-bottom:3px solid #dd2c3a;box-shadow:0 4px 22px #1565b988;position:relative;z-index:2}
+.hsn-brand{display:flex;align-items:center;gap:1.3vw;min-width:0}.hsn-logo{width:clamp(125px,19vw,345px);height:clamp(74px,13vh,155px);object-fit:contain;filter:drop-shadow(0 0 10px #207dff88)}.hsn-heading{min-width:0}.hsn-heading h1{font-size:clamp(17px,2.15vw,39px);font-weight:1000;letter-spacing:.05em;font-style:italic;text-shadow:2px 3px 0 #192d4a,0 0 13px #4b92ff;white-space:nowrap}.hsn-sub{margin-top:4px;font-size:clamp(12px,1.22vw,23px);font-weight:900;letter-spacing:.07em;color:#d8e7fa}.live-dot{color:#ff5363;margin-right:10px;text-shadow:0 0 12px #f43}.controls{flex-shrink:0}.controls button{border-color:#4776b6;background:linear-gradient(#27496e,#0b1a2e);box-shadow:inset 0 1px #7192bc}
+#layout{height:76%}#board{padding:0 .8vw}.lane{border-bottom:1px solid #28517c}.lanehead{height:25%;color:#fff;background:linear-gradient(90deg,#0c3672 0%,#0b2446 42%,transparent 95%);border-left:4px solid #ff394e;padding-left:12px;text-shadow:0 1px 4px #000;letter-spacing:.08em}.card{background:linear-gradient(150deg,#15355b,#091525 75%);border:2px solid #497fb9;border-radius:5px;box-shadow:inset 0 2px #a6cfff33,0 4px 8px #0009}.card.ytv{background:linear-gradient(150deg,#143c45,#091525 80%);border-color:#398f9d}.card.espnplus{background:linear-gradient(150deg,#423720,#101522 80%);border-color:#b99742}.names .score{color:#ffe17a;text-shadow:0 0 9px #b77e3d66}.card .bottom{border-top:1px solid #3d5876;padding-top:4px}
+#favorites{height:clamp(115px,19vh,205px);background:linear-gradient(100deg,#081b38,#0b1424);border-top:3px solid #e62e45}.favcard{background:linear-gradient(145deg,#163b67,#0b182c);border:2px solid #4a85cf;border-radius:5px}.favtitle{color:#ffdd79}.favscore{color:#fff}.favcard:focus-visible{outline-color:#ffdc65}
+#crawl{height:7%;min-height:38px;display:flex;background:linear-gradient(#0e2b54,#06142a);border-top:3px solid #2f88f6;box-shadow:0 -4px 15px #147aff55;overflow:hidden}.crawl-badge{display:flex;align-items:center;gap:8px;flex:none;padding:0 1.2vw;background:linear-gradient(110deg,#c21d2b,#660a17);border-right:3px solid #f33;font-size:clamp(19px,2.4vw,39px);font-style:italic;font-weight:1000;letter-spacing:.04em;text-shadow:2px 2px #42040a}.crawl-badge small{font-size:clamp(9px,.85vw,15px);font-style:normal;line-height:1.05;max-width:50px}.crawl-window{flex:1;min-width:0;position:relative;overflow:hidden;display:flex;align-items:center}.crawl-text{position:absolute;white-space:nowrap;left:100%;font-size:clamp(15px,1.6vw,28px);font-weight:800;color:#fff;will-change:transform}.crawl-item{margin-right:4vw}.crawl-item b{color:#ffdc67}.crawl-sep{color:#ed4155;margin:0 1vw}
+@media(max-width:900px){header{height:18%}#layout{height:74%}#crawl{height:8%}.hsn-heading h1{white-space:normal;font-size:17px}.hsn-logo{width:120px}.hsn-sub{font-size:11px}.controls{gap:3px}.controls button{padding:6px}.hsn-brand{gap:4px}#updated{font-size:10px}}
+</style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK</h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><h2>★ KENTUCKY &amp; IOWA</h2><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>COLLEGE NEWS</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
+<div id="gameOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Game information"><div class="dialog"><h2 id="teams">Game details</h2><div class="big" id="bigscore"></div><p id="status"></p><p id="network"></p><p id="ytv"></p><div class="actions"><button id="watch">Open YouTube TV</button><button id="watchESPN">Open ESPN+</button><button id="closeGame">Back to Scores</button></div><p class="note">Streaming services open separately; you may need to find and select the game. Direct playback cannot be guaranteed.</p></div></div>
+<div id="settingsOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Ticker settings"><div class="dialog"><h2>Scoreboard Settings</h2><div class="setting"><label for="speed">Scrolling speed</label><select id="speed"><option value="18">Slow</option><option value="32">Normal</option><option value="55">Fast</option></select></div><div class="setting"><label for="rows">Number of rows</label><select id="rows"><option value="3">3 rows</option><option value="4">4 rows</option><option value="5">5 rows</option></select></div><div class="setting"><label for="alertsEnabled">Game alerts</label><select id="alertsEnabled"><option value="on">On</option><option value="off">Off</option></select></div><div class="setting"><label for="filter">Games displayed</label><select id="filter"><option value="all">All Division I</option><option value="tv">YouTube TV or ESPN+</option></select></div><div class="actions"><button id="saveSettings">Save settings</button><button id="cancelSettings">Cancel</button></div><p class="note">Settings are saved in this browser. Use arrow keys and Enter on a remote. Press Down from the final row to reach pinned games.</p></div></div>
+<script>
+(function(){'use strict';
+// Unofficial public ESPN feed. Availability, CORS and fields may change without notice.
 var API='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?limit=500&groups=50';
-var track=document.getElementById('track'), viewport=document.getElementById('viewport'), updated=document.getElementById('updated');var y=0,last=0,paused=false,modalOpen=false,gameDetails={};
-function escapeHtml(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-// Network matching is indicative, not a YouTube TV entitlement check.
-// ESPN+ and streaming-only broadcasts are deliberately excluded.
-function onYoutubeTV(network){
- var names=network.toUpperCase().split(/[,·\/]+/).map(function(x){return x.trim()});
- return names.some(function(n){
-  return /^(ESPN|ESPN2|ESPNU|ESPNEWS|ACCN|ACC NETWORK|SECN|SEC NETWORK|BIG TEN NETWORK|BTN|FS1|FS2|FOX|CBS|CBS SPORTS NETWORK|CBSSN|NBC|USA NETWORK|TNT|TBS|TRUTV|CW|THE CW|ION)$/.test(n);
- });
+var $=function(id){return document.getElementById(id)}, board=$('board'), settings={speed:32,rows:4,filter:'all',alerts:'on'};
+try{var saved=JSON.parse(localStorage.getItem('ncaa-ticker-v4')||'{}');if([18,32,55].includes(+saved.speed))settings.speed=+saved.speed;if([3,4,5].includes(+saved.rows))settings.rows=+saved.rows;if(['all','tv'].includes(saved.filter))settings.filter=saved.filter;if(['on','off'].includes(saved.alerts))settings.alerts=saved.alerts}catch(e){}
+var events=[],futureEvents=[],rankings={},lanes=[],paused=false,modal=false,last=0,focusedKey=null,focusBefore=null,activeGame=null;
+function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(x){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[x]})}
+function isYtv(net){return net.toUpperCase().split(/[,·\/]+/).some(function(s){return /^(ESPN|ESPN2|ESPNU|ESPNEWS|ACCN|ACC NETWORK|SECN|SEC NETWORK|BIG TEN NETWORK|BTN|FS1|FS2|FOX|CBS|CBS SPORTS NETWORK|CBSSN|NBC|USA NETWORK|TNT|TBS|TRUTV|CW|THE CW|ION)$/.test(s.trim())})}
+function isEspnPlus(net){return /ESPN\s*\+/i.test(net)}
+function logo(t){var team=t.team||{},ls=team.logos||[];return team.logo||(ls[0]&&ls[0].href)||''}
+function rank(t){var n=+(t.curatedRank&&t.curatedRank.current||0);return n>=1&&n<=25?n:0}
+function alerts(g){var badges=[];if(settings.alerts==='off')return badges;
+if(g.state==='in'){
+ if(g.period>2||/\bOT\b|OVERTIME/i.test(g.status))badges.push('OVERTIME');
+ var diff=Math.abs(g.awayPoints-g.homePoints),clock=g.clock||'',mins=clock.match(/^(\d+):(\d+)/),seconds=mins?(+mins[1]*60 + +mins[2]):null;
+ if(diff<=5&&(g.period>2||(g.period===2&&seconds!==null&&seconds<=300)))badges.push('CLOSE GAME');
 }
-function stateRank(e){var st=((e.competitions||[])[0]||{}).status||e.status||{};var v=(st.type||{}).state;return v==='in'?0:v==='pre'?1:v==='post'?2:3}
-function render(events){
- if(!events.length){track.innerHTML='<div id="empty">No Division I men\'s games listed today. The ticker will check again automatically.</div>';y=0;return}
- events.sort(function(a,b){var rank=stateRank(a)-stateRank(b);return rank||new Date(a.date)-new Date(b.date)});
- gameDetails={};var html=events.map(function(e){
- var c=e.competitions&&e.competitions[0]||{},teams=c.competitors||[],away=teams.filter(function(t){return t.homeAway==='away'})[0]||teams[0]||{},home=teams.filter(function(t){return t.homeAway==='home'})[0]||teams[1]||{};
- var s=c.status||e.status||{},type=s.type||{},network=(c.broadcasts||[]).map(function(b){return (b.names||[]).join(', ')}).filter(Boolean).join(' · ');
- var eligible=onYoutubeTV(network),status=type.shortDetail||type.detail||'',date=e.date?new Date(e.date).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'}):'';
- if(type.state==='pre')status=date+' · '+status; var id=String(e.id||'');gameDetails[id]={away:away.team&&away.team.displayName||'TBD',home:home.team&&home.team.displayName||'TBD',score:type.state==='pre'?'Upcoming':(away.score||'0')+' – '+(home.score||'0'),status:status,network:network||'TV network not listed',eligible:eligible};
- return '<div class="game'+(eligible?' ytv':'')+'"><div class="teams">'+escapeHtml(away.team&&away.team.displayName||'TBD')+'<div class="label">at</div>'+escapeHtml(home.team&&home.team.displayName||'TBD')+'</div><div class="score">'+(type.state==='pre'?'VS':escapeHtml((away.score||'0')+' – '+(home.score||'0')))+'</div><div class="details"><div class="status">'+escapeHtml(status)+'</div><div class="network">'+escapeHtml(network||'TV network not listed')+'</div>'+(eligible?'<div class="ytvtag">● LIKELY ON YOUTUBE TV</div>':'')+'</div></div>'
- }).join('');
- // Preserve scroll position on refresh instead of jumping to the beginning every minute.
- var previousHeight=track.scrollHeight,previousY=y;
- track.innerHTML=html;
- y=previousHeight>0?Math.min(previousY,Math.max(0,track.scrollHeight-viewport.clientHeight)):0;
- track.style.transform='translateY('+(-y)+'px)';
+var a=g.awayRank,h=g.homeRank,ranked=a||h;
+if(ranked&&(g.state==='in'||g.state==='post')){
+ var underdogLeading=(a===0&&h>0&&g.awayPoints>g.homePoints)||(h===0&&a>0&&g.homePoints>g.awayPoints)||(a>0&&h>0&&a<h&&g.homePoints>g.awayPoints)||(a>0&&h>0&&h<a&&g.awayPoints>g.homePoints);
+ if(underdogLeading)badges.push(g.state==='post'?'UPSET FINAL':'UPSET WATCH');
 }
-async function load(){try{var r=await fetch(API,{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);var d=await r.json();if(!Array.isArray(d.events))throw Error('Invalid response');render(d.events);updated.textContent='Updated '+new Date().toLocaleTimeString()+' · '+d.events.length+' games'}catch(e){updated.textContent='Unable to refresh live scores';if(!track.querySelector('.game'))track.innerHTML='<div id="empty">The free ESPN scores feed could not be reached by this browser. Try another browser or hosting setup. Details: '+escapeHtml(e.message)+'</div>'}}
-function animate(t){if(!last)last=t;var dt=Math.min(100,t-last);last=t;if(!paused&&!modalOpen&&track.scrollHeight>viewport.clientHeight){y+=dt*.025;if(y>track.scrollHeight-viewport.clientHeight+120)y=0;track.style.transform='translateY('+(-y)+'px)'}requestAnimationFrame(animate)}document.addEventListener('visibilitychange',function(){paused=document.hidden});
-var overlay=document.getElementById('overlay'),closeButton=document.getElementById('close'),watchButton=document.getElementById('watch'),selectedGame=null;
-function openGame(id){var g=gameDetails[id];if(!g)return;selectedGame=document.activeElement;modalOpen=true;document.getElementById('modalteams').textContent=g.away+' at '+g.home;document.getElementById('modalscore').textContent=g.score;document.getElementById('modalstatus').textContent=g.status;document.getElementById('modalnetwork').textContent='TV: '+g.network;document.getElementById('modalytv').textContent=g.eligible?'Likely available on YouTube TV (check your plan)':'YouTube TV availability not confirmed';overlay.className='open';closeButton.focus()}
-function closeGame(){overlay.className='';modalOpen=false;if(selectedGame&&document.contains(selectedGame))selectedGame.focus()}
-track.addEventListener('click',function(e){var game=e.target.closest('.game');if(game)openGame(game.getAttribute('data-game'))});
-track.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){var game=e.target.closest('.game');if(game){e.preventDefault();openGame(game.getAttribute('data-game'))}}});
-closeButton.addEventListener('click',closeGame);watchButton.addEventListener('click',function(){window.open('https://tv.youtube.com/','_blank')});
-document.addEventListener('keydown',function(e){if(modalOpen&&e.key==='Escape')closeGame()});
-load();setInterval(load,60000);requestAnimationFrame(animate);
+return badges}
+function priority(g){var b=alerts(g);return (b.includes('UPSET WATCH')?100:0)+(b.includes('CLOSE GAME')?80:0)+(b.includes('OVERTIME')?75:0)+(g.awayRank||g.homeRank?40:0)+(b.includes('UPSET FINAL')?50:0)}
+function badgeHtml(g){return '<div class="badges">'+alerts(g).map(function(a){var close=a==='CLOSE GAME',upset=a==='UPSET WATCH',icon=close?'<span class="alert-symbol siren" aria-hidden="true">🚨</span>':upset?'<span class="alert-symbol flame" aria-hidden="true">🔥</span>':'';return '<span class="badge'+(a.indexOf('UPSET')>=0?' upsetbadge':a==='OVERTIME'?' otbadge':'')+(close?' animated-close':upset?' animated-upset':'')+'">'+icon+esc(a)+'</span>'}).join('')+'</div>'}
+function parse(e){var c=(e.competitions||[])[0]||{},ts=c.competitors||[],away=ts.find(function(t){return t.homeAway==='away'})||ts[0]||{},home=ts.find(function(t){return t.homeAway==='home'})||ts[1]||{},st=c.status||e.status||{},type=st.type||{},net=(c.broadcasts||[]).map(function(b){return (b.names||[]).join(', ')}).filter(Boolean).join(' · '),state=type.state||'pre',date=new Date(e.date||Date.now());return {id:String(e.id),away:(away.team||{}).displayName||'TBD',home:(home.team||{}).displayName||'TBD',awayLogo:logo(away),homeLogo:logo(home),score:state==='pre'?'VS':String(away.score||'0')+' – '+String(home.score||'0'),status:state==='pre'?date.toLocaleString([],{weekday:'short',hour:'numeric',minute:'2-digit'}):type.shortDetail||type.detail||state,network:net||'Network not listed',eligible:isYtv(net),espnplus:isEspnPlus(net),state:state,date:date.getTime(),awayRank:rank(away),homeRank:rank(home),awayPoints:+away.score||0,homePoints:+home.score||0,period:+st.period||0,clock:st.displayClock||''}}
+function teamLine(name,url){return '<div class="teamline">'+(url?'<img class="teamlogo" src="'+esc(url)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">':'')+'<span class="teamlabel">'+esc(name)+'</span></div>'}
+function card(g){var b=alerts(g);return '<button type="button" class="card'+(b.includes('CLOSE GAME')?' closegame':'')+(b.some(function(x){return x.indexOf('UPSET')>=0})?' upset':'')+(g.eligible?' ytv':g.espnplus?' espnplus':'')+'" data-id="'+esc(g.id)+'" aria-label="Details: '+esc(g.away+' at '+g.home)+'">'+badgeHtml(g)+'<div class="names"><div class="matchup">'+teamLine(g.away,g.awayLogo)+teamLine(g.home,g.homeLogo)+'</div><span class="score">'+esc(g.score)+'</span></div><div class="bottom"><span>'+esc(g.status)+'</span><span class="network">'+esc(g.network)+'</span></div></button>'}
+function isFavorite(g){return /^(Kentucky Wildcats|Iowa Hawkeyes)$/.test(g.away)||/^(Kentucky Wildcats|Iowa Hawkeyes)$/.test(g.home)}
+function favoriteCard(g,which){var name=which==='KENTUCKY'?'Kentucky Wildcats':'Iowa Hawkeyes';
+var entry=rankings[name]||{},ap=entry.ap||0,coaches=entry.coaches||0,net=entry.net||0;
+var current=g?(g.away===name?g.awayRank:g.homeRank):0;
+if(!ap&&current)ap=current;
+var primary=ap?('#'+ap):coaches?('#'+coaches):net?('#'+net):'NR';
+var source=ap?'AP':coaches?'Coaches':net?'NET':'Unranked';
+var title='<div class="favtitle">★ <span class="favrank">'+primary+'</span> '+which+' <span class="favpolls">('+source+') · Coaches: '+(coaches?'#'+coaches:'—')+' · NET: '+(net?'#'+net:'—')+'</span></div>';
+if(!g)return '<div class="favempty">'+title+'Next game not available</div>';
+function fteam(n,url){return '<div class="favteam">'+(url?'<img src="'+esc(url)+'" alt="" loading="lazy">':'')+'<span>'+esc(n)+'</span></div>'}
+return '<button type="button" class="favcard" data-id="'+esc(g.id)+'" aria-label="'+which+' game details">'+title+'<div class="favteams">'+fteam(g.away,g.awayLogo)+'<span class="favscore">'+esc(g.score)+'</span>'+fteam(g.home,g.homeLogo)+'</div><div class="favmeta">'+esc(g.status)+' · '+esc(g.network)+(g.state==='pre'?' · <span class="favcountdown" data-tip="'+g.date+'">'+countdown(g.date)+'</span>':'')+'</div></button>'}
+function countdown(t){var ms=t-Date.now();if(ms<=0)return 'Tipoff soon';var d=Math.floor(ms/86400000),h=Math.floor(ms%86400000/3600000),m=Math.floor(ms%3600000/60000);return 'TIPOFF IN '+(d?d+'d ':'')+h+'h '+m+'m'}
+function updateCountdowns(){document.querySelectorAll('[data-tip]').forEach(function(el){el.textContent=countdown(+el.dataset.tip)})}
+function renderFavorites(){var all=events.concat(futureEvents);function pick(name){var matches=all.filter(function(g){return g.away===name||g.home===name});var live=matches.filter(function(g){return g.state==='in'});if(live.length)return live[0];var upcoming=matches.filter(function(g){return g.state==='pre'&&g.date>Date.now()-3600000}).sort(function(a,b){return a.date-b.date});if(upcoming.length)return upcoming[0];return matches.filter(function(g){return g.state==='post'}).sort(function(a,b){return b.date-a.date})[0]}$('favoriteGames').innerHTML=favoriteCard(pick('Kentucky Wildcats'),'KENTUCKY')+favoriteCard(pick('Iowa Hawkeyes'),'IOWA')}
+$('favorites').addEventListener('click',function(e){var b=e.target.closest('.favcard');if(b)showOverlay(b.dataset.id)});
+function groups(){var arr=events.filter(function(g){return settings.filter==='all'||g.eligible||g.espnplus}),live=arr.filter(function(g){return g.state==='in'}).sort(function(a,b){return priority(b)-priority(a)||a.away.localeCompare(b.away)}),up=arr.filter(function(g){return g.state==='pre'}).sort(function(a,b){return a.date-b.date}),fin=arr.filter(function(g){return g.state==='post'}).sort(function(a,b){return priority(b)-priority(a)||b.date-a.date});if(settings.rows===3)return [{name:'🔴 LIVE GAMES',items:live},{name:'🕒 UPCOMING',items:up},{name:'✓ FINAL SCORES',items:fin}];if(settings.rows===5)return [{name:'🔴 LIVE · A–M',items:live.filter(function(g){return g.away.toUpperCase()<'N'})},{name:'🔴 LIVE · N–Z',items:live.filter(function(g){return g.away.toUpperCase()>='N'})},{name:'🕒 UPCOMING',items:up},{name:'✓ FINALS · RECENT',items:fin.slice(0,Math.ceil(fin.length/2))},{name:'✓ FINALS · MORE',items:fin.slice(Math.ceil(fin.length/2))}];var split=Math.ceil(live.length/2);return [{name:'🔴 LIVE GAMES · 1',items:live.slice(0,split)},{name:'🔴 LIVE GAMES · 2',items:live.slice(split)},{name:'🕒 UPCOMING GAMES',items:up},{name:'✓ FINAL SCORES',items:fin}]}
+function updateAlerts(){var live=events.filter(function(g){return g.state==='in'}),close=live.filter(function(g){return alerts(g).includes('CLOSE GAME')}).length,upset=live.filter(function(g){return alerts(g).includes('UPSET WATCH')}).length,ot=live.filter(function(g){return alerts(g).includes('OVERTIME')}).length;if(settings.alerts==='off'){$('alertsNow').textContent='Alerts off';return} $('alertsNow').innerHTML='<span class="alert-count'+(close?' active-close':'')+'"><span class="alert-symbol'+(close?' siren':'')+'" aria-hidden="true">🚨</span>'+close+' CLOSE</span> · <span class="alert-count'+(upset?' active-upset':'')+'"><span class="alert-symbol'+(upset?' flame':'')+'" aria-hidden="true">🔥</span>'+upset+' UPSET</span> · '+ot+' OT'}
+function render(){renderFavorites();updateAlerts();var previous={};lanes.forEach(function(l){previous[l.name]=l.width?l.x/l.width:0});var sections=groups();board.innerHTML=sections.map(function(s,i){return '<section class="lane" data-lane="'+i+'"><div class="lanehead">'+esc(s.name)+' <span class="count">('+s.items.length+')</span></div><div class="window"><div class="belt">'+(s.items.length?'<div class="set">'+s.items.map(card).join('')+'</div><div class="set" aria-hidden="true">'+s.items.map(card).join('')+'</div>':'<div class="empty">No games in this category right now</div>')+'</div></div></section>'}).join('');lanes=sections.map(function(s,i){var node=board.querySelector('[data-lane="'+i+'"]'),belt=node.querySelector('.belt'),set=belt.querySelector('.set');var width=s.items.length?set.getBoundingClientRect().width:0;var l={name:s.name,items:s.items,x:(previous[s.name]||0)*width,width:width,belt:belt};belt.style.transform='translateX('+(-l.x)+'px)';return l});if(focusedKey){var btn=Array.from(board.querySelectorAll('.set:first-child .card')).find(function(b){return b.dataset.id===focusedKey});if(btn){btn.focus({preventScroll:true});ensureVisible(btn)}}}
+function ensureVisible(btn){var lane=lanes[+btn.closest('.lane').dataset.lane],win=btn.closest('.window');if(!lane||!lane.width)return;var x=btn.getBoundingClientRect(),w=win.getBoundingClientRect();if(x.left<w.left+12)lane.x=(lane.x-(w.left+12-x.left)+lane.width)%lane.width;else if(x.right>w.right-12)lane.x=(lane.x+(x.right-w.right+12))%lane.width;lane.belt.style.transform='translateX('+(-lane.x)+'px)'}
+function tick(t){var dt=last?Math.min(100,t-last):0;last=t;if(!paused&&!modal){lanes.forEach(function(l,i){if(l.width){l.x=(l.x+dt/1000*settings.speed*(1+i*.08))%l.width;l.belt.style.transform='translateX('+(-l.x)+'px)'}})}requestAnimationFrame(tick)}
+function pause(on){paused=on;$('pause').textContent=paused?'▶ Resume':'⏸ Pause'}
+function showOverlay(id){var g=events.concat(futureEvents).find(function(x){return x.id===id});if(!g)return;focusBefore=document.activeElement;activeGame=g;pause(true);modal=true;$('teams').textContent=g.away+' at '+g.home;$('bigscore').textContent=g.score;$('status').textContent=g.status;$('network').textContent='TV: '+g.network;$('ytv').textContent=g.eligible?'🟢 Likely on YouTube TV':g.espnplus?'🟡 Listed on ESPN+':'Broadcast availability depends on your subscriptions';$('watch').style.display=g.eligible?'':'none';$('watchESPN').style.display=g.espnplus?'':'none';$('gameOverlay').classList.add('open');$('closeGame').focus()}
+function closeOverlay(){ $('gameOverlay').classList.remove('open');$('settingsOverlay').classList.remove('open');modal=false;if(focusBefore&&document.contains(focusBefore))focusBefore.focus();else $('pause').focus();pause(false)}
+board.addEventListener('click',function(e){var b=e.target.closest('.card');if(b)showOverlay(b.dataset.id)});
+board.addEventListener('focusin',function(e){var b=e.target.closest('.card');if(b){focusedKey=b.dataset.id;pause(true);ensureVisible(b)}});
+$('pause').onclick=function(){pause(!paused)};$('settings').onclick=function(){focusBefore=document.activeElement;modal=true;pause(true);$('speed').value=settings.speed;$('rows').value=settings.rows;$('filter').value=settings.filter;$('alertsEnabled').value=settings.alerts;$('settingsOverlay').classList.add('open');$('speed').focus()};$('closeGame').onclick=closeOverlay;$('cancelSettings').onclick=closeOverlay;
+$('saveSettings').onclick=function(){settings={speed:+$('speed').value,rows:+$('rows').value,filter:$('filter').value,alerts:$('alertsEnabled').value};try{localStorage.setItem('ncaa-ticker-v4',JSON.stringify(settings))}catch(e){}focusedKey=null;render();closeOverlay()};
+$('watch').onclick=function(){window.open('https://tv.youtube.com/','_blank','noopener')};$('watchESPN').onclick=function(){window.open('https://www.espn.com/watch/espnplus/','_blank','noopener')};
+document.addEventListener('keydown',function(e){if(e.key==='Escape'||e.key==='Backspace'){if(modal){e.preventDefault();closeOverlay()}else if(paused){e.preventDefault();pause(false)}return}if(modal)return;if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Enter'].includes(e.key))return;var active=document.activeElement;
+if(active&&active.classList.contains('favcard')){if(e.key==='Enter'){e.preventDefault();showOverlay(active.dataset.id);return}if(['ArrowLeft','ArrowRight','ArrowUp'].includes(e.key)){e.preventDefault();if(e.key==='ArrowUp'){var c=board.querySelector('.set:first-child .card');if(c)c.focus({preventScroll:true})}else{var favs=Array.from(document.querySelectorAll('#favoriteGames .favcard'));var at=favs.indexOf(active);if(favs.length)favs[(at+(e.key==='ArrowRight'?1:favs.length-1))%favs.length].focus()}}return}
+if(active&&active.classList.contains('card')){if(e.key==='Enter'){e.preventDefault();showOverlay(active.dataset.id);return}e.preventDefault();var laneIndex=+active.closest('.lane').dataset.lane,idx=lanes[laneIndex].items.findIndex(function(g){return g.id===active.dataset.id}),destLane=laneIndex,destIdx=idx;if(e.key==='ArrowRight')destIdx++;if(e.key==='ArrowLeft')destIdx--;if(e.key==='ArrowDown'&&laneIndex===lanes.length-1){var fav=document.querySelector('#favoriteGames .favcard');if(fav){fav.focus();e.preventDefault();return}}if(e.key==='ArrowDown')destLane=Math.min(lanes.length-1,laneIndex+1);if(e.key==='ArrowUp')destLane=Math.max(0,laneIndex-1);var items=lanes[destLane].items;if(!items.length)return;destIdx=(destIdx+items.length)%items.length;var target=Array.from(board.querySelectorAll('[data-lane="'+destLane+'"] .set:first-child .card'))[destIdx];if(target){target.focus({preventScroll:true});ensureVisible(target)}return}if(['ArrowDown','ArrowUp'].includes(e.key)&&active&&['pause','settings'].includes(active.id)){e.preventDefault();var first=board.querySelector('.set:first-child .card')||document.querySelector('#favoriteGames .favcard');if(first)first.focus({preventScroll:true})}});
+
+async function loadPolls(){
+ try{
+  var url='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/rankings';
+  var r=await fetch(url,{cache:'no-store'});if(!r.ok)return;
+  var data=await r.json(),polls=data.rankings||data.polls||[];
+  if(!Array.isArray(polls))return;
+  polls.forEach(function(p){
+   var label=String(p.name||p.shortName||p.type||'').toLowerCase();
+   var kind=/coach/.test(label)?'coaches':/associated|\bap\b|top 25/.test(label)?'ap':null;
+   if(!kind)return;
+   (p.ranks||p.entries||[]).forEach(function(t){
+    var team=t.team||{},name=team.displayName||team.name||'',n=+(t.current||t.rank||t.position||0);
+    if((name==='Kentucky Wildcats'||name==='Iowa Hawkeyes')&&n>=1&&n<=25){
+      (rankings[name]||(rankings[name]={}))[kind]=n;
+    }
+   });
+  });
+  renderFavorites();
+ }catch(e){console.warn('Optional poll rankings unavailable:',e)}
+}
+async function load(){try{var r=await fetch(API,{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);var data=await r.json();if(!Array.isArray(data.events))throw Error('No event list');events=data.events.map(parse);render();$('updated').textContent='Updated '+new Date().toLocaleTimeString()+' · '+events.length+' games · Green = likely YouTube TV · Gold = ESPN+'}catch(err){$('updated').textContent='Score feed unavailable · '+err.message;if(!events.length)board.innerHTML='<div class="empty">Cannot load scores. Check internet connection or try again later. The free data feed may be temporarily unavailable.</div>'}}
+async function loadFuture(){try{var start=new Date(),end=new Date(start.getTime()+14*86400000),fmt=function(d){return d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0')};var url=API+'&dates='+fmt(start)+'-'+fmt(end);var r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Future schedule HTTP '+r.status);var d=await r.json();futureEvents=(d.events||[]).map(parse).filter(function(g){return g.date>Date.now()&&(/^(Kentucky Wildcats|Iowa Hawkeyes)$/.test(g.away)||/^(Kentucky Wildcats|Iowa Hawkeyes)$/.test(g.home))});renderFavorites()}catch(e){console.warn('Upcoming favorites schedule unavailable:',e)}}
+
+// College basketball headlines, independent of scoreboard refresh.
+var crawlX=0,crawlWidth=0,crawlLast=0,newsHeadlines=[];
+var NEWS_API='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=25';
+function renderCrawl(){
+ var headlines=newsHeadlines.length?newsHeadlines:['HSN COLLEGE BASKETBALL NEWS · Checking for the latest headlines'];
+ var html=headlines.map(function(h){return '<span class="crawl-item">'+esc(h)+' <span class="crawl-sep">◆</span></span>'}).join('');
+ var el=$('crawlText');if(!el)return;
+ el.innerHTML=html+html;
+ crawlWidth=el.scrollWidth/2;
+ crawlX=0;el.style.transform='translateX(0px)';
+}
+async function loadNews(){
+ try{
+  var r=await fetch(NEWS_API,{cache:'no-store'});
+  if(!r.ok)throw Error('HTTP '+r.status);
+  var data=await r.json();
+  var articles=Array.isArray(data.articles)?data.articles:[];
+  var headlines=Array.from(new Set(articles.map(function(a){return String(a.headline||a.title||'').trim()}).filter(Boolean))).slice(0,20);
+  if(!headlines.length)throw Error('No headlines returned');
+  if(JSON.stringify(headlines)!==JSON.stringify(newsHeadlines)){newsHeadlines=headlines;renderCrawl()}
+ }catch(e){
+  console.warn('College basketball news unavailable:',e);
+  if(!newsHeadlines.length){newsHeadlines=['HSN COLLEGE BASKETBALL NEWS · News feed temporarily unavailable'];renderCrawl()}
+ }
+}
+function animateCrawl(t){var dt=crawlLast?Math.min(t-crawlLast,100):0;crawlLast=t;var el=$('crawlText');if(el&&!paused&&!modal&&crawlWidth){crawlX=(crawlX+dt*.055)%crawlWidth;el.style.transform='translateX('+(-crawlX)+'px)'}requestAnimationFrame(animateCrawl)}
+renderCrawl();requestAnimationFrame(animateCrawl);loadNews();setInterval(loadNews,300000);
+
+setInterval(updateCountdowns,30000);setInterval(loadFuture,3600000);
+window.addEventListener('resize',function(){if(events.length)render()});load();loadFuture();loadPolls();setInterval(loadPolls,3600000);setInterval(load,30000);requestAnimationFrame(tick);
+})();
 </script></body></html>
