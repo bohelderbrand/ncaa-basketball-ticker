@@ -64,30 +64,29 @@ header{height:17%;min-height:100px;padding:6px 1.4vw;background:linear-gradient(
 #crawl{height:7%;min-height:38px;display:flex;background:linear-gradient(#0e2b54,#06142a);border-top:3px solid #2f88f6;box-shadow:0 -4px 15px #147aff55;overflow:hidden}.crawl-badge{display:flex;align-items:center;gap:8px;flex:none;padding:0 1.2vw;background:linear-gradient(110deg,#c21d2b,#660a17);border-right:3px solid #f33;font-size:clamp(19px,2.4vw,39px);font-style:italic;font-weight:1000;letter-spacing:.04em;text-shadow:2px 2px #42040a}.crawl-badge small{font-size:clamp(9px,.85vw,15px);font-style:normal;line-height:1.05;max-width:50px}.crawl-window{flex:1;min-width:0;position:relative;overflow:hidden;display:flex;align-items:center}.crawl-text{position:absolute;white-space:nowrap;left:100%;font-size:clamp(15px,1.6vw,28px);font-weight:800;color:#fff;will-change:transform}.crawl-item{margin-right:4vw}.crawl-item b{color:#ffdc67}.crawl-sep{color:#ed4155;margin:0 1vw}
 @media(max-width:900px){header{height:18%}#layout{height:74%}#crawl{height:8%}.hsn-heading h1{white-space:normal;font-size:17px}.hsn-logo{width:120px}.hsn-sub{font-size:11px}.controls{gap:3px}.controls button{padding:6px}.hsn-brand{gap:4px}#updated{font-size:10px}}
 
-/* HSN v8.2: Fit the existing four scrolling rows on TV browser viewports.
-   Height-aware sizes prevent the names and logos from being clipped. */
-.lane .window{min-height:0}
-.lane .belt,.lane .set{min-height:0}
-.lane .card{height:calc(100% - 4px);min-height:0;padding:clamp(3px,.5vh,8px) clamp(7px,.8vw,14px);gap:0;justify-content:space-between}
-.lane .card .badges{min-height:0;margin:0;line-height:1}
-.lane .card .badge{font-size:clamp(9px,1.05vh,14px);padding:1px 4px}
-.lane .card .names{display:flex;flex:1 1 auto;min-height:0;gap:5px;align-items:center;justify-content:space-between;overflow:hidden}
-.lane .card .matchup{display:flex;flex-direction:column;justify-content:center;flex:1 1 auto;min-width:0;min-height:0;gap:clamp(0px,.2vh,3px);overflow:hidden}
-.lane .card .teamline{display:flex;flex:0 1 auto;align-items:center;min-height:0;height:clamp(17px,2.5vh,29px);gap:clamp(4px,.4vw,8px);overflow:hidden}
-.lane .card .teamlogo{width:clamp(15px,2.1vh,27px);height:clamp(15px,2.1vh,27px);flex:none;object-fit:contain}
-.lane .card .teamlabel{font-size:clamp(11px,1.65vh,19px);font-weight:800;line-height:1.05;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.lane .card .names .score{font-size:clamp(16px,2.1vh,28px);flex:none;line-height:1.1}
-.lane .card .bottom{flex:none;min-height:0;height:auto;line-height:1.05;font-size:clamp(10px,1.3vh,16px);padding-top:clamp(1px,.25vh,4px);margin-top:1px;overflow:hidden}
+/* HSN v8.3 — larger, TV-readable scrolling scorecards.
+   Preserve the four-lane structure, favorites, news and scrolling logic. */
+.lane .window,.lane .belt,.lane .set{min-height:0}
+.lane .lanehead{flex:none;height:clamp(22px,3vh,32px);min-height:22px}
+.lane .card{height:calc(100% - 3px);min-height:0;width:clamp(325px,30vw,530px);padding:3px clamp(8px,.8vw,14px) 4px;gap:0;justify-content:space-between;overflow:hidden}
+.lane .card .badges{flex:none;margin:0;line-height:1}
+.lane .card .badge{font-size:clamp(10px,.8vw,13px);padding:1px 4px}
+.lane .card .names{display:flex;flex:1 1 auto;min-height:0;align-items:center;justify-content:space-between;gap:8px;overflow:hidden}
+.lane .card .matchup{display:flex;flex:1 1 auto;min-width:0;min-height:0;flex-direction:column;justify-content:center;gap:1px;overflow:hidden}
+.lane .card .teamline{display:flex;flex:0 1 auto;min-height:0;height:clamp(20px,2.7vh,31px);align-items:center;gap:7px;overflow:hidden}
+.lane .card .teamlogo{width:clamp(21px,2.2vw,34px);height:clamp(21px,2.2vw,34px);object-fit:contain;flex:none}
+.lane .card .teamlabel{font-size:clamp(15px,1.22vw,22px);font-weight:900;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.lane .card .names .score{font-size:clamp(22px,1.9vw,33px);font-weight:900;line-height:1.05;flex:none}
+.lane .card .bottom{flex:none;min-height:0;height:auto;line-height:1.1;font-size:clamp(11px,.9vw,16px);padding-top:2px;margin-top:1px;overflow:hidden}
 .lane .card .bottom .network{max-width:54%}
-.lane .lanehead{flex:none;min-height:23px;height:clamp(23px,3.3vh,38px)}
-/* Fit compact-height TVs without changing the number of rows or the look. */
-@media(max-height:750px){
- .lane .card{padding-top:2px;padding-bottom:2px}
- .lane .card .teamline{height:clamp(15px,2.35vh,21px)}
- .lane .card .teamlogo{height:clamp(14px,1.9vh,20px);width:clamp(14px,1.9vh,20px)}
- .lane .card .teamlabel{font-size:clamp(10px,1.6vh,14px)}
- .lane .card .names .score{font-size:clamp(14px,2vh,20px)}
- .lane .card .bottom{font-size:clamp(9px,1.25vh,12px)}
+/* On unusually short browser viewports, preserve both team rows without clipping. */
+@media(max-height:600px){
+ .lane .card{padding-top:1px;padding-bottom:1px}
+ .lane .card .teamline{height:19px}
+ .lane .card .teamlogo{width:19px;height:19px}
+ .lane .card .teamlabel{font-size:14px}
+ .lane .card .names .score{font-size:20px}
+ .lane .card .bottom{font-size:10px;padding-top:1px}
 }
 </style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK</h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><h2>★ KENTUCKY &amp; IOWA</h2><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>COLLEGE NEWS</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
 <div id="gameOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Game information"><div class="dialog"><h2 id="teams">Game details</h2><div class="big" id="bigscore"></div><p id="status"></p><p id="network"></p><p id="ytv"></p><div class="actions"><button id="watch">Open YouTube TV</button><button id="watchESPN">Open ESPN+</button><button id="closeGame">Back to Scores</button></div><p class="note">Streaming services open separately; you may need to find and select the game. Direct playback cannot be guaranteed.</p></div></div>
