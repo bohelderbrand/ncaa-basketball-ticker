@@ -210,16 +210,27 @@ setInterval(updateCountdowns,30000);setInterval(loadFuture,3600000);
 window.addEventListener('resize',function(){if(events.length)render()});load();loadFuture();loadPolls();setInterval(loadPolls,3600000);setInterval(load,30000);requestAnimationFrame(tick);
 })();
 
-// HSN V8.4 original instrumental background music; user gesture required for playback.
+// HSN V8.4.1: TV-friendly music controls that automatically dismiss.
 (function(){
  const audio=document.getElementById('hsnMusic'), toggle=document.getElementById('musicToggle'), panel=document.getElementById('musicPanel'), slider=document.getElementById('musicVolume'), label=document.getElementById('musicVolumeLabel'), mute=document.getElementById('musicMute');
- let desired=10; try {const v=Number(localStorage.getItem('hsn-music-volume'));if(Number.isFinite(v)&&v>=0&&v<=50)desired=v;}catch(e){}
+ let desired=10, hideTimer;
+ try {const v=Number(localStorage.getItem('hsn-music-volume'));if(Number.isFinite(v)&&v>=0&&v<=50)desired=v;}catch(e){}
  slider.value=desired;audio.volume=desired/100;label.textContent=desired+'%';
  function update(){toggle.textContent=audio.paused?'♫ Music: Off':'♫ Music: On';toggle.setAttribute('aria-expanded',String(panel.classList.contains('open')));mute.textContent=audio.muted?'Unmute':'Mute';}
- toggle.addEventListener('click',async function(){panel.classList.add('open');if(audio.paused){try{await audio.play()}catch(e){document.getElementById('musicHint').textContent='Your browser blocked playback. Press Music again or check TV sound settings.'}}else{audio.pause()}update()});
- slider.addEventListener('input',function(){audio.volume=Number(slider.value)/100;label.textContent=slider.value+'%';audio.muted=false;try{localStorage.setItem('hsn-music-volume',slider.value)}catch(e){}update()});
- mute.addEventListener('click',function(){audio.muted=!audio.muted;update()});
- document.addEventListener('keydown',function(e){if(e.key==='Escape'&&panel.classList.contains('open')){panel.classList.remove('open');update()}});
+ function closePanel(){clearTimeout(hideTimer);panel.classList.remove('open');update();}
+ function scheduleHide(){clearTimeout(hideTimer);hideTimer=setTimeout(closePanel,4500);}
+ function showPanel(){panel.classList.add('open');update();scheduleHide();}
+ toggle.addEventListener('click',async function(){
+   if(audio.paused){try{await audio.play()}catch(e){document.getElementById('musicHint').textContent='Your browser blocked playback. Press Music again or check TV sound settings.'}}
+   else{audio.pause()}
+   showPanel();
+ });
+ slider.addEventListener('input',function(){audio.volume=Number(slider.value)/100;label.textContent=slider.value+'%';audio.muted=false;try{localStorage.setItem('hsn-music-volume',slider.value)}catch(e){}update();scheduleHide()});
+ mute.addEventListener('click',function(){audio.muted=!audio.muted;update();scheduleHide()});
+ panel.addEventListener('focusin',scheduleHide);
+ panel.addEventListener('pointerdown',scheduleHide);
+ document.addEventListener('pointerdown',function(e){if(panel.classList.contains('open')&&!panel.contains(e.target)&&e.target!==toggle)closePanel()});
+ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&panel.classList.contains('open'))closePanel()});
  update();
 })();
 </script></body></html>
