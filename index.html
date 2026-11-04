@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HSN Sports Network — Live NCAA Basketball — Version 8.4</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HSN Sports Network — Live NCAA Basketball — Version 8.5</title><style>
 :root{--bg:#07101f;--panel:#12243b;--line:#29435c;--green:#4be08b;--text:#f4f8ff}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;overflow:hidden}button,select{font:inherit}button{cursor:pointer;background:#203a57;border:2px solid #42627f;color:#fff;border-radius:9px;padding:10px 17px;font-weight:700}button:focus-visible,.card:focus-visible,select:focus-visible{outline:4px solid #ffdc65;outline-offset:2px}header{height:13%;min-height:80px;padding:12px 2.3vw;display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:2px solid var(--line)}h1{font-size:clamp(21px,2.4vw,42px);margin:0}#updated{font-size:clamp(12px,1.2vw,19px);color:#a9c1d9;margin-top:5px}.controls{display:flex;align-items:center;gap:9px}.controls button{font-size:clamp(13px,1.15vw,20px)}#board{height:87%;display:flex;flex-direction:column;gap:0;padding:0 1.2vw}.lane{flex:1;min-height:0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}.lanehead{height:24%;min-height:26px;display:flex;align-items:center;gap:10px;font-size:clamp(13px,1.25vw,22px);font-weight:800;letter-spacing:.5px}.count{color:#a4c1dc;font-weight:400}.window{position:relative;flex:1;overflow:hidden}.belt{display:flex;align-items:stretch;gap:12px;width:max-content;height:100%;will-change:transform}.set{display:flex;gap:12px;height:100%;padding-right:12px}.card{flex:none;width:clamp(250px,27vw,500px);height:94%;padding:10px 15px;border:2px solid #34526e;border-radius:12px;background:var(--panel);color:#fff;text-align:left;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer}.card.ytv{border-color:#29965b;background:#12382e}.card:focus,.card.selected{border-color:#ffdc65;background:#21466b}.names{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:clamp(14px,1.4vw,25px);font-weight:800}.names span:first-child{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.score{white-space:nowrap;color:#fff}.bottom{display:flex;justify-content:space-between;gap:8px;font-size:clamp(12px,1.08vw,19px);color:#bcd0e5}.network{color:#fff;font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:55%}.ytv .network{color:#72f5a5}.empty{padding:20px;color:#a9c1d9;font-size:20px}.shade{position:fixed;inset:0;background:#000b;z-index:10;display:none;align-items:center;justify-content:center;padding:25px}.shade.open{display:flex}.dialog{background:#11253e;border:3px solid #527da3;border-radius:20px;width:min(780px,96vw);max-height:95vh;overflow:auto;padding:30px;text-align:center;box-shadow:0 15px 60px #000}.dialog h2{font-size:clamp(24px,3vw,40px);margin:5px 0 16px}.big{font-size:clamp(28px,4vw,56px);font-weight:900;margin:10px}.dialog p{font-size:clamp(17px,1.8vw,25px)}.dialog .actions{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;margin-top:25px}.dialog .actions button{font-size:20px}.note{color:#a8bfd5;font-size:15px!important}.setting{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:18px 0;font-size:22px}.setting select{background:#213a56;color:white;border:2px solid #5b829f;border-radius:7px;padding:10px}.hint{position:absolute;right:18px;bottom:5px;font-size:12px;color:#90a9c1}@media(max-width:700px){header{height:18%}#board{height:82%}h1{font-size:19px}.controls button{padding:8px}.lanehead{height:28%}.card{width:250px}}
 
 /* Final polish: keep every network and time INSIDE its card at all viewport sizes. */
@@ -91,6 +91,81 @@ header{height:17%;min-height:100px;padding:6px 1.4vw;background:linear-gradient(
 
 /* HSN V8.4: discreet music controls; scoreboard layout unchanged */
 #musicToggle{white-space:nowrap}#musicPanel{display:none;position:fixed;right:16px;top:clamp(82px,14vh,145px);z-index:9;background:#10253f;border:2px solid #527da3;border-radius:12px;padding:14px 18px;box-shadow:0 8px 25px #000a;min-width:240px}#musicPanel.open{display:block}#musicPanel label{display:block;font-size:15px;font-weight:700;margin-bottom:9px}#musicVolume{width:100%;accent-color:#4be08b}#musicHint{font-size:12px;color:#bcd0e5;margin-top:8px;max-width:250px}#musicPanel button{padding:6px 12px;margin-top:8px;font-size:14px}@media(max-width:900px){#musicToggle{font-size:12px;padding:6px!important}#musicPanel{top:18vh}}
+
+/* HSN v8.5: responsive to viewport width AND height, no manual mode. */
+html,body{min-width:0}
+header,.hsn-brand,.hsn-heading,.controls,#layout,#board,#favorites,#favoriteGames{min-width:0}
+.hsn-heading h1{white-space:normal;overflow-wrap:break-word}
+/* Short widescreen displays (phone landscape, mirroring, compact TV browsers). */
+@media (orientation:landscape) and (max-height:760px){
+ header{height:clamp(66px,13vh,90px);min-height:0;padding:3px 1vw;gap:5px}
+ .hsn-logo{width:clamp(65px,11vw,140px);height:clamp(48px,10vh,78px)}
+ .hsn-brand{gap:7px;flex:1 1 auto}
+ .hsn-heading h1{font-size:clamp(12px,1.6vw,23px);line-height:1.05;letter-spacing:0}
+ .hsn-sub{font-size:clamp(9px,.95vw,13px);margin-top:2px;letter-spacing:0}
+ #updated{font-size:clamp(9px,.85vw,12px);margin-top:2px;line-height:1.1;max-height:2.3em;overflow:hidden}
+ .controls{gap:4px;flex:0 0 auto}
+ .controls button{font-size:clamp(10px,1vw,14px);padding:5px 7px}
+ #alertsNow{font-size:clamp(9px,.9vw,12px)}
+ #layout{height:calc(100% - clamp(66px,13vh,90px) - 34px)}
+ #favorites{height:clamp(90px,18vh,125px);gap:5px;padding:3px .6vw}
+ #favorites h2{width:clamp(75px,10vw,120px);font-size:clamp(10px,1.2vw,15px)}
+ .favcard{padding:3px 6px;gap:1px}
+ .favtitle{font-size:clamp(11px,1.1vw,15px)}
+ .favteam{font-size:clamp(10px,1vw,14px)}
+ .favteam img{width:clamp(18px,2vw,26px);height:clamp(18px,2vw,26px)}
+ .favscore{font-size:clamp(15px,1.5vw,23px)}
+ .favmeta,.favpolls{font-size:clamp(9px,.85vw,12px)}
+ #crawl{height:34px;min-height:34px}
+ .crawl-badge{font-size:16px}.crawl-text{font-size:15px}
+ .lane .lanehead{height:clamp(18px,3.2vh,24px);min-height:18px;font-size:clamp(10px,1.1vw,16px);padding-left:7px}
+ .lane .card{padding:1px 7px 2px;width:clamp(245px,29vw,410px);gap:0}
+ .lane .card .teamline{height:clamp(16px,3.1vh,24px);gap:5px}
+ .lane .card .teamlogo{width:clamp(16px,2.5vh,24px);height:clamp(16px,2.5vh,24px)}
+ .lane .card .teamlabel{font-size:clamp(12px,1.15vw,17px)}
+ .lane .card .names .score{font-size:clamp(17px,1.7vw,25px)}
+ .lane .card .bottom{font-size:clamp(9px,.85vw,12px);padding-top:1px;margin:0}
+ .lane .card .badge{font-size:9px;padding:0 3px}
+}
+/* Portrait screens: stack header controls, and scroll the page rather than crush lanes. */
+@media (orientation:portrait) and (max-width:900px){
+ html,body{height:auto;min-height:100%;overflow-x:hidden;overflow-y:auto}
+ header{height:auto;min-height:0;display:flex;flex-wrap:wrap;justify-content:center;gap:7px;padding:8px 8px 9px}
+ .hsn-brand{width:100%;justify-content:flex-start;gap:8px}
+ .hsn-logo{width:clamp(76px,22vw,130px);height:65px}
+ .hsn-heading h1{font-size:clamp(15px,4vw,22px);line-height:1.1}
+ .hsn-sub{font-size:10px;letter-spacing:0}
+ #updated{font-size:10px;line-height:1.3;margin-top:3px}
+ .controls{width:100%;justify-content:center;flex-wrap:wrap;gap:5px}
+ .controls button{font-size:12px;padding:6px 8px}
+ #alertsNow{font-size:10px;width:100%;text-align:center}
+ #layout{height:auto;min-height:0;display:flex;flex-direction:column}
+ #board{height:clamp(460px,65vh,650px);flex:none;padding:0 5px}
+ .lane .lanehead{height:25px;min-height:25px;font-size:12px}
+ .lane .card{width:clamp(230px,75vw,340px);padding:2px 7px}
+ .lane .card .teamline{height:clamp(18px,2.7vh,25px)}
+ .lane .card .teamlogo{width:21px;height:21px}
+ .lane .card .teamlabel{font-size:13px}
+ .lane .card .names .score{font-size:19px}
+ .lane .card .bottom{font-size:10px;padding-top:1px}
+ #favorites{height:auto;min-height:180px;display:flex;flex-direction:column;gap:5px;padding:6px}
+ #favorites h2{width:auto;align-self:flex-start;font-size:15px}
+ #favoriteGames{min-height:145px;gap:5px}
+ .favcard{padding:5px;gap:3px}
+ .favtitle{font-size:12px}.favteam{font-size:11px}.favteam img{width:20px;height:20px}
+ .favscore{font-size:17px}.favmeta{font-size:10px}.favpolls{font-size:9px}
+ #crawl{height:42px;min-height:42px}.crawl-badge{font-size:15px}.crawl-text{font-size:14px}
+ #musicPanel{top:20px;right:8px;max-width:calc(100vw - 16px)}
+}
+/* Very short landscape viewports: keep both teams and bottom information visible. */
+@media (orientation:landscape) and (max-height:450px){
+ header{height:55px}.hsn-logo{height:45px;width:80px}
+ #layout{height:calc(100% - 85px)}#crawl{height:30px;min-height:30px}
+ #favorites{height:76px}.lane .lanehead{height:16px;min-height:16px;font-size:10px}
+ .lane .card .teamline{height:15px}.lane .card .teamlogo{width:14px;height:14px}
+ .lane .card .teamlabel{font-size:11px}.lane .card .names .score{font-size:15px}
+ .lane .card .bottom{font-size:9px}.lane .card .badges{display:none}
+}
 </style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK</h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel">♫ Music: Off</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="musicPanel" role="group" aria-label="Background music settings"><label for="musicVolume">Background music volume: <span id="musicVolumeLabel">10%</span></label><input id="musicVolume" type="range" min="0" max="50" value="10" step="1"><br><button id="musicMute" type="button">Mute</button><div id="musicHint">Original HSN sports instrumental. Press Music to start or stop. Music may require a click on Google TV.</div></div><audio id="hsnMusic" src="hsn-sports-music.wav" preload="none" loop></audio><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><h2>★ KENTUCKY &amp; IOWA</h2><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>COLLEGE NEWS</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
 <div id="gameOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Game information"><div class="dialog"><h2 id="teams">Game details</h2><div class="big" id="bigscore"></div><p id="status"></p><p id="network"></p><p id="ytv"></p><div class="actions"><button id="watch">Open YouTube TV</button><button id="watchESPN">Open ESPN+</button><button id="closeGame">Back to Scores</button></div><p class="note">Streaming services open separately; you may need to find and select the game. Direct playback cannot be guaranteed.</p></div></div>
 <div id="settingsOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Ticker settings"><div class="dialog"><h2>Scoreboard Settings</h2><div class="setting"><label for="speed">Scrolling speed</label><select id="speed"><option value="18">Slow</option><option value="32">Normal</option><option value="55">Fast</option></select></div><div class="setting"><label for="rows">Number of rows</label><select id="rows"><option value="3">3 rows</option><option value="4">4 rows</option><option value="5">5 rows</option></select></div><div class="setting"><label for="alertsEnabled">Game alerts</label><select id="alertsEnabled"><option value="on">On</option><option value="off">Off</option></select></div><div class="setting"><label for="filter">Games displayed</label><select id="filter"><option value="all">All Division I</option><option value="tv">YouTube TV or ESPN+</option></select></div><div class="actions"><button id="saveSettings">Save settings</button><button id="cancelSettings">Cancel</button></div><p class="note">Settings are saved in this browser. Use arrow keys and Enter on a remote. Press Down from the final row to reach pinned games.</p></div></div>
