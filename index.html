@@ -196,6 +196,26 @@ header,.hsn-brand,.hsn-heading,.controls,#layout,#board,#favorites,#favoriteGame
 @media (max-height:720px) and (orientation:landscape){.favstat{padding:1px}.favleader{display:none}.favstats{gap:3px}}
 @media (max-height:430px) and (orientation:landscape){.favstats{grid-template-columns:repeat(4,minmax(0,1fr))}.favstat b{font-size:10px}.favstat small{font-size:8px}}
 @media (max-width:550px) and (orientation:portrait){.favstats{grid-template-columns:repeat(2,minmax(0,1fr))}.favleader{white-space:normal}}
+/* V8.5.3: contain header copy without altering the approved game lanes. */
+header{overflow:hidden}
+.hsn-brand{min-width:0;max-height:100%;overflow:hidden}
+.hsn-heading{min-width:0;max-height:100%;overflow:hidden;display:flex;flex-direction:column;justify-content:center}
+.hsn-heading h1{line-height:1.06;max-height:2.12em;overflow:hidden}
+.hsn-sub{line-height:1.12;max-height:2.24em;overflow:hidden}
+#updated{line-height:1.12;max-height:2.24em;overflow:hidden;overflow-wrap:anywhere}
+.controls{align-self:center}
+/* Keep stats legible, while fitting the existing favorite card height. */
+.favstats{gap:clamp(3px,.5vw,9px)}
+.favstat{padding:clamp(2px,.4vh,5px) 2px}
+.favstat b{font-size:clamp(13px,1.32vw,22px);font-weight:900}
+.favstat small{font-size:clamp(9px,.8vw,14px)}
+.favstats-label{font-size:clamp(9px,.75vw,13px);line-height:1.1;color:#d2e6ff;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (orientation:landscape) and (max-height:720px){
+ .favstat{padding:1px 2px}
+ .favstat b{font-size:clamp(11px,1.05vw,16px)}
+ .favstat small{font-size:clamp(8px,.7vw,11px)}
+ .favstats-label{font-size:clamp(8px,.7vw,11px)}
+}
 </style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK</h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel">♫ Music: Off</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="musicPanel" role="group" aria-label="Background music settings"><label for="musicVolume">Background music volume: <span id="musicVolumeLabel">10%</span></label><input id="musicVolume" type="range" min="0" max="50" value="10" step="1"><br><button id="musicMute" type="button">Mute</button><div id="musicHint">Original HSN sports instrumental. Press Music to start or stop. Music may require a click on Google TV.</div></div><audio id="hsnMusic" src="hsn-sports-music.wav" preload="none" loop></audio><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>COLLEGE NEWS</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
 <div id="gameOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Game information"><div class="dialog"><h2 id="teams">Game details</h2><div class="big" id="bigscore"></div><p id="status"></p><p id="network"></p><p id="ytv"></p><div class="actions"><button id="watch">Open YouTube TV</button><button id="watchESPN">Open ESPN+</button><button id="closeGame">Back to Scores</button></div><p class="note">Streaming services open separately; you may need to find and select the game. Direct playback cannot be guaranteed.</p></div></div>
 <div id="settingsOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Ticker settings"><div class="dialog"><h2>Scoreboard Settings</h2><div class="setting"><label for="speed">Scrolling speed</label><select id="speed"><option value="18">Slow</option><option value="32">Normal</option><option value="55">Fast</option></select></div><div class="setting"><label for="rows">Number of rows</label><select id="rows"><option value="3">3 rows</option><option value="4">4 rows</option><option value="5">5 rows</option></select></div><div class="setting"><label for="alertsEnabled">Game alerts</label><select id="alertsEnabled"><option value="on">On</option><option value="off">Off</option></select></div><div class="setting"><label for="filter">Games displayed</label><select id="filter"><option value="all">All Division I</option><option value="tv">YouTube TV or ESPN+</option></select></div><div class="actions"><button id="saveSettings">Save settings</button><button id="cancelSettings">Cancel</button></div><p class="note">Settings are saved in this browser. Use arrow keys and Enter on a remote. Press Down from the final row to reach pinned games.</p></div></div>
@@ -215,7 +235,7 @@ function alerts(g){var badges=[];if(settings.alerts==='off')return badges;
 if(g.state==='in'){
  if(g.period>2||/\bOT\b|OVERTIME/i.test(g.status))badges.push('OVERTIME');
  var diff=Math.abs(g.awayPoints-g.homePoints),clock=g.clock||'',mins=clock.match(/^(\d+):(\d+)/),seconds=mins?(+mins[1]*60 + +mins[2]):null;
- if(diff<=5&&(g.period>2||(g.period===2&&seconds!==null&&seconds<=300)))badges.push('CLOSE GAME');
+ if(diff<=5&&(g.period>2||(g.period===2&&seconds!==null&&seconds<=180)))badges.push('CLOSE GAME');
 }
 var a=g.awayRank,h=g.homeRank,ranked=a||h;
 if(ranked&&(g.state==='in'||g.state==='post')){
@@ -232,9 +252,10 @@ function isFavorite(g){return /^(Kentucky Wildcats|Iowa Hawkeyes)$/.test(g.away)
 function statCell(label,value){return '<span class="favstat"><b>'+esc(value==null?'—':value)+'</b><small>'+esc(label)+'</small></span>'}
 function favoriteStats(g,name){
  if(!g||g.state==='pre')return '';
+ var label='<div class="favstats-label">'+esc(name)+' · GAME STATS</div>';
  var d=gameStats[g.id], t=d&&d.teams&&d.teams[name];
- if(!t)return '<div class="favstats">'+statCell('FG%','—')+statCell('3PT%','—')+statCell('REB','—')+statCell('TO','—')+'</div>';
- return '<div class="favstats">'+statCell('FG%',t.fg)+statCell('3PT%',t.three)+statCell('REB',t.reb)+statCell('TO',t.to)+'</div>'+(t.leader?'<div class="favleader">Top scorer: '+esc(t.leader)+'</div>':'');
+ if(!t)return label+'<div class="favstats">'+statCell('FG%','—')+statCell('3PT%','—')+statCell('REB','—')+statCell('TO','—')+'</div>';
+ return label+'<div class="favstats">'+statCell('FG%',t.fg)+statCell('3PT%',t.three)+statCell('REB',t.reb)+statCell('TO',t.to)+'</div>'+(t.leader?'<div class="favleader">Top scorer: '+esc(t.leader)+'</div>':'');
 }
 function readStat(stats,names){
  for(var i=0;i<stats.length;i++){var st=stats[i],key=String(st.name||st.abbreviation||st.label||'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -318,6 +339,13 @@ async function loadFuture(){try{var start=new Date(),end=new Date(start.getTime(
 // College basketball headlines, independent of scoreboard refresh.
 var crawlX=0,crawlWidth=0,crawlLast=0,newsHeadlines=[];
 var NEWS_API='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=25';
+function cleanHeadline(raw){
+ var h=String(raw==null?'':raw);
+ // Some ESPN feeds contain a literal `undefined` where a possessive apostrophe belongs.
+ h=h.replace(/([A-Za-z])undefineds\b/g,"$1's");
+ h=h.replace(/undefined/gi,'').replace(/\s+/g,' ').trim();
+ return h;
+}
 function renderCrawl(){
  var headlines=newsHeadlines.length?newsHeadlines:['HSN COLLEGE BASKETBALL NEWS · Checking for the latest headlines'];
  var html=headlines.map(function(h){return '<span class="crawl-item">'+esc(h)+' <span class="crawl-sep">◆</span></span>'}).join('');
@@ -332,7 +360,7 @@ async function loadNews(){
   if(!r.ok)throw Error('HTTP '+r.status);
   var data=await r.json();
   var articles=Array.isArray(data.articles)?data.articles:[];
-  var headlines=Array.from(new Set(articles.map(function(a){return String(a.headline||a.title||'').replace(/undefined/gi,'').replace(/\s+/g,' ').trim()}).filter(Boolean))).slice(0,20);
+  var headlines=Array.from(new Set(articles.map(function(a){return cleanHeadline(a.headline||a.title||'')}).filter(Boolean))).slice(0,20);
   if(!headlines.length)throw Error('No headlines returned');
   if(JSON.stringify(headlines)!==JSON.stringify(newsHeadlines)){newsHeadlines=headlines;renderCrawl()}
  }catch(e){
