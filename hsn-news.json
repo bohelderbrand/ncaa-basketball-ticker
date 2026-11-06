@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T08:51:30.060958+00:00",
+  "updated": "2026-11-06T09:55:00.875347+00:00",
   "sources": [
     "CBS SPORTS",
     "NCAA.COM",
@@ -14,21 +14,14 @@
       "headline": "NBA | Fantasy Basketball: News, Videos, Stats, Highlights, Results & More - Rotoworld",
       "source": "NBC SPORTS",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE82dUs1OTZ2WjhmcmV6elA4VldkQmVfVi0tOFNlTUlmdl9sT1RmNldaaTBTb1VGZmtMaWhKY1JqNTFqdDJJSzVSem9TN0hfUFNZMklBaHFIZw?oc=5",
-      "published": "2026-11-06T06:59:07+00:00",
+      "published": "2026-11-06T07:57:22+00:00",
       "via": "aggregated"
     },
     {
-      "headline": "Ivan Kharchenkov - College Basketball News & Rumors",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXQWN5UnViQmNia0VXMEl5LXV6aFprSEEwMERFSHFaRFUyN0VlbkVCMXNLaUVacnZBZWp1Z1AyU25iSVM5TEdXNUU4MGN6T2d6UkNNRVBkQ0g0Um1HTXZWc1h1ZVZGcW90WXlYQVVXaFdwN21RVG5z?oc=5",
-      "published": "2026-11-06T06:20:59+00:00",
-      "via": "aggregated"
-    },
-    {
-      "headline": "Seton Hall Pirates News - College Basketball",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40WHhrZjZZQmtOMzN1aGpUQ0NLaEVnS2x0WWU4SHhlLUxKQm1VaVBLcWE3U1NlMTlCRGIxSXFUQzNPc1J3UXI3emJjWS1QdC1pelpkelBKMG53UE1Zc3RFWGlLM0dKcVctQnhNS1ZxczgyTTZ0SVFB?oc=5",
-      "published": "2026-11-06T06:10:57+00:00",
+      "headline": "George Washington Revolutionaries vs La Salle Explorers Box Score - February 13, 2027 - The Athletic",
+      "source": "THE ATHLETIC",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaGgtWkNyZUVHcDFacmsybEE0b1B1bmxHNU5oTkx6VkRaeGI4X0tEWFJGcEtHWHJ2QzJwRHdHYVluZm1IVmEyNGo1QmNPUzVCOXlZRThFNmJrZnRZNENfeFlaQWtVX2NqNTZOQzBKZjBNS2lZSzdlaDNzWno4dUR6TFJPVzhaMHhUMWc2SFVPT3BNOWFhRjVxRXR6TjRoMjVzUnFZNmd0MjMyR2NreV9ydU9pbm1ha1ExSExuRjNFX29aOVZ3QUIxbHRR?oc=5",
+      "published": "2026-11-06T07:04:30+00:00",
       "via": "aggregated"
     },
     {
@@ -256,6 +249,13 @@
       "via": "direct"
     },
     {
+      "headline": "Moustapha Thiam - College Basketball News & Rumors",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CMUdiSnY1ckZhWkJ3MVk0dmZWaVBSekcxazNSSVZocHVqd2d6azBPWTJHQmpUa2hiR2N1MzFYLWxYdDV2UllsQzhnczBCY1MxU2pRakNPTTV4TVBpOExWV0JUQWotcUhva2l2MGUyNjVjQkM4R2c?oc=5",
+      "published": "2026-11-05T17:25:52+00:00",
+      "via": "aggregated"
+    },
+    {
       "headline": "MBB Notes: Eastern Illinois (Nov. 6)",
       "source": "IOWA ATHLETICS",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBra3p1R3c2WXgzSUxXaUY2NndoX0dYRGlJX1B5akh3LThOTDBtblM2YzhmZjJmeVRYZGZ2WDBPMU01T09iRFRkS0dPQ3AxS2RXQW9uVzRpUEdiWmRuQVdSdG01bklGdUNBZmJVREF3TlZkcS14Zmhvank1NXQ2QQ?oc=5",
@@ -277,13 +277,6 @@
       "via": "direct"
     },
     {
-      "headline": "Moustapha Thiam - College Basketball News & Rumors",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CMUdiSnY1ckZhWkJ3MVk0dmZWaVBSekcxazNSSVZocHVqd2d6azBPWTJHQmpUa2hiR2N1MzFYLWxYdDV2UllsQzhnczBCY1MxU2pRakNPTTV4TVBpOExWV0JUQWotcUhva2l2MGUyNjVjQkM4R2c?oc=5",
-      "published": "2026-11-05T13:27:08+00:00",
-      "via": "aggregated"
-    },
-    {
       "headline": "Coppin State Eagles vs North Carolina Central Eagles Box Score - January 09, 2027 - The Athletic",
       "source": "THE ATHLETIC",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMkFjckpsZkIzaThDUjdBYWo3RmhYbE5SNEZjWnZmelAtVVVQbUVjVU90MjRTR0hCM2VSYjdYZ0swOG9ZejRiTzNVaTZBU0x3RXp5LWJGUUhFTEc5aUtNX3duWV92MUhYemd2aXNTVDdud2hzbjM4SlZ3bGwyZEN1WE8wOHR2bkItZXpsTlBOZkRtSzZXWkMxbnpWaG1pWkZuRGdsRVU0cm9Ka2l1X3RmeWh0dFRhWUdmMGtlY0luTFQxaTdjaVE?oc=5",
@@ -294,7 +287,7 @@
       "headline": "UCLA Bruins News - College Basketball",
       "source": "FOX SPORTS",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBVXZ1MHo2TVI3VHE5TVNDYkVsdE5TQm1XaktCbkZHamZJNzNud3NqOHVDVDZMY0NoVmZnZ0hmZ0hoS0FhMVZSbmctWHNKNEdXR29YUGtBcFE2cTR3NElHTUhhV2FpRnY5TnBLcHNB?oc=5",
-      "published": "2026-11-05T10:08:57+00:00",
+      "published": "2026-11-05T10:07:45+00:00",
       "via": "aggregated"
     },
     {
@@ -305,17 +298,10 @@
       "via": "aggregated"
     },
     {
-      "headline": "Houston Cougars News - College Basketball",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16SkNyQnpOSWNYdzV2MVY4REtRMFhJSDZWMXAtcVVNeDA5a0UxdTZBU29FOTA5cTc0ZDRRdi1iQ1lBNUFZaGhUMk9xcnZXVGJRNGdVUGkyTXUwSEM0R1Q4d3htTGVNejF1Y3pkRDc0OWRjdFU?oc=5",
-      "published": "2026-11-05T07:08:57+00:00",
-      "via": "aggregated"
-    },
-    {
       "headline": "San Diego State Aztecs News - College Basketball",
       "source": "FOX SPORTS",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xalJYb3FlLUF5aUMyU3FBOWxOeWozLWZYek1pYmNseFpPUnExaFZhVVp4NVhtZTVObnlldDBEYU9seHlfQkRNWU9QZzVRaG5kRS1KTV9vRzY5SWx1eWhxY2Jzc21iVnljaWlNa3JuM1NfQ0Z4VkJwdFVQbUo?oc=5",
-      "published": "2026-11-05T06:14:53+00:00",
+      "published": "2026-11-05T07:14:57+00:00",
       "via": "aggregated"
     },
     {
@@ -487,6 +473,20 @@
       "via": "aggregated"
     },
     {
+      "headline": "TCU Horned Frogs News - College Basketball",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwTDBZOTZudzJDZWRpVlBDcjhUQVllZm9BQzFsZ1ZIbmhtV0xnOG9NMHNvSUFlOXR1eHQ2emVNU0ZxSk9vWTFmdzRBdVFLbFBDLUViSzdjU095cHlCVXJyUE9TUERsN1ptMXhuYlJlOEVXUV9N?oc=5",
+      "published": "2026-11-04T08:19:48+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Oklahoma State Cowboys News - College Basketball",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kZFhLVDRrazVoMWMyN2NybnYtNl9nRVZVRkI0UlN6akMweTc4ekloVDZ0M294NnRiOUktN1k2d0RMOUt6WUlFcUoyajk5enBCQm1lQzdCRFlzUndHZnctNjNmaXZxRG9EZDN6VDlpNW51XzRybUpmWEpHT2s?oc=5",
+      "published": "2026-11-04T07:28:52+00:00",
+      "via": "aggregated"
+    },
+    {
       "headline": "NC State Wolfpack News - College Basketball",
       "source": "FOX SPORTS",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZzN6cmU4a2NMQWltQ3BfT0wwc0tXU0M0OFFWMEhPUFMtNXktc01EY0xBbzltSWNZTXQ2Y191dkRPamUzZncyRXJPLUNrcTZYLWtxdDBiWXdMOG1BbXJKZTh6cmVUMVctRE82T0R6cEd3bzVTemZJQW9kdVpmSXVpOHFnRmQ2Zw?oc=5",
@@ -494,10 +494,17 @@
       "via": "aggregated"
     },
     {
-      "headline": "TCU Horned Frogs News - College Basketball",
+      "headline": "Dayton Flyers News - College Basketball",
       "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwTDBZOTZudzJDZWRpVlBDcjhUQVllZm9BQzFsZ1ZIbmhtV0xnOG9NMHNvSUFlOXR1eHQ2emVNU0ZxSk9vWTFmdzRBdVFLbFBDLUViSzdjU095cHlCVXJyUE9TUERsN1ptMXhuYlJlOEVXUV9N?oc=5",
-      "published": "2026-11-04T07:20:57+00:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzejdnR3dpTjhVamo0dkNEbnM5ZUFEeUUwc0tBR3FQbXE1bnRBWjFMTUNHU2s1aGFwMV9qOS1xMDlHNnJJdGhFZURLUERpTGhGbWhNcktGQTZXSXlCSWptYi1UTEVSYjJnSFRPbm1EMFU?oc=5",
+      "published": "2026-11-04T06:01:02+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Iowa State Cyclones News - College Basketball",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NN0JjY19QbGhCM2FmT3NXX0ZjWWtqV2NfUVZfN1NaSDAxYzBsZV9WX2xvUFJFS1gyaktPZXNHTkR2ZDd6MTlMc2JpYVVGcXBpNjg4dmNwRzFZM2NGamhfMko5RVhyWlV0NU01dkNiUF9oVXBFbDZJUQ?oc=5",
+      "published": "2026-11-04T05:31:49+00:00",
       "via": "aggregated"
     },
     {
@@ -508,10 +515,10 @@
       "via": "aggregated"
     },
     {
-      "headline": "Iowa Downs Lipscomb, 76-54, in Home Opener",
+      "headline": "Women's Tennis vs Columbia 2/28/2027",
       "source": "IOWA ATHLETICS",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeWF5RFJDTHV2YlE1cG9weHN1SFkwcDZIXzBUeTdhLVMxQUlWTkdKRGdMaGdFVWVzUDh0UVpRX2VNU1FIRDVMUU5yMkNiQjJwQjNySm81NjJMdmlYZGRNYmdNVldaRkVHMWtqckNUUGwtT2VtRVA3c1Fjdi0wR0hiU1A0M0FtcDg?oc=5",
-      "published": "2026-11-04T04:31:26+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kQTVSanlKZWh3QmlKa2lFUlNCVTE1TTJWQXFDR3RWbmtoWmp5dGczUmJfLVFfUUtZZTR6eW1uQXVFSTA3WFBTbWYySzhaaWdsM0E?oc=5",
+      "published": "2026-11-03T23:56:56+00:00",
       "via": "aggregated"
     },
     {
@@ -520,13 +527,6 @@
       "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-oilers-vs-devils-drexel-vs-virginia-and-more/",
       "published": "2026-11-03T20:30:49+00:00",
       "via": "direct"
-    },
-    {
-      "headline": "Appalachian State Mountaineers vs Grambling State Tigers Box Score - December 21, 2026 - The Athletic",
-      "source": "THE ATHLETIC",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVnd2dWM4dUp5Y2ZZOXNneWwwUFB2MnF2b2NRWDRpai1vY3N6ODVyQjMxUm5XRDRZUTg2N0RQd2hDMy13U3hoWjhiZkNTWUFNRFY4cm5WdGMxYzBPYkNlaXlMbTAtUWdzU0hBeWJMZU45T20tMXFRMlEzRDB1UkJfWmNqaTJTbHZVYkY2cVJ6SmdSd19FVXYydERDSDdUX0ozRFdFaU5sWUNmWmV4cUkwQnhDc09KcDB0YlNJRnlJcnptUHNsc1BXbmVGWQ?oc=5",
-      "published": "2026-11-03T18:31:57+00:00",
-      "via": "aggregated"
     },
     {
       "headline": "College basketball rankings: UCLA surges in Top 25 And 1 after opening-night upset over Arizona",
