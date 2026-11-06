@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T11:46:41.464563+00:00",
+  "updated": "2026-11-06T12:52:24.263281+00:00",
   "sources": [
     "CBS SPORTS",
     "NCAA.COM",
@@ -11,17 +11,17 @@
   ],
   "articles": [
     {
-      "headline": "UCLA Bruins News - College Basketball",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBVXZ1MHo2TVI3VHE5TVNDYkVsdE5TQm1XaktCbkZHamZJNzNud3NqOHVDVDZMY0NoVmZnZ0hmZ0hoS0FhMVZSbmctWHNKNEdXR29YUGtBcFE2cTR3NElHTUhhV2FpRnY5TnBLcHNB?oc=5",
-      "published": "2026-11-06T11:06:01+00:00",
-      "via": "aggregated"
-    },
-    {
       "headline": "North Carolina Tar Heels News - College Basketball",
       "source": "FOX SPORTS",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxUElPOGdlQm0zX3h5aVVacHAxVUJBcWVKYnhBaTdtd1lqLUZmYkU0SC1PT2NuRE9Jc1Y3ZFVNTEZvRFZaYkI5dmhRUi1Ua1laeXE4TjBsQk51SFNVTlBXclE3X0JXMVlIRGFtbjJMdTREMnhGOGJPRzR3T1dvcTg?oc=5",
-      "published": "2026-11-06T08:19:48+00:00",
+      "published": "2026-11-06T09:19:54+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Robbie Avila - College Basketball News & Rumors",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1MzZjVlo0Znc0U2d3ZzE4T3NCcTRDamhkb1VrTFNfeVNicHdKcmJnVUJ5cG92aWRxQVlUMEwyUDhDeExHeHAzb1FFdmt2RHJEMHptV2pvM2xhc3gwQ1F4bWdKdXJBWmxGaDBSOUxGSVBmZw?oc=5",
+      "published": "2026-11-06T09:09:29+00:00",
       "via": "aggregated"
     },
     {
@@ -35,7 +35,7 @@
       "headline": "Ivan Kharchenkov - College Basketball News & Rumors",
       "source": "FOX SPORTS",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXQWN5UnViQmNia0VXMEl5LXV6aFprSEEwMERFSHFaRFUyN0VlbkVCMXNLaUVacnZBZWp1Z1AyU25iSVM5TEdXNUU4MGN6T2d6UkNNRVBkQ0g0Um1HTXZWc1h1ZVZGcW90WXlYQVVXaFdwN21RVG5z?oc=5",
-      "published": "2026-11-06T06:18:32+00:00",
+      "published": "2026-11-06T06:18:48+00:00",
       "via": "aggregated"
     },
     {
@@ -43,6 +43,13 @@
       "source": "NBC SPORTS",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOanlLVWlxZk5rb3gwV3M0XzFPQTZBalhxT0RtMkdIeVpYX1pwd2llRVBqTVlDM25DNlZfQ2w5NXhHU1gyck9Rd21LX1ppNmpaX2tKbWJMLV9CZHpSM1JOUnJfek4wR29RU3dJUU1GLXc0X2M3RU9NMTV1SnBFd3o3amtHQjZzamYwc1ZkMlo1UWpLQlAwbXFEanNraUlxTF9CM1FtUF9kNDN6Tl9DQVVr?oc=5",
       "published": "2026-11-06T05:53:29+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Texas Longhorns News - College Basketball",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ILVhCNVQtX0dFSW9tajJHaGk0TmFsTTVfRi1GR3hTYjlxNE9YNllQTDEzbk4zQzBCa3Y5Q0QybFVXYVl5a0N1b0dYMVBOQV9wX2pKTHRjUlZzTGNuVnl1LVNkd1cwaVdQV3VRb2xJZ3lRc1k?oc=5",
+      "published": "2026-11-06T05:08:23+00:00",
       "via": "aggregated"
     },
     {
@@ -71,13 +78,6 @@
       "source": "KENTUCKY ATHLETICS",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1pS3p6a0NTV2hBUVZ2OHNVVUlkZVVUUFIyb2hsTEJPYXdqWEhvY2c2aU13X0Z5d3YzT29NNlF5clpuay1BV2ppV1ZtSmIyaXkzcDg5dDItNHNjVzZXTWRJVzNFYXZsRUd2cFBjcldtejZiNUlqc2lj?oc=5",
       "published": "2026-11-06T02:58:45+00:00",
-      "via": "aggregated"
-    },
-    {
-      "headline": "Thursday Night Football: Jaguars lead Ravens 17-3 at halftime",
-      "source": "NBC SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUTJOUkNpeXloOUl2OHN6WGxaOVRGZ0RaRFZ6SHBKWkFpVzdNcWdxc3dKZnNMWFlxd3czTVNjWnlhakZ3TEtFRWMxZ09Kdm45Q29fa3AwaWhVcFhvR3NCVFdfUWhFTGZCdWF4UGExa3JLOHFQVE9BM3hBSFNLbGhtby1CZDZpTDBPd2ZPMGdPM1VkMFlXTE13WU5Dems3OTVmNURMV2kxS21Zd0E5NFFZdWhISEZwRldIdW96Q1hQNA?oc=5",
-      "published": "2026-11-06T02:45:18+00:00",
       "via": "aggregated"
     },
     {
@@ -137,6 +137,13 @@
       "via": "aggregated"
     },
     {
+      "headline": "WWR: Bill Farrell Memorial International, Throwdown on the Yorktown Notes",
+      "source": "IOWA ATHLETICS",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQclUxXzFOZjF4WDdHMF9sMUo2Vm9qYU5ibGlGZFB6amhOUTBoT0VkS1lFT3YyMFdzN0toRVZpRkx2ZkxfTmVWcDV0aGdmX3dpS0hydFppZWU1OTdVdS1PR1N2YnVVVW00VTgwUWxUa3BrZGZHLUgzbUdtZUFwVVhaMVp6aXpZMVpVTWNYOHVEbVpJM2dsY3U4SGdVRnNJdEtObmtmbmRUa3Nyd3diTXp3QTFR?oc=5",
+      "published": "2026-11-06T00:45:04+00:00",
+      "via": "aggregated"
+    },
+    {
       "headline": "Unlikely that Evans or Deebo will play in Week 9",
       "source": "NBC SPORTS",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdUtZUXlfU3c1NXFYNDE0OTdoUUFRZ0cxRVdfMkI2TlVhQUY2eFNUMFA0a3haWUxRNGhEQU13ZUNTS1VTX0M4cXhJS0dYaXFlV1lJSjdZOHpTUl9YUkdPaXFvM1A1SVJqcG5vbDJtLVV3UmF2ckFhdnRsUTRTYmdwal9GV2JidVpYYzNkY05WYW0yY3ItT0FOQXlnSEhMa3NQV3c3U1FReWt4aHd1SEJTZDhCUlc?oc=5",
@@ -179,13 +186,6 @@
       "via": "aggregated"
     },
     {
-      "headline": "Robbie Avila - College Basketball News & Rumors",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1MzZjVlo0Znc0U2d3ZzE4T3NCcTRDamhkb1VrTFNfeVNicHdKcmJnVUJ5cG92aWRxQVlUMEwyUDhDeExHeHAzb1FFdmt2RHJEMHptV2pvM2xhc3gwQ1F4bWdKdXJBWmxGaDBSOUxGSVBmZw?oc=5",
-      "published": "2026-11-05T22:10:11+00:00",
-      "via": "aggregated"
-    },
-    {
       "headline": "Saint Louis star Robbie Avila granted preliminary injunction, will play Friday against rival Missouri",
       "source": "CBS SPORTS",
       "url": "https://www.cbssports.com/college-basketball/news/robbie-avila-saint-louis-eligible-granted-preliminary-injunction/",
@@ -221,6 +221,13 @@
       "via": "aggregated"
     },
     {
+      "headline": "Marquette Golden Eagles vs St. John's Red Storm Box Score - February 17, 2027 - The Athletic",
+      "source": "THE ATHLETIC",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNVlQTTh1eTVxbV9KR3Ywd1hQUkJ5MG50WEU2Ty03dmI5LWdhT3pNRWpCclE0eU9rWVhZWnEwVndUamxoU1NjUnNkYWIxaEV3TWI0OTRqMUp6bmFSWEF2bWhKdG5heThxM29sejgzbnZZR3pTVzJrM1BtaDUtdmFkUy14NGo5QnV4SFlnMnpZNWFFU2NlV1paazVldEZ4aGdvLUZaMGd6amIzUlZ4RC16WmVzTkthWmxsTFVGY25CVmlmZw?oc=5",
+      "published": "2026-11-05T20:01:02+00:00",
+      "via": "aggregated"
+    },
+    {
       "headline": "Alice Lloyd Eagles vs Eastern Kentucky Colonels Box Score - November 22, 2026 - The Athletic",
       "source": "THE ATHLETIC",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSjY5VXMtQ1FBSkhGTzZxTEJucXJ4dXcxYnJ1VGw2MDc4cmJub0ZPbjhEWGJhRjlxUkF1ZF9uUWh6Nno0WWFlZUd0RVMtQzFKaUhZT1hFSE1VMXVReEFzZ2dLRFhrQzdqMW1TWVN1NXVpc0dQb1BVNjBTNTVDNGRjYlUyYVVSU3VKNGN3WXp3X3d3Z3hrMnpsbXhBd0p6X1o5a3RJUDVWUzF4a2dhbktxTXU3X2ZUT05DN1JrQUdUcw?oc=5",
@@ -228,10 +235,10 @@
       "via": "aggregated"
     },
     {
-      "headline": "Kentucky Wildcats News - College Basketball",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oU0dnSGRPQlUtOTYzaHlZWjJ3eC1MdDVqUlJpazFKdkRuQVMzRWRPb25wcmhFN3UtUjdKempaMEF3QW1uemtoVU8wX1BCb1lUY002TUlvYklCZnRKeG42RWNSaG5iU1UtV0drOURGNUUya3FDNUE?oc=5",
-      "published": "2026-11-05T19:25:55+00:00",
+      "headline": "Jonathan Taylor: No one likes uncertainty",
+      "source": "NBC SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOME9sb1Y3RzdwX3VjT3NGNlhKQ2g0RUc3S1RScmQ3bUh6VmU5LXAtdnoxWnlQOFRIX1BRblhpeE1kRlFSYUNvOXMzakhReS1aXzFCbUc2UG5POWdNZS1EMjJycGlRTFlPRVY0ak1NdGc2YkR0VmhyOFdSM0lvekg2NFV3MEllX1F0MGgtNTVlOWk2YTljei1OVzRtREg3cnlCTmRQTw?oc=5",
+      "published": "2026-11-05T19:33:06+00:00",
       "via": "aggregated"
     },
     {
@@ -246,13 +253,6 @@
       "source": "IOWA ATHLETICS",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ203YUloRFVWaUJoR1MwUTdhMkd1OHRJd2pYc3B4R1M2akE2TkU2VGJUUWRhNGNiWThZOWFuZVpmR0pRTDFyTEtGZG1wNjF4RlZ4SU85MlpmT2w3WjZieE00aEpjWVFzOGNqaVBKX2o3MHFSejZSbDhobVZ6dGtGZ2QxVTF3TUEycUo0ckt2eS1zSkk3WTFZWg?oc=5",
       "published": "2026-11-05T19:00:00+00:00",
-      "via": "aggregated"
-    },
-    {
-      "headline": "Texas Longhorns News - College Basketball",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ILVhCNVQtX0dFSW9tajJHaGk0TmFsTTVfRi1GR3hTYjlxNE9YNllQTDEzbk4zQzBCa3Y5Q0QybFVXYVl5a0N1b0dYMVBOQV9wX2pKTHRjUlZzTGNuVnl1LVNkd1cwaVdQV3VRb2xJZ3lRc1k?oc=5",
-      "published": "2026-11-05T18:59:54+00:00",
       "via": "aggregated"
     },
     {
@@ -323,20 +323,6 @@
       "source": "IOWA ATHLETICS",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CV2l6cjRTZkhZYVhnd09vRE96NG5lSDZudFJYd3lua3FLRWZpZHlEQjlCVy02N3ZnZkJhcTIwN0F1Z0E1cXY0OTktbUR3WEpWdlE?oc=5",
       "published": "2026-11-05T00:42:39+00:00",
-      "via": "aggregated"
-    },
-    {
-      "headline": "Football | Hawk Talk with Kirk Ferentz | 11.4.2026",
-      "source": "IOWA ATHLETICS",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONWVmVDVlbTZucC16dE9Ub2U4QVNyb3p1aks4MnhGNkpFSFROVF9oSHpFTmdyZ0NaRzQ2blBTaHFKakVTNnkxbzUyMFA5RjlYSUJNMlU4QjlJQlJiSHd6MzNsUHpWRVFKRjVnVl9NaGg0dDJScThLd0hTMngwVVdaUDNNZHB6X2QxWGFsYUJn?oc=5",
-      "published": "2026-11-05T00:34:45+00:00",
-      "via": "aggregated"
-    },
-    {
-      "headline": "Xavier Musketeers News - College Basketball",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuWDQ1cWQ4MWpKMTJpcjZxcG9tYkVOOS1qdnhCM1ROVDJVUXlvX2dWYVd4bzRyZUFjWlQzVDFBYVR0N3BOYk9mYUdmbXczc1dUbkFhaDVBajJsV0MzS1F6U2hDTUMwR0d5NllFbEZLRExHOGJFZFE?oc=5",
-      "published": "2026-11-04T22:17:22+00:00",
       "via": "aggregated"
     },
     {
@@ -445,24 +431,45 @@
       "via": "direct"
     },
     {
-      "headline": "Mark Mitchell - College Basketball News & Rumors",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kZlo0d0FxMEtJUXhIT1pGSldpbDREdG85NUgzNHo4N2g3ZDVEQXd1T3k4dUUtMHh1UGFJeUpLWUNwWkNxa2NRR0ZHcFg3ck1iLWp0YzFzZnRZM0FELU1jQTJndlVuN3VwYjJuTTk4dUpQMS1jNVE?oc=5",
-      "published": "2026-11-04T11:36:12+00:00",
-      "via": "aggregated"
-    },
-    {
-      "headline": "San Diego State Aztecs News - College Basketball",
-      "source": "FOX SPORTS",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xalJYb3FlLUF5aUMyU3FBOWxOeWozLWZYek1pYmNseFpPUnExaFZhVVp4NVhtZTVObnlldDBEYU9seHlfQkRNWU9QZzVRaG5kRS1KTV9vRzY5SWx1eWhxY2Jzc21iVnljaWlNa3JuM1NfQ0Z4VkJwdFVQbUo?oc=5",
-      "published": "2026-11-04T11:12:07+00:00",
-      "via": "aggregated"
-    },
-    {
       "headline": "Kansas Jayhawks News - College Basketball",
       "source": "FOX SPORTS",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RT05mZ0Jpa0xRV0c0LVZZbmE0cFdBQkVzQUgyTTJIX0d0enZBYzJPVzcxZENHc2hIS2JNVU80bWM1X0pMaU9hR0lWSXhiRUtVd1NNX0ZIVnF3QVhPM25CVFVlbHRiZjJ6R3dhN0tLZUZVa1E?oc=5",
-      "published": "2026-11-04T09:40:49+00:00",
+      "published": "2026-11-04T12:37:14+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Mark Mitchell - College Basketball News & Rumors",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kZlo0d0FxMEtJUXhIT1pGSldpbDREdG85NUgzNHo4N2g3ZDVEQXd1T3k4dUUtMHh1UGFJeUpLWUNwWkNxa2NRR0ZHcFg3ck1iLWp0YzFzZnRZM0FELU1jQTJndlVuN3VwYjJuTTk4dUpQMS1jNVE?oc=5",
+      "published": "2026-11-04T12:34:55+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "John Mobley Jr. - College Basketball News & Rumors",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JQkY3X0FKYk03Y2pzcmNaSW9helZDem9McUctUlJHMW1sSVlubUx3VlRVRFlsNnJ6eU0wNGdFRjdudXlPRUpDQnhIdzhwaDdYbHdpdmwtYXFPOHpHQ3dUeS05TVpVNGZtUXdEWDRUemY?oc=5",
+      "published": "2026-11-04T12:31:01+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Pittsburgh Panthers News - College Basketball",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VR09mc0lDS2pQLVlDeXFDQVpuODdrUUw0d25KLXc0MG04NWdvdkdzaW1pNjQ1MUNwckpIS0twdzEySVNQdFBKRlBwdkZGenE5aEllWm9OTmR3cWFJbm9wZlU3RHJMa3kyb3pBTXBPQ3BLcFhmbXluaQ?oc=5",
+      "published": "2026-11-04T12:28:38+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Vanderbilt Commodores News - College Basketball",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlNFBudGpDeDVlRzdkR0hOdnN6WW5iSmMzazZXRVN3NS1WcV9aS3p2Vy11OWJzYUI5UnpfN3oxb0VJc2d1S1l6dWlJb0I4NUo1UjVVTjM3TDRBU1Zxby1URDl4ZFRrSG1hY19vdGlIYjVscDU1M3pEc3FSRQ?oc=5",
+      "published": "2026-11-04T12:04:33+00:00",
+      "via": "aggregated"
+    },
+    {
+      "headline": "Houston Cougars News - College Basketball",
+      "source": "FOX SPORTS",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16SkNyQnpOSWNYdzV2MVY4REtRMFhJSDZWMXAtcVVNeDA5a0UxdTZBU29FOTA5cTc0ZDRRdi1iQ1lBNUFZaGhUMk9xcnZXVGJRNGdVUGkyTXUwSEM0R1Q4d3htTGVNejF1Y3pkRDc0OWRjdFU?oc=5",
+      "published": "2026-11-04T12:04:32+00:00",
       "via": "aggregated"
     },
     {
@@ -513,13 +520,6 @@
       "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-oilers-vs-devils-drexel-vs-virginia-and-more/",
       "published": "2026-11-03T20:30:49+00:00",
       "via": "direct"
-    },
-    {
-      "headline": "Appalachian State Mountaineers vs Grambling State Tigers Box Score - December 21, 2026 - The Athletic",
-      "source": "THE ATHLETIC",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVnd2dWM4dUp5Y2ZZOXNneWwwUFB2MnF2b2NRWDRpai1vY3N6ODVyQjMxUm5XRDRZUTg2N0RQd2hDMy13U3hoWjhiZkNTWUFNRFY4cm5WdGMxYzBPYkNlaXlMbTAtUWdzU0hBeWJMZU45T20tMXFRMlEzRDB1UkJfWmNqaTJTbHZVYkY2cVJ6SmdSd19FVXYydERDSDdUX0ozRFdFaU5sWUNmWmV4cUkwQnhDc09KcDB0YlNJRnlJcnptUHNsc1BXbmVGWQ?oc=5",
-      "published": "2026-11-03T18:31:57+00:00",
-      "via": "aggregated"
     },
     {
       "headline": "College basketball rankings: UCLA surges in Top 25 And 1 after opening-night upset over Arizona",
