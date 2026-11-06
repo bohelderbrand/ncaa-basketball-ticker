@@ -5,6 +5,7 @@ Official athletics website articles are NOT represented as social media posts.
 Social platforms are not polled without approved API access.
 """
 import datetime as dt
+import html
 import email.utils
 import json
 import random
@@ -59,6 +60,10 @@ FEEDS = [
  ('KENTUCKY', google_news('"Kentucky" "men basketball" (player OR coach OR injury OR transfer OR recruit OR upset) when:3d'), 'KENTUCKY', 'aggregated'),
  ('IOWA', google_news('"Iowa" "men basketball" (player OR coach OR injury OR transfer OR recruit OR upset) when:3d'), 'IOWA', 'aggregated'),
  ('TOP 25', google_news('"men college basketball" (AP poll OR top 25 OR ranked) (injury OR transfer OR coach OR upset OR player) when:3d'), 'TOP 25', 'aggregated'),
+ # Game-day storylines are real published articles, not generated predictions.
+ ('KENTUCKY STORYLINES', google_news('("Kentucky basketball" OR "Kentucky Wildcats basketball") ("former team" OR "former coach" OR "player to watch" OR "matchup" OR "return to" OR "career high") when:2d'), 'KENTUCKY', 'aggregated'),
+ ('IOWA STORYLINES', google_news('("Iowa basketball" OR "Iowa Hawkeyes basketball") ("former team" OR "former coach" OR "player to watch" OR "matchup" OR "return to" OR "career high") when:2d'), 'IOWA', 'aggregated'),
+ ('MEN BASKETBALL STORYLINES', google_news('"men college basketball" ("player to watch" OR "former team" OR "rivalry" OR "breakout" OR "career high" OR "matchup") when:2d'), 'NCAA NEWS', 'aggregated'),
  ('COLLEGE FOOTBALL', google_news('"college football" (playoff OR injury OR coach fired OR transfer OR upset) when:2d'), 'COLLEGE FOOTBALL', 'aggregated'),
  ('NFL', google_news('"NFL" (injury OR trade OR coach OR contract OR playoffs) when:2d'), 'NFL', 'aggregated'),
  ('RACING', google_news('(NASCAR OR NHRA) (driver OR victory OR penalty OR championship OR contract) when:3d'), 'RACING', 'aggregated'),
@@ -113,9 +118,10 @@ CORRUPT = re.compile(r"undefined|\[object Object\]|\bnull\b", re.I)
 
 def clean_title(title):
     # Repair predictable upstream substitutions before filtering, never publish raw 'undefined'.
+    title = html.unescape(title)
     title = re.sub(r"([A-Za-z])undefineds\b", r"\1's", title, flags=re.I)
     title = re.sub(r"undefined([^\s]+?)undefined", r"“\1”", title, flags=re.I)
-    return title
+    return re.sub(r"\s+", " ", title).strip()
 
 
 def quality(item):
@@ -135,8 +141,9 @@ def quality(item):
     elif cat=='RACING':
         if not RACING.search(h):return None
     else:return None
-    if not STORY.search(h):return None
+    if not STORY.search(h) and not re.search(r'\b(former team|former coach|player to watch|matchup|rivalry|breakout|faces former|returns to|storyline)\b',h,re.I):return None
     score=50+(28 if cat in ('KENTUCKY','IOWA') else 20 if cat=='TOP 25' else 12 if cat=='NCAA NEWS' else 0)
+    score+=(10 if re.search(r'\b(former team|former coach|player to watch|matchup|rivalry|breakout|faces former|returns to|career.high)\b',h,re.I) else 0)
     score+=(18 if re.search(r"\b(injur\w*|transfer\w*|coach\w*|recruit\w*|champion\w*|upset\w*|driver\w*|contract\w*|traded|suspend\w*)\b",h,re.I) else 6)
     score+=max(0,24-age/3)
     item['score']=round(score,1)
@@ -191,6 +198,8 @@ def select_diverse(items, limit=45):
 def main():
     feeds = list(FEEDS)
     top25 = get_top25()
+    # Targeted ranked-team articles plus sourced game-day player and coaching storylines.
+    # These are search results from publishers, NOT Google's AI Overview text.
     # Targeted official athletics-site searches for AP-ranked programs, if poll available.
     # One feed per team is expensive: batch 5 names per search to cover all 25.
     for start in range(0, len(top25), 5):
