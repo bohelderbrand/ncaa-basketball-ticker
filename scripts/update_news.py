@@ -7,6 +7,7 @@ Social platforms are not polled without approved API access.
 import datetime as dt
 import email.utils
 import json
+import random
 import re
 import urllib.parse
 import urllib.request
@@ -83,7 +84,7 @@ def fetch_feed(source, url, category, kind):
         root = ET.fromstring(res.read(2_000_000))
     result = []
     for item in root.findall('.//item')[:45]:
-        title = re.sub(r'\s+', ' ', element_text(item, 'title')).strip()
+        title = clean_title(re.sub(r'\s+', ' ', element_text(item, 'title')).strip())
         link = element_text(item, 'link').strip()
         date = parsedate(element_text(item, 'pubDate') or element_text(item, '{http://purl.org/dc/elements/1.1/}date'))
         if not title or not link or not date or not (NOW - dt.timedelta(days=7) <= date <= NOW + dt.timedelta(hours=1)):
@@ -109,6 +110,13 @@ RACING = re.compile(r"\b(NASCAR|NHRA|Cup Series|Xfinity|IndyCar|Formula 1|F1|rac
 STORY = re.compile(r"\b(injur\w*|out for|return\w*|suspend\w*|sign\w*|commit\w*|recruit\w*|transfer\w*|portal|coach\w*|hire\w*|fired|resign\w*|win\w*|won|defeat\w*|upset\w*|record|career.high|milestone|award\w*|rank\w*|champion\w*|playoff\w*|penalt\w*|contract\w*|trade\w*|qualif\w*|victor\w*|crash\w*|rival\w*|points|scor\w*|performance|tournament|draft|driver\w*|debut|announc\w*|extension|deal|leads|named|breaks)\b", re.I)
 BREAKING = re.compile(r"\b(fired|resigns?|dies|death|suspended|season.ending|out for season|arrested|traded|wins championship|championship clinched)\b", re.I)
 CORRUPT = re.compile(r"undefined|\[object Object\]|\bnull\b", re.I)
+
+def clean_title(title):
+    # Repair predictable upstream substitutions before filtering, never publish raw 'undefined'.
+    title = re.sub(r"([A-Za-z])undefineds\b", r"\1's", title, flags=re.I)
+    title = re.sub(r"undefined([^\s]+?)undefined", r"“\1”", title, flags=re.I)
+    return title
+
 
 def quality(item):
     h=item['headline']; cat=item['category']; age=(NOW-parsedate(item['published'])).total_seconds()/3600
@@ -136,24 +144,48 @@ def quality(item):
     return item
 
 def select_diverse(items, limit=45):
-    # Only 1 in 5 items can be non-basketball; interleave publishers/categories.
-    buckets={}; used=set(); chosen=[]; nonbasket=0
-    for a in sorted(items,key=lambda x:x['score'],reverse=True):
-        buckets.setdefault(a['category'],[]).append(a)
-    categories=['KENTUCKY','TOP 25','IOWA','NCAA NEWS','TOP 25','NCAA NEWS','COLLEGE FOOTBALL','TOP 25','NFL','NCAA NEWS','RACING']
-    for i in range(limit*4):
-        if len(chosen)>=limit:break
-        cat=categories[i%len(categories)]
-        pool=buckets.get(cat,[])
-        while pool:
-            candidate=pool.pop(0)
-            if candidate['url'] in used:continue
-            if cat in ('NFL','COLLEGE FOOTBALL','RACING') and nonbasket>=max(1,(len(chosen)+1)//5):continue
-            if chosen and chosen[-1]['source']==candidate['source'] and any(x['source']!=candidate['source'] for x in pool):
-                pool.append(candidate);continue
-            chosen.append(candidate);used.add(candidate['url'])
-            if cat in ('NFL','COLLEGE FOOTBALL','RACING'):nonbasket+=1
+    # Soft category mix, not a rigid Kentucky/Iowa alternating pattern.
+    # Randomize among comparably scored items while avoiding consecutive repeats.
+    groups = {}
+    for item in items:
+        groups.setdefault(item['category'], []).append(item)
+    for group in groups.values():
+        group.sort(key=lambda a: a['score'], reverse=True)
+        reordered = []
+        while group:
+            batch = group[:5]
+            del group[:5]
+            random.shuffle(batch)
+            reordered.extend(batch)
+        group.extend(reordered)
+    caps = {'KENTUCKY': 9, 'IOWA': 9, 'TOP 25': 15, 'NCAA NEWS': 18,
+            'NFL': 4, 'COLLEGE FOOTBALL': 4, 'RACING': 3}
+    chosen, counts, other = [], {}, 0
+    while len(chosen) < limit:
+        options = []
+        for category, group in groups.items():
+            if not group or counts.get(category, 0) >= caps.get(category, 4):
+                continue
+            is_other = category in ('NFL', 'COLLEGE FOOTBALL', 'RACING')
+            if is_other and other >= max(1, (len(chosen) + 1) // 5):
+                continue
+            article = group[0]
+            score = article['score'] + random.uniform(0, 28)
+            if chosen and chosen[-1]['category'] == category:
+                score -= 38
+            if chosen and chosen[-1]['source'] == article['source']:
+                score -= 20
+            if category in ('TOP 25', 'NCAA NEWS'):
+                score += 10
+            options.append((score, category))
+        if not options:
             break
+        _, category = max(options)
+        article = groups[category].pop(0)
+        chosen.append(article)
+        counts[category] = counts.get(category, 0) + 1
+        if category in ('NFL', 'COLLEGE FOOTBALL', 'RACING'):
+            other += 1
     return chosen
 
 def main():
