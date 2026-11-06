@@ -50,17 +50,17 @@ def get_top25():
 FEEDS = [
  ('CBS SPORTS', 'https://www.cbssports.com/rss/headlines/college-basketball/', 'NCAA NEWS', 'direct'),
  ('NCAA.COM', 'https://www.ncaa.com/news/basketball-men/d1/rss.xml', 'NCAA NEWS', 'direct'),
- ('ESPN', google_news('site:espn.com/mens-college-basketball college basketball when:5d'), 'NCAA NEWS', 'aggregated'),
- ('FOX SPORTS', google_news('site:foxsports.com/college-basketball college basketball when:5d'), 'NCAA NEWS', 'aggregated'),
- ('NBC SPORTS', google_news('site:nbcsports.com college basketball when:5d'), 'NCAA NEWS', 'aggregated'),
- ('THE ATHLETIC', google_news('site:nytimes.com/athletic/college-basketball when:5d'), 'NCAA NEWS', 'aggregated'),
- ('KENTUCKY ATHLETICS', google_news('site:ukathletics.com/sports/mens-basketball when:3d'), 'KENTUCKY', 'aggregated'),
- ('IOWA ATHLETICS', google_news('site:hawkeyesports.com/sports/mbball when:3d'), 'IOWA', 'aggregated'),
- ('COLLEGE BASKETBALL REPORTERS', google_news('men college basketball (Jon Rothstein OR Jeff Goodman) when:3d'), 'NCAA NEWS', 'aggregated'),
- ('TOP 25', google_news('men college basketball AP top 25 player injury upset coach transfer when:3d'), 'TOP 25', 'aggregated'),
- ('COLLEGE FOOTBALL', google_news('college football top 25 playoffs breaking news when:2d'), 'COLLEGE FOOTBALL', 'aggregated'),
- ('NFL', google_news('NFL breaking news trades injuries when:2d'), 'NFL', 'aggregated'),
- ('RACING', google_news('(NASCAR OR NHRA) racing breaking news when:4d'), 'RACING', 'aggregated'),
+ ('ESPN', google_news('site:espn.com/mens-college-basketball/ (injury OR transfer OR recruiting OR coach OR upset OR award) when:3d'), 'NCAA NEWS', 'aggregated'),
+ ('FOX SPORTS', google_news('site:foxsports.com/college-basketball/ (player OR coach OR injury OR transfer OR upset) when:3d'), 'NCAA NEWS', 'aggregated'),
+ ('THE ATHLETIC', google_news('site:nytimes.com/athletic/college-basketball/ (player OR coach OR transfer OR injury) when:3d'), 'NCAA NEWS', 'aggregated'),
+ ('KENTUCKY ATHLETICS', google_news('site:ukathletics.com/sports/mens-basketball/ when:3d'), 'KENTUCKY', 'aggregated'),
+ ('IOWA ATHLETICS', google_news('site:hawkeyesports.com/sports/mbball/ when:3d'), 'IOWA', 'aggregated'),
+ ('KENTUCKY', google_news('"Kentucky" "men basketball" (player OR coach OR injury OR transfer OR recruit OR upset) when:3d'), 'KENTUCKY', 'aggregated'),
+ ('IOWA', google_news('"Iowa" "men basketball" (player OR coach OR injury OR transfer OR recruit OR upset) when:3d'), 'IOWA', 'aggregated'),
+ ('TOP 25', google_news('"men college basketball" (AP poll OR top 25 OR ranked) (injury OR transfer OR coach OR upset OR player) when:3d'), 'TOP 25', 'aggregated'),
+ ('COLLEGE FOOTBALL', google_news('"college football" (playoff OR injury OR coach fired OR transfer OR upset) when:2d'), 'COLLEGE FOOTBALL', 'aggregated'),
+ ('NFL', google_news('"NFL" (injury OR trade OR coach OR contract OR playoffs) when:2d'), 'NFL', 'aggregated'),
+ ('RACING', google_news('(NASCAR OR NHRA) (driver OR victory OR penalty OR championship OR contract) when:3d'), 'RACING', 'aggregated'),
 ]
 
 def element_text(el, name):
@@ -92,35 +92,47 @@ def fetch_feed(source, url, category, kind):
             continue
         if kind == 'aggregated' and ' - ' in title:
             title = title.rsplit(' - ', 1)[0]
-        if len(title) < 18:
+        if CORRUPT.search(title) or len(title) < 18:
             continue
         result.append({'headline': title[:220], 'source': source, 'category': category,
                        'url': link, 'published': date.isoformat(), 'via': kind})
     return result
 
-# Conservative, explainable headline selection. Never relabel generic news as breaking.
-UNRELATED = re.compile(r'\b(women(?:\x27s|s)?|wbb|wwr|wrestling|volleyball|softball|baseball|field hockey|gymnastics|swimming|soccer|lacrosse|tennis|track and field|cross country|rowing|golf|equestrian|hockey)\b', re.I)
-LOW_VALUE = re.compile(r'\b(game notes?|postgame notes?|preview notes?|press conference|photo gallery|photo(s)? of the day|watch live|how to watch|where to watch|broadcast information|tickets? on sale|schedule released|game preview|pregame notes?|media availability|weekly roundup|podcast|highlights video)\b', re.I)
-SCHEDULE = re.compile(r'\b(vs\.?|versus|tip.?off|kickoff|game time|start time|TV channel|what channel|streaming guide)\b', re.I)
-MEN_BASKETBALL = re.compile(r'\b(men\x27?s basketball|mens basketball|college hoops|NCAA tournament|march madness|basketball|wildcats|hawkeyes|hoops|guard|forward|center|head coach|recruit|transfer portal|AP top 25|rankings|ranked|upset)\b', re.I)
-STORY = re.compile(r'\b(injur\w*|out for|return\w*|suspend\w*|sign\w*|commit\w*|recruit\w*|transfer\w*|portal|coach\w*|hire\w*|fired|resign\w*|wins?|won|defeat\w*|upset\w*|record|career.high|milestone|award\w*|rank\w*|champion\w*|playoff\w*|penalt\w*|contract\w*|trade\w*|qualif\w*|victor\w*|crash\w*|rival\w*|points|scor\w*|performance|tournament|draft|driver\w*|team\w*)\b', re.I)
-BREAKING = re.compile(r'\b(fired|resigns?|dies|death|suspended|season.ending|out for season|major injury|arrested|traded|wins championship|championship clinched)\b', re.I)
+# Prefer false negatives to presenting football, women's sports or generic athletics
+# stories as men's college basketball. Category comes from a dedicated feed,
+# never from a stray team nickname or a generic keyword in the headline.
+UNRELATED = re.compile(r"\b(women(?:'s|s)?|wbb|wwr|wrestling|volleyball|softball|baseball|field hockey|gymnastics|swimming|soccer|lacrosse|tennis|track and field|cross country|rowing|golf|equestrian|hockey|WNBA|Geno Auriemma|Paige Bueckers|South Carolina women's)\b", re.I)
+LOW_VALUE = re.compile(r"\b(game notes?|postgame notes?|preview notes?|press conference|photo gallery|photos of the day|watch live|how to watch|where to watch|broadcast information|tickets? on sale|schedule released|game preview|pregame notes?|media availability|weekly roundup|podcast|highlights video|vs\.?|tip.?off|kickoff time|TV channel|streaming guide|2026.27 rankings predictions|power rankings prediction)\b", re.I)
+BASKETBALL = re.compile(r"\b(basketball|hoops|NCAA tournament|March Madness|Final Four|college basketball)\b", re.I)
+FOOTBALL = re.compile(r"\b(NFL|football|quarterback|touchdown|wide receiver|running back|linebacker|head coach|general manager|Super Bowl|playoffs?)\b", re.I)
+RACING = re.compile(r"\b(NASCAR|NHRA|Cup Series|Xfinity|IndyCar|Formula 1|F1|racing|race|driver|dragster|pit crew|qualifying)\b", re.I)
+STORY = re.compile(r"\b(injur\w*|out for|return\w*|suspend\w*|sign\w*|commit\w*|recruit\w*|transfer\w*|portal|coach\w*|hire\w*|fired|resign\w*|win\w*|won|defeat\w*|upset\w*|record|career.high|milestone|award\w*|rank\w*|champion\w*|playoff\w*|penalt\w*|contract\w*|trade\w*|qualif\w*|victor\w*|crash\w*|rival\w*|points|scor\w*|performance|tournament|draft|driver\w*|debut|announc\w*|extension|deal|leads|named|breaks)\b", re.I)
+BREAKING = re.compile(r"\b(fired|resigns?|dies|death|suspended|season.ending|out for season|arrested|traded|wins championship|championship clinched)\b", re.I)
+CORRUPT = re.compile(r"undefined|\[object Object\]|\bnull\b", re.I)
 
 def quality(item):
-    h=item['headline']; cat=item['category']; source=item['source']; age=(NOW-parsedate(item['published'])).total_seconds()/3600
-    if age>72 or UNRELATED.search(h) or LOW_VALUE.search(h) or SCHEDULE.search(h):return None
-    if cat in ('KENTUCKY','IOWA'):
-        # University-wide RSS is not a basketball feed: require explicit men's
-        # basketball relevance. Reject ambiguous generic athletics stories.
-        if not re.search(r'\b(men\x27?s basketball|mens basketball|basketball|hoops)\b',h,re.I):return None
-    if cat in ('NCAA NEWS','TOP 25') and not MEN_BASKETBALL.search(h):return None
-    if cat in ('COLLEGE FOOTBALL','NFL','RACING') and not STORY.search(h):return None
+    h=item['headline']; cat=item['category']; age=(NOW-parsedate(item['published'])).total_seconds()/3600
+    if age>72 or CORRUPT.search(h) or UNRELATED.search(h) or LOW_VALUE.search(h):return None
+    # A men's basketball article must say basketball/hoops, or originate from
+    # a men's basketball-specific direct feed. A generic team name is not proof.
+    basketball_feed = item['source'] in ('CBS SPORTS','NCAA.COM') and item['via']=='direct'
+    if cat in ('KENTUCKY','IOWA','NCAA NEWS','TOP 25'):
+        if not (BASKETBALL.search(h) or basketball_feed):return None
+        if FOOTBALL.search(h) and not BASKETBALL.search(h):return None
+        if RACING.search(h) and not BASKETBALL.search(h):return None
+    elif cat=='NFL':
+        if not re.search(r"\b(NFL|football|quarterback|Super Bowl|team's general manager)\b",h,re.I):return None
+    elif cat=='COLLEGE FOOTBALL':
+        if not re.search(r"\b(college football|football|CFP|quarterback|touchdown)\b",h,re.I):return None
+    elif cat=='RACING':
+        if not RACING.search(h):return None
+    else:return None
     if not STORY.search(h):return None
-    score=50 + (28 if cat in ('KENTUCKY','IOWA') else 20 if cat=='TOP 25' else 12 if cat=='NCAA NEWS' else 0)
-    score+=min(30,18 if re.search(r'\b(injur\w*|transfer\w*|coach\w*|recruit\w*|champion\w*|upset\w*|driver\w*|contract\w*|traded|suspend\w*)\b',h,re.I) else 6)
+    score=50+(28 if cat in ('KENTUCKY','IOWA') else 20 if cat=='TOP 25' else 12 if cat=='NCAA NEWS' else 0)
+    score+=(18 if re.search(r"\b(injur\w*|transfer\w*|coach\w*|recruit\w*|champion\w*|upset\w*|driver\w*|contract\w*|traded|suspend\w*)\b",h,re.I) else 6)
     score+=max(0,24-age/3)
     item['score']=round(score,1)
-    item['breaking']=bool(BREAKING.search(h) and age<12)
+    item['breaking']=bool(BREAKING.search(h) and age<8 and cat in ('NFL','COLLEGE FOOTBALL','RACING','KENTUCKY','IOWA','NCAA NEWS','TOP 25'))
     return item
 
 def select_diverse(items, limit=45):
@@ -136,7 +148,7 @@ def select_diverse(items, limit=45):
         while pool:
             candidate=pool.pop(0)
             if candidate['url'] in used:continue
-            if cat in ('NFL','COLLEGE FOOTBALL','RACING') and nonbasket*5>=len(chosen)+1:continue
+            if cat in ('NFL','COLLEGE FOOTBALL','RACING') and nonbasket>=max(1,(len(chosen)+1)//5):continue
             if chosen and chosen[-1]['source']==candidate['source'] and any(x['source']!=candidate['source'] for x in pool):
                 pool.append(candidate);continue
             chosen.append(candidate);used.add(candidate['url'])
@@ -152,7 +164,7 @@ def main():
     for start in range(0, len(top25), 5):
         names = top25[start:start+5]
         terms = ' OR '.join('"' + name.replace('"','') + '"' for name in names)
-        feeds.append(('AP TOP 25 TEAMS', google_news('(' + terms + ') men basketball player coach injury transfer when:3d'), 'TOP 25', 'aggregated'))
+        feeds.append(('AP TOP 25 TEAMS', google_news('(' + terms + ') \"men college basketball\" (player OR coach OR injury OR transfer) when:3d'), 'TOP 25', 'aggregated'))
     articles, errors, sources = [], [], []
     for source, url, category, kind in feeds:
         try:
