@@ -262,7 +262,7 @@ header{overflow:hidden}
  .lane .card .teamlogo{width:clamp(24px,2.55vw,39px);height:clamp(24px,2.55vw,39px)}
 }
 
-/* V8.6.5: TV-browser-safe team rows. Keep all card/viewport sizing intact. */
+/* V8.6.6: TV-browser-safe team rows. Keep all card/viewport sizing intact. */
 .lane .card .matchup{
   gap:clamp(3px,.5vh,6px);
   justify-content:center;
@@ -298,7 +298,7 @@ header{overflow:hidden}
 .lane .card .school-name{font-weight:900}
 .lane .card .name-divider{color:#a9c1dc;font-weight:600}
 
-/* V8.6.5: compact rotating game alerts, with a dedicated row only while active. */
+/* V8.6.6: compact rotating game alerts, with a dedicated row only while active. */
 #gameAlertStrip{display:none;height:38px;min-height:38px;align-items:center;gap:12px;padding:3px 1.3vw;background:#111f33;border-top:2px solid #e9aa46;border-bottom:1px solid #334c68;overflow:hidden;white-space:nowrap;font-size:clamp(12px,1.25vw,21px);font-weight:800}
 body.has-game-alerts #gameAlertStrip{display:flex}
 body.has-game-alerts #layout{height:calc(87% - 38px)}
@@ -312,7 +312,11 @@ body.has-game-alerts #layout{height:calc(87% - 38px)}
 @media(orientation:landscape) and (max-height:760px){body.has-game-alerts #layout{height:calc(100% - clamp(66px,13vh,90px) - 72px)}}
 @media(orientation:landscape) and (max-height:450px){body.has-game-alerts #layout{height:calc(100% - 123px)}#gameAlertStrip{height:38px;min-height:38px}}
 @media(orientation:portrait) and (max-width:900px){body.has-game-alerts #layout{height:auto}#gameAlertStrip{height:42px;min-height:42px}#gameAlertTitle{font-size:10px}#gameAlertNetwork{max-width:22%}}
-</style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK <span style="font-size:12px;color:#ffd35c;white-space:nowrap">V8.6.5</span></h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel">♫ Music: Off</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="musicPanel" role="group" aria-label="Background music settings"><label for="musicVolume">Background music volume: <span id="musicVolumeLabel">10%</span></label><input id="musicVolume" type="range" min="0" max="50" value="10" step="1"><br><button id="musicMute" type="button">Mute</button><div id="musicHint">Original HSN sports instrumental. Press Music to start or stop. Music may require a click on Google TV.</div></div><audio id="hsnMusic" src="hsn-sports-music.wav" preload="none" loop></audio><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="gameAlertStrip" role="status" aria-label="Close games and upset watch"><span id="gameAlertTitle">🚨 HSN ALERTS</span><span id="gameAlertItem"></span><span id="gameAlertNetwork"></span><span id="gameAlertCounter"></span></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>COLLEGE NEWS</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
+/* V8.6.6: news labels and clickable sources, same crawl height and speed. */
+.crawl-text .news-category{color:#ffdb69;font-weight:1000;margin-right:.35em}
+.crawl-text .news-link{color:inherit;text-decoration:none}
+.crawl-text .news-link:focus-visible{outline:2px solid #ffdb69;outline-offset:3px}
+</style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK <span style="font-size:12px;color:#ffd35c;white-space:nowrap">V8.6.6</span></h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel">♫ Music: Off</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="musicPanel" role="group" aria-label="Background music settings"><label for="musicVolume">Background music volume: <span id="musicVolumeLabel">10%</span></label><input id="musicVolume" type="range" min="0" max="50" value="10" step="1"><br><button id="musicMute" type="button">Mute</button><div id="musicHint">Original HSN sports instrumental. Press Music to start or stop. Music may require a click on Google TV.</div></div><audio id="hsnMusic" src="hsn-sports-music.wav" preload="none" loop></audio><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="gameAlertStrip" role="status" aria-label="Close games and upset watch"><span id="gameAlertTitle">🚨 HSN ALERTS</span><span id="gameAlertItem"></span><span id="gameAlertNetwork"></span><span id="gameAlertCounter"></span></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>NEWSWIRE</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
 <div id="gameOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Game information"><div class="dialog"><h2 id="teams">Game details</h2><div class="big" id="bigscore"></div><p id="status"></p><p id="network"></p><p id="ytv"></p><div class="actions"><button id="watch">Open YouTube TV</button><button id="watchESPN">Open ESPN+</button><button id="closeGame">Back to Scores</button></div><p class="note">Streaming services open separately; you may need to find and select the game. Direct playback cannot be guaranteed.</p></div></div>
 <div id="settingsOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Ticker settings"><div class="dialog"><h2>Scoreboard Settings</h2><div class="setting"><label for="speed">Scrolling speed</label><select id="speed"><option value="18">Slow</option><option value="32">Normal</option><option value="55">Fast</option></select></div><div class="setting"><label for="rows">Number of rows</label><select id="rows"><option value="3">3 rows</option><option value="4">4 rows</option><option value="5">5 rows</option></select></div><div class="setting"><label for="alertsEnabled">Game alerts</label><select id="alertsEnabled"><option value="on">On</option><option value="off">Off</option></select></div><div class="setting"><label for="filter">Games displayed</label><select id="filter"><option value="all">All Division I</option><option value="tv">YouTube TV or ESPN+</option></select></div><div class="actions"><button id="saveSettings">Save settings</button><button id="cancelSettings">Cancel</button></div><p class="note">Settings are saved in this browser. Use arrow keys and Enter on a remote. Press Down from the final row to reach pinned games.</p></div></div>
 <script>
@@ -500,9 +504,10 @@ async function load(){
   var data=await r.json();if(!Array.isArray(data.events))throw Error('No event list');
   var seen={};events=data.events.map(parse).filter(function(g){if(seen[g.id])return false;seen[g.id]=true;return true});
   applyRanks();lastScoreSuccess=Date.now();
+  if(typeof renderCrawl==='function')renderCrawl();
   // Rebuild category membership, scores and alert classes from the same snapshot.
   render();
-  $('updated').textContent='V8.6.5 · Updated '+new Date().toLocaleTimeString()+' · '+events.length+' games · Green = likely YouTube TV · Gold = ESPN+';
+  $('updated').textContent='V8.6.6 · Updated '+new Date().toLocaleTimeString()+' · '+events.length+' games · Green = likely YouTube TV · Gold = ESPN+';
  }catch(err){$('updated').textContent='Score feed unavailable · '+err.message+' · Last successful update '+(lastScoreSuccess?new Date(lastScoreSuccess).toLocaleTimeString():'none');if(!events.length)board.innerHTML='<div class="empty">Cannot load scores. Check internet connection or try again later. The free data feed may be temporarily unavailable.</div>'}
  finally{scoreLoadBusy=false}
 }
@@ -541,36 +546,91 @@ async function loadFuture(){
  found.forEach(function(g){enrichFavoriteNetwork(g)});
 }
 
-// College basketball headlines, independent of scoreboard refresh.
-var crawlX=0,crawlWidth=0,crawlLast=0,newsHeadlines=[];
-var NEWS_API='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=25';
+// HSN V8.6.6 Newswire: genuine ESPN basketball articles plus clearly labeled
+// game-derived headlines. No fabricated news and no unrelated sports.
+var crawlX=0,crawlWidth=0,crawlLast=0,newsHeadlines=[],newsArticles=[],lastNewsSuccess=0;
+var NEWS_API='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=60';
+var NEWS_MAX_AGE=7*24*3600000;
 function cleanHeadline(raw){
- var h=cleanFeedText(raw);
- // Some ESPN feeds contain a literal `undefined` where a possessive apostrophe belongs.
- h=h.replace(/([A-Za-z])undefineds\b/g,"$1's");
- h=h.replace(/undefined/gi,'').replace(/\s+/g,' ').trim();
- return h;
+ var h=cleanFeedText(raw).replace(/([A-Za-z])undefineds\b/g,"$1's").replace(/undefined/gi,'');
+ return h.replace(/\s+/g,' ').trim();
+}
+function safeArticleUrl(u){try{var x=new URL(String(u||''));return /^https?:$/.test(x.protocol)?x.href:''}catch(e){return ''}}
+function newsDate(a){
+ var d=a.published||a.lastModified||a.date||a.created||'';
+ if(typeof d==='number')return d<1e12?d*1000:d;
+ var n=Date.parse(d);return Number.isFinite(n)?n:0;
+}
+function newsCategory(h){
+ if(/\b(Kentucky|Wildcats|Mark Pope)\b/i.test(h))return 'KENTUCKY';
+ if(/\b(Iowa|Hawkeyes)\b/i.test(h))return 'IOWA';
+ if(/\b(injur|out for|suspend|coach|fired|hired|transfer|breaking|arrest|resign)\b/i.test(h))return 'BREAKING';
+ if(/\b(rank|top.?25|AP poll|no\. ?\d+|#\d+|upset)\b/i.test(h))return 'TOP 25';
+ return 'NCAA NEWS';
+}
+function normalizeArticle(a){
+ var headline=cleanHeadline(a.headline||a.title||'');
+ if(!headline||headline.length<18||/^(watch|video|photo gallery)\s*:/i.test(headline))return null;
+ var when=newsDate(a),now=Date.now();
+ if(when&&(when>now+3600000||now-when>NEWS_MAX_AGE))return null;
+ var links=a.links||{},url=safeArticleUrl((links.web&&links.web.href)||a.link||a.url||'');
+ return {headline:headline,category:newsCategory(headline),url:url,when:when};
+}
+function gameNews(){
+ var result=[],now=Date.now();
+ events.forEach(function(g){
+  var fav=isFavorite(g),ranked=g.awayRank||g.homeRank,important=fav||ranked;
+  if(!important)return;
+  var a=(g.awayRank?'#'+g.awayRank+' ':'')+g.awaySchool||g.away;
+  var h=(g.homeRank?'#'+g.homeRank+' ':'')+g.homeSchool||g.home;
+  // Always use real names and scores from the current ESPN scoreboard.
+  a=(g.awayRank?'#'+g.awayRank+' ':'')+(g.awaySchool||g.away);
+  h=(g.homeRank?'#'+g.homeRank+' ':'')+(g.homeSchool||g.home);
+  var category=fav?(g.awayId==='96'||g.homeId==='96'?'KENTUCKY':'IOWA'):'TOP 25';
+  if(g.state==='post')result.push({headline:a+' '+g.awayPoints+' – '+h+' '+g.homePoints+' · FINAL',category:'FINAL',url:'',when:now});
+  else if(g.state==='pre'&&g.date>=now&&g.date<now+18*3600000)result.push({headline:a+' vs '+h+' · '+new Date(g.date).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})+(g.network!=='Network not listed'?' · '+g.network:''),category:category,url:'',when:now});
+ });
+ return result.slice(0,10);
+}
+function newsPriority(x){
+ var weights={'BREAKING':80,'KENTUCKY':75,'IOWA':75,'TOP 25':55,'FINAL':45,'NCAA NEWS':20};
+ return (weights[x.category]||0)+(x.when?Math.max(0,12-(Date.now()-x.when)/3600000):0);
+}
+function buildNewswire(){
+ var seen={},all=newsArticles.concat(gameNews()).filter(function(x){
+  var key=x.headline.toLowerCase().replace(/[^a-z0-9]/g,'').slice(0,95);
+  if(seen[key])return false;seen[key]=true;return true;
+ });
+ all.sort(function(a,b){return newsPriority(b)-newsPriority(a)});
+ // Avoid a single team dominating the entire strip.
+ var limited=[],counts={};all.forEach(function(x){if(limited.length>=22)return;var k=x.category;if((counts[k]||0)>=(k==='NCAA NEWS'?7:6))return;counts[k]=(counts[k]||0)+1;limited.push(x)});
+ return limited;
 }
 function renderCrawl(){
- var headlines=newsHeadlines.length?newsHeadlines:['HSN COLLEGE BASKETBALL NEWS · Checking for the latest headlines'];
- var html=headlines.map(function(h){return '<span class="crawl-item">'+esc(h)+' <span class="crawl-sep">◆</span></span>'}).join('');
+ newsHeadlines=buildNewswire();
+ var html=newsHeadlines.length?newsHeadlines.map(function(h,i){
+  var content='<b class="news-category">'+esc(h.category)+'</b> '+esc(h.headline);
+  return '<span class="crawl-item">'+(h.url?'<a class="news-link" href="'+esc(h.url)+'" target="_blank" rel="noopener noreferrer" title="Open source article">'+content+'</a>':content)+' <span class="crawl-sep">◆</span></span>';
+ }).join(''):'<span class="crawl-item">HSN COLLEGE BASKETBALL NEWS · Checking for fresh headlines</span>';
  var el=$('crawlText');if(!el)return;
+ // Keep the ticker position between news refreshes when possible.
+ var progress=crawlWidth?crawlX/crawlWidth:0;
  el.innerHTML=html+html;
  crawlWidth=el.scrollWidth/2;
- crawlX=0;el.style.transform='translateX(0px)';
+ crawlX=progress*crawlWidth;el.style.transform='translateX('+(-crawlX)+'px)';
 }
 async function loadNews(){
  try{
-  var r=await fetch(NEWS_API,{cache:'no-store'});
+  var r=await fetch(NEWS_API+'&_hsn='+Date.now(),{cache:'no-store'});
   if(!r.ok)throw Error('HTTP '+r.status);
-  var data=await r.json();
-  var articles=Array.isArray(data.articles)?data.articles:[];
-  var headlines=Array.from(new Set(articles.map(function(a){return cleanHeadline(a.headline||a.title||'')}).filter(Boolean))).slice(0,20);
-  if(!headlines.length)throw Error('No headlines returned');
-  if(JSON.stringify(headlines)!==JSON.stringify(newsHeadlines)){newsHeadlines=headlines;renderCrawl()}
+  var data=await r.json(),articles=Array.isArray(data.articles)?data.articles:[];
+  var normalized=articles.map(normalizeArticle).filter(Boolean);
+  if(!normalized.length)throw Error('No fresh basketball headlines');
+  newsArticles=normalized;lastNewsSuccess=Date.now();renderCrawl();
  }catch(e){
-  console.warn('College basketball news unavailable:',e);
-  if(!newsHeadlines.length){newsHeadlines=['HSN COLLEGE BASKETBALL NEWS · News feed temporarily unavailable'];renderCrawl()}
+  console.warn('HSN basketball news unavailable:',e);
+  // Retain previously verified articles; otherwise show actual scoreboard-derived news.
+  renderCrawl();
  }
 }
 function animateCrawl(t){var dt=crawlLast?Math.min(t-crawlLast,100):0;crawlLast=t;var el=$('crawlText');if(el&&!paused&&!modal&&crawlWidth){crawlX=(crawlX+dt*.055)%crawlWidth;el.style.transform='translateX('+(-crawlX)+'px)'}requestAnimationFrame(animateCrawl)}
