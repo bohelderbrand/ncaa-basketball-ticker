@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:51:16.450611+00:00",
+  "updated": "2026-11-07T16:30:18.129231+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
@@ -46,23 +46,13 @@
   ],
   "articles": [
     {
-      "headline": "The latest injury update on Iowa basketball's Drew McKeever",
-      "source": "IOWA STORYLINES",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcHItUFBfWDZLTk0tczJuZVJuUHo2cFNVcGdmaE5UUmp1b2ZHSjByY2dOalZqbDQ5SW5Gd2R6SW05bzRxWUJKdEpTV1gxSlpudURleEJ1eDM5WUxSSDJDTktfQ0h0WTRJRlFrYnVYVnlOTFk2cGVmV3g1clNGUW1rLS1SZEtWQ1kxSUFyaVNPdkNkUnBZNmJRNlkzUlhHLXNHYmJGVGFyY1pMM1IzWFBLbmhhdW5vbklQQlhmc1BmVzJGYVF2bXdXZDJCM3lLYnE0bWFPRGRQeTNfOElFX19jTmJvdU9OVmMtOHNMUWUwaw?oc=5",
-      "published": "2026-11-07T04:31:00+00:00",
-      "via": "aggregated",
-      "score": 116.2,
-      "breaking": false
-    },
-    {
-      "headline": "Takeaways from Kentucky basketball's 89-80 win against JMU",
+      "headline": "Arizona men’s basketball recruiting: 5-star guard Adan Diggs sets commitment date",
       "source": "KENTUCKY",
       "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeW9qUFg2LV9ZOUNNb1Q4SHlUWGUyVGx2R2tMb2dyb1FiNjU5VUVwSVowdDNLOHJFXy0yVmxhUEVJaXhmX0ZUYjkyTDVMN3dVUVZFZU5ZU2wyMU5GZXh2UlNHNHB5NHZFbUVZZDRGRlgwUnQ5OFR6eWYybWZMT0ZnOTVqTnZmV3JOQnBpRDkyVGhNM3hMMEM5ZVZzZDBnaXJEQkkybWRtUzhWZG12bVcwSg?oc=5",
-      "published": "2026-11-07T02:13:05+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaUNIVmN3OXllWUVzTy1WNTBKeXI5cmJ6QnlESTNNcXI1aHptVmpwdlJTY1ZQQjZObHlHN1VMSXJ5YmlLcy1fUGhHS2NQQnhxTlF4amNaWGlLTU44VEJiUDJfTUdkUUZ4Wk12TWFyQ3BZQUd1TXdHbU1RQ2ROdnp4UU9QR2JvdDM4Zjd6YQ?oc=5",
+      "published": "2026-11-05T20:00:00+00:00",
       "via": "aggregated",
-      "score": 103.5,
+      "score": 105.2,
       "breaking": false
     },
     {
@@ -72,37 +62,7 @@
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNeC0tTWJZLU8zX0tLeXlJSEp4cU0wQ2dXY0FDeXFwdGV1c2NHLUxNY253M0tfNTE1Um5pMG9jRzlhVC02UnY4OFdtekZZV0hQSUt4ODZNSE91RjdQVlFCUmUxMUdjbDQ1MzhOUDRaUW9GLUx4empQdlhZX0VGQTZkZXc5aTRSRDVGelJ4dDBiWjFZZWhtQkNFal9HVlJrVG1HYS1ab1l1NXRTdzFlWjg5OXNCZ01Va1NGUjFmVkhXeU9mWGZVeGYycWlJeHFhckgtNXljbFRpNHhDdmlPXzFKd054TEtuVFdnRF9FNmVsek43NU0?oc=5",
       "published": "2026-11-07T04:54:00+00:00",
       "via": "aggregated",
-      "score": 104.3,
-      "breaking": false
-    },
-    {
-      "headline": "Arizona men’s basketball recruiting: 5-star guard Adan Diggs sets commitment date",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaUNIVmN3OXllWUVzTy1WNTBKeXI5cmJ6QnlESTNNcXI1aHptVmpwdlJTY1ZQQjZObHlHN1VMSXJ5YmlLcy1fUGhHS2NQQnhxTlF4amNaWGlLTU44VEJiUDJfTUdkUUZ4Wk12TWFyQ3BZQUd1TXdHbU1RQ2ROdnp4UU9QR2JvdDM4Zjd6YQ?oc=5",
-      "published": "2026-11-05T20:00:00+00:00",
-      "via": "aggregated",
-      "score": 105.4,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball schedule for Saturday: Maryland-Georgetown rivalry and VCU-Memphis lead the way",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMEZFSHdwVHp4Z1FVT2dTTUYwdkxwcTUyZ0FUQ1h2MHU0Qzl3UjNOaTU2aHUzdkpiWm1vdElUYnlnVkV0b1JVTnNEMm5RQUZsdUVvNjhvRVZOZ1c3c0x5MV9UeEdQeWlYMG1QYkRaWElhR0JuYno0aENJWFBjeDZqVVFQWUVtLS1JMU9BSkJXLWNPSFdxYkpHNHpqQk92aEtSRG5tUWxERjUzNkZUZmpnRUlFYXZmT0ZRMm5LdVQyRXBXLVhvNjQ0Tm5XWlVUQ3Y4dHc?oc=5",
-      "published": "2026-11-07T12:05:10+00:00",
-      "via": "aggregated",
-      "score": 100.7,
-      "breaking": false
-    },
-    {
-      "headline": "A closer look at why Jaidyn Coon dazzled in Iowa basketball debut",
-      "source": "IOWA STORYLINES",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMzVfNFRMeEtCWk9Qc3hzemY5VUtkUElJbU1hTlV6QjdnMGxrMWl1WFFaQ3NKMjR3R3JMblJlTVBoVFgtQUpCbmJyVTQzanZubXZBUFF5NWRLVWhnN1B5eDh5T0xidGpoZmxnM1diOUxObWRhWWdGajMyZExXYThPVk1SUU9rbV9TcDAtLVJad0tYS3pTVU9pTXFtUVNZcXFVTExuMzhycGU0a3RmbGNEMmhVS1liOEJoVVNtX0ZvcFFUUzRpWWRIcG5zY2pUSVRVUjZEWTNfYUlGa0sxOE5hYlRrTDA5X1F4aFdoQ0tEMDV2Mi1US1E?oc=5",
-      "published": "2026-11-06T12:01:00+00:00",
-      "via": "aggregated",
-      "score": 98.7,
+      "score": 104.1,
       "breaking": false
     },
     {
@@ -112,7 +72,67 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ0FUQTJSTWtSZkUwZDJRT1IwR2NKT2xaUHBTXzRidkF3a1ZEd0tZYlhJMzI1ZFZYNzBnbUluOGZlQlFHeWpXQ09FQXRJU1lVcHRIM01ZMU12N1JIN1IzLUtjMUFSU1k5eENoVjV2NHBGX19ySjFBb016Slp6RDBhT3lyb3R6OGpSS0lyaDNidlp0aDlPWXc?oc=5",
       "published": "2026-11-06T23:02:28+00:00",
       "via": "aggregated",
-      "score": 114.4,
+      "score": 114.2,
+      "breaking": false
+    },
+    {
+      "headline": "21 years in the making: How a prayer led to Valparaiso men's basketball's historic win over Purdue",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-07/21-years-making-how-prayer-led-valparaiso-mens-basketballs-historic-win-over",
+      "published": "2026-11-07T14:17:53+00:00",
+      "via": "direct",
+      "score": 91.3,
+      "breaking": false
+    },
+    {
+      "headline": "NASCAR Homestead qualifying channel today, time, TV schedule for Cup Series championship race",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ01DYW5rVUwxUnEyTXVyUVZRU2JMa3dxSlZfZnBibGNIYmg0bVRsb24zXzVZeWxRLUVIbWxMUjlrREM5VmQzSVJxZXNQMUJBRlgzRko2MV9PRkJqbnNjS2FvemNoUVo3R2Qwbkl5bkJFY1MyeEVZSUFldGRXT01vY0g0ZVM5M1F1TXkwRFNzMVdfVU1meUdWNTVTU2pWQ2JxdE1lOGt5eFRmRmh4cTNFb3E0V19kZkQwZHNMS2tQWlZsLUJyMUlNSjJYOGY5aDZQSkctbzZTUQ?oc=5",
+      "published": "2026-11-07T11:00:00+00:00",
+      "via": "aggregated",
+      "score": 90.2,
+      "breaking": false
+    },
+    {
+      "headline": "Top 2027 basketball recruit Cherif Millogo commits to Kentucky",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZVNpZWZ6Vk5udDlZei1lVk5CUWo3S0t3VFJwOE9UbG55RzBnaW1fN0tWNENQUm01NlFfOXNEc3JVVWZTaWtxYncwZVlLNHA2dHdkOFVqOVlNREpNY1hOVHZEb1owb09oMVM4U2M2WnhvS0RrTUpwLVk1UHRidHh1X3FyRlN3WEJKaDhSZUsxUGdjeDZNWWtQUTV4VXM0V01OTlB6cHhVTGVPU2s?oc=5",
+      "published": "2026-11-04T19:42:35+00:00",
+      "via": "aggregated",
+      "score": 97.1,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball schedule for Saturday: Maryland-Georgetown rivalry and VCU-Memphis lead the way",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMEZFSHdwVHp4Z1FVT2dTTUYwdkxwcTUyZ0FUQ1h2MHU0Qzl3UjNOaTU2aHUzdkpiWm1vdElUYnlnVkV0b1JVTnNEMm5RQUZsdUVvNjhvRVZOZ1c3c0x5MV9UeEdQeWlYMG1QYkRaWElhR0JuYno0aENJWFBjeDZqVVFQWUVtLS1JMU9BSkJXLWNPSFdxYkpHNHpqQk92aEtSRG5tUWxERjUzNkZUZmpnRUlFYXZmT0ZRMm5LdVQyRXBXLVhvNjQ0Tm5XWlVUQ3Y4dHc?oc=5",
+      "published": "2026-11-07T12:05:10+00:00",
+      "via": "aggregated",
+      "score": 100.5,
+      "breaking": false
+    },
+    {
+      "headline": "Takeaways from Kentucky basketball's 89-80 win against JMU",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeW9qUFg2LV9ZOUNNb1Q4SHlUWGUyVGx2R2tMb2dyb1FiNjU5VUVwSVowdDNLOHJFXy0yVmxhUEVJaXhmX0ZUYjkyTDVMN3dVUVZFZU5ZU2wyMU5GZXh2UlNHNHB5NHZFbUVZZDRGRlgwUnQ5OFR6eWYybWZMT0ZnOTVqTnZmV3JOQnBpRDkyVGhNM3hMMEM5ZVZzZDBnaXJEQkkybWRtUzhWZG12bVcwSg?oc=5",
+      "published": "2026-11-07T02:13:05+00:00",
+      "via": "aggregated",
+      "score": 103.2,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: UCLA holds firm in Top 25 And 1 as star freshman Nikola Kusturica shines",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-ucla/",
+      "published": "2026-11-07T15:23:32+00:00",
+      "via": "direct",
+      "score": 91.6,
       "breaking": false
     },
     {
@@ -122,15 +142,55 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVldhTm1pR05qRGhnTXUxWkJoOHVUdDRlREdNVGNsZjB0dXJ0VzAwUzBvSjdkdEwtaTJSeXBqb2t4eXhIdGxXbmlhN3MyYUpILVR1LVZTNEhwYnNWb1NYVkN0Wl9NMXRQSzdSbG5UaWVHbEZ2M2JNZ1JRM2pNRWM0MTVwOURfdmxsemlwUGhPRzhmRFBOanJURURTQU1jejIyQmN4ZzRHRzNuc29iYmRUbFlpdUFFejNKTkRIdlV2QlpveDVYNUhMLXZLUTNxWktjakE?oc=5",
       "published": "2026-11-07T04:40:48+00:00",
       "via": "aggregated",
-      "score": 104.3,
+      "score": 104.1,
       "breaking": false
     },
     {
-      "headline": "Early top-10 men's basketball recruiting class rankings",
-      "source": "ESPN",
+      "headline": "No. 23 Kentucky Men’s Basketball Moves to 2-0, Defeats JMU 89-80",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAySDdFWEI1YVVmUlJtYjgxQmtvblpZVzVrOVA5S2ZPMXB5SFJBdTA0Q09wdHpPLVNjeFVBY2ZtOXotUUZSUUxYRmE1UDV1Slg3S05HS2JMbEhVMkI3SlZvdnVDY3dyN2dTQmVGUG5VLTFMang2bGxN?oc=5",
+      "published": "2026-11-07T02:11:32+00:00",
+      "via": "aggregated",
+      "score": 103.2,
+      "breaking": false
+    },
+    {
+      "headline": "Iowa Basketball: Five-Day After Thoughts From The Hawkeyes' 91-47 Win Over Eastern Illinois",
+      "source": "IOWA STORYLINES",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZkczdE0yMjlQbnM2NXVPN3dnVEhpWnFfamFZTlZZVXFpWW80YmJlSUVRMkxhMTdueXBmenFhS2Z6bkFybkRwZzdtV0tidWxYUkt6cEl2NDlWMElQTlgxaGVLQ2dScVI0bjVqSDJha1g0dGx1RlotSmE5Z1lFU3NFcXdaeWRsVUUtSEZwUkdMUXBZRlBPaUgxMFlBSGljMUlGTWVnaEppVmJUVEFsSXliUFowekxFVmlZS3RZa1RjMzk3aU9NY3c?oc=5",
+      "published": "2026-11-07T14:19:58+00:00",
+      "via": "aggregated",
+      "score": 107.3,
+      "breaking": false
+    },
+    {
+      "headline": "2026 NASCAR Cup Series Championship race at Homestead-Miami Speedway Paint Schemes",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd3l4QnZjYmpiMElyLWxGV3J5ZWlLVmd5UzRGODdOTkI1UFhSOF9wX3k1SWxuNTdWS0hWRlZUZHpXUEczc3VNaFNLekhCMEpJNElGb0RLamNITEdmaHpZbHMteEw5M0ROSHhPQnFZeW9vdVRRd21fMlJXdnZkWDBhRFdRS3JKREljOVhoOW5YVGQybmRtdjVNcEVndzE4UzZiNHBnVjZxLVBCdTZKYXV4VnBjaVc4UW00ajA5aTd6ZEhFSm9SUzJXRS03SU5waVB5UFZ5YlRZcS1oTjRBdEE?oc=5",
+      "published": "2026-11-07T11:44:08+00:00",
+      "via": "aggregated",
+      "score": 90.4,
+      "breaking": false
+    },
+    {
+      "headline": "The latest injury update on Iowa basketball's Drew McKeever",
+      "source": "IOWA STORYLINES",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcHItUFBfWDZLTk0tczJuZVJuUHo2cFNVcGdmaE5UUmp1b2ZHSjByY2dOalZqbDQ5SW5Gd2R6SW05bzRxWUJKdEpTV1gxSlpudURleEJ1eDM5WUxSSDJDTktfQ0h0WTRJRlFrYnVYVnlOTFk2cGVmV3g1clNGUW1rLS1SZEtWQ1kxSUFyaVNPdkNkUnBZNmJRNlkzUlhHLXNHYmJGVGFyY1pMM1IzWFBLbmhhdW5vbklQQlhmc1BmVzJGYVF2bXdXZDJCM3lLYnE0bWFPRGRQeTNfOElFX19jTmJvdU9OVmMtOHNMUWUwaw?oc=5",
+      "published": "2026-11-07T04:31:00+00:00",
+      "via": "aggregated",
+      "score": 116.0,
+      "breaking": false
+    },
+    {
+      "headline": "Nolan Winter - College Basketball News & Rumors",
+      "source": "FOX SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdFF2ejhBS3dRYUFZNDl6c0hCYWk4WVl3T2VoU1N0ZE1QUndxUnZYS1AtZGRoTHZWZzhfMHhhQnhtOTZtamt1SURYdEVtb2MzNWhlcjNLdzBhdlFJRHQxQ0xyWTcxa0Z3NWZKbXJtLWk0ZUozSHlPYXlMUExLT3ZLNXR2ZkRYWjlNMUYxWlNTaUs1MEg3eldXTzB0RDVLRTR6YnFUTTZ6d2hlUV9FTE9hZA?oc=5",
-      "published": "2026-11-05T15:50:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0wZFdJbWEzcnRPRE1WR0NUVEkxeTBZbC13WE1TLVB3aFJfak50Y2tkaDN5SUtBdWdrSzdmMGhZa0V5Vlh5Zm5mMDdoelp1SFRwU1lsYngzNjhIblFtVFo0QkV5cFlXSFVGQmpVZWFJemRTZw?oc=5",
+      "published": "2026-11-07T04:23:57+00:00",
       "via": "aggregated",
       "score": 88.0,
       "breaking": false
@@ -142,47 +202,17 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU25faTdNVVA0Ym9melJTMldxOUhaamN4TFNYTlUxRGhIbHR1d1VnbmR0eEd3Y1pBLTJVdzYwQ1pJRzBiVzhVSkpnT0pCamRUdWJwZEJCRUNROWNSVWlLM3RTTXlGYmVPaXJrazhwS2R3RmdOcXBpWjlGb3NPVFJ2aEE5Zks0TU5jQmpVRDhn?oc=5",
       "published": "2026-11-05T12:00:09+00:00",
       "via": "aggregated",
-      "score": 102.7,
+      "score": 102.5,
       "breaking": false
     },
     {
-      "headline": "2026 Men's College Basketball Odds: Who Will Win Each Power Conference?",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTZSc2djOGlva0s1cFZfYTVHcVU1R2FYSDJEYWhJYXVQWUkyUEJpX1AzWEpmQkdxM1YxenE2OTRNWEdCdDRGamtzal96OUZiQXVWUmVXV0tXMDd0UGU4alFXckhwSGxianh2VmtldTBSb1hKRHFmVGhQZTVMNE9sNnBQRXVuT2tTNEZhTmtQQjBuOUZYZDF6aXpUOEl5S3c1bnkyX0Q2MHk0WjVsYkdPd2JBc2JDYlNCZzlTS25Qd3hGd9IBwgFBVV95cUxPSlVFZnJWWEc5Xzh2VU90aHA4dFFiRDVpQTFHa1ZoUHJvekg2dkZFR2w1ZmRpME0xUENYNnFId2xSeER6ZlNETjdXYTFCcHQtd0xHTzJMZDJrZzBoN2NHcFBTODZLNkRMeVBTdFZTTHV6ZU01ckxqUWxtTGlkaVJmc2M2dXJLRmhVNlZ0WjRKbUVodFZkazVnMHJsZ1ZNS0FiY0hUR0lXY0JicXVITnFCOGZILTRORUdOOUpMU0VETkpZdw?oc=5",
-      "published": "2026-11-04T21:24:02+00:00",
+      "headline": "NASCAR Homestead predictions 2026, expert picks for Cup Series championship race",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWkZNdVJPbVVxTkI5WmFKaE91SkpRR1NxNkhUcGEwSUtxNjhiS2p4X1JxSEFGNmVENjBXWm9QZVNPMVBDTFRQdzhRdlZaVlY0SEpmOF93dDhfWENYd2ZaQU10cEhWV3hvbUwycHowVW9KM0Z4UW9UU1JhWjFWaWk5YjhaaUdmcGlSc0hYalZjTHFJWDA?oc=5",
+      "published": "2026-11-07T11:00:50+00:00",
       "via": "aggregated",
-      "score": 77.8,
-      "breaking": false
-    },
-    {
-      "headline": "College Football Predictions, Upset Picks Today: Texas, Florida State on Alert?",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdlBacExFOWlMejU3TzBEYWJwblFiclVwMXhOTnJQRUhrdGdSYjdXMXNIbnBGLVlsazhqSktVN3pQRHYtcC02c1BuUUdTS3g2U0V5UjhNTkwtMXZIb2tWZU54RC0xZ095OXFXaTBsN1BpQnkyQ0Z6Vl9ZWEFuWGs0Vmo0VFRYQ2VjWGVDX0dUTFRUc2NWS09Tem4yN1JmSlNzZlBVMVVYWC01UWtNcV9QTzRkV0NPdnM?oc=5",
-      "published": "2026-11-07T13:03:20+00:00",
-      "via": "aggregated",
-      "score": 91.1,
-      "breaking": false
-    },
-    {
-      "headline": "8 decades, 8 champions: College basketball teams celebrating anniversaries this season",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbXI2c1pxX29lSzhWMWxKSmRleFpYR0stb2VQZE1ZTWdNeXliaUVseG10WERIa2JIYVZGYkN6Tzg3WXd1QzY1V1NNQ3lGTkp4TFpzMFdvUnRsNmxKRXEtVmxXRnd4Q3czU0dTNkhBS2h6dXZFNE00a3lzUHV3SEozeWx6OXRKVkw2LUxoaEVnTVoyTzJ2Z2kwZ1lRUXVBRzIxWWxZQ3B2RUhyVkxJQUtxc3NnOWU2MkNXOGN5OGJIVFNQdWN5dS1hNmtSM3p1RmNQWTVQRGlR0gHbAUFVX3lxTE9TN0JVSzVqRkhOTnJqeHdlOVVDSE5Wa3huQnl5MG0zbGliV3BzYkZocUdOaC1aMFF0X25ualdxZS1mRWtRdnJUeW4xVnFGMkhXSkdfR3BnTzJMUUJ2TFcyemhCaE5EcDVqd2pYS1BKQTdMWHhnRG9hRGZlUjVTeElkenZFaFAtcnhnX0ZleFRRTmQ2NWw5dW9RdE9qYklaMmNteVBnanJDRkdNTy1XZldEZXp3cU9mQTZYMnRiOE5kWTVzR2ZrWG5aMDM2Y0NaRDZ2dm81MkF2cmpRWQ?oc=5",
-      "published": "2026-11-05T22:18:52+00:00",
-      "via": "aggregated",
-      "score": 98.2,
-      "breaking": false
-    },
-    {
-      "headline": "Top 2027 basketball recruit Cherif Millogo commits to Kentucky",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZVNpZWZ6Vk5udDlZei1lVk5CUWo3S0t3VFJwOE9UbG55RzBnaW1fN0tWNENQUm01NlFfOXNEc3JVVWZTaWtxYncwZVlLNHA2dHdkOFVqOVlNREpNY1hOVHZEb1owb09oMVM4U2M2WnhvS0RrTUpwLVk1UHRidHh1X3FyRlN3WEJKaDhSZUsxUGdjeDZNWWtQUTV4VXM0V01OTlB6cHhVTGVPU2s?oc=5",
-      "published": "2026-11-04T19:42:35+00:00",
-      "via": "aggregated",
-      "score": 97.3,
+      "score": 90.2,
       "breaking": false
     },
     {
@@ -192,127 +222,37 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0g4b2xKQi16cm1ISjBoUDFIclNKUmxwcmI5TnV6WElPZFlBSm55TXNMc3BJQTJkazZzVHVNU2x5VDVBNzZaNDNLWDhKZ3Ata2plOWUzNnBWNHc4Q244STJPSzhZXzhySGo2N2ZpMkZFcDBlZmZEOENvSlFiWEFjbWVxVnllZTE5SkJQN1F0Z1lnVUZDdGZ3TE1MMGkwTFgzOVBUMmlremRkZkE?oc=5",
       "published": "2026-11-05T22:28:13+00:00",
       "via": "aggregated",
-      "score": 88.2,
+      "score": 88.0,
       "breaking": false
     },
     {
-      "headline": "5 College Football Teams On Upset Alert In Week 10",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPYmk5bTk5SER1V0xrWF83MGNnWUNFSjlmX1lteXJoYk1HVzkzRy10SUs3RzRoS2JjLXNpQ0xBcjRXcU1URzJtMGoxa0dMdEM1YTZxSWZtSXdXTUIyX2g2UXZZNmF0alpvSk4teGVwNF9obmxjNDdrWnYtRWJvbkQzVF9jaHd2RjlDSkY4Z1VKSEFGNzRpMmk0aVFBS04tbk01UFdNbHotTWJTWXFCSGp1WVhUU2lzN3d1UnhlMWEyY1l4bW81MmFyZWJFbWJ4MU1FR05RTVlIWjFHbG1TWG5fT1VOeDJjMV9wRGpfazhRVkQwaWJrSkdaOE5rRjdDUQ?oc=5",
-      "published": "2026-11-07T11:00:00+00:00",
-      "via": "aggregated",
-      "score": 90.4,
-      "breaking": false
-    },
-    {
-      "headline": "No. 23 Kentucky Men’s Basketball Moves to 2-0, Defeats JMU 89-80",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAySDdFWEI1YVVmUlJtYjgxQmtvblpZVzVrOVA5S2ZPMXB5SFJBdTA0Q09wdHpPLVNjeFVBY2ZtOXotUUZSUUxYRmE1UDV1Slg3S05HS2JMbEhVMkI3SlZvdnVDY3dyN2dTQmVGUG5VLTFMang2bGxN?oc=5",
-      "published": "2026-11-07T02:11:32+00:00",
-      "via": "aggregated",
-      "score": 103.4,
-      "breaking": false
-    },
-    {
-      "headline": "Nolan Winter - College Basketball News & Rumors",
-      "source": "FOX SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0wZFdJbWEzcnRPRE1WR0NUVEkxeTBZbC13WE1TLVB3aFJfak50Y2tkaDN5SUtBdWdrSzdmMGhZa0V5Vlh5Zm5mMDdoelp1SFRwU1lsYngzNjhIblFtVFo0QkV5cFlXSFVGQmpVZWFJemRTZw?oc=5",
-      "published": "2026-11-07T04:24:39+00:00",
-      "via": "aggregated",
-      "score": 88.2,
-      "breaking": false
-    },
-    {
-      "headline": "Virginia Basketball Stock Report After Win Over Drexel: Who is trending up?",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZWtWT0RQbHZORE9OLUVvLXVoUWNaS2ttQWduNEZXVEQ1M2JBYTFhcHBVMDducEF1NGNFVHFHVVVLbHdkSUNYamotdlVDcm1nWG9pMEhEQ1dOLVMxbnB2NjJzOW9JODY4UDQ2ZVZUTGlLUmpIX0kwR21rNXQ3My02NDJVOVV2TWpibnVaVlRkZnlaQVYtcGIyVUxPdVZmc0J0TUgtWFhxYjZVd19lYlUwU1R3dHB1TVVSRkJoYlF4Sm0wV3JMQ2RJZDVncw?oc=5",
-      "published": "2026-11-05T17:47:36+00:00",
-      "via": "aggregated",
-      "score": 84.6,
-      "breaking": false
-    },
-    {
-      "headline": "Saint Louis star Robbie Avila granted preliminary injunction, but CSC blocks return due to roster-limit crunch",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/robbie-avila-saint-louis-eligible-granted-preliminary-injunction/",
-      "published": "2026-11-06T22:01:02+00:00",
-      "via": "direct",
-      "score": 86.1,
-      "breaking": false
-    },
-    {
-      "headline": "Central Michigan places basketball coach Andy Bronkema on leave without announcing explanation",
+      "headline": "2026 Men's College Basketball Odds: Who Will Win Each Power Conference?",
       "source": "TOP 25",
       "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOci04TFBTMXp1WHFJVUg0NFl4eUN0elZaZ1h4aXliVFI3alY3TGV6a2RERFRLeUxlN2hQRml6UUFoZGxzcWV3YmFMU2VqRXczR3AzdHVPcThOVjd3TW1FOXNSdVBSalR0dGtNaFZVZU1wb3JtbGMxRWRTRGQwMU01MHRFMEIyRk5ZZXEzT29EQjRCN01SUi1VbU02YTM1cXVlSzFVblN1eUZiSUk0Tllyb2lJS3I5SlZ0cU5sRnZCNFFXaGo4Z082VUduck5xdw?oc=5",
-      "published": "2026-11-05T22:53:56+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTZSc2djOGlva0s1cFZfYTVHcVU1R2FYSDJEYWhJYXVQWUkyUEJpX1AzWEpmQkdxM1YxenE2OTRNWEdCdDRGamtzal96OUZiQXVWUmVXV0tXMDd0UGU4alFXckhwSGxianh2VmtldTBSb1hKRHFmVGhQZTVMNE9sNnBQRXVuT2tTNEZhTmtQQjBuOUZYZDF6aXpUOEl5S3c1bnkyX0Q2MHk0WjVsYkdPd2JBc2JDYlNCZzlTS25Qd3hGd9IBwgFBVV95cUxPSlVFZnJWWEc5Xzh2VU90aHA4dFFiRDVpQTFHa1ZoUHJvekg2dkZFR2w1ZmRpME0xUENYNnFId2xSeER6ZlNETjdXYTFCcHQtd0xHTzJMZDJrZzBoN2NHcFBTODZLNkRMeVBTdFZTTHV6ZU01ckxqUWxtTGlkaVJmc2M2dXJLRmhVNlZ0WjRKbUVodFZkazVnMHJsZ1ZNS0FiY0hUR0lXY0JicXVITnFCOGZILTRORUdOOUpMU0VETkpZdw?oc=5",
+      "published": "2026-11-04T21:24:02+00:00",
       "via": "aggregated",
-      "score": 98.3,
+      "score": 77.6,
       "breaking": false
     },
     {
-      "headline": "TCU Horned Frogs Look to Upset Arizona Wildcats in College Football Showdown",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMjlycGsxVUVCaE9pbjQ2Y2ZBMnd4V0JvUUFINXNiREMzckNENk1CNGpMNjZaWlFQQ1BrT3kxMUdoTi1RU2p3ZFQ5MEpGb1dheXJjYXJqX2xrVWhmWlQyT3hLNC1KTGpmazNUUVJ4VGNtMmhOazhhWjlfTWJpR3ZlcVA3Q19fT3JRNGwxQ3lFd0EyOThkMmR0UHdKT2ZpNC02azY5d3lB?oc=5",
-      "published": "2026-11-07T02:42:18+00:00",
+      "headline": "Detroit Lions’ Key Positions of Need Before NFL Trade Deadline Revealed",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnRqWFd2Zm4weUdReW52UjVxazc4VEduc2VtOTRlZktpQXZGNFA4OHktSVJDeWg3WHJFTDRkVG93QVU0Rm5DQmltdkFqb28xdzcxVVM3Q3hOVnM0OHRkV2c4UDFhZUhiTDhmaDB6Q19pcFN5LTlkSms0VjJSWW5xYjk2OHl2TkU?oc=5",
+      "published": "2026-11-07T16:03:51+00:00",
       "via": "aggregated",
-      "score": 87.6,
+      "score": 79.9,
       "breaking": false
     },
     {
-      "headline": "2026 NASCAR Cup Series Championship race at Homestead-Miami Speedway Paint Schemes",
-      "source": "RACING",
-      "category": "RACING",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd3l4QnZjYmpiMElyLWxGV3J5ZWlLVmd5UzRGODdOTkI1UFhSOF9wX3k1SWxuNTdWS0hWRlZUZHpXUEczc3VNaFNLekhCMEpJNElGb0RLamNITEdmaHpZbHMteEw5M0ROSHhPQnFZeW9vdVRRd21fMlJXdnZkWDBhRFdRS3JKREljOVhoOW5YVGQybmRtdjVNcEVndzE4UzZiNHBnVjZxLVBCdTZKYXV4VnBjaVc4UW00ajA5aTd6ZEhFSm9SUzJXRS03SU5waVB5UFZ5YlRZcS1oTjRBdEE?oc=5",
-      "published": "2026-11-07T11:44:08+00:00",
+      "headline": "8 decades, 8 champions: College basketball teams celebrating anniversaries this season",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbXI2c1pxX29lSzhWMWxKSmRleFpYR0stb2VQZE1ZTWdNeXliaUVseG10WERIa2JIYVZGYkN6Tzg3WXd1QzY1V1NNQ3lGTkp4TFpzMFdvUnRsNmxKRXEtVmxXRnd4Q3czU0dTNkhBS2h6dXZFNE00a3lzUHV3SEozeWx6OXRKVkw2LUxoaEVnTVoyTzJ2Z2kwZ1lRUXVBRzIxWWxZQ3B2RUhyVkxJQUtxc3NnOWU2MkNXOGN5OGJIVFNQdWN5dS1hNmtSM3p1RmNQWTVQRGlR0gHbAUFVX3lxTE9TN0JVSzVqRkhOTnJqeHdlOVVDSE5Wa3huQnl5MG0zbGliV3BzYkZocUdOaC1aMFF0X25ualdxZS1mRWtRdnJUeW4xVnFGMkhXSkdfR3BnTzJMUUJ2TFcyemhCaE5EcDVqd2pYS1BKQTdMWHhnRG9hRGZlUjVTeElkenZFaFAtcnhnX0ZleFRRTmQ2NWw5dW9RdE9qYklaMmNteVBnanJDRkdNTy1XZldEZXp3cU9mQTZYMnRiOE5kWTVzR2ZrWG5aMDM2Y0NaRDZ2dm81MkF2cmpRWQ?oc=5",
+      "published": "2026-11-05T22:18:52+00:00",
       "via": "aggregated",
-      "score": 90.6,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Duke's talented roster set to take center stage Thursday night",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-duke-talented-roster/",
-      "published": "2026-11-05T17:41:18+00:00",
-      "via": "direct",
-      "score": 76.6,
-      "breaking": false
-    },
-    {
-      "headline": "Big 12 football Week 10 schedule: Full slate, top games and upset pick",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XaldGTXhGdDZZVXZGVWpzX3BLVVBkUVZGdnBWcXVKcFZBRkxLdDMwZTd6ZkwxUk1LS2pBZ1B2MFVyNmppZGZ4X1l6Z0N4TXZSbklIMEYzWUdVRHNFVFlTeFJhZEpldjJLazdDRHZLeUhJbWxQU2xmTVdtaDM?oc=5",
-      "published": "2026-11-06T21:01:46+00:00",
-      "via": "aggregated",
-      "score": 85.7,
-      "breaking": false
-    },
-    {
-      "headline": "Bryce James scores his first college basketball points",
-      "source": "NCAA.COM",
-      "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/video/basketball-men/2026-11-06/bryce-james-scores-his-first-college-basketball-points",
-      "published": "2026-11-06T14:24:57+00:00",
-      "via": "direct",
-      "score": 83.5,
-      "breaking": false
-    },
-    {
-      "headline": "UNI men’s basketball defeats Upper Iowa in exhibition match",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTmZnb2pQWU5JakthV0VMMTR5bVJrakZpeWFvdVk2N2Nha3MtRlZuWFBMTjIyOTY0NHNWalR4ZjBUbHVMMHRER1BJV3JwT1JCWmlGZ0dSZWpxU0J6TkZWMjBXZks4cVdZQkZOcERXeXkydnl3NTNKUDZ4S0NlSlF3S3lhQ0FNY1Z6R3hiaDlUd2NDY25aLTFiSmpJTk40VVBkNkxVXw?oc=5",
-      "published": "2026-11-05T00:41:37+00:00",
-      "via": "aggregated",
-      "score": 86.9,
+      "score": 97.9,
       "breaking": false
     },
     {
@@ -322,47 +262,77 @@
       "url": "https://www.cbssports.com/college-basketball/news/grading-lsu-will-wade-unc-michael-malone-duke-acaden-lewis/",
       "published": "2026-11-04T17:06:18+00:00",
       "via": "direct",
-      "score": 80.4,
+      "score": 80.2,
       "breaking": false
     },
     {
-      "headline": "Iowa State Basketball Has One Player Make NBA Draft Big Board",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTRjT09nNlNsVjNucy1KVnBvT2ZqSGVUc0haSk5wMEtVY1dQbUNhUWM2dDdpOWJIOVdveV9NWkJvY0l0TV9lcGdmMXJEVFVENmo3WVd4VlNaYUdvQ01sbzRsek4xSFc4ZUFYZmVUekZQaU1HWmlaOFZoM3BNQWNPQVdfV1V6LURxS1hOZUVMWVlkaDFXS21idWhkSFRNNzVXRjBnTzdiX3l0Q2l3ZTBR?oc=5",
-      "published": "2026-11-06T12:00:00+00:00",
+      "headline": "Virginia Basketball Stock Report After Win Over Drexel: Who is trending up?",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZWtWT0RQbHZORE9OLUVvLXVoUWNaS2ttQWduNEZXVEQ1M2JBYTFhcHBVMDducEF1NGNFVHFHVVVLbHdkSUNYamotdlVDcm1nWG9pMEhEQ1dOLVMxbnB2NjJzOW9JODY4UDQ2ZVZUTGlLUmpIX0kwR21rNXQ3My02NDJVOVV2TWpibnVaVlRkZnlaQVYtcGIyVUxPdVZmc0J0TUgtWFhxYjZVd19lYlUwU1R3dHB1TVVSRkJoYlF4Sm0wV3JMQ2RJZDVncw?oc=5",
+      "published": "2026-11-05T17:47:36+00:00",
       "via": "aggregated",
-      "score": 98.7,
+      "score": 84.4,
       "breaking": false
     },
     {
-      "headline": "Cherif Millogo, 5-star 2027 center, commits to Kentucky basketball",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSk1pbmJVY180NWdsYmFqWGpUaVRYSk5WZWowUjZoa2dQT25QT1NDeHhCTUNNVzVSa2tnVUZTTmlXdFJ6R3ktVHdnVDZJb2RILTV6amROM2d5QUZJVGRmU3B3UGVjTThkbXNMWjFtZ0p5Vl9Xam93QjlMMkEweFVidFNRN0xLZTNybXg5MlJOcmNWUERvbGJrNWlYaDltZ0g4TmxJMU1MOEt4d0Z2blAxT2ktTnppVEU2TGF4Nl9QT2xLd3B2VUVfYzhVcV85WjVjNlA3RmhIdUgwQXFOT2hQLW1sa1ZpQXJhbWVPa1hTaTl5Mmlxck0zckFwRG1mSl9xNlMtZmF6RTE2WE9fMkpF?oc=5",
-      "published": "2026-11-04T16:20:00+00:00",
+      "headline": "Early top-10 men's basketball recruiting class rankings",
+      "source": "ESPN",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdFF2ejhBS3dRYUFZNDl6c0hCYWk4WVl3T2VoU1N0ZE1QUndxUnZYS1AtZGRoTHZWZzhfMHhhQnhtOTZtamt1SURYdEVtb2MzNWhlcjNLdzBhdlFJRHQxQ0xyWTcxa0Z3NWZKbXJtLWk0ZUozSHlPYXlMUExLT3ZLNXR2ZkRYWjlNMUYxWlNTaUs1MEg3eldXTzB0RDVLRTR6YnFUTTZ6d2hlUV9FTE9hZA?oc=5",
+      "published": "2026-11-05T15:50:00+00:00",
       "via": "aggregated",
-      "score": 84.2,
+      "score": 87.8,
       "breaking": false
     },
     {
-      "headline": "NFL injury tracker Week 9: Latest news, fantasy implications as 49ers' Mike Evans, Deebo Samuel out; Giants' Cam Skattebo doubtful",
+      "headline": "Central Michigan places basketball coach Andy Bronkema on leave without announcing explanation",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOci04TFBTMXp1WHFJVUg0NFl4eUN0elZaZ1h4aXliVFI3alY3TGV6a2RERFRLeUxlN2hQRml6UUFoZGxzcWV3YmFMU2VqRXczR3AzdHVPcThOVjd3TW1FOXNSdVBSalR0dGtNaFZVZU1wb3JtbGMxRWRTRGQwMU01MHRFMEIyRk5ZZXEzT29EQjRCN01SUi1VbU02YTM1cXVlSzFVblN1eUZiSUk0Tllyb2lJS3I5SlZ0cU5sRnZCNFFXaGo4Z082VUduck5xdw?oc=5",
+      "published": "2026-11-05T22:53:56+00:00",
+      "via": "aggregated",
+      "score": 98.1,
+      "breaking": false
+    },
+    {
+      "headline": "Saint Louis star Robbie Avila granted preliminary injunction, but CSC blocks return due to roster-limit crunch",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/robbie-avila-saint-louis-eligible-granted-preliminary-injunction/",
+      "published": "2026-11-06T22:01:02+00:00",
+      "via": "direct",
+      "score": 85.8,
+      "breaking": false
+    },
+    {
+      "headline": "Skip Bayless names ‘commanding’ current NFL coach he wants at the Dallas Cowboys",
       "source": "NFL",
       "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQR2RLNnRGdTExSDNaTmRPMUVfa2g4WHdleTAwSnF1Q201eHE2bHNqbGZoWEg5bkY0eWdCUVY0TjFqODJsMnpwc0gzbHAtTFVRVDRaa3NNOEFWTVNkbFdVVGV4bEdQZmF1UW9HRkVVaXBOaC1oU0xHaUxENUstVHI5cGZObjZOejFzZmxHcUZrWWdYcXZUMWVXNEdWRlhWanhud2k1NTRISFA4WHlNR0pLSlZLbmwyRUdYbGNQeEhjNG9BZDNMU0Z4ZzJnZ0FnOEFIZnU4ZUR0SXppczl4eEQ1WGdLS3pPTDI2QTlOOTdzZnVSSlplODB2SDhKb3NhR0lGX1NMekh1YXQ4WWdL?oc=5",
-      "published": "2026-11-07T14:45:36+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaXI0SmhuQWlUODNIQkVKYnlhS0luYS02MTFGTDhJNVJTSVlLVm91WDVNZnVOMEh3R3liOWR5TXlTOE1FWHduZi1vYUwxRmpSN1E1MXFiZzY3cGtNTkhtdnBic2N2OUt4cXY0bWNKc3hOTXRVakZpLW1HbjJtTU1fMlp1anhoR2loUC1HblhnQQ?oc=5",
+      "published": "2026-11-07T15:15:00+00:00",
       "via": "aggregated",
       "score": 91.6,
       "breaking": false
     },
     {
-      "headline": "7-foot-9 Florida transfer Olivier Rioux dazzles in UC Irvine debut, becomes tallest player to start game",
-      "source": "CBS SPORTS",
+      "headline": "Bryce James scores his first college basketball points",
+      "source": "NCAA.COM",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/olivier-rioux-florida-transfer-uc-irvine-tallest-player-division-l/",
-      "published": "2026-11-04T16:07:28+00:00",
+      "url": "https://www.ncaa.com/video/basketball-men/2026-11-06/bryce-james-scores-his-first-college-basketball-points",
+      "published": "2026-11-06T14:24:57+00:00",
       "via": "direct",
-      "score": 80.1,
+      "score": 83.3,
+      "breaking": false
+    },
+    {
+      "headline": "UNI men’s basketball defeats Upper Iowa in exhibition match",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTmZnb2pQWU5JakthV0VMMTR5bVJrakZpeWFvdVk2N2Nha3MtRlZuWFBMTjIyOTY0NHNWalR4ZjBUbHVMMHRER1BJV3JwT1JCWmlGZ0dSZWpxU0J6TkZWMjBXZks4cVdZQkZOcERXeXkydnl3NTNKUDZ4S0NlSlF3S3lhQ0FNY1Z6R3hiaDlUd2NDY25aLTFiSmpJTk40VVBkNkxVXw?oc=5",
+      "published": "2026-11-05T00:41:37+00:00",
+      "via": "aggregated",
+      "score": 86.7,
       "breaking": false
     },
     {
@@ -372,7 +342,37 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-florida-duke-top-25-and-1/",
       "published": "2026-11-06T17:52:29+00:00",
       "via": "direct",
-      "score": 84.7,
+      "score": 84.5,
+      "breaking": false
+    },
+    {
+      "headline": "Iowa State Basketball Has One Player Make NBA Draft Big Board",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTRjT09nNlNsVjNucy1KVnBvT2ZqSGVUc0haSk5wMEtVY1dQbUNhUWM2dDdpOWJIOVdveV9NWkJvY0l0TV9lcGdmMXJEVFVENmo3WVd4VlNaYUdvQ01sbzRsek4xSFc4ZUFYZmVUekZQaU1HWmlaOFZoM3BNQWNPQVdfV1V6LURxS1hOZUVMWVlkaDFXS21idWhkSFRNNzVXRjBnTzdiX3l0Q2l3ZTBR?oc=5",
+      "published": "2026-11-06T12:00:00+00:00",
+      "via": "aggregated",
+      "score": 98.5,
+      "breaking": false
+    },
+    {
+      "headline": "Blount County Schools release why former Heritage football coach Joe Osovet was fired",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaEJtWFk1dnRnT1VYSHJmWGNVa0VJemJQRDcwWG16S09xcWVpOUw0b214RHBYdzVLM0FFWnY3VnZjaFNFejNLLVMtTzItbExMcnhsVFpRZlY0bGc4OFowdl9IR3Y1T1NtRXhxQ0t3ZVVKNHRIQkJpX2gyQlhoLVpSS2xaRFVTUk9lSXc?oc=5",
+      "published": "2026-11-07T00:22:00+00:00",
+      "via": "aggregated",
+      "score": 86.6,
+      "breaking": false
+    },
+    {
+      "headline": "A closer look at why Jaidyn Coon dazzled in Iowa basketball debut",
+      "source": "IOWA STORYLINES",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMzVfNFRMeEtCWk9Qc3hzemY5VUtkUElJbU1hTlV6QjdnMGxrMWl1WFFaQ3NKMjR3R3JMblJlTVBoVFgtQUpCbmJyVTQzanZubXZBUFF5NWRLVWhnN1B5eDh5T0xidGpoZmxnM1diOUxObWRhWWdGajMyZExXYThPVk1SUU9rbV9TcDAtLVJad0tYS3pTVU9pTXFtUVNZcXFVTExuMzhycGU0a3RmbGNEMmhVS1liOEJoVVNtX0ZvcFFUUzRpWWRIcG5zY2pUSVRVUjZEWTNfYUlGa0sxOE5hYlRrTDA5X1F4aFdoQ0tEMDV2Mi1US1E?oc=5",
+      "published": "2026-11-06T12:01:00+00:00",
+      "via": "aggregated",
+      "score": 98.5,
       "breaking": false
     },
     {
@@ -382,17 +382,27 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-milan-momcilovic-kentucky-top-25-and-1/",
       "published": "2026-11-04T18:48:05+00:00",
       "via": "direct",
-      "score": 69.0,
+      "score": 68.8,
       "breaking": false
     },
     {
-      "headline": "NASCAR Cup Series Driver Breaks Silence on Early Hendrick Motorsports Move Speculation",
-      "source": "RACING",
-      "category": "RACING",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUml0T1NvbHlWall5U3NJdmphNUlkb3B4anFmOUliVmVBRTZEcjhaX1RlR2E4T0ZlQ0tONXlhRlN4eDMwVXcxRHJJYVZqU01WN0hfYkc3QjlwN2NSeDF2bWUwcFNhZC1FYV8yY0hzM2xobkFWc1pzSkdFUTh5V1NtZURCTE1tRnpfaUc4MTRCRE5pc2F4YjVTRzkwMHdrWDNTemFJcVRuNG9FOXNybjVJOTVJcWkwdWdsVlZ3?oc=5",
-      "published": "2026-11-07T11:14:12+00:00",
+      "headline": "TCU Horned Frogs Look to Upset Arizona Wildcats in College Football Showdown",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMjlycGsxVUVCaE9pbjQ2Y2ZBMnd4V0JvUUFINXNiREMzckNENk1CNGpMNjZaWlFQQ1BrT3kxMUdoTi1RU2p3ZFQ5MEpGb1dheXJjYXJqX2xrVWhmWlQyT3hLNC1KTGpmazNUUVJ4VGNtMmhOazhhWjlfTWJpR3ZlcVA3Q19fT3JRNGwxQ3lFd0EyOThkMmR0UHdKT2ZpNC02azY5d3lB?oc=5",
+      "published": "2026-11-07T02:42:18+00:00",
       "via": "aggregated",
-      "score": 90.5,
+      "score": 87.4,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Duke's talented roster set to take center stage Thursday night",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-duke-talented-roster/",
+      "published": "2026-11-05T17:41:18+00:00",
+      "via": "direct",
+      "score": 76.4,
       "breaking": false
     },
     {
@@ -402,7 +412,7 @@
       "url": "https://www.cbssports.com/college-basketball/news/ranking-top-five-in-season-tournaments-2026-27-multi-team-event/",
       "published": "2026-11-04T20:03:33+00:00",
       "via": "direct",
-      "score": 69.4,
+      "score": 69.2,
       "breaking": false
     }
   ]
