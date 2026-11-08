@@ -262,7 +262,7 @@ header{overflow:hidden}
  .lane .card .teamlogo{width:clamp(24px,2.55vw,39px);height:clamp(24px,2.55vw,39px)}
 }
 
-/* V8.6.19: TV-browser-safe team rows. Keep all card/viewport sizing intact. */
+/* V8.6.20: TV-browser-safe team rows. Keep all card/viewport sizing intact. */
 .lane .card .matchup{
   gap:clamp(3px,.5vh,6px);
   justify-content:center;
@@ -298,7 +298,7 @@ header{overflow:hidden}
 .lane .card .school-name{font-weight:900}
 .lane .card .name-divider{color:#a9c1dc;font-weight:600}
 
-/* V8.6.19: compact rotating game alerts, with a dedicated row only while active. */
+/* V8.6.20: compact rotating game alerts, with a dedicated row only while active. */
 #gameAlertStrip{display:none;height:38px;min-height:38px;align-items:center;gap:12px;padding:3px 1.3vw;background:#111f33;border-top:2px solid #e9aa46;border-bottom:1px solid #334c68;overflow:hidden;white-space:nowrap;font-size:clamp(12px,1.25vw,21px);font-weight:800}
 body.has-game-alerts #gameAlertStrip{display:flex}
 body.has-game-alerts #layout{height:calc(87% - 38px)}
@@ -312,12 +312,12 @@ body.has-game-alerts #layout{height:calc(87% - 38px)}
 @media(orientation:landscape) and (max-height:760px){body.has-game-alerts #layout{height:calc(100% - clamp(66px,13vh,90px) - 72px)}}
 @media(orientation:landscape) and (max-height:450px){body.has-game-alerts #layout{height:calc(100% - 123px)}#gameAlertStrip{height:38px;min-height:38px}}
 @media(orientation:portrait) and (max-width:900px){body.has-game-alerts #layout{height:auto}#gameAlertStrip{height:42px;min-height:42px}#gameAlertTitle{font-size:10px}#gameAlertNetwork{max-width:22%}}
-/* V8.6.19: news labels and clickable sources, same crawl height and speed. */
+/* V8.6.20: news labels and clickable sources, same crawl height and speed. */
 .crawl-text .news-category{color:#ffdb69;font-weight:1000;margin-right:.35em}
 .crawl-text .news-link{color:inherit;text-decoration:none}
 .crawl-text .news-link:focus-visible{outline:2px solid #ffdb69;outline-offset:3px}
 .crawl-badge{position:relative;z-index:3}.crawl-window{z-index:1;isolation:isolate;overflow:hidden}.news-source{font-weight:800;color:#9fc9ff;margin-right:.35em;font-size:.9em} 
-/* V8.6.19: floating pop-out above favorite cards; no scoreboard resizing. */
+/* V8.6.20: floating pop-out above favorite cards; no scoreboard resizing. */
 .favcard{position:relative;overflow:hidden}
 .hsn-popout{position:fixed;z-index:9999;pointer-events:none;overflow:visible;--burst:#4c9cff;--burst2:#fff;animation:hsn-pop-enter .32s ease-out both}
 .hsn-popout.ia{--burst:#ffcf25;--burst2:#fff}
@@ -330,14 +330,14 @@ body.has-game-alerts #layout{height:calc(87% - 38px)}
 @keyframes hsn-firework-out{0%{opacity:0;transform:translate(0,0) scale(.4)}18%{opacity:1}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.85)}}
 @media(prefers-reduced-motion:reduce){.hsn-popout,.hsn-popout .hsn-firework{animation:none}}
  .hsn-record{font-size:.78em;font-weight:700;color:#c6d9ef;white-space:nowrap}.favteam .hsn-record{color:#d5e7fa}.teamlabel{min-width:0} 
-/* HSN 8.6.19: lightweight transparent mascot sprite animation. No changes to card layout. */
+/* HSN 8.6.20: lightweight transparent mascot sprite animation. No changes to card layout. */
 .hsn-mascot{position:fixed;z-index:9997;pointer-events:none;width:clamp(92px,10vw,150px);height:clamp(92px,10vw,150px);left:0;top:0;will-change:transform;filter:drop-shadow(0 0 7px rgba(255,255,255,.3))}
 .hsn-mascot-art{width:100%;height:100%;background-repeat:no-repeat;background-size:1200% 100%;animation:hsnMascotFrames .96s steps(11) infinite;will-change:background-position}
 .hsn-mascot.ky .hsn-mascot-art{background-image:url('hsn-wildcat-sprite.png')}
 .hsn-mascot.ia .hsn-mascot-art{background-image:url('hsn-hawkeye-sprite.png')}
 @keyframes hsnMascotFrames{from{background-position:0 0}to{background-position:100% 0}}
 @media(prefers-reduced-motion:reduce){.hsn-mascot-art{animation:none}}
-</style><style id="hsnDemoStyle">#hsnDemoBar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:7px 10px;background:#111d31;color:#fff;font:13px Arial,sans-serif}#hsnDemoBar button{padding:8px 12px;border:1px solid #7398c9;border-radius:6px;background:#24456f;color:white;cursor:pointer;font-weight:bold}#hsnDemoBar button:focus-visible{outline:3px solid #ffd85a}#hsnDemoBar span{color:#bacbe0}#hsnDemoBar strong{color:#ffda62}</style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK <span style="font-size:12px;color:#ffd35c;white-space:nowrap">V8.6.19</span></h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel">♫ Music: Off</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="musicPanel" role="group" aria-label="Background music settings"><label for="musicVolume">Background music volume: <span id="musicVolumeLabel">10%</span></label><input id="musicVolume" type="range" min="0" max="50" value="10" step="1"><br><button id="musicMute" type="button">Mute</button><div id="musicHint">Original HSN sports instrumental. Press Music to start or stop. Music may require a click on Google TV.</div></div><audio id="hsnMusic" src="hsn-sports-music.wav" preload="none" loop></audio><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="gameAlertStrip" role="status" aria-label="Close games and upset watch"><span id="gameAlertTitle">🚨 HSN ALERTS</span><span id="gameAlertItem"></span><span id="gameAlertNetwork"></span><span id="gameAlertCounter"></span></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>NEWSWIRE</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
+</style><style id="hsnDemoStyle">#hsnDemoBar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:7px 10px;background:#111d31;color:#fff;font:13px Arial,sans-serif}#hsnDemoBar button{padding:8px 12px;border:1px solid #7398c9;border-radius:6px;background:#24456f;color:white;cursor:pointer;font-weight:bold}#hsnDemoBar button:focus-visible{outline:3px solid #ffd85a}#hsnDemoBar span{color:#bacbe0}#hsnDemoBar strong{color:#ffda62}</style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK <span style="font-size:12px;color:#ffd35c;white-space:nowrap">V8.6.20</span></h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel">♫ Music: Off</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="musicPanel" role="group" aria-label="Background music settings"><label for="musicVolume">Background music volume: <span id="musicVolumeLabel">10%</span></label><input id="musicVolume" type="range" min="0" max="50" value="10" step="1"><br><button id="musicMute" type="button">Mute</button><div id="musicHint">Original HSN sports instrumental. Press Music to start or stop. Music may require a click on Google TV.</div></div><audio id="hsnMusic" src="hsn-sports-music.wav" preload="none" loop></audio><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="gameAlertStrip" role="status" aria-label="Close games and upset watch"><span id="gameAlertTitle">🚨 HSN ALERTS</span><span id="gameAlertItem"></span><span id="gameAlertNetwork"></span><span id="gameAlertCounter"></span></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>NEWSWIRE</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
 <div id="gameOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Game information"><div class="dialog"><h2 id="teams">Game details</h2><div class="big" id="bigscore"></div><p id="status"></p><p id="network"></p><p id="ytv"></p><div class="actions"><button id="watch">Open YouTube TV</button><button id="watchESPN">Open ESPN+</button><button id="closeGame">Back to Scores</button></div><p class="note">Streaming services open separately; you may need to find and select the game. Direct playback cannot be guaranteed.</p></div></div>
 <div id="settingsOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Ticker settings"><div class="dialog"><h2>Scoreboard Settings</h2><div class="setting"><label for="speed">Scrolling speed</label><select id="speed"><option value="18">Slow</option><option value="32">Normal</option><option value="55">Fast</option></select></div><div class="setting"><label for="rows">Number of rows</label><select id="rows"><option value="3">3 rows</option><option value="4">4 rows</option><option value="5">5 rows</option></select></div><div class="setting"><label for="alertsEnabled">Game alerts</label><select id="alertsEnabled"><option value="on">On</option><option value="off">Off</option></select></div><div class="setting"><label for="filter">Games displayed</label><select id="filter"><option value="all">All Division I</option><option value="tv">YouTube TV or ESPN+</option></select></div><div class="actions"><button id="saveSettings">Save settings</button><button id="cancelSettings">Cancel</button></div><p class="note">Settings are saved in this browser. Use arrow keys and Enter on a remote. Press Down from the final row to reach pinned games.</p></div></div>
 <script>
@@ -348,7 +348,7 @@ var $=function(id){return document.getElementById(id)}, board=$('board'), settin
 try{var saved=JSON.parse(localStorage.getItem('ncaa-ticker-v4')||'{}');if([18,32,55].includes(+saved.speed))settings.speed=+saved.speed;if([3,4,5].includes(+saved.rows))settings.rows=+saved.rows;if(['all','tv'].includes(saved.filter))settings.filter=saved.filter;if(['on','off'].includes(saved.alerts))settings.alerts=saved.alerts}catch(e){}
 var gameStats={},statsPending={},events=[],futureEvents=[],rankings={},apById={},apByName={},scoreLoadBusy=false,lastScoreSuccess=0,lanes=[],paused=false,modal=false,last=0,focusedKey=null,focusBefore=null,activeGame=null;
 function cleanFeedText(v){return String(v==null?'':v).replace(/&apos;|&#0*39;|&#x0*27;/gi,"'").replace(/&amp;/gi,'&').replace(/([A-Za-z])undefined([si])\b/gi,"$1'$2").replace(/([A-Za-z])undefined\b/gi,"$1'").replace(/undefined/gi,'').replace(/\bRunnin\s+Bulldogs\b/gi,"Runnin' Bulldogs").replace(/\s+/g,' ').trim()}
-function esc(v){return cleanFeedText(v).replace(/[&<>"']/g,function(x){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[x]})}
+function esc(v){return cleanFeedText(v).replace(/[&<>"']/g,function(x){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]})}
 function isYtv(net){return net.toUpperCase().split(/[,·\/]+/).some(function(s){return /^(ESPN|ESPN2|ESPNU|ESPNEWS|ACCN|ACC NETWORK|SECN|SEC NETWORK|BIG TEN NETWORK|BTN|FS1|FS2|FOX|CBS|CBS SPORTS NETWORK|CBSSN|NBC|USA NETWORK|TNT|TBS|TRUTV|CW|THE CW|ION)$/.test(s.trim())})}
 function isEspnPlus(net){return /ESPN\s*\+/i.test(net)}
 function logo(t){var team=t.team||{},ls=team.logos||[];return team.logo||(ls[0]&&ls[0].href)||''}
@@ -357,14 +357,42 @@ function homeStyle(g){if(!g.homeColor)return '';var c=g.homeColor;var r=parseInt
 function rank(t){var team=t.team||{},id=String(team.id||''),n=apById[id]||apByName[team.displayName]||0;if(n)return n;var feed=+(t.curatedRank&&t.curatedRank.current||0);return feed>=1&&feed<=25?feed:0}
 function applyRanks(){events.concat(futureEvents).forEach(function(g){g.awayRank=apById[g.awayId]||apByName[g.away]||g.awayRank||0;g.homeRank=apById[g.homeId]||apByName[g.home]||g.homeRank||0})}
 function hsnClockSeconds(clock){var m=String(clock||'').match(/^(\d+):(\d+)/);return m?(+m[1]*60 + +m[2]):null}
+// A regulation 0:00 is not itself proof of a final; overtime may follow.
+function hsnPendingFinal(g){return g.state==='in' && g.period>=2 && /^0+:0+$/i.test(String(g.clock||'').trim())}
+var hsnFinalChecks={},hsnFinalVerified={};
+function hsnApplyVerifiedFinal(g,detail){
+ g.state='post';g.clock='0:00';g.status=cleanFeedText(detail||'Final');g.status=/final/i.test(g.status)?g.status:'Final';
+ hsnFinalVerified[g.id]={at:Date.now(),status:g.status};delete hsnCloseHold[g.id];
+}
+async function hsnVerifyStuckGames(){
+ var stuck=events.filter(hsnPendingFinal).slice(0,12),now=Date.now();
+ await Promise.all(stuck.map(async function(g){
+  if(hsnFinalChecks[g.id]&&now-hsnFinalChecks[g.id]<20000)return;
+  hsnFinalChecks[g.id]=now;
+  try{
+   var u='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event='+encodeURIComponent(g.id)+'&_hsn='+now;
+   var r=await fetch(u,{cache:'no-store'});if(!r.ok)return;
+   var d=await r.json(),comp=((d.header||{}).competitions||[])[0]||{};
+   var st=comp.status||((d.header||{}).status)||{},type=st.type||{};
+   var state=String(type.state||'').toLowerCase(),completed=type.completed===true||st.completed===true;
+   if(state==='post'||completed){hsnApplyVerifiedFinal(g,type.shortDetail||type.detail||'Final')}
+   else if(state==='in'){
+    // Do not fabricate a final; show the uncertainty and withhold stale alerts.
+    g.status='0:00 · Awaiting official result';
+   }
+  }catch(e){console.warn('HSN final-status verification failed',g.id,e)}
+ }));
+ // Re-render only if a game changed; the regular polling cycle continues.
+ if(stuck.length)render();
+}
 function alerts(g){var badges=[];if(settings.alerts==='off')return badges;
 if(g.state==='in'){
  if(g.period>2||/\bOT\b|OVERTIME/i.test(g.status))badges.push('OVERTIME');
  var diff=Math.abs(g.awayPoints-g.homePoints),clock=g.clock||'',mins=clock.match(/^(\d+):(\d+)/),seconds=mins?(+mins[1]*60 + +mins[2]):null;
- if(diff<=5&&(g.period>2||(g.period===2&&seconds!==null&&seconds<=300)))badges.push('CLOSE GAME');
+ if(!hsnPendingFinal(g)&&diff<=5&&(g.period>2||(g.period===2&&seconds!==null&&seconds>0&&seconds<=300)))badges.push('CLOSE GAME');
 }
 var a=g.awayRank,h=g.homeRank,ranked=a||h;
-if(ranked&&(g.state==='in'||g.state==='post')){
+if(ranked&&(g.state==='post'||(g.state==='in'&&!hsnPendingFinal(g)))){
  var underdogLeading=(a===0&&h>0&&g.awayPoints>g.homePoints)||(h===0&&a>0&&g.homePoints>g.awayPoints)||(a>0&&h>0&&a<h&&g.homePoints>g.awayPoints)||(a>0&&h>0&&h<a&&g.awayPoints>g.homePoints);
  if(underdogLeading){var trailingMargin=Math.abs(g.awayPoints-g.homePoints),remaining=hsnClockSeconds(g.clock);if(g.state==='post')badges.push('UPSET FINAL');else if(g.period>2||(g.period===2&&remaining!==null&&((remaining<=300&&trailingMargin>=5)||(remaining<=600&&trailingMargin>=10))))badges.push('UPSET WATCH')}
 }
@@ -464,12 +492,7 @@ async function fetchGameStats(g){
  }catch(e){gameStats[g.id]={at:Date.now(),teams:{}}}finally{delete statsPending[g.id]}
 }
 function favoriteCard(g,which){var name=which==='KENTUCKY'?'Kentucky Wildcats':'Iowa Hawkeyes';
-var entry=rankings[name]||{},ap=entry.ap||0,coaches=entry.coaches||0,net=entry.net||0;
-var current=g?(g.away===name?g.awayRank:g.homeRank):0;
-if(!ap&&current)ap=current;
-var primary=ap?('#'+ap):coaches?('#'+coaches):net?('#'+net):'NR';
-var source=ap?'AP':coaches?'Coaches':net?'NET':'Unranked';
-var title='<div class="favtitle">★ <span class="favrank">'+primary+'</span> '+which+' <span class="favpolls">('+source+') · Coaches: '+(coaches?'#'+coaches:'—')+' · NET: '+(net?'#'+net:'—')+'</span></div>';
+var title='<div class="favtitle">★ '+which+'</div>';
 if(!g)return '<div class="favempty">'+title+'Next game not available</div>';
 function fteam(n,url,points,record){return '<div class="favteam">'+(url?'<img src="'+esc(url)+'" alt="" loading="lazy">':'')+'<span>'+esc(n)+(record?' <small class="hsn-record">('+esc(record)+')</small>':'')+'</span>'+(points!==undefined&&points!==''?'<strong class="fav-team-points">'+esc(String(points))+'</strong>':'')+'</div>'}
 return '<button type="button" class="favcard" data-id="'+esc(g.id)+'" aria-label="'+which+' game details">'+title+'<div class="favteams">'+fteam(g.away,g.awayLogo,g.state==='pre'?'':g.awayPoints,g.awayRecord)+fteam(g.home,g.homeLogo,g.state==='pre'?'':g.homePoints,g.homeRecord)+'</div><div class="favmeta">'+esc(g.status)+' · '+esc(g.network)+(g.state==='pre'?' · <span class="favcountdown" data-tip="'+g.date+'">'+countdown(g.date)+'</span>':'')+'</div>'+favoriteStats(g,name)+'</button>'}
@@ -643,7 +666,7 @@ function groups(){var arr=events.filter(function(g){return settings.filter==='al
 // Alert rotation is independent of scoreboard refresh: one alert remains on screen.
 var alertRotationId='',alertRotationIndex=0,alertRotationList=[],hsnCloseHold={};
 function updateGameAlertStrip(){
- var now=Date.now();var active=events.filter(function(g){if(g.state!=='in')return false;var a=alerts(g),close=a.indexOf('CLOSE GAME')>=0;if(close)hsnCloseHold[g.id]=now+25000;return close||a.indexOf('UPSET WATCH')>=0||(hsnCloseHold[g.id]>now&&g.period>=2)});Object.keys(hsnCloseHold).forEach(function(id){if(hsnCloseHold[id]<=now||!events.some(function(g){return g.id===id&&g.state==='in'}))delete hsnCloseHold[id]});
+ var now=Date.now();var active=events.filter(function(g){if(g.state!=='in')return false;var a=alerts(g),close=a.indexOf('CLOSE GAME')>=0;if(close)hsnCloseHold[g.id]=now+25000;return !hsnPendingFinal(g)&&(close||a.indexOf('UPSET WATCH')>=0||(hsnCloseHold[g.id]>now&&g.period>=2))});Object.keys(hsnCloseHold).forEach(function(id){if(hsnCloseHold[id]<=now||!events.some(function(g){return g.id===id&&g.state==='in'}))delete hsnCloseHold[id]});
  active.sort(function(a,b){return priority(b)-priority(a)});
  var ids=active.map(function(g){return g.id}).join('|');
  if(ids!==alertRotationId){var oldId=alertRotationList[alertRotationIndex]&&alertRotationList[alertRotationIndex].id;alertRotationIndex=Math.max(0,active.findIndex(function(g){return g.id===oldId}));alertRotationId=ids}
@@ -711,11 +734,11 @@ async function load(){
   if(!r.ok)throw Error('HTTP '+r.status);
   var data=await r.json();if(!Array.isArray(data.events))throw Error('No event list');
   var seen={};events=data.events.map(parse).filter(function(g){if(seen[g.id])return false;seen[g.id]=true;return true});
-  applyRanks();lastScoreSuccess=Date.now();hsnPollLiveFavoriteGames();
+  applyRanks();Object.keys(hsnFinalVerified).forEach(function(id){var g=events.find(function(x){return x.id===id});if(g&&g.state==='in'&&hsnPendingFinal(g)){hsnApplyVerifiedFinal(g,hsnFinalVerified[id].status)}});lastScoreSuccess=Date.now();hsnPollLiveFavoriteGames();
   if(typeof renderCrawl==='function')renderCrawl();
   // Rebuild category membership, scores and alert classes from the same snapshot.
-  render();
-  $('updated').textContent='V8.6.19 · Updated '+new Date().toLocaleTimeString()+' · '+events.length+' games · Green = likely YouTube TV · Gold = ESPN+';
+  render();hsnVerifyStuckGames();
+  $('updated').textContent='V8.6.20 · Updated '+new Date().toLocaleTimeString()+' · '+events.length+' games · Green = likely YouTube TV · Gold = ESPN+';
  }catch(err){$('updated').textContent='Score feed unavailable · '+err.message+' · Last successful update '+(lastScoreSuccess?new Date(lastScoreSuccess).toLocaleTimeString():'none');if(!events.length)board.innerHTML='<div class="empty">Cannot load scores. Check internet connection or try again later. The free data feed may be temporarily unavailable.</div>'}
  finally{scoreLoadBusy=false}
 }
@@ -754,7 +777,7 @@ async function loadFuture(){
  found.forEach(function(g){enrichFavoriteNetwork(g)});
 }
 
-// HSN V8.6.19 Newswire: genuine ESPN basketball articles plus clearly labeled
+// HSN V8.6.20 Newswire: genuine ESPN basketball articles plus clearly labeled
 // game-derived headlines. No fabricated news and no unrelated sports.
 var crawlX=0,crawlWidth=0,crawlLast=0,newsHeadlines=[],newsArticles=[],lastNewsSuccess=0,newsRotation=0;
 var NEWS_CACHE='hsn-news.json';
