@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T05:33:12.625202+00:00",
+  "updated": "2026-11-16T07:19:59.246964+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
@@ -46,33 +46,33 @@
   ],
   "articles": [
     {
-      "headline": "Photos: Iowa men’s basketball defeats Creighton",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX0F1U2FyWTl5UGFtdEZzNlJ2U0xWMXQ5Wkl4WWpMYUFpam5QZmlTa25UdGlhcTZmX2MxTzh0WVlxM3VtbmhzRC1CNjV1QVhldEctMzlZbXNMd0JDQWhZaDRaVy0zSGxFXzR1a2hSdVNqV1NiYllOelpWbzFQYnRDejNGVUJuRTA?oc=5",
-      "published": "2026-11-15T23:48:13+00:00",
-      "via": "aggregated",
-      "score": 106.1,
-      "breaking": false
-    },
-    {
-      "headline": "Kentucky hits last second three to avoid epic upset to Northern Arizona, but the heat is still on Mark Pope",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/kentucky-avoid-epic-upset-northern-arizona-last-second-three-mark-pope/",
-      "published": "2026-11-14T02:49:42+00:00",
-      "via": "direct",
-      "score": 87.1,
-      "breaking": false
-    },
-    {
       "headline": "After Pyrrhic win over NAU, what is UK basketball's ceiling, basement?",
       "source": "KENTUCKY",
       "category": "KENTUCKY",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPV1dfa3Z1YzExYTVBZzR0UjB1Sk1iMXk4b25OXzVkd3V0NDB0RXpLb2FPNTBBczBZVFZUVzFKZEsxdG9saG5raHphZEQ5RHM2QTZSNmJMWm1Eb3YzbnV0LTZGVDAxT1lSMTRCS1d4SnJmS19WRy1KV2t5YkRDN1BMWTM3Q1lYUzVRcEFQRlBxX3gtUzJwcEFULWlqdFlmMk03NlJfcFZlR0EyZDBYZW16VVlaNjNkM3VhTkNDN3JLVDRHS2UzUGJYd1JrTHdKcnlocVNoVkFPdl8ybWIyUGZDSHVkMTA?oc=5",
       "published": "2026-11-15T10:08:00+00:00",
       "via": "aggregated",
-      "score": 101.5,
+      "score": 100.9,
+      "breaking": false
+    },
+    {
+      "headline": "UTSA and coach Austin Claunch mutually agree to parts ways following arrest on suspicion of DWI",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/utsa-coach-austin-claunch-dwi-arrest/",
+      "published": "2026-11-13T19:34:08+00:00",
+      "via": "direct",
+      "score": 84.1,
+      "breaking": false
+    },
+    {
+      "headline": "Tee Higgins Managed an Injury During Modest Week 10 Performance - NFL News | Fantasy Football",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQy1MX1duVHIzN2Q2RUVmc1ZEQ0pUNl9uYWhMcHVjTGtBNzF5dEYxVWhLdVByQWwyeEpzOHIxZ3pxQjNPVnlWQXE2SWliN0ZSWl9KTXYxejNrUVMxLVA3Vk0zRVU2bUxTSXFqVkZqT09pS1VPN2ZUMExYYUFXenk3WDEtQ1lpbkhkMFNuV0MxTC1fQ0pnTjBmQ1VNaVluTlN1cUJNdUVNdEtCX3ZSZlQw?oc=5",
+      "published": "2026-11-16T06:12:14+00:00",
+      "via": "aggregated",
+      "score": 91.6,
       "breaking": false
     },
     {
@@ -82,7 +82,27 @@
       "url": "https://www.cbssports.com/college-basketball/news/tomorrows-ap-top-25-today-michigan-state-duke-florida/",
       "published": "2026-11-15T23:20:50+00:00",
       "via": "direct",
-      "score": 89.9,
+      "score": 89.3,
+      "breaking": false
+    },
+    {
+      "headline": "Kentucky basketball salvages stunning win over Northern Arizona in final seconds",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUxsUnhXdEl1NXlNUk44OW1VNVQ5dUVZeWtOVG50WXU2WG1qY2x2RThSSFg3WXRZSmQzSklJcHJRYm5xXzNVUFM5aTAxS1ZPMFhnN2EwMWhSVm5jVlBqREhZcmw5UmFkWVQ1TmRLQ2pYM1N1RE9nMHlDRnZJaWxnYk03b3lINUcxRjVMbjhvdXpkZ0RwUHJTQndoNEdZb1N0T1lGQlh2T2hJb1NZOFFuN05OTmZoWDd2b3FBdmNkLURPMVoyNEhlaURBTkVoU3JrR1N1b1hrNXZ4U2dnV1B5UnNkNzVjUUdtR3p2dWN3alMyY2s?oc=5",
+      "published": "2026-11-14T04:21:00+00:00",
+      "via": "aggregated",
+      "score": 91.0,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: LSU crashes Top 25 And 1 as Donovan Dent's heroics power Tigers past Gonzaga",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-lsu-gonzaga/",
+      "published": "2026-11-15T16:28:46+00:00",
+      "via": "direct",
+      "score": 87.0,
       "breaking": false
     },
     {
@@ -92,25 +112,35 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZDNidjQzM3M3R0pVRC13ZVhsNjUteWhEZm9MUFpMQnh4OVhWeTRoWXhvRzk4VlRRTFNfcWNDcHhFVlJlbkJjbkV3WFZ1QUxBOUFYVjdkU3NpZFFDUEFJTDFkUjNUUmJWXzYwUGgxcUJnWVVEZnQ0YTdGM1NrU0pOdzNlX0xjUlpHS3ZNcXRsaFV3WFVRaE5FcmxrNERfT0lTSDZZQ1ZVdkJ6ckRSWFV1dnB0MF9ZVHRQZkhrdF80QjhfeDlpSXE3bQ?oc=5",
       "published": "2026-11-13T12:00:01+00:00",
       "via": "aggregated",
-      "score": 78.1,
+      "score": 77.6,
       "breaking": false
     },
     {
-      "headline": "Marshall football makes key coaching change with bowl hopes on the line",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUEtBZ2VWcWdsSnk5WjM1bmRLOFNoR1RFeUROZjBVeUF3WWhTZF9SMDZSUzdBTHJVUU9ZLU1CWFp4R3pqWEhTQ0UzcFNWU25SMFRMMlU4LUlYX28zSDBzaUtpYVJaWUxHRnBUV21FVXNFODNGMEJRYzFzSGdNTDN5YVplUXlCc1RTMVNFQ1hR?oc=5",
-      "published": "2026-11-15T19:27:19+00:00",
+      "headline": "Kentucky hits last second three to avoid epic upset to Northern Arizona, but the heat is still on Mark Pope",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/kentucky-avoid-epic-upset-northern-arizona-last-second-three-mark-pope/",
+      "published": "2026-11-14T02:49:42+00:00",
+      "via": "direct",
+      "score": 86.5,
+      "breaking": false
+    },
+    {
+      "headline": "UVU Roundup: Men’s basketball earns big road win at Nevada",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa2pGTG9MbHNGNlgtajZMaWRtYm90TlhReGZNVWxpZ2ZZeXlfNkFQamRteTV1SS1nWU9FaW1wRUdiaEdtY2swcmIzNDJVVjlsY0NkMmFWQlV4Wm1qOXFxYUFPLVEzYkVHVUZsVGxwOVdYSlgySkR5Ynl0cDRhT1M3NTdMYjBPX0w1ZC1pZ2lrNVNya1o4WTFIaEI0ajMtczh0RWMyQmE2UFVJclhk?oc=5",
+      "published": "2026-11-16T05:46:18+00:00",
       "via": "aggregated",
-      "score": 88.6,
+      "score": 99.5,
       "breaking": false
     },
     {
-      "headline": "Kentucky basketball salvages stunning win over Northern Arizona in final seconds",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUxsUnhXdEl1NXlNUk44OW1VNVQ5dUVZeWtOVG50WXU2WG1qY2x2RThSSFg3WXRZSmQzSklJcHJRYm5xXzNVUFM5aTAxS1ZPMFhnN2EwMWhSVm5jVlBqREhZcmw5UmFkWVQ1TmRLQ2pYM1N1RE9nMHlDRnZJaWxnYk03b3lINUcxRjVMbjhvdXpkZ0RwUHJTQndoNEdZb1N0T1lGQlh2T2hJb1NZOFFuN05OTmZoWDd2b3FBdmNkLURPMVoyNEhlaURBTkVoU3JrR1N1b1hrNXZ4U2dnV1B5UnNkNzVjUUdtR3p2dWN3alMyY2s?oc=5",
-      "published": "2026-11-14T04:21:00+00:00",
+      "headline": "NFL Injury Roundup: Maye, Hutchinson injured on same play",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc2lKSjVwRlVzZ0FsV29sMUI0LVRORFhCQWVvQkFXaWlWVVJmQ21WN2JkazhGZThOZk1CRmw4UUlaZnVxV2hQQmFKYXdfV0Nab0pxUC1Dd21vazhMWmdFMXpiOHB0Ym5ESW44LTBOc19jcThUYW5BTEJPaWVtZ3NkYU4tTTFXTUlfb3JBZmdhZlczRkdtNVpWZVFELU5uVGRvd0Jv?oc=5",
+      "published": "2026-11-16T06:10:00+00:00",
       "via": "aggregated",
       "score": 91.6,
       "breaking": false
@@ -122,57 +152,7 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-uconn-braylon-mullins-ohio-state/",
       "published": "2026-11-14T16:14:21+00:00",
       "via": "direct",
-      "score": 79.6,
-      "breaking": false
-    },
-    {
-      "headline": "Men’s College Basketball Power Rankings: What’s behind great starts for Florida, Kansas, MSU?",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaldNcUd3MEVEUFpfYzBZWS1CSlNKNmUtdmp5QW41eWU4MTVOcnpLdVVtNmNIN3o1UGdZM0V4Slh5azZlR2VMYmJuX2swcHBJN2x4dW9YQU1kM19jQTRqcjdZOURxRDNVNnJjZUNKMkpkWE9XY2cwQ2U2TFh5cnNJQ2JZX2JFOUdPVVF1c2xZdzV4ZTRQLUJUR19WdG5yc2VzbE1BZEtjNEFFVm5EQzVxa3Bzcw?oc=5",
-      "published": "2026-11-13T07:12:57+00:00",
-      "via": "aggregated",
-      "score": 76.6,
-      "breaking": false
-    },
-    {
-      "headline": "UTSA and coach Austin Claunch mutually agree to parts ways following arrest on suspicion of DWI",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/utsa-coach-austin-claunch-dwi-arrest/",
-      "published": "2026-11-13T19:34:08+00:00",
-      "via": "direct",
-      "score": 84.7,
-      "breaking": false
-    },
-    {
-      "headline": "‘Toughness Might Be (the) No. 1 Thing That He’s Got’ — Ex-NFL HC Rex Ryan Marvels Over Patrick Mahomes’ Ability To Play Through Elbow Injury",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObWRkRW8tRzNrTkZhWVRIMk9iTjR5SmlsTlBURkV4VDVBa0o2cnY4S2x0akhvZ0pXeEt4Zmh0MEROaWFBMldnRE9uZjFzXzZpUXVOSC1IUFNvX1NOTUh5WFY3aE9YVGRRcVZrOWctSkVHb0FhaXROOUpsV1NxcFZJUw?oc=5",
-      "published": "2026-11-16T00:00:00+00:00",
-      "via": "aggregated",
-      "score": 90.1,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: LSU crashes Top 25 And 1 as Donovan Dent's heroics power Tigers past Gonzaga",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-lsu-gonzaga/",
-      "published": "2026-11-15T16:28:46+00:00",
-      "via": "direct",
-      "score": 87.6,
-      "breaking": false
-    },
-    {
-      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
-      "published": "2026-11-14T11:35:43+00:00",
-      "via": "aggregated",
-      "score": 78.0,
+      "score": 79.0,
       "breaking": false
     },
     {
@@ -182,17 +162,7 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-byu-undefeated/",
       "published": "2026-11-13T17:50:33+00:00",
       "via": "direct",
-      "score": 72.1,
-      "breaking": false
-    },
-    {
-      "headline": "Former NFL coach returns to ESPN after arrest",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY3hiMUV0SkxvYmtaU3NnV1Zxbmcydmk3WlZEOThMUzBFWXNBX2N0bUhscmxfamYyV0QyMURhRWlqTk1kQWs5NGpyQmxXWTVXTGdpQTFmYVVGVFBMMUVrQ3JKcG9MbHREOGR6QU52eFVZNmJpdU9SaW13RVdHQjN6RkFqZTNZcUdj?oc=5",
-      "published": "2026-11-16T03:42:00+00:00",
-      "via": "aggregated",
-      "score": 101.4,
+      "score": 71.5,
       "breaking": false
     },
     {
@@ -202,7 +172,27 @@
       "url": "https://www.cbssports.com/college-basketball/news/2027-ncaa-tournament-bracketology-michigan-state-duke-march-madness-projection/",
       "published": "2026-11-13T18:43:01+00:00",
       "via": "direct",
-      "score": 72.4,
+      "score": 71.8,
+      "breaking": false
+    },
+    {
+      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
+      "published": "2026-11-14T11:35:43+00:00",
+      "via": "aggregated",
+      "score": 77.4,
+      "breaking": false
+    },
+    {
+      "headline": "‘Toughness Might Be (the) No. 1 Thing That He’s Got’ — Ex-NFL HC Rex Ryan Marvels Over Patrick Mahomes’ Ability To Play Through Elbow Injury",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObWRkRW8tRzNrTkZhWVRIMk9iTjR5SmlsTlBURkV4VDVBa0o2cnY4S2x0akhvZ0pXeEt4Zmh0MEROaWFBMldnRE9uZjFzXzZpUXVOSC1IUFNvX1NOTUh5WFY3aE9YVGRRcVZrOWctSkVHb0FhaXROOUpsV1NxcFZJUw?oc=5",
+      "published": "2026-11-16T00:00:00+00:00",
+      "via": "aggregated",
+      "score": 89.6,
       "breaking": false
     }
   ]
