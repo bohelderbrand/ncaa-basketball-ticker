@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T21:30:43.200714+00:00",
+  "updated": "2026-11-16T22:29:17.735547+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
@@ -7,9 +7,10 @@
     "ESPN",
     "FOX SPORTS",
     "IOWA",
-    "IOWA STORYLINES",
+    "KENTUCKY STORYLINES",
     "MEN BASKETBALL STORYLINES",
     "NCAA.COM",
+    "NFL",
     "THE ATHLETIC",
     "TOP 25"
   ],
@@ -42,34 +43,24 @@
   ],
   "articles": [
     {
-      "headline": "College basketball Top 25 rankings: Duke, Louisville fall in week 2 Coaches Poll after spotlight losses",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/top-25-rankings-coaches-poll-week-2-duke-louisville-michigan-state/",
-      "published": "2026-11-16T19:21:20+00:00",
-      "via": "direct",
-      "score": 103.3,
-      "breaking": false
-    },
-    {
       "headline": "Men’s college basketball rankings 2026: Full AP Top 25",
       "source": "TOP 25",
       "category": "TOP 25",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKVW1WcWpraDdtQ29YQjRidGhEZm5WTFAyaVVqejdLdnpNazN3NEhhenk3Y2pTTGMwa2dZOEJEWFIwOHNPODhEY1FNSFNHX0djRk16SkZUTXMwRTE2eGZEYzlkbzAyVERkZFBtVmZqU1c0M2ltOGZz?oc=5",
       "published": "2026-11-16T20:43:40+00:00",
       "via": "aggregated",
-      "score": 99.7,
+      "score": 99.4,
       "breaking": false
     },
     {
-      "headline": "#22 UCLA Upsets #5 Arizona as the 2026-7 College Basketball Season Gets Underway",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3BmU2M1a1pxaFRWMG9rQnE3RjhOVjFLQXFVOVRySzJxajlUWGlZb2Y1eDFMS3N3aU1PRTMxcVdDc1A5LWR5dDhNMWN6d0Rnd0hXbm1rQ0FwWlJMWi1KbXUyY25vWEVzNmhob1k4aWRaSVJGeVhvRWNmdHExRlg3b2pVUEhYU3RHVUU1V2wyNG5lWFBpUEo3VzUyYmd6WHRTZWwtMA?oc=5",
-      "published": "2026-11-15T17:10:22+00:00",
+      "headline": "Former college football coach who won multiple conference titles dies at 95",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNTZqZFF6Nmpud2R0ZVlDM2Z2Y0hNYjRlM1FaY0RyWE9ZVkdoNG5SMlZxRjNoVW8xbnoxeGFZTW15N0VUX0N2M1lSaXkzZFZibXRMc0pCd2ptV3dGeldhZFVjOTN4U3lHeWZiR0JXeE9JaW5rWVhFS3B0Ym1Rc2piT1EtdHVxczBSODB2Y2Njb2lGYkw1dGd1WEFMeGJBMUVzcTR4akx5THNzdldjLTJqRVJUYU5HVXpwVVJhMFB1ajY2MmwwWTNV?oc=5",
+      "published": "2026-11-16T21:33:00+00:00",
       "via": "aggregated",
-      "score": 94.6,
-      "breaking": false
+      "score": 91.7,
+      "breaking": true
     },
     {
       "headline": "Men’s college basketball rankings 2026: AP Top 25 poll after Week 2",
@@ -78,47 +69,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaGs4eEhLbTBjQm1pRzZrelllcHBzVEVyVk5NTjNIQ2tNWUFVeE9MQUxkS1JNeExwbEtuXzV0ZGJ1QXVtY0lBMmJNV3Y2LVhEeEV5OVhkcVItblgxSjlUNWNfN05LLS14UjYyR0JYZWQ3VFRoWGRad3VOT0JyNFozdkNRRGNzUWc0aG1sQjln?oc=5",
       "published": "2026-11-16T20:07:55+00:00",
       "via": "aggregated",
-      "score": 99.5,
-      "breaking": false
-    },
-    {
-      "headline": "Florida reclaims top spot in Andy Katz's men's basketball Power 44 rankings after Week 2",
-      "source": "NCAA.COM",
-      "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-16/florida-reclaims-top-spot-andy-katzs-mens-basketball-power-44-rankings-after",
-      "published": "2026-11-16T13:52:10+00:00",
-      "via": "direct",
-      "score": 89.5,
-      "breaking": false
-    },
-    {
-      "headline": "LSU basketball cracks the USA TODAY Sports Men's Basketball Coaches Poll Top 25",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdXFWcDUyMXp4c3Q0MHhlSzlJaEVtaFJaM1pYRVhFbWRCeE1ZTjBmc0ZjdXFEYVYxNU5JZmtMTTNJQXlKQ3dyS3A0RTBWMHpoVXU2dE9sUHYxUmotV0x4VHpJQndISk9vMEJvTE9MYzRqbDZybjNLTXg1UGJVQWpMWjBlSlNjUWc?oc=5",
-      "published": "2026-11-16T18:43:42+00:00",
-      "via": "aggregated",
-      "score": 111.1,
-      "breaking": false
-    },
-    {
-      "headline": "Tomorrow's Top 25 Today: Michigan State makes huge jump after win over Duke in rankings prediction",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/tomorrows-ap-top-25-today-michigan-state-duke-florida/",
-      "published": "2026-11-16T14:25:21+00:00",
-      "via": "direct",
-      "score": 89.6,
-      "breaking": false
-    },
-    {
-      "headline": "Michigan State Basketball Reach Highest Rank in 7 Years Climbing to No.2 in AP Poll",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRDIzQ05hOXREYVRoOVpsREVLRFdrUlRUU0oyT2lnSko2cUxySTliRlpGUUNvd01jaVZQVk9BUG5wTGQ3aXV5MUdJaE56YWxCeTB1d2sxbkttZ1M0cFFmVjV6OWlhLTZBM1FwR2c2RmVHRzZQdlk2Z3phQUVtQ0o3MlprWmNnaWQyNk0zQ2FweVctYUdwZ0JfOEJOdUxMTTktbUdSRXZTLVNzU09fRk8zcXozWjJDbTI3SG5Sa254eEE1U0szX0pVNmkxUlVWaktvWHMyem5qdlVXdXhja09UNlFfS192S1lhWDRPTDFR?oc=5",
-      "published": "2026-11-16T20:53:48+00:00",
-      "via": "aggregated",
-      "score": 99.8,
+      "score": 99.2,
       "breaking": false
     },
     {
@@ -128,7 +79,27 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaGxoTVA5aTJqbURaTUJaTGtXa0lqZXh1U3oyX0tjOE9jWU44UnNEZTg0TmIzU09XQTFJc3lCQlBVUkRqQi1PaFppWWhlLUJUTXRMZ1EzbEJvRExuS3ZhTC0wTS13UlBiZEp4a01Nc0NQM1FoVmV5TmhuQmE5VDN4Ymc5YkNSWGVVWjFvaGc5X1ZsNHFST3hySnZueWRXZw?oc=5",
       "published": "2026-11-16T18:03:26+00:00",
       "via": "aggregated",
-      "score": 90.8,
+      "score": 90.5,
+      "breaking": false
+    },
+    {
+      "headline": "LSU basketball cracks the USA TODAY Sports Men's Basketball Coaches Poll Top 25",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdXFWcDUyMXp4c3Q0MHhlSzlJaEVtaFJaM1pYRVhFbWRCeE1ZTjBmc0ZjdXFEYVYxNU5JZmtMTTNJQXlKQ3dyS3A0RTBWMHpoVXU2dE9sUHYxUmotV0x4VHpJQndISk9vMEJvTE9MYzRqbDZybjNLTXg1UGJVQWpMWjBlSlNjUWc?oc=5",
+      "published": "2026-11-16T18:43:42+00:00",
+      "via": "aggregated",
+      "score": 110.7,
+      "breaking": false
+    },
+    {
+      "headline": "#22 UCLA Upsets #5 Arizona as the 2026-7 College Basketball Season Gets Underway",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3BmU2M1a1pxaFRWMG9rQnE3RjhOVjFLQXFVOVRySzJxajlUWGlZb2Y1eDFMS3N3aU1PRTMxcVdDc1A5LWR5dDhNMWN6d0Rnd0hXbm1rQ0FwWlJMWi1KbXUyY25vWEVzNmhob1k4aWRaSVJGeVhvRWNmdHExRlg3b2pVUEhYU3RHVUU1V2wyNG5lWFBpUEo3VzUyYmd6WHRTZWwtMA?oc=5",
+      "published": "2026-11-15T17:10:22+00:00",
+      "via": "aggregated",
+      "score": 94.2,
       "breaking": false
     },
     {
@@ -138,47 +109,37 @@
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMTFOMGJMUGlWeEc3X2RHNU56NTF3RlFVczRwbmFwVDEwSm5qVTRuYl9sS3dTaXQ0MEtmOTJuUFp5MlFvdVVqLXVCWHFnaWk0N0RqV1dOQ1dxT3BXNHk4YWNGSGNkaHoycExwejFhWUh4SEpibXZlOWR3MHZSM05oOGlhbFdSenRLbDZHV0pTdGtmbHU1b09Jd0JScDU1TTZaLWE4Sklwb01rU0tYNXlCQ3dldHZOLVVUU3pKSlpuTWJtdlpzMERJMXdiQUVpNVJUdEJFblpxX3BrUVJ3RUZQOXlxQzRrWDNQVDcxNFlxY1VCbGVI?oc=5",
       "published": "2026-11-16T17:58:00+00:00",
       "via": "aggregated",
-      "score": 110.8,
+      "score": 110.5,
       "breaking": false
     },
     {
-      "headline": "College basketball rankings: Braylon Mullins leads UConn past Ohio State as Huskies begin tough stretch",
+      "headline": "Tomorrow's Top 25 Today: Michigan State makes huge jump after win over Duke in rankings prediction",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-uconn-braylon-mullins-ohio-state/",
-      "published": "2026-11-14T16:14:21+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/tomorrows-ap-top-25-today-michigan-state-duke-florida/",
+      "published": "2026-11-16T14:25:21+00:00",
       "via": "direct",
-      "score": 74.2,
+      "score": 89.3,
       "breaking": false
     },
     {
-      "headline": "AP Top 25: Michigan State rises to No. 2, LSU replaces Kentucky in college basketball rankings",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjhYbGx3UVR4X19rRUZzZVAzaUswOU53LVhWdW90YmNGWkhGa1lQUWxYZnFQZVAzRnFwd3JXYmZ3QXNiZHZ3VEN1RXhzd0JyYk95UGNKWW16dDZFU1RRUGdyQTAtd0xkWFBNQUhaQlMyRy1vd1FtbXAyck40MVJ2VURhcWhPYkNobEFRTlZDNXJXbXAyRkxNQnFza3lTblZDTVlrbHVZZ3FfNFVtd1U0R1duMUhtUQ?oc=5",
-      "published": "2026-11-16T19:12:20+00:00",
-      "via": "aggregated",
-      "score": 99.2,
-      "breaking": false
-    },
-    {
-      "headline": "Kentucky hits last second three to avoid epic upset to Northern Arizona, but the heat is still on Mark Pope",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/kentucky-avoid-epic-upset-northern-arizona-last-second-three-mark-pope/",
-      "published": "2026-11-14T02:49:42+00:00",
-      "via": "direct",
-      "score": 81.8,
-      "breaking": false
-    },
-    {
-      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
+      "headline": "Michigan State Basketball Reach Highest Rank in 7 Years Climbing to No.2 in AP Poll",
       "source": "AP TOP 25 TEAMS",
       "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
-      "published": "2026-11-14T11:35:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRDIzQ05hOXREYVRoOVpsREVLRFdrUlRUU0oyT2lnSko2cUxySTliRlpGUUNvd01jaVZQVk9BUG5wTGQ3aXV5MUdJaE56YWxCeTB1d2sxbkttZ1M0cFFmVjV6OWlhLTZBM1FwR2c2RmVHRzZQdlk2Z3phQUVtQ0o3MlprWmNnaWQyNk0zQ2FweVctYUdwZ0JfOEJOdUxMTTktbUdSRXZTLVNzU09fRk8zcXozWjJDbTI3SG5Sa254eEE1U0szX0pVNmkxUlVWaktvWHMyem5qdlVXdXhja09UNlFfS192S1lhWDRPTDFR?oc=5",
+      "published": "2026-11-16T20:53:48+00:00",
       "via": "aggregated",
-      "score": 80.7,
+      "score": 99.5,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball Top 25 rankings: Duke, Louisville fall in week 2 Coaches Poll after spotlight losses",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/top-25-rankings-coaches-poll-week-2-duke-louisville-michigan-state/",
+      "published": "2026-11-16T19:21:20+00:00",
+      "via": "direct",
+      "score": 103.0,
       "breaking": false
     },
     {
@@ -188,7 +149,27 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVJCdld2NlY1QW1Ramw3TEFMZzNZekJuNnJPWU1aZWZHV0JIeGVKU2VUUzc5WGR6M3VtZC1ET3FNUnpZemJKLXpZZlJwWVNoNGppLUxqUHlpSktVQ3RJd3J4Wi1hRVdwQzdtOFU4bUdxZ1RyV3ZtSGxzOWxBdS1NeFJWOA?oc=5",
       "published": "2026-11-16T15:37:09+00:00",
       "via": "aggregated",
-      "score": 90.0,
+      "score": 89.7,
+      "breaking": false
+    },
+    {
+      "headline": "Florida reclaims top spot in Andy Katz's men's basketball Power 44 rankings after Week 2",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-16/florida-reclaims-top-spot-andy-katzs-mens-basketball-power-44-rankings-after",
+      "published": "2026-11-16T13:52:10+00:00",
+      "via": "direct",
+      "score": 89.1,
+      "breaking": false
+    },
+    {
+      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
+      "published": "2026-11-14T11:35:43+00:00",
+      "via": "aggregated",
+      "score": 80.4,
       "breaking": false
     },
     {
@@ -198,15 +179,75 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-lsu-gonzaga/",
       "published": "2026-11-15T16:28:46+00:00",
       "via": "direct",
-      "score": 82.3,
+      "score": 82.0,
       "breaking": false
     },
     {
-      "headline": "Arch Manning at Indiana football? Curt Cignetti could recruit him, says college football analyst",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTF83V3JzTW9tVGZ1VGxzemdmVUtPcnVkNVN6N3NDbThYeVZUTFZPTlhLdmpiMEIxZXNKemMyVG1kMU44U0ItYllyUnU0OFBJXzdZeWdsdFpYWUIwajJkWHJUNEpBeUt1SERmTG5pZkp2QU9nbE5ha2h2c0lPc0tTeVNrMC0zd3hrRmxZWWU4Q01sVlRvcFBhZ3F3VUdyWVpwSC0zV0M5c3ZyZUFLdUl1R19WRzgweEFhQ0FydzJyZHp2d2otM2tCbkZfaVR0QnNJc0psQVhsd2dCZE94eFpmQ3Z3X1VyWk96YWFlTVhqcERvLWRqeWg4dEZsbE4?oc=5",
-      "published": "2026-11-16T17:31:00+00:00",
+      "headline": "AP Top 25: Michigan State rises to No. 2, LSU replaces Kentucky in college basketball rankings",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjhYbGx3UVR4X19rRUZzZVAzaUswOU53LVhWdW90YmNGWkhGa1lQUWxYZnFQZVAzRnFwd3JXYmZ3QXNiZHZ3VEN1RXhzd0JyYk95UGNKWW16dDZFU1RRUGdyQTAtd0xkWFBNQUhaQlMyRy1vd1FtbXAyck40MVJ2VURhcWhPYkNobEFRTlZDNXJXbXAyRkxNQnFza3lTblZDTVlrbHVZZ3FfNFVtd1U0R1duMUhtUQ?oc=5",
+      "published": "2026-11-16T19:12:20+00:00",
+      "via": "aggregated",
+      "score": 98.9,
+      "breaking": false
+    },
+    {
+      "headline": "NFL Coach Clowns Kyler Murray, Carson Wentz After Justin Jefferson's Success with Kirk Cousins",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWl9ZMFF6TDZJT2xNUHBETUtxX1BENE5LVkJSTHhVZHRBa3Z1ZlNsWE9yQzBub25NM2ZheGhfa3ZvVFhwMXkxU3lzWXdRRDNsdk1qbTg3blktSUxfS3piQXdndm5ZR1c3QWY3Q1FiLXVXV3ItbWJTdUxfRmlUQ2puYk1fUkEtVmV2QXFtd3QxRFhERjExVlk1UkI4bzM2eFlfM19zd1EyWWFiS1JjZ2F5Y00zWDYya3U2c1ZWU1JFcld6RDNzdm1jTk10S2U?oc=5",
+      "published": "2026-11-16T17:08:20+00:00",
+      "via": "aggregated",
+      "score": 90.2,
+      "breaking": false
+    },
+    {
+      "headline": "College Basketball Hot Seat: 15 Coaches Facing Major Pressure in 2026-27",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXZjemJBaTUwUjM1NXFJckxCS0ZabkdjTldHajBnSjFUVHMtbUdOOVJRVHdBTGNjX0lLVEl5cTNPeWRvZ3pZQU1lamdoZjFzMGlqRXZWRk40ckJiakd3enRyejVuRGU4T0RJdDVoZ0JneC1LUVpkWi1YbDcwUXQtNFFRa1oxZDkwVU9UX2FYWXRzYWVGZlg3R2ItVQ?oc=5",
+      "published": "2026-11-15T08:00:00+00:00",
+      "via": "aggregated",
+      "score": 99.2,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Braylon Mullins leads UConn past Ohio State as Huskies begin tough stretch",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-uconn-braylon-mullins-ohio-state/",
+      "published": "2026-11-14T16:14:21+00:00",
+      "via": "direct",
+      "score": 73.9,
+      "breaking": false
+    },
+    {
+      "headline": "Ranking men's college basketball All-American, player of the year candidates",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBBMEJ3LU16MFd3Wm5XZ195X2FHVlRXN016ajNtRER5bGRQcU9oSWV3S1lncUdJdWdud0Y0NnRwMA?oc=5",
+      "published": "2026-11-16T19:37:44+00:00",
+      "via": "aggregated",
+      "score": 99.0,
+      "breaking": false
+    },
+    {
+      "headline": "Kentucky hits last second three to avoid epic upset to Northern Arizona, but the heat is still on Mark Pope",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/kentucky-avoid-epic-upset-northern-arizona-last-second-three-mark-pope/",
+      "published": "2026-11-14T02:49:42+00:00",
+      "via": "direct",
+      "score": 81.4,
+      "breaking": false
+    },
+    {
+      "headline": "NFL Injury Report, Week 11: Latest news, updates for Drake Maye, Kenneth Walker III, Brock Bowers, more players for fantasy football",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNM1k2T3Rva09QRFBObThmV0JFbEphLWE5SWE2dmNwUW1mdXBxRGEybFVxNjhVUHRobzhnLWJ0a09FNEFkY19ld2Z6NU4yLTNKamlkRXU1dWJzMGRoSmFvSUZ3THE2am9RTTBrLWFJeUhZbXdxc1Q3N003Y2d6UnQ3T2F3blhwUWROWW91UC1rTmVycVFVeHNnbE02cXBrSHh2bm5OSVhEWGdTNHQ4MEZyQ0FzRG5MWWZuTF9aQnRSVHdGWmVXX2UzbUZhSk03bFdlM043RzJ0MmdDRWNJeWN4NTJqNGJNbldtbGtnQ0JKaHRDbG1OM3FaZUNobk0wSFBhNzYxWHpJb3RuREV0QVUw?oc=5",
+      "published": "2026-11-16T18:31:45+00:00",
       "via": "aggregated",
       "score": 90.7,
       "breaking": false
@@ -218,37 +259,7 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaldNcUd3MEVEUFpfYzBZWS1CSlNKNmUtdmp5QW41eWU4MTVOcnpLdVVtNmNIN3o1UGdZM0V4Slh5azZlR2VMYmJuX2swcHBJN2x4dW9YQU1kM19jQTRqcjdZOURxRDNVNnJjZUNKMkpkWE9XY2cwQ2U2TFh5cnNJQ2JZX2JFOUdPVVF1c2xZdzV4ZTRQLUJUR19WdG5yc2VzbE1BZEtjNEFFVm5EQzVxa3Bzcw?oc=5",
       "published": "2026-11-14T08:00:00+00:00",
       "via": "aggregated",
-      "score": 79.5,
-      "breaking": false
-    },
-    {
-      "headline": "College football coach hot seat rankings: Is there a big one out there?",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUlpxV3YtbmpNM1htWWYyMHowZHpLREFycEIzaEE5akdjeG1TdmgxWUtNbWxGLXY2cDNJMzN2WjIxMnllZERqS1NwSmdlcnE0T19XZ1JpNmVaa3QtcDEtTC1NVnBlOEdJQUlmVHJCQXFWLXVFM2d4VFFmYmZRZ1NybjVxbFpzQk1maTlYeFhzVVQ2a2pEY1RCbUdKbG84SFhQYzVVdW4tbmVtZ2dGc0xmYkg0azNMNVE0elU3U1BSOV9wR05LTThDVTBHaUlBdEo5eWRIck5jcWxJUFdIQ2U2R2ZOMGhQNkxz?oc=5",
-      "published": "2026-11-16T15:26:00+00:00",
-      "via": "aggregated",
-      "score": 90.0,
-      "breaking": false
-    },
-    {
-      "headline": "Ranking men's college basketball All-American, player of the year candidates",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd3ZBY0g4SGpURXVqNDlyamxOYzJaQUxrNEVVMGpJM2lMMUdEQm92S0tiYTBlYmpKRmk0WGU1dy1lYVNxVVFKUzFNcGM3eHM2dExZd1dCRzhDd3J6UGxHb3hWbWNjQ1piVW43U21hSWVDR2NCampiUzA4TURoekgxVjRRenkxakFpOXZsNDVCNEtlS1B5LUhVeHFWYw?oc=5",
-      "published": "2026-11-16T13:15:32+00:00",
-      "via": "aggregated",
-      "score": 97.2,
-      "breaking": false
-    },
-    {
-      "headline": "Florida football coach Jon Sumrall explains sideline outburst towards OL coach",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT2dCdnVhNGJCYkZQbmpSMWVFM3I3aHFQa2tpZ2k3OFFHa1BfOFFBaGViSUJfY0hPNDczdUdfME1pLXBzWFpmMlgtZ2N4LTRDSzZJQkxCbmdtWDRLZHlOWi1pXzk3WGdGWVM2RUpXTFdxMENjZnZEM1FaSHhVUVhxNVdOblU0R25RN3lV?oc=5",
-      "published": "2026-11-16T20:23:21+00:00",
-      "via": "aggregated",
-      "score": 91.6,
+      "score": 79.2,
       "breaking": false
     }
   ]
