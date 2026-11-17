@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T09:31:13.686955+00:00",
+  "updated": "2026-11-17T10:41:23.892974+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
@@ -10,6 +10,7 @@
     "IOWA STORYLINES",
     "KENTUCKY",
     "KENTUCKY STORYLINES",
+    "MEN BASKETBALL STORYLINES",
     "NCAA.COM",
     "NFL",
     "RACING",
@@ -45,153 +46,23 @@
   ],
   "articles": [
     {
-      "headline": "LSU basketball cracks the USA TODAY Sports Men's Basketball Coaches Poll Top 25",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdXFWcDUyMXp4c3Q0MHhlSzlJaEVtaFJaM1pYRVhFbWRCeE1ZTjBmc0ZjdXFEYVYxNU5JZmtMTTNJQXlKQ3dyS3A0RTBWMHpoVXU2dE9sUHYxUmotV0x4VHpJQndISk9vMEJvTE9MYzRqbDZybjNLTXg1UGJVQWpMWjBlSlNjUWc?oc=5",
-      "published": "2026-11-16T18:43:42+00:00",
-      "via": "aggregated",
-      "score": 107.1,
-      "breaking": false
-    },
-    {
-      "headline": "Iowa target, 5-star PG Cayden Daughtry commits to Arkansas basketball",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42TlBmQ2VwWTBKVTlfQjBTaG1IM1lqRkx4bnQtQnpzNGdOZnhhc0xiQTh1XzhLNXdVQ1JIdk80UmloalhsWDgwaHZSLTJELWk1WDRsSS1acXZLZGhPai1mT1otbi14WHBjaE9NOEIzRXhSejFjUmFCWmNn?oc=5",
-      "published": "2026-11-17T03:11:00+00:00",
-      "via": "aggregated",
-      "score": 105.9,
-      "breaking": false
-    },
-    {
-      "headline": "Five-star point guard and Peach Jam star Cayden Daughtry commits to Arkansas over FSU in epic 11th-hour twist",
+      "headline": "College basketball Top 25 rankings: Duke, Louisville fall in week 2 Coaches Poll after spotlight losses",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/cayden-daughtry-commits-arkansas-john-calipari-2027-recruiting-class/",
-      "published": "2026-11-17T03:08:57+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/top-25-rankings-coaches-poll-week-2-duke-louisville-michigan-state/",
+      "published": "2026-11-16T19:21:20+00:00",
       "via": "direct",
-      "score": 89.9,
+      "score": 98.9,
       "breaking": false
     },
     {
       "headline": "Multiple Iowa State Basketball Records Set by Tamin Lipsey in Niagara Win",
       "source": "IOWA",
       "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVk8yVlhOeE8tejVYTHFwZlhCcmdaT0xEdTlJb096NnhZOVhjdmsxcDlBSjNpdDVFakx4aDM2Rk1JX2NZTDk3TWFpQ2JIMWcyQlAtVThtWGNUTUtnSDduNjJxbkk0dVJqSkJVdXhGMVB3OHlDdENmRmgyeGxCMWpLblJHMDU0V1JaeXBWYmFDWi0?oc=5",
-      "published": "2026-11-17T01:00:02+00:00",
-      "via": "aggregated",
-      "score": 105.2,
-      "breaking": false
-    },
-    {
-      "headline": "Men’s college basketball rankings 2026: Full AP Top 25",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKVW1WcWpraDdtQ29YQjRidGhEZm5WTFAyaVVqejdLdnpNazN3NEhhenk3Y2pTTGMwa2dZOEJEWFIwOHNPODhEY1FNSFNHX0djRk16SkZUTXMwRTE2eGZEYzlkbzAyVERkZFBtVmZqU1c0M2ltOGZz?oc=5",
-      "published": "2026-11-16T20:43:40+00:00",
-      "via": "aggregated",
-      "score": 95.7,
-      "breaking": false
-    },
-    {
-      "headline": "Adan Diggs commits to Arizona: Five-star combo guard becomes first member of Wildcats' 2027 recruiting class",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/adan-diggs-commits-arizona-2027-recruiting-class/",
-      "published": "2026-11-17T02:10:01+00:00",
-      "via": "direct",
-      "score": 101.5,
-      "breaking": false
-    },
-    {
-      "headline": "Men’s college basketball rankings 2026: AP Top 25 poll after Week 2",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa1VtTHl0N1VxLUluZzEyZUR3eU5XUTBPdXhrS0JjT0Y5ejVsbmNnbWlfS3o4RnQ3Q19reHBiOHlhVWtUX2h0VWpqMTZ2Umpta3VBZXhYVVZkQWlBb1Y4MWJjRmRlRHgxSTRIcUxEbS1aM2IzN3haejREX1daNGtjRElDY0FFVE1oVHhFM2JTU3Y0UElsNVBfOA?oc=5",
-      "published": "2026-11-16T20:08:29+00:00",
-      "via": "aggregated",
-      "score": 95.5,
-      "breaking": false
-    },
-    {
-      "headline": "Kent State Men’s Basketball Pens a Trio During Early Signing Period - Kent State Golden Flashes",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2plMjJreGxXTUVVZlJ2RkZxTEpnWlhIQWFoQ3VhREdKTW5wd2VXNm1wRkRiZHY4aDNRV1dFU2FObmxGYXFXSFIwRkJGQ0xGdFAwR0lGb1ZHMlRMbFZkb29hTGtLTzdLM3VMb3pXRk1YcUZYRUNXeC13SE9ocG4zT1JsV0QtY0EwbFloZndKWldfTFd1WkpNdzZZVkY0QUJqSndxVkpQel9qaDBMY1cxdDFNNEw4emljemtlYXU3cENDc3pX?oc=5",
-      "published": "2026-11-16T19:01:31+00:00",
-      "via": "aggregated",
-      "score": 103.2,
-      "breaking": false
-    },
-    {
-      "headline": "Scotty Walden fired as UTEP football coach with two games left in 2026 season",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM2JfcTZrWXVjck0tamRZMDZtcVc5ZXJZb3hCWXYtSlJtaV9RdGRDVEhGLUFnTm9oZlJSM3VfN3FUSE5WeGdsQmRobF9zdXFUbFBaUjNzNkN4RVhtNlI5Umh3U29TTmFxcEZvRDRiejVwZkN1ODFZR3Fhdk9OQ1ZsZ0oySmZVY3E4T2RvMlJQd1ZmQTZuc3A5c21la29ITVpuVEJzRDlRczI5bGc?oc=5",
-      "published": "2026-11-17T05:25:36+00:00",
-      "via": "aggregated",
-      "score": 90.6,
-      "breaking": true
-    },
-    {
-      "headline": "AP Top 25: Michigan State rises to No. 2, LSU replaces Kentucky in college basketball rankings",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjhYbGx3UVR4X19rRUZzZVAzaUswOU53LVhWdW90YmNGWkhGa1lQUWxYZnFQZVAzRnFwd3JXYmZ3QXNiZHZ3VEN1RXhzd0JyYk95UGNKWW16dDZFU1RRUGdyQTAtd0xkWFBNQUhaQlMyRy1vd1FtbXAyck40MVJ2VURhcWhPYkNobEFRTlZDNXJXbXAyRkxNQnFza3lTblZDTVlrbHVZZ3FfNFVtd1U0R1duMUhtUQ?oc=5",
-      "published": "2026-11-16T19:12:20+00:00",
-      "via": "aggregated",
-      "score": 103.2,
-      "breaking": false
-    },
-    {
-      "headline": "Michigan State Basketball Reach Highest Rank in 7 Years Climbing to No.2 in AP Poll",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRDIzQ05hOXREYVRoOVpsREVLRFdrUlRUU0oyT2lnSko2cUxySTliRlpGUUNvd01jaVZQVk9BUG5wTGQ3aXV5MUdJaE56YWxCeTB1d2sxbkttZ1M0cFFmVjV6OWlhLTZBM1FwR2c2RmVHRzZQdlk2Z3phQUVtQ0o3MlprWmNnaWQyNk0zQ2FweVctYUdwZ0JfOEJOdUxMTTktbUdSRXZTLVNzU09fRk8zcXozWjJDbTI3SG5Sa254eEE1U0szX0pVNmkxUlVWaktvWHMyem5qdlVXdXhja09UNlFfS192S1lhWDRPTDFR?oc=5",
-      "published": "2026-11-16T20:53:48+00:00",
-      "via": "aggregated",
-      "score": 95.8,
-      "breaking": false
-    },
-    {
-      "headline": "Projected College Football Playoff bracket after Texas, Indiana survive upset bids",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObEJ4dVY5UE5BbS0zd2JBZVRCMDNsVml2UlEtaDB3TGJpRUxUejdzU3oxVnhiNzVhNjZkUDB3VGU1eHJocXpCMllrVnJ2VjlySlVRVDBLVTRaaVZseGhzX3Fyb2FrVTFnNmxQUlFYT3ItREx4b0NyZWtHOW92LWdQSmVLemxLSnFpTG9zeGxhMXk5OFdGaThuRXJscEs1VlhXQTloN2JmUDNndEhwbTRIWHNXWW9XcF91WFRn?oc=5",
-      "published": "2026-11-17T00:14:00+00:00",
-      "via": "aggregated",
-      "score": 88.9,
-      "breaking": false
-    },
-    {
-      "headline": "College Basketball Hot Seat: 15 Coaches Facing Major Pressure in 2026-27",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXZjemJBaTUwUjM1NXFJckxCS0ZabkdjTldHajBnSjFUVHMtbUdOOVJRVHdBTGNjX0lLVEl5cTNPeWRvZ3pZQU1lamdoZjFzMGlqRXZWRk40ckJiakd3enRyejVuRGU4T0RJdDVoZ0JneC1LUVpkWi1YbDcwUXQtNFFRa1oxZDkwVU9UX2FYWXRzYWVGZlg3R2ItVQ?oc=5",
-      "published": "2026-11-15T08:00:00+00:00",
-      "via": "aggregated",
-      "score": 95.5,
-      "breaking": false
-    },
-    {
-      "headline": "Fairdale’s Ferlandes Wright signs with Louisville men’s basketball",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkJpOU5sdVNpeEEwNnpGcEJES19pV0gzNFVGbDd3ajFFZm1lWEpsa21qYmplbFpRUHF4eHlYUFpjRXY4QmdSZEgzclliTUtvZzVRakw4SXFYS3p6a2Y1dkVHazRSbUpLVElwZmZkMy1lUlp4bVdnamQyZHp6d0QtUGxocU9PUmxoY2Qtb1lZTmdMaEVWM3I4aVltUF9YaEs0T2VV0gG3AUFVX3lxTFBFaVhVY29jUDFXOGVGWFZFZEtIQkV1Tl9xMEdMZFk5S2dHMGxkb2x0Ym4tNkFWV0NlUnF4aklVckx2a0RBcjVhR0NVcW1qbThQeGlIbENEalh4amc4d0o2NnFIaFJrR0twcXBKbjgzNlV5ZzNDdnVPMlVESUNXRy1UZDNvUHZlUy1ONm92d2RNVzBYNkhPZHEya29MVkU4dXhyX3czbzRPREx0cHR2a2hkWXNXWXp6OA?oc=5",
-      "published": "2026-11-16T23:49:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRGl0Ylkxc08zc2VndnQ0SV9UdXlRejNyYkdaRmswRHZxbGZKN3JIUHJEVjZzaEcwV0huMnFXRnpPRzFQVUNiUjdrWW5ZZkVsaTNlcW9BcmtnLUVleG1kdjdWMm5HMnNZdTBUYWNQTFo0RDlLZUFfOFFoWnJGZGt6T0xQVlh6TVJRV2Z0V2M5ZFVVd2M3cGwtWHM5X09feFZyeHZWUGNHR1dWSy0xcW1QZTB3WTNDQ2pHbm5reW5Ebw?oc=5",
+      "published": "2026-11-17T01:00:01+00:00",
       "via": "aggregated",
       "score": 104.8,
-      "breaking": false
-    },
-    {
-      "headline": "Men's basketball AP poll: Florida holds at the top while Michigan State jumps to No. 2 after big win over Duke",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOQWRrZUZ0dHJWMFVScFRaeGF2YWcxTHJoelV2ajZYVXhzc1RORWhsMkdyeUV3bDZtZVYzRm1iZU9vYjNkLXJTSnlfU1AtZktpVXRxUkowMDdxVEJJZUROeTR6UmQ1ZnF4SzBTRjZPdF9fY1Rvb1FBdjk1OGpsSW1QdnRXNUVBNFp1UGNaelJDeEtmZW1YbW5CckpkaGMzOS05MDJpeVRRbTFXamZRRm5lcHdpdDdCSmdKMy1oM0U4UExSRjBVLWx3YVA3SkFPS2RFcnp0VU5ZdFl0cFl2M1VSUXpqaWdjbXU1MkZQbDI5VUVONlZhckUwWGVMZDBnVDFkZFh3Ml9KTlkxdmNWQ1ZtRk5zcWtDdm1MZDJlQTZn?oc=5",
-      "published": "2026-11-16T18:20:53+00:00",
-      "via": "aggregated",
-      "score": 94.9,
       "breaking": false
     },
     {
@@ -201,77 +72,17 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaVNUYm5heTNFb0tKSHFnOENURm1rWWhZOUFZR2NHVFlvQlRNZmtpMUxTaUtZQ19xSnQ4eGhfNTRhRTNibS1VUjNPVW5lSU1jYldBWnBkY01HLUJIMU5BQVZCakdWU2gzcGRHS01oYjRzN1NhUVB3c2F2STI1RTJ3R1F0MlZHSXRybWNpa083cEFmY2h5Y1plZzZKeVlHS0xzV2hqRm04Smw0WEtwTDlZ?oc=5",
       "published": "2026-11-16T20:02:21+00:00",
       "via": "aggregated",
-      "score": 103.5,
+      "score": 103.1,
       "breaking": false
     },
     {
-      "headline": "NFL Injury Report 2026 - Fantasy Football Week 11: Drake Maye, Brock Bowers",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVJUQVYzenBteEhYc3FUNko0X0k5MDZrRlMwQnRZc3BhV0ZySl9PLVJWMlI1U0Z1aXN2aTc0b1dfdHFCeUF0NmdHMzUzeC1qbzAwdVVFSjU4Z09yM1puVjRVT0tSU3BocFVGX2NkYzZ2ZjJpenk0S0RRb21jYnFiQk5rTzlCU1NKcGtleWtnRzU3Rm1ncDd0WDNDOTVYNTJVbFZscGdmdjBvdEh5R3hxUC1Mdlp1OG9SUlRNN2pLWFZRUUxKM0hZcFpkVzlqXzg?oc=5",
-      "published": "2026-11-16T21:09:59+00:00",
+      "headline": "Men’s college basketball rankings 2026: Full AP Top 25",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKVW1WcWpraDdtQ29YQjRidGhEZm5WTFAyaVVqejdLdnpNazN3NEhhenk3Y2pTTGMwa2dZOEJEWFIwOHNPODhEY1FNSFNHX0djRk16SkZUTXMwRTE2eGZEYzlkbzAyVERkZFBtVmZqU1c0M2ltOGZz?oc=5",
+      "published": "2026-11-16T20:43:40+00:00",
       "via": "aggregated",
-      "score": 87.9,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: LSU crashes Top 25 And 1 as Donovan Dent's heroics power Tigers past Gonzaga",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-lsu-gonzaga/",
-      "published": "2026-11-15T16:28:46+00:00",
-      "via": "direct",
-      "score": 78.3,
-      "breaking": false
-    },
-    {
-      "headline": "Kansas men’s basketball jumps in AP Poll after 20-point win over Kentucky",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nMFJoeGZMOFczdEVtMXprS1RrNlVmYnlSNkhtUUNxMnZSbjAzcVZUNDRsSVJndnBCM0dzSm1wNXJrSkNHRFJRbXlVb05EQ3Azc2pDNVh2QmpsSXFwZTJONk5LelBVaGlvdWxzZTRxd0hYZnU3ZzdLQ3R0MDnSAYIBQVVfeXFMT0gtcUFwWldkaWdSb1JVak5SbERucHZFME5JVzdVaXV0UUdKUldNMGMyNHJib2h6Zmk0RHNrbnBfRG9FRlRyVHY3aWZvUXpITURHQzMyckFiR3VEcVoxY0ZiVlhmTjRlbHNrTmlVX3NmMFYtWVVUSEFEVzlaZ01ZLTdJUQ?oc=5",
-      "published": "2026-11-16T19:30:47+00:00",
-      "via": "aggregated",
-      "score": 103.3,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball Top 25 rankings: Duke, Louisville fall in week 2 Coaches Poll after spotlight losses",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/top-25-rankings-coaches-poll-week-2-duke-louisville-michigan-state/",
-      "published": "2026-11-16T19:21:20+00:00",
-      "via": "direct",
-      "score": 99.3,
-      "breaking": false
-    },
-    {
-      "headline": "After Pyrrhic win over NAU, what is UK basketball's ceiling, basement?",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPV1dfa3Z1YzExYTVBZzR0UjB1Sk1iMXk4b25OXzVkd3V0NDB0RXpLb2FPNTBBczBZVFZUVzFKZEsxdG9saG5raHphZEQ5RHM2QTZSNmJMWm1Eb3YzbnV0LTZGVDAxT1lSMTRCS1d4SnJmS19WRy1KV2t5YkRDN1BMWTM3Q1lYUzVRcEFQRlBxX3gtUzJwcEFULWlqdFlmMk03NlJfcFZlR0EyZDBYZW16VVlaNjNkM3VhTkNDN3JLVDRHS2UzUGJYd1JrTHdKcnlocVNoVkFPdl8ybWIyUGZDSHVkMTA?oc=5",
-      "published": "2026-11-15T10:08:00+00:00",
-      "via": "aggregated",
-      "score": 92.2,
-      "breaking": false
-    },
-    {
-      "headline": "NFL players need to tone down the excessive celebrations after Aiden Hutchinson injury",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSDkwQ19WRFZZZXZQei1ZdW9UeEFLVGRxWk52RzIyUm5FUEpyMFlSX01WaWpPdUJKa3NUUS1tT0FZY2VORDdjRWE0dDZPRloyQkRXU0V6QVlHS1kxSnllTnZlWl90WWYzOE1qZUtSTTFOdV9KcnhST09fYWllRUI0bTBCSTBhZDVwcHN3ZDVrUFVlQUN4NkQzWGg0UlpLUm1JRGstUlh3NTdvWUE?oc=5",
-      "published": "2026-11-16T19:54:12+00:00",
-      "via": "aggregated",
-      "score": 87.5,
-      "breaking": false
-    },
-    {
-      "headline": "Florida reclaims top spot in Andy Katz's men's basketball Power 44 rankings after Week 2",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUkRsSHc0dXA1YUx3WTJlNEdFNGNoNUdyZHJSaG0wc3BxSHB5TXY3aE9oMFpja3owM005VkJ6YnVjZnQ3c2lteThNTlk1T21MbjhSSUZFTXlwS1A4NzFqczJpV0c1N0p5QkRHSzJpMERucTBNNTVRSkhiVTRkR1dkOTZ1UE9SYTU3V0hVbVBOMTF2ZjVuYUFQQlJNelk3S05ELW8zZHhrSzlQNlVkRmNRcjdkOTE3M21BVTh2MjR2c3RxVUN2eUJkX1NRUGlYUGptOHfSAdcBQVVfeXFMTWc4VkhPMkRHYWlvZXhfeHVKNUpUMnc4dTF6ZU1LNURIN3ZoR21ZMG1mTkFNNFFXejloWnB0dkk2czd4RWRfMWlnVXd6SjhONjFhbmRFeDc1ZjF0Nm1JZGozTV9ZSmRWYUVJN3VpdWVHVVQyUDFuSlRPWVo1cXJOY05wWlprQ1BvSjZGTWJZbXluTFFoZW5CR2hZREdEUEo5N0dZOF9oSDQzZXJMX044QmkxVC1vRzlOcUhBcjFoeDFySkI5elh4ZEtheHh0UU5XZmVUOEw3eFk?oc=5",
-      "published": "2026-11-16T15:01:56+00:00",
-      "via": "aggregated",
-      "score": 101.8,
+      "score": 95.3,
       "breaking": false
     },
     {
@@ -281,47 +92,137 @@
       "url": "https://www.cbssports.com/college-basketball/news/tomorrows-ap-top-25-today-michigan-state-duke-florida/",
       "published": "2026-11-16T14:25:21+00:00",
       "via": "direct",
-      "score": 85.6,
+      "score": 85.2,
       "breaking": false
     },
     {
-      "headline": "NHRA Driver Demands Safety Priority Over Fans",
-      "source": "RACING",
-      "category": "RACING",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYTJka3UtbXZLNHY5Zk9JSV93d0dMemliU1pDaWprY0ZFdDNWZU5VckhZNkVFeGpnRno3OE4yQ1c4djBNNlpfNlhibU5iN2NsNjA5RTJzOUdrM1RhekJ3OWdqNVFDajdPSi1JMl9RU0gwNnpTYjlPSTJfZGZaOS1NN04tRjFPZ2JKazZPSTZn?oc=5",
-      "published": "2026-11-16T21:17:21+00:00",
+      "headline": "College Basketball Hot Seat: 15 Coaches Facing Major Pressure in 2026-27",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXZjemJBaTUwUjM1NXFJckxCS0ZabkdjTldHajBnSjFUVHMtbUdOOVJRVHdBTGNjX0lLVEl5cTNPeWRvZ3pZQU1lamdoZjFzMGlqRXZWRk40ckJiakd3enRyejVuRGU4T0RJdDVoZ0JneC1LUVpkWi1YbDcwUXQtNFFRa1oxZDkwVU9UX2FYWXRzYWVGZlg3R2ItVQ?oc=5",
+      "published": "2026-11-15T08:00:00+00:00",
       "via": "aggregated",
-      "score": 87.9,
+      "score": 95.1,
       "breaking": false
     },
     {
-      "headline": "College basketball rankings: Braylon Mullins leads UConn past Ohio State as Huskies begin tough stretch",
+      "headline": "#22 UCLA Upsets #5 Arizona as the 2026-7 College Basketball Season Gets Underway",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3BmU2M1a1pxaFRWMG9rQnE3RjhOVjFLQXFVOVRySzJxajlUWGlZb2Y1eDFMS3N3aU1PRTMxcVdDc1A5LWR5dDhNMWN6d0Rnd0hXbm1rQ0FwWlJMWi1KbXUyY25vWEVzNmhob1k4aWRaSVJGeVhvRWNmdHExRlg3b2pVUEhYU3RHVUU1V2wyNG5lWFBpUEo3VzUyYmd6WHRTZWwtMA?oc=5",
+      "published": "2026-11-15T17:10:22+00:00",
+      "via": "aggregated",
+      "score": 90.2,
+      "breaking": false
+    },
+    {
+      "headline": "Michigan State Basketball Reach Highest Rank in 7 Years Climbing to No.2 in AP Poll",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRDIzQ05hOXREYVRoOVpsREVLRFdrUlRUU0oyT2lnSko2cUxySTliRlpGUUNvd01jaVZQVk9BUG5wTGQ3aXV5MUdJaE56YWxCeTB1d2sxbkttZ1M0cFFmVjV6OWlhLTZBM1FwR2c2RmVHRzZQdlk2Z3phQUVtQ0o3MlprWmNnaWQyNk0zQ2FweVctYUdwZ0JfOEJOdUxMTTktbUdSRXZTLVNzU09fRk8zcXozWjJDbTI3SG5Sa254eEE1U0szX0pVNmkxUlVWaktvWHMyem5qdlVXdXhja09UNlFfS192S1lhWDRPTDFR?oc=5",
+      "published": "2026-11-16T20:53:48+00:00",
+      "via": "aggregated",
+      "score": 95.4,
+      "breaking": false
+    },
+    {
+      "headline": "Iowa target, 5-star PG Cayden Daughtry commits to Arkansas basketball",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42TlBmQ2VwWTBKVTlfQjBTaG1IM1lqRkx4bnQtQnpzNGdOZnhhc0xiQTh1XzhLNXdVQ1JIdk80UmloalhsWDgwaHZSLTJELWk1WDRsSS1acXZLZGhPai1mT1otbi14WHBjaE9NOEIzRXhSejFjUmFCWmNn?oc=5",
+      "published": "2026-11-17T03:11:00+00:00",
+      "via": "aggregated",
+      "score": 105.5,
+      "breaking": false
+    },
+    {
+      "headline": "Adan Diggs commits to Arizona: Five-star combo guard becomes first member of Wildcats' 2027 recruiting class",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-uconn-braylon-mullins-ohio-state/",
-      "published": "2026-11-14T16:14:21+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/adan-diggs-commits-arizona-2027-recruiting-class/",
+      "published": "2026-11-17T02:10:01+00:00",
       "via": "direct",
-      "score": 70.2,
+      "score": 101.2,
       "breaking": false
     },
     {
-      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
-      "published": "2026-11-14T11:35:43+00:00",
+      "headline": "Kent State Men’s Basketball Pens a Trio During Early Signing Period - Kent State Golden Flashes",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2plMjJreGxXTUVVZlJ2RkZxTEpnWlhIQWFoQ3VhREdKTW5wd2VXNm1wRkRiZHY4aDNRV1dFU2FObmxGYXFXSFIwRkJGQ0xGdFAwR0lGb1ZHMlRMbFZkb29hTGtLTzdLM3VMb3pXRk1YcUZYRUNXeC13SE9ocG4zT1JsV0QtY0EwbFloZndKWldfTFd1WkpNdzZZVkY0QUJqSndxVkpQel9qaDBMY1cxdDFNNEw4emljemtlYXU3cENDc3pX?oc=5",
+      "published": "2026-11-16T19:01:31+00:00",
       "via": "aggregated",
-      "score": 76.7,
+      "score": 102.8,
       "breaking": false
     },
     {
-      "headline": "Ranking men's college basketball All-American, player of the year candidates",
-      "source": "AP TOP 25 TEAMS",
+      "headline": "Men’s college basketball rankings 2026: AP Top 25 poll after Week 2",
+      "source": "TOP 25",
       "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd3ZBY0g4SGpURXVqNDlyamxOYzJaQUxrNEVVMGpJM2lMMUdEQm92S0tiYTBlYmpKRmk0WGU1dy1lYVNxVVFKUzFNcGM3eHM2dExZd1dCRzhDd3J6UGxHb3hWbWNjQ1piVW43U21hSWVDR2NCampiUzA4TURoekgxVjRRenkxakFpOXZsNDVCNEtlS1B5LUhVeHFWYw?oc=5",
-      "published": "2026-11-16T13:15:32+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa1VtTHl0N1VxLUluZzEyZUR3eU5XUTBPdXhrS0JjT0Y5ejVsbmNnbWlfS3o4RnQ3Q19reHBiOHlhVWtUX2h0VWpqMTZ2Umpta3VBZXhYVVZkQWlBb1Y4MWJjRmRlRHgxSTRIcUxEbS1aM2IzN3haejREX1daNGtjRElDY0FFVE1oVHhFM2JTU3Y0UElsNVBfOA?oc=5",
+      "published": "2026-11-16T20:08:29+00:00",
       "via": "aggregated",
-      "score": 93.2,
+      "score": 95.2,
+      "breaking": false
+    },
+    {
+      "headline": "AP Top 25: Michigan State rises to No. 2, LSU replaces Kentucky in college basketball rankings",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjhYbGx3UVR4X19rRUZzZVAzaUswOU53LVhWdW90YmNGWkhGa1lQUWxYZnFQZVAzRnFwd3JXYmZ3QXNiZHZ3VEN1RXhzd0JyYk95UGNKWW16dDZFU1RRUGdyQTAtd0xkWFBNQUhaQlMyRy1vd1FtbXAyck40MVJ2VURhcWhPYkNobEFRTlZDNXJXbXAyRkxNQnFza3lTblZDTVlrbHVZZ3FfNFVtd1U0R1duMUhtUQ?oc=5",
+      "published": "2026-11-16T19:12:20+00:00",
+      "via": "aggregated",
+      "score": 102.8,
+      "breaking": false
+    },
+    {
+      "headline": "Five-star point guard and Peach Jam star Cayden Daughtry commits to Arkansas over FSU in epic 11th-hour twist",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/cayden-daughtry-commits-arkansas-john-calipari-2027-recruiting-class/",
+      "published": "2026-11-17T03:08:57+00:00",
+      "via": "direct",
+      "score": 89.5,
+      "breaking": false
+    },
+    {
+      "headline": "LSU basketball cracks the USA TODAY Sports Men's Basketball Coaches Poll Top 25",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdXFWcDUyMXp4c3Q0MHhlSzlJaEVtaFJaM1pYRVhFbWRCeE1ZTjBmc0ZjdXFEYVYxNU5JZmtMTTNJQXlKQ3dyS3A0RTBWMHpoVXU2dE9sUHYxUmotV0x4VHpJQndISk9vMEJvTE9MYzRqbDZybjNLTXg1UGJVQWpMWjBlSlNjUWc?oc=5",
+      "published": "2026-11-16T18:43:42+00:00",
+      "via": "aggregated",
+      "score": 106.7,
+      "breaking": false
+    },
+    {
+      "headline": "Kansas men’s basketball jumps in AP Poll after 20-point win over Kentucky",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nMFJoeGZMOFczdEVtMXprS1RrNlVmYnlSNkhtUUNxMnZSbjAzcVZUNDRsSVJndnBCM0dzSm1wNXJrSkNHRFJRbXlVb05EQ3Azc2pDNVh2QmpsSXFwZTJONk5LelBVaGlvdWxzZTRxd0hYZnU3ZzdLQ3R0MDnSAYIBQVVfeXFMT0gtcUFwWldkaWdSb1JVak5SbERucHZFME5JVzdVaXV0UUdKUldNMGMyNHJib2h6Zmk0RHNrbnBfRG9FRlRyVHY3aWZvUXpITURHQzMyckFiR3VEcVoxY0ZiVlhmTjRlbHNrTmlVX3NmMFYtWVVUSEFEVzlaZ01ZLTdJUQ?oc=5",
+      "published": "2026-11-16T19:30:47+00:00",
+      "via": "aggregated",
+      "score": 102.9,
+      "breaking": false
+    },
+    {
+      "headline": "Men's basketball AP poll: Florida holds at the top while Michigan State jumps to No. 2 after big win over Duke",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOQWRrZUZ0dHJWMFVScFRaeGF2YWcxTHJoelV2ajZYVXhzc1RORWhsMkdyeUV3bDZtZVYzRm1iZU9vYjNkLXJTSnlfU1AtZktpVXRxUkowMDdxVEJJZUROeTR6UmQ1ZnF4SzBTRjZPdF9fY1Rvb1FBdjk1OGpsSW1QdnRXNUVBNFp1UGNaelJDeEtmZW1YbW5CckpkaGMzOS05MDJpeVRRbTFXamZRRm5lcHdpdDdCSmdKMy1oM0U4UExSRjBVLWx3YVA3SkFPS2RFcnp0VU5ZdFl0cFl2M1VSUXpqaWdjbXU1MkZQbDI5VUVONlZhckUwWGVMZDBnVDFkZFh3Ml9KTlkxdmNWQ1ZtRk5zcWtDdm1MZDJlQTZn?oc=5",
+      "published": "2026-11-16T18:20:53+00:00",
+      "via": "aggregated",
+      "score": 94.6,
+      "breaking": false
+    },
+    {
+      "headline": "Fairdale’s Ferlandes Wright signs with Louisville men’s basketball",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkJpOU5sdVNpeEEwNnpGcEJES19pV0gzNFVGbDd3ajFFZm1lWEpsa21qYmplbFpRUHF4eHlYUFpjRXY4QmdSZEgzclliTUtvZzVRakw4SXFYS3p6a2Y1dkVHazRSbUpLVElwZmZkMy1lUlp4bVdnamQyZHp6d0QtUGxocU9PUmxoY2Qtb1lZTmdMaEVWM3I4aVltUF9YaEs0T2VV0gG3AUFVX3lxTFBFaVhVY29jUDFXOGVGWFZFZEtIQkV1Tl9xMEdMZFk5S2dHMGxkb2x0Ym4tNkFWV0NlUnF4aklVckx2a0RBcjVhR0NVcW1qbThQeGlIbENEalh4amc4d0o2NnFIaFJrR0twcXBKbjgzNlV5ZzNDdnVPMlVESUNXRy1UZDNvUHZlUy1ONm92d2RNVzBYNkhPZHEya29MVkU4dXhyX3czbzRPREx0cHR2a2hkWXNXWXp6OA?oc=5",
+      "published": "2026-11-16T23:49:00+00:00",
+      "via": "aggregated",
+      "score": 104.4,
       "breaking": false
     },
     {
@@ -331,17 +232,117 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaGxoTVA5aTJqbURaTUJaTGtXa0lqZXh1U3oyX0tjOE9jWU44UnNEZTg0TmIzU09XQTFJc3lCQlBVUkRqQi1PaFppWWhlLUJUTXRMZ1EzbEJvRExuS3ZhTC0wTS13UlBiZEp4a01Nc0NQM1FoVmV5TmhuQmE5VDN4Ymc5YkNSWGVVWjFvaGc5X1ZsNHFST3hySnZueWRXZw?oc=5",
       "published": "2026-11-16T18:03:26+00:00",
       "via": "aggregated",
-      "score": 94.8,
+      "score": 94.5,
       "breaking": false
     },
     {
-      "headline": "Ypsilanti Based Kalitta Motorsports Wins Two NHRA Championsips",
+      "headline": "Florida reclaims top spot in Andy Katz's men's basketball Power 44 rankings after Week 2",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUkRsSHc0dXA1YUx3WTJlNEdFNGNoNUdyZHJSaG0wc3BxSHB5TXY3aE9oMFpja3owM005VkJ6YnVjZnQ3c2lteThNTlk1T21MbjhSSUZFTXlwS1A4NzFqczJpV0c1N0p5QkRHSzJpMERucTBNNTVRSkhiVTRkR1dkOTZ1UE9SYTU3V0hVbVBOMTF2ZjVuYUFQQlJNelk3S05ELW8zZHhrSzlQNlVkRmNRcjdkOTE3M21BVTh2MjR2c3RxVUN2eUJkX1NRUGlYUGptOHfSAdcBQVVfeXFMTWc4VkhPMkRHYWlvZXhfeHVKNUpUMnc4dTF6ZU1LNURIN3ZoR21ZMG1mTkFNNFFXejloWnB0dkk2czd4RWRfMWlnVXd6SjhONjFhbmRFeDc1ZjF0Nm1JZGozTV9ZSmRWYUVJN3VpdWVHVVQyUDFuSlRPWVo1cXJOY05wWlprQ1BvSjZGTWJZbXluTFFoZW5CR2hZREdEUEo5N0dZOF9oSDQzZXJMX044QmkxVC1vRzlOcUhBcjFoeDFySkI5elh4ZEtheHh0UU5XZmVUOEw3eFk?oc=5",
+      "published": "2026-11-16T15:01:56+00:00",
+      "via": "aggregated",
+      "score": 101.4,
+      "breaking": false
+    },
+    {
+      "headline": "Scotty Walden fired as UTEP football coach with two games left in 2026 season",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM2JfcTZrWXVjck0tamRZMDZtcVc5ZXJZb3hCWXYtSlJtaV9RdGRDVEhGLUFnTm9oZlJSM3VfN3FUSE5WeGdsQmRobF9zdXFUbFBaUjNzNkN4RVhtNlI5Umh3U29TTmFxcEZvRDRiejVwZkN1ODFZR3Fhdk9OQ1ZsZ0oySmZVY3E4T2RvMlJQd1ZmQTZuc3A5c21la29ITVpuVEJzRDlRczI5bGc?oc=5",
+      "published": "2026-11-17T05:25:36+00:00",
+      "via": "aggregated",
+      "score": 90.2,
+      "breaking": true
+    },
+    {
+      "headline": "Seattle Seahawks coach Mike Macdonald makes his quarterback stance clear, whether fans want to hear it or not",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTdQR3dCbEgtQ2g5b21HUTZlVEhRLTBEa19MOEpnZXRfVDlmeDNnSWE0eFBkbGV5SFJwcGlCZHVaTFZPajc3U1YzU2duQ0l1TUlsc1o3ZVlDUjR2MGx1WnVxZkhzUDBxN0hRQkxRRHd6Z3JLLTA2NFBJdXp1YksxcTMyY3UzUnZzRGc3QWd4aw?oc=5",
+      "published": "2026-11-17T02:59:00+00:00",
+      "via": "aggregated",
+      "score": 89.4,
+      "breaking": false
+    },
+    {
+      "headline": "NASCAR: NASCAR Cup Series Championship Race",
       "source": "RACING",
       "category": "RACING",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMW4tQUVSU3VzMFFCa0ZSV1BGNXh2SW93VDdJQmRmZjVGRWFjUmtMV0ZXM3Q2SWZLdXVmTDdLUG41V0hOY0NmeVEwX0FXZWdaa0M5UEo1elFMSy1MU2F3UDg5TXpsdmxzRThFV2FlVmlvQTQwOWxMWHRFY3FjdmlLVnA2LTZxWThkNXo1N1daYVVJUDBrbFVtZnJNcjM2bzAta0xF?oc=5",
-      "published": "2026-11-17T00:32:55+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMW4tSk5jcVRFLUtpZElKTllGcTA3T1NMeWNkMWphU1Rac1dPN3JKaWdSOGsxb1p0T1B2RGdHMnRwV0R5QzJhZExjSWI0T1ZGb0VJY1hMYTZldWxUVFk1SEx4SHhYcXkxUTh1dzZaeUU3VTlLZE9tVzFaVktWQ3o5ejJ6ancwcHZydW1Kb2JGWEJaZVVndzRLWEFqWmc0eXJKM3g5WUxXNzB6RW1VcGJrRDNQUmdRRm1kVkFsQ1BXR0FYUmszdms1VWYxTDJjY25S?oc=5",
+      "published": "2026-11-17T04:58:09+00:00",
       "via": "aggregated",
-      "score": 89.0,
+      "score": 90.1,
+      "breaking": false
+    },
+    {
+      "headline": "College Football Coaches Fired in 2026: Hot Seat Rankings and Who Could Be Next",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORUpoSmJRdk9Rb0NDUk5VZU1RVGFVaXBKOE0tRzdPY2NySnZka1p4dG5PaFplazM5Z0dEZWFxTER3QlowbWhMSVZrYTgycHR0QXVsdmpvTVRjXzNvZUVwOEdyaWtZMlBPaVQtOVp2UGF6TjRENHBWTTdoZTR2eGY3OTFNcXBDay1qYi1aLXFreDZCMFY1Z2VqYS1FcV9lTVNJNE1J?oc=5",
+      "published": "2026-11-17T07:25:11+00:00",
+      "via": "aggregated",
+      "score": 90.9,
+      "breaking": true
+    },
+    {
+      "headline": "Baytown’s Bullock claims NHRA Top Sportsman World Championship",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUFNlQUVxT1ZndUxJN0lCYm9MX0NyeVVIN1lJdXZMVkJOM2JLaVRmMEVlVVZiRG4xaWM2WEoxbXBMU3RELWhPbmVIdHhOM3JvajZJV1dxQ0FUZFd0WVRFT0lrai1hZHEwbHNPVmItc0VuRnRHbzlhSXBiU3ZzNDA3UFl3TFl0dU5ucVNVVWExbTdTZV9rTEZyS3lvUExfQXJZUE4tbEZFNjQ3Vmd5bHp3TEM1blo0YVE0bzFta041UWNoaE9NSkt6eWpLUm1ZMm0wYWNoblkxcXhQQQ?oc=5",
+      "published": "2026-11-16T22:54:00+00:00",
+      "via": "aggregated",
+      "score": 88.1,
+      "breaking": false
+    },
+    {
+      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
+      "published": "2026-11-14T11:35:43+00:00",
+      "via": "aggregated",
+      "score": 76.3,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Braylon Mullins leads UConn past Ohio State as Huskies begin tough stretch",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-uconn-braylon-mullins-ohio-state/",
+      "published": "2026-11-14T16:14:21+00:00",
+      "via": "direct",
+      "score": 69.8,
+      "breaking": false
+    },
+    {
+      "headline": "Ranking men's college basketball All-American, player of the year candidates",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd3ZBY0g4SGpURXVqNDlyamxOYzJaQUxrNEVVMGpJM2lMMUdEQm92S0tiYTBlYmpKRmk0WGU1dy1lYVNxVVFKUzFNcGM3eHM2dExZd1dCRzhDd3J6UGxHb3hWbWNjQ1piVW43U21hSWVDR2NCampiUzA4TURoekgxVjRRenkxakFpOXZsNDVCNEtlS1B5LUhVeHFWYw?oc=5",
+      "published": "2026-11-16T13:15:32+00:00",
+      "via": "aggregated",
+      "score": 92.9,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: LSU crashes Top 25 And 1 as Donovan Dent's heroics power Tigers past Gonzaga",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-lsu-gonzaga/",
+      "published": "2026-11-15T16:28:46+00:00",
+      "via": "direct",
+      "score": 77.9,
+      "breaking": false
+    },
+    {
+      "headline": "“She’s Had the Best Car All Countdown”- Newly Crowned NHRA Champ Admits Being Terrified of Rival Amid Championship Run",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUc4bzN5VzNOYmRVRXJOd051dkhGc2VOc0lnalQzdjRxd21OcWRrc1JmWC1MMXpNOVZyTy1XWHI1VnlTRWxGX2FfUm1OdEROSjdkcS1TSTFRVVItcDNOYTQ0ekRHcld4LUJHX291MEZGRUNNQmgtcjliWEc1SzNyNw?oc=5",
+      "published": "2026-11-16T19:51:30+00:00",
+      "via": "aggregated",
+      "score": 87.1,
       "breaking": false
     }
   ]
