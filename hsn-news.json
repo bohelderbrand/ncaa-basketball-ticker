@@ -1,13 +1,15 @@
 {
-  "updated": "2026-11-17T05:42:15.705086+00:00",
+  "updated": "2026-11-17T06:47:23.684712+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
     "ESPN",
+    "FOX SPORTS",
+    "IOWA",
+    "IOWA STORYLINES",
+    "KENTUCKY STORYLINES",
     "NCAA.COM",
-    "NFL",
-    "RACING",
-    "THE ATHLETIC"
+    "RACING"
   ],
   "ap_top25_teams": [
     "Gators",
@@ -38,93 +40,23 @@
   ],
   "articles": [
     {
-      "headline": "Adan Diggs commits to Arizona: Five-star combo guard becomes first member of Wildcats' 2027 recruiting class",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/adan-diggs-commits-arizona-2027-recruiting-class/",
-      "published": "2026-11-17T02:10:01+00:00",
-      "via": "direct",
-      "score": 102.8,
-      "breaking": false
-    },
-    {
-      "headline": "Ranking men's college basketball All-American, player of the year candidates",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd3ZBY0g4SGpURXVqNDlyamxOYzJaQUxrNEVVMGpJM2lMMUdEQm92S0tiYTBlYmpKRmk0WGU1dy1lYVNxVVFKUzFNcGM3eHM2dExZd1dCRzhDd3J6UGxHb3hWbWNjQ1piVW43U21hSWVDR2NCampiUzA4TURoekgxVjRRenkxakFpOXZsNDVCNEtlS1B5LUhVeHFWYw?oc=5",
-      "published": "2026-11-16T13:15:32+00:00",
-      "via": "aggregated",
-      "score": 94.5,
-      "breaking": false
-    },
-    {
       "headline": "College basketball Top 25 rankings: Duke, Louisville fall in week 2 Coaches Poll after spotlight losses",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
       "url": "https://www.cbssports.com/college-basketball/news/top-25-rankings-coaches-poll-week-2-duke-louisville-michigan-state/",
       "published": "2026-11-16T19:21:20+00:00",
       "via": "direct",
-      "score": 100.6,
+      "score": 100.2,
       "breaking": false
     },
     {
-      "headline": "AP Top 25: Michigan State rises to No. 2, LSU replaces Kentucky in college basketball rankings",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjhYbGx3UVR4X19rRUZzZVAzaUswOU53LVhWdW90YmNGWkhGa1lQUWxYZnFQZVAzRnFwd3JXYmZ3QXNiZHZ3VEN1RXhzd0JyYk95UGNKWW16dDZFU1RRUGdyQTAtd0xkWFBNQUhaQlMyRy1vd1FtbXAyck40MVJ2VURhcWhPYkNobEFRTlZDNXJXbXAyRkxNQnFza3lTblZDTVlrbHVZZ3FfNFVtd1U0R1duMUhtUQ?oc=5",
-      "published": "2026-11-16T19:12:20+00:00",
+      "headline": "Iowa target, 5-star PG Cayden Daughtry commits to Arkansas basketball",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42TlBmQ2VwWTBKVTlfQjBTaG1IM1lqRkx4bnQtQnpzNGdOZnhhc0xiQTh1XzhLNXdVQ1JIdk80UmloalhsWDgwaHZSLTJELWk1WDRsSS1acXZLZGhPai1mT1otbi14WHBjaE9NOEIzRXhSejFjUmFCWmNn?oc=5",
+      "published": "2026-11-17T03:11:00+00:00",
       "via": "aggregated",
-      "score": 96.5,
-      "breaking": false
-    },
-    {
-      "headline": "Mike LaFleur says Carson Beck is ‘fun to coach,’ praises QB’s maturity after NFL debut",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPblhoOEo5R3I4ZHNQWEtocHlxYk5ReEhneXZxZ0YtdVM3YlRvRlQ4WmxORTctOWZlZEtZMU9XY0VKdHBwTUpxZ1B0VndzeGp4dENwWThkb25fbFlzRzA3ekJkNDlZcDFPUUUxdzBHazNwTlFEVmNIRmpVbUt2c3k1TnpXVmZnR1p4RDRkSEZrMl9hQUVMZzc0VmNZS3hENWdYaGQwR2M2cHd3T1puZW9RUjYxOXVSNVp0N0o5VHFHX1hSRC16NHc?oc=5",
-      "published": "2026-11-17T02:34:05+00:00",
-      "via": "aggregated",
-      "score": 91.0,
-      "breaking": false
-    },
-    {
-      "headline": "LSU basketball cracks the USA TODAY Sports Men's Basketball Coaches Poll Top 25",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdXFWcDUyMXp4c3Q0MHhlSzlJaEVtaFJaM1pYRVhFbWRCeE1ZTjBmc0ZjdXFEYVYxNU5JZmtMTTNJQXlKQ3dyS3A0RTBWMHpoVXU2dE9sUHYxUmotV0x4VHpJQndISk9vMEJvTE9MYzRqbDZybjNLTXg1UGJVQWpMWjBlSlNjUWc?oc=5",
-      "published": "2026-11-16T18:43:42+00:00",
-      "via": "aggregated",
-      "score": 108.3,
-      "breaking": false
-    },
-    {
-      "headline": "Florida reclaims top spot in Andy Katz's men's basketball Power 44 rankings after Week 2",
-      "source": "NCAA.COM",
-      "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-16/florida-reclaims-top-spot-andy-katzs-mens-basketball-power-44-rankings-after",
-      "published": "2026-11-16T13:52:10+00:00",
-      "via": "direct",
-      "score": 86.7,
-      "breaking": false
-    },
-    {
-      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
-      "published": "2026-11-14T11:35:43+00:00",
-      "via": "aggregated",
-      "score": 78.0,
-      "breaking": false
-    },
-    {
-      "headline": "Five-star point guard and Peach Jam star Cayden Daughtry commits to Arkansas over FSU in epic 11th-hour twist",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/cayden-daughtry-commits-arkansas-john-calipari-2027-recruiting-class/",
-      "published": "2026-11-17T03:08:57+00:00",
-      "via": "direct",
-      "score": 91.1,
+      "score": 106.8,
       "breaking": false
     },
     {
@@ -134,7 +66,57 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYTJka3UtbXZLNHY5Zk9JSV93d0dMemliU1pDaWprY0ZFdDNWZU5VckhZNkVFeGpnRno3OE4yQ1c4djBNNlpfNlhibU5iN2NsNjA5RTJzOUdrM1RhekJ3OWdqNVFDajdPSi1JMl9RU0gwNnpTYjlPSTJfZGZaOS1NN04tRjFPZ2JKazZPSTZn?oc=5",
       "published": "2026-11-16T21:17:21+00:00",
       "via": "aggregated",
-      "score": 89.2,
+      "score": 88.8,
+      "breaking": false
+    },
+    {
+      "headline": "Multiple Iowa State Basketball Records Set by Tamin Lipsey in Niagara Win",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVk8yVlhOeE8tejVYTHFwZlhCcmdaT0xEdTlJb096NnhZOVhjdmsxcDlBSjNpdDVFakx4aDM2Rk1JX2NZTDk3TWFpQ2JIMWcyQlAtVThtWGNUTUtnSDduNjJxbkk0dVJqSkJVdXhGMVB3OHlDdENmRmgyeGxCMWpLblJHMDU0V1JaeXBWYmFDWi0?oc=5",
+      "published": "2026-11-17T01:00:02+00:00",
+      "via": "aggregated",
+      "score": 106.1,
+      "breaking": false
+    },
+    {
+      "headline": "Florida reclaims top spot in Andy Katz's men's basketball Power 44 rankings after Week 2",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-16/florida-reclaims-top-spot-andy-katzs-mens-basketball-power-44-rankings-after",
+      "published": "2026-11-16T13:52:10+00:00",
+      "via": "direct",
+      "score": 86.4,
+      "breaking": false
+    },
+    {
+      "headline": "Rappler. . NU secures Final Four spot in ‘wake-up call’ win over UE WATCH: NU shuts down UE in the fourth quarter to claim a 91-74 win and clinch a Final Four spot in the UAAP Season 89 men’s basketball tournament on Sat",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd3ZVODhTYVlvZzhwa2dNVDc4OWFPTmRwTEYtbEhxcVBSVmlGdEpZVU5haWZwd0dOS2RIb2pra1djR1V4OXpRQVFFZlpsdVJSOENfcDFsTmN3VS1OT3loQ0NGV0hHaUV6M0RrMXQybUxrQ1AzY3lwakdUM1piZnphLVQyRUtpSHpOTGhGVkJUWkkwazFCQlprV3RwcWNnakU3UkZzNFlheTNWMUdRQkZDRXRHRzRKTkFHR3hXS3NhakNjUjVJbXlpellucVRJUThsVU5jR0dRUF9STXg5?oc=5",
+      "published": "2026-11-14T11:35:43+00:00",
+      "via": "aggregated",
+      "score": 77.6,
+      "breaking": false
+    },
+    {
+      "headline": "Five-star point guard and Peach Jam star Cayden Daughtry commits to Arkansas over FSU in epic 11th-hour twist",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/cayden-daughtry-commits-arkansas-john-calipari-2027-recruiting-class/",
+      "published": "2026-11-17T03:08:57+00:00",
+      "via": "direct",
+      "score": 90.8,
+      "breaking": false
+    },
+    {
+      "headline": "Ranking men's college basketball All-American, player of the year candidates",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd3ZBY0g4SGpURXVqNDlyamxOYzJaQUxrNEVVMGpJM2lMMUdEQm92S0tiYTBlYmpKRmk0WGU1dy1lYVNxVVFKUzFNcGM3eHM2dExZd1dCRzhDd3J6UGxHb3hWbWNjQ1piVW43U21hSWVDR2NCampiUzA4TURoekgxVjRRenkxakFpOXZsNDVCNEtlS1B5LUhVeHFWYw?oc=5",
+      "published": "2026-11-16T13:15:32+00:00",
+      "via": "aggregated",
+      "score": 94.2,
       "breaking": false
     },
     {
@@ -144,17 +126,37 @@
       "url": "https://www.cbssports.com/college-basketball/news/tomorrows-ap-top-25-today-michigan-state-duke-florida/",
       "published": "2026-11-16T14:25:21+00:00",
       "via": "direct",
-      "score": 86.9,
+      "score": 86.5,
       "breaking": false
     },
     {
-      "headline": "College basketball rankings: LSU crashes Top 25 And 1 as Donovan Dent's heroics power Tigers past Gonzaga",
+      "headline": "College Basketball Hot Seat: 15 Coaches Facing Major Pressure in 2026-27",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXZjemJBaTUwUjM1NXFJckxCS0ZabkdjTldHajBnSjFUVHMtbUdOOVJRVHdBTGNjX0lLVEl5cTNPeWRvZ3pZQU1lamdoZjFzMGlqRXZWRk40ckJiakd3enRyejVuRGU4T0RJdDVoZ0JneC1LUVpkWi1YbDcwUXQtNFFRa1oxZDkwVU9UX2FYWXRzYWVGZlg3R2ItVQ?oc=5",
+      "published": "2026-11-15T08:00:00+00:00",
+      "via": "aggregated",
+      "score": 96.4,
+      "breaking": false
+    },
+    {
+      "headline": "Adan Diggs commits to Arizona: Five-star combo guard becomes first member of Wildcats' 2027 recruiting class",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-lsu-gonzaga/",
-      "published": "2026-11-15T16:28:46+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/adan-diggs-commits-arizona-2027-recruiting-class/",
+      "published": "2026-11-17T02:10:01+00:00",
       "via": "direct",
-      "score": 79.6,
+      "score": 102.5,
+      "breaking": false
+    },
+    {
+      "headline": "Men’s College Basketball Power Rankings: What’s behind great starts for Florida, Kansas, MSU?",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaldNcUd3MEVEUFpfYzBZWS1CSlNKNmUtdmp5QW41eWU4MTVOcnpLdVVtNmNIN3o1UGdZM0V4Slh5azZlR2VMYmJuX2swcHBJN2x4dW9YQU1kM19jQTRqcjdZOURxRDNVNnJjZUNKMkpkWE9XY2cwQ2U2TFh5cnNJQ2JZX2JFOUdPVVF1c2xZdzV4ZTRQLUJUR19WdG5yc2VzbE1BZEtjNEFFVm5EQzVxa3Bzcw?oc=5",
+      "published": "2026-11-14T08:00:00+00:00",
+      "via": "aggregated",
+      "score": 76.4,
       "breaking": false
     },
     {
@@ -164,7 +166,47 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-uconn-braylon-mullins-ohio-state/",
       "published": "2026-11-14T16:14:21+00:00",
       "via": "direct",
-      "score": 71.5,
+      "score": 71.1,
+      "breaking": false
+    },
+    {
+      "headline": "LSU basketball cracks the USA TODAY Sports Men's Basketball Coaches Poll Top 25",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdXFWcDUyMXp4c3Q0MHhlSzlJaEVtaFJaM1pYRVhFbWRCeE1ZTjBmc0ZjdXFEYVYxNU5JZmtMTTNJQXlKQ3dyS3A0RTBWMHpoVXU2dE9sUHYxUmotV0x4VHpJQndISk9vMEJvTE9MYzRqbDZybjNLTXg1UGJVQWpMWjBlSlNjUWc?oc=5",
+      "published": "2026-11-16T18:43:42+00:00",
+      "via": "aggregated",
+      "score": 108.0,
+      "breaking": false
+    },
+    {
+      "headline": "Ypsilanti Based Kalitta Motorsports Wins Two NHRA Championsips",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMW4tQUVSU3VzMFFCa0ZSV1BGNXh2SW93VDdJQmRmZjVGRWFjUmtMV0ZXM3Q2SWZLdXVmTDdLUG41V0hOY0NmeVEwX0FXZWdaa0M5UEo1elFMSy1MU2F3UDg5TXpsdmxzRThFV2FlVmlvQTQwOWxMWHRFY3FjdmlLVnA2LTZxWThkNXo1N1daYVVJUDBrbFVtZnJNcjM2bzAta0xF?oc=5",
+      "published": "2026-11-17T00:32:55+00:00",
+      "via": "aggregated",
+      "score": 89.9,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: LSU crashes Top 25 And 1 as Donovan Dent's heroics power Tigers past Gonzaga",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-lsu-gonzaga/",
+      "published": "2026-11-15T16:28:46+00:00",
+      "via": "direct",
+      "score": 79.2,
+      "breaking": false
+    },
+    {
+      "headline": "Baytown’s Bullock claims NHRA Top Sportsman World Championship",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUFNlQUVxT1ZndUxJN0lCYm9MX0NyeVVIN1lJdXZMVkJOM2JLaVRmMEVlVVZiRG4xaWM2WEoxbXBMU3RELWhPbmVIdHhOM3JvajZJV1dxQ0FUZFd0WVRFT0lrai1hZHEwbHNPVmItc0VuRnRHbzlhSXBiU3ZzNDA3UFl3TFl0dU5ucVNVVWExbTdTZV9rTEZyS3lvUExfQXJZUE4tbEZFNjQ3Vmd5bHp3TEM1blo0YVE0bzFta041UWNoaE9NSkt6eWpLUm1ZMm0wYWNoblkxcXhQQQ?oc=5",
+      "published": "2026-11-16T22:54:00+00:00",
+      "via": "aggregated",
+      "score": 89.4,
       "breaking": false
     }
   ]
