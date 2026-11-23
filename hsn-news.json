@@ -1,21 +1,17 @@
 {
-  "updated": "2026-11-23T14:57:12.201016+00:00",
+  "updated": "2026-11-23T16:01:41.175338+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
     "COLLEGE FOOTBALL",
     "ESPN",
-    "FOX SPORTS",
     "IOWA",
     "IOWA STORYLINES",
     "KENTUCKY",
     "KENTUCKY STORYLINES",
     "MEN BASKETBALL STORYLINES",
     "NCAA.COM",
-    "NFL",
-    "RACING",
-    "THE ATHLETIC",
-    "TOP 25"
+    "NFL"
   ],
   "ap_top25_teams": [
     "Gators",
@@ -46,233 +42,13 @@
   ],
   "articles": [
     {
-      "headline": "Iowa Basketball Hosts UMBC Tuesday After 83-65 Win Over Xavier",
-      "source": "IOWA STORYLINES",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSlZqcW83TVM3M0FjT1BhZmhUdnh4UER1azhOMjFGUm1YXzhORzhUbmI2OTFtTGNrck1vME5Jb01aTmpxZVA1bTFCT1BsSUl4T3dXc2syYkdqZnhlOWJvdzFrTkFaQURFNHdPb2NsQzdLd0lIcWx4TVRBQVdLQ3dVUU1aU2tJUWpESkQ5YnR3UmxWSlVMeWdBMVlKQnM?oc=5",
-      "published": "2026-11-22T23:44:45+00:00",
-      "via": "aggregated",
-      "score": 102.9,
-      "breaking": false
-    },
-    {
-      "headline": "AP Top 25 predictions: Who will rise, fall and enter the new men’s college basketball rankings?",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONXlGMHZVVG9ISlBYYm5OaGZQMmIxZWNYYTBreWJFZ2YzVDZkb0didDUzLVR3WkJac01pRG9GV0tiVGo5YTFUa3J1VTR2eWU4eXZveVVjam8tX0J5MVZSS0dnQ3d3R184d0JfVVdtVW5aaXpjNHJ2d3FPejZFdVZ3Yi1YX295YkM5aGFmYkg1cElURklOaFJXZ084cF9uSUhrZHRBM3QzMDdhR3l0TG55cw?oc=5",
-      "published": "2026-11-23T13:30:58+00:00",
-      "via": "aggregated",
-      "score": 99.5,
-      "breaking": false
-    },
-    {
-      "headline": "Curt Cignetti's Indiana faces College Football Playoff nightmare after stunning Washington upset",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPN2Iwa3M0UkYyTE9jYWxtVXQ1MXc3eXNvRC1JRUJiakFkNWk2azFpZXk1Y0ZuNUlHaHFZNnJMMzRrc1A1YVEyYlBXT2R6VjRRa3dDQzBhT3JHZGJWd2pseHFRdE5rTnVIQjRsTGNGOXd6SmpDUmRUd3VOS1R2enQtZ3lkSUZkZnh5d25GdGwzNjY0ZW15dzBQQWNlWkYxYkNEX2Y0WkNycHY4cFBUUlZWeDRHSTkzMkNRX1l1cDBYZEg2Q05TOW1oaDdWSFdPbzhkYlZweFY5UXVrTV9QbzVqdXRyd3VVNHJRVURlQm5ZMmRMbzNVY0pkNWwwVEZWNDlqMTJMTTY2Tnllb0E?oc=5",
-      "published": "2026-11-23T12:03:42+00:00",
-      "via": "aggregated",
-      "score": 91.0,
-      "breaking": false
-    },
-    {
-      "headline": "Who are the winningest NCAA basketball coaches of all time?",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbFJ0dGxwdzh0TFhoandjQ3VzTVNRenNQNklWT3kwYmR4Yk9uVGJMYkpmMU1uY0FGVU12cklOa0NXQkRxbEc5VXJsZXpQR2Nzckp3ZUxyeUJnRWszTHp0OWtRUHZXZjFEakEtNjYwN3lQQXc1LUpYZFZZNkw4NkVIQ0ZXTW1BOVE1N0hEcjhhdEJ4enpwVnlETHRKb25LMm80NE4zZXhVX29OUEdDamc?oc=5",
-      "published": "2026-11-21T02:55:00+00:00",
-      "via": "aggregated",
-      "score": 92.0,
-      "breaking": false
-    },
-    {
-      "headline": "3 key stats from Indiana men’s basketball’s 90-76 win over Kentucky",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVzVpSnFVT1FKN2ZGcF9meTk1anNhU2JtcE15ZUhoWTBWdVpvLTdGSHhsTDBDMW5Ba01qbUJMUFRVejRjWXBOSW9xMXBTUDdQeUpWOExoWTJBc1d3Qk43eGhKY1F3S0tEb3czV1BvakoxNTVyazJCTDFzM1pKTHBMM3pUcjVpSzNyYUJKdlVjQUVVZUFoLWdZYkNkTUlFNFpTV0tScjlTM1FNWExac2stX0l0eUsyQQ?oc=5",
-      "published": "2026-11-21T05:04:00+00:00",
-      "via": "aggregated",
-      "score": 88.7,
-      "breaking": false
-    },
-    {
-      "headline": "Ranking the Top 9 Players to Watch in Men's College Basketball",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZDRmMWo0dGFMa1llZDVqNk9WVUszYW5TOURYNk1aajAyQ29vVHpVVEJGbktyYjVaUkFVaThKT2dtVUN1VDBWT2xWZm80amxLMkUyU2xka0ZSYUIzaW43UmhrcTA3dlpaMUtVMHRVV2RsRFBTUEFvUUVwaWpVZ0kxMGpyZHpwODdfcjc1aW5KdWRMVlJwVTJ4OVg2bUc?oc=5",
-      "published": "2026-11-23T12:07:04+00:00",
-      "via": "aggregated",
-      "score": 99.1,
-      "breaking": false
-    },
-    {
-      "headline": "Why Darian DeVries 'would love' to continue Indiana-Kentucky basketball rivalry",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2hzTV91TlhycjI0d2tBSXV6OE1fRHlJWVpBNUFPODBlYmd3Mk1UemIwSmZMblptNHJEOGpickozT1I3aUZDYlNoUmtjVHNRbC16d3QyWnllY3JHdng5Wkk4enM1RGhFeHBsczFDRmRSajY2UU0xckdQZjJzNmdBQ1RUZVhHMVo2?oc=5",
-      "published": "2026-11-21T05:36:00+00:00",
-      "via": "aggregated",
-      "score": 98.9,
-      "breaking": false
-    },
-    {
       "headline": "College basketball rankings: Projected AP Top 25 after Houston dominates Players Era 8, Duke hits the skids",
-      "source": "TOP 25",
+      "source": "AP TOP 25 TEAMS",
       "category": "TOP 25",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZWZuV0ZmNjlPMTZfNHVyam9nYjJ1LXBqN3Jnek5pSVRmejFlTVJPbWpUbGc2Y3FpcEJQdE5Qc3JlTEVJZmMzWHF6OVdXclN0MkpXOG1rYzZ5NHZSa0tqaTJrUWMzeWFzMVRqN1k0VGRLeHNzZlBuS2kyQzl6bHp0MlE0Y0xxa3g1NjdCNlYyQ1NlUUpSTXpnMnhLY1U4cFQtLVRZR0xlZzM5ZHNsUmFpcmNvaFdMV3VKcWFRSnFiWlFyTGxDWm1vU2xaaGFSRWZLLUE4Ym5RVjI0NVZzQjFlRzNJaE0?oc=5",
       "published": "2026-11-22T23:48:25+00:00",
       "via": "aggregated",
-      "score": 95.0,
-      "breaking": false
-    },
-    {
-      "headline": "Plattsburg High School alum Isaia Howard with a career high in points as Iowa basketball defeats Xavier",
-      "source": "IOWA STORYLINES",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd3ZzTDdWb3UxZy1XU1p2YTNfUWFhazVGS2ZKaTVWdFIxTk1wVEpqeVVBS1ItRWdxS2dpU0NZOEpuekgxX1NwblJQOGd0aU9ZYlN2c0VvOWlDMkd5OXZ3VGlOVHJ5VmxEalJLVk9KdVRRLUpBX29HT05GUHJ5dWZsa2pOZElGYzZRRW5JZGo4aTJVU1dSLW1vT3JlaHdfbEhTUlZpV1ZhM05rZDBuQkk1VGV4eFVyc3hNOUJ3Tk45RnhvV3hoTHhDYllLcWJyZ3J3eUZzUUpIbnJrQQ?oc=5",
-      "published": "2026-11-21T15:49:10+00:00",
-      "via": "aggregated",
-      "score": 102.3,
-      "breaking": false
-    },
-    {
-      "headline": "Top 25 Basketball Prediction: Houston Set to Take No. 1 as Duke Faces Major Ranking Drop",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ1dJMmNIZ29oNGVISDhZcU01YlhsNS16T09rc1hoS3h3YmN3X2Y0UndYZjZ4NzVSSlJpeF9DNVVxNk95MjZEZ0JCZDQ3NkJjRkVNdVZiTzl1cS1yOXB2U3dPdkJPd0lSSDhnQno3YVBhZmpCY0RldzA5MlRoWG9GTGhKeHFaa0MyUmg2eUs0TFFDcXZLdzJKSVMxcm1vNTFoYUZudnYxU0dHclNXTUJZV3F0WUFnZw?oc=5",
-      "published": "2026-11-23T11:17:44+00:00",
-      "via": "aggregated",
-      "score": 98.8,
-      "breaking": false
-    },
-    {
-      "headline": "NASCAR Cup Series Champion Faces Unexpected Truck Series Dilemma After Kasey Kahne’s Return",
-      "source": "RACING",
-      "category": "RACING",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX2RPanNKQ1ZUeTVjVEZ4NzRVZ3pxLUswRjBuSnExdTdQYUs3UUtyTGthenlwQkFWTmd6ZXJlVHREaDBFMWdPRElzMGNqT3pRWTAxdHhFbVF1eFRVSFBDUXhYSm1ybUQtVnFQZzc3eFRQV29mMGdZTFVoaDBTekJCR0FOd1hqT1RG?oc=5",
-      "published": "2026-11-23T13:50:01+00:00",
-      "via": "aggregated",
-      "score": 91.6,
-      "breaking": false
-    },
-    {
-      "headline": "Rappler. . La Salle scrambles Final Four race, downs top-ranked rival UP WATCH: La Salle top star Jacob Cortez erupts for a season-high 22 points, tied with teammate Doy Dungo, as the Green Archers lead by as many as 16 ",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdFlNVGhacFhKNzI3R3d5NjlFTXZiR0UtVkh1Y2hXWFZHWmc4WTBzOWxsWWpWMHRuWGM0aUJUdXlnN1hyWlBPWnJYa3hCRGt1ZTlVcTJKZENIWm9fVEVDV1BLV29sc2hzbWlJMkZ3Rmg3SWtaR3g3SXIxQ05yV3l1X09TcWV6aGhBWHdTSzJEUmFCQ2UyNklFSmdZSlN3M1E5Xzd3MHdsaUtWZUJVWURwd1pHSUNUZUtqX083azYyengxeXN2elZvTzNocUJSbGdhWXhRNXdfOExsYlE?oc=5",
-      "published": "2026-11-22T13:42:23+00:00",
-      "via": "aggregated",
-      "score": 83.6,
-      "breaking": false
-    },
-    {
-      "headline": "3 observations from Indiana men’s basketball’s 90-76 win over Kentucky",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb2JzLXN5clNkeVNJY1haZHVzMXpBMEw4d3pTTlR0Vmc1NmxZaHFmOGpxeDJvXzZfemlHbkhtUFI2UFNoZnMxTUdUMi1IWFR6Z3FTZGJyWkJXeDdoTHlsSlhUQXpWaWZoOXV2SUgtVnR6ODVrbF9fS1EzWmVZZlVISE1WeVZEMm1DbW1TNVdPMA?oc=5",
-      "published": "2026-11-21T03:52:00+00:00",
-      "via": "aggregated",
-      "score": 88.3,
-      "breaking": false
-    },
-    {
-      "headline": "CBB Player To Watch Tonight: Ivan Kharchenkov Stream of NCAA Basketball",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMTNHTDdIZHR1LUw2VWRWWTlLeXRxOFF0YW0yZkRpdlAtaVlNTWN3ZGx4b3NUNDZ1dGdXY1pyN2pmaW5OR1N3c09kcEpZVHlCTWtKcnRWaHkwa1NKMzY2aFhLZ1o4VHhXOG1hZlRCZUFoMFc0bHFzNld1bl9yLVV2YWYxVk5aVU5GTkUyUHFNQW5Vd0Y2TmE5cDNhbEtUZkhYS0tR?oc=5",
-      "published": "2026-11-23T03:25:00+00:00",
-      "via": "aggregated",
-      "score": 98.2,
-      "breaking": false
-    },
-    {
-      "headline": "Can you name the top 15 scorers in Duke Blue Devils men's basketball history?",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTXIzYWJTX1FKbWlGS09ueFBrdjFsekd5MXJVMzNhR21MNDUzeXZ6VmQ2NzVranE0YUg2Y0FVTEd6RGhZQ1E2RTJoV1pzS3FIbXZxeDBwUmNvMVJrelBxV01vWGN4dm9Cb2g4WUFOT0NoRzFxekRtSXphcGJHbVYzbmhOSWQ3VC00VkFKZ3A3NkpISE5HRzUzUVVqY01ETGFDSEhsQmRDNkFyNTlrbDNLdkpNY2ktNTMxLWtxTENBbElvYzFxdUVRaGpnN29YdjFHSVZWUklteHVwMkk?oc=5",
-      "published": "2026-11-20T17:07:26+00:00",
-      "via": "aggregated",
-      "score": 76.7,
-      "breaking": false
-    },
-    {
-      "headline": "NFL injury roundup: Chargers’ Justin Herbert in concussion protocol",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVRqMXhCWFVwTGV3Q2RJYXU4MGhCc0hHb2dGdng2VFlqNGNaWUhha1BfU2FHbDNnVUpqMkFLQ3lyQXRtVGVTZngyTUN2RVJkSlNFNEphYUhtT2wxT1NTNnlPTVp4ckNtVW1RcmdHMjlaMF9MLU1ITHU3dExhQ1doQjhTZ2t4RGpZR3pNdlN5Q3NXS2o3MEd1WWpLYWRSRDA?oc=5",
-      "published": "2026-11-23T10:41:15+00:00",
-      "via": "aggregated",
-      "score": 90.6,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Coming off loss to Illinois, Duke survives Washington State's comeback bid",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-duke-washington-state-top-25-and-1/",
-      "published": "2026-11-22T17:00:58+00:00",
-      "via": "direct",
-      "score": 84.7,
-      "breaking": false
-    },
-    {
-      "headline": "Texas Basketball Lands Three Stars On Wooden Award Watch List",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVGV2ZWxoLThmRG5DRzRmN2N4OGJMdGVPcFpRcTdFdDJWM0gzOHp2Sm1GenBEMDFjT0hDa2ZuMlVFMm1ZbXo4cTZXWUVtN1NiaUFXazVjSDNuYlp2b2VheHQxeDlmdlA5RkZON3QzRDdPaWVDVmNtc0dNMlU5Q0Y4am5PelFCNHFuTkcxSFNVcWFSbEVGUy1Qa2k2MWNwd2N5M1RaM2UzSWxqSlRsSjVnemRqYldYdw?oc=5",
-      "published": "2026-11-20T18:01:50+00:00",
-      "via": "aggregated",
-      "score": 77.0,
-      "breaking": false
-    },
-    {
-      "headline": "Tomorrow's Top 25 Today: Houston is new No. 1, Duke plummets in college basketball rankings prediction",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/tomorrows-top-25-today-houston-no-1-duke-college-basketball-rankings/",
-      "published": "2026-11-23T02:34:37+00:00",
-      "via": "direct",
-      "score": 87.9,
-      "breaking": false
-    },
-    {
-      "headline": "2026 Week 12 NFL Fantasy Football Injury Report",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWE80MlY4dmYwcFFRRE4tOGZPWlFfRW9obGxyQ21PWFh3SWN4UUU5SXpZclBmRHBGTHBKdTBDTVZZVktJdXFobGM2VWRQR1Nra09XMk5yUVQwZW9uaVVvVDBQajdaa2sySUhyMEt0S0ZYaFN3em0wcUtqNHZLcDNybVRNUUw4dGo0MVU5V0JwRlBkVk1P?oc=5",
-      "published": "2026-11-23T12:21:00+00:00",
-      "via": "aggregated",
-      "score": 91.1,
-      "breaking": false
-    },
-    {
-      "headline": "The Mount Rushmore of college basketball coaches",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcFR4RXh1NzR5VmYyZEtadHl0MXdsSVpnZFg4cTVlcmZjbHZZeVE1eWlyb0N0ZFY3enhlZ0JBS3dWRUJ2cE5nNnFTZDYtSk5keWplclJDWE5GR0VuUzhvcElqYlU1ejlFNE9lV2ladDg3TktxREVSVHZSdE9lOXlQbDVSMEZ3TlBU?oc=5",
-      "published": "2026-11-20T15:00:23+00:00",
-      "via": "aggregated",
-      "score": 88.0,
-      "breaking": false
-    },
-    {
-      "headline": "#22 UCLA Upsets #5 Arizona as the 2026-7 College Basketball Season Gets Underway",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3BmU2M1a1pxaFRWMG9rQnE3RjhOVjFLQXFVOVRySzJxajlUWGlZb2Y1eDFMS3N3aU1PRTMxcVdDc1A5LWR5dDhNMWN6d0Rnd0hXbm1rQ0FwWlJMWi1KbXUyY25vWEVzNmhob1k4aWRaSVJGeVhvRWNmdHExRlg3b2pVUEhYU3RHVUU1V2wyNG5lWFBpUEo3VzUyYmd6WHRTZWwtMA?oc=5",
-      "published": "2026-11-22T16:27:40+00:00",
-      "via": "aggregated",
-      "score": 96.5,
-      "breaking": false
-    },
-    {
-      "headline": "What Rick Barnes said about Juke Harris, breakout game for Tennessee basketball",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU0paOEhycGgtMUQ0SFNlTERxck5KbEJZRE51QnlHT2xLV1hLZTZicjVKODJXWTdnSHBoZnF3OFE3cGJ0T1M4SU13T2Z4M1VkcENZR19WZWR5MjRqLWtndnlmaHo3bHkwMnR2TFM1Z1g2NTZucjFWV2dCMU10czA3TGhRZw?oc=5",
-      "published": "2026-11-21T04:15:00+00:00",
-      "via": "aggregated",
-      "score": 90.4,
+      "score": 94.6,
       "breaking": false
     },
     {
@@ -282,25 +58,185 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZzk2eXBDUnFoUUxHbTFhZ2RCdUdWR19LdmtEczRTNlpGZWRXbTdWa19BZ0VjOGVqM1djbHBzOWZ5UFhXTXI2MmhZUG9qcVRpd3NUQThvYnFxYTNkemJOTy1NTFk5ZmZ4T3ZnUk94Y1d3YVN2NHFnZ3AxY0U5Z2h2YTlmSF9YWXIzSkVoeTFOWkdpeWhoUTRweHF0aDlpOHIxSzJ3?oc=5",
       "published": "2026-11-21T14:05:21+00:00",
       "via": "aggregated",
-      "score": 91.7,
+      "score": 91.4,
       "breaking": false
     },
     {
-      "headline": "Kentucky-Indiana basketball rivalry pushes ranked football teams off center stage for 1 night",
-      "source": "TOP 25",
+      "headline": "Ranking the Top 9 Players to Watch in Men's College Basketball",
+      "source": "AP TOP 25 TEAMS",
       "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVnNOakIzM2FqcVlmQ2JoRnZyWVJibXowRDJYeEpIZFZ0MkZsalJoMXhDa1V4R2VmQkpUZ1RJQXc5RUc0S3l5UjV0alpFbklhRGgtekhKT2FSNnlqX21mTEFWUHhDSlNHdDBsWXBfOUlqZlljdHdXQVh0Tmgxa1doZXp0WjVVclFSWmZzT3ZUcFR1RDA?oc=5",
-      "published": "2026-11-21T02:17:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZDRmMWo0dGFMa1llZDVqNk9WVUszYW5TOURYNk1aajAyQ29vVHpVVEJGbktyYjVaUkFVaThKT2dtVUN1VDBWT2xWZm80amxLMkUyU2xka0ZSYUIzaW43UmhrcTA3dlpaMUtVMHRVV2RsRFBTUEFvUUVwaWpVZ0kxMGpyZHpwODdfcjc1aW5KdWRMVlJwVTJ4OVg2bUc?oc=5",
+      "published": "2026-11-23T12:07:04+00:00",
       "via": "aggregated",
-      "score": 89.8,
+      "score": 98.7,
       "breaking": false
     },
     {
-      "headline": "2026 NFL Week 12 Injury Report: Latest Injuries, Practice Updates and Player Statuses",
+      "headline": "#22 UCLA Upsets #5 Arizona as the 2026-7 College Basketball Season Gets Underway",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3BmU2M1a1pxaFRWMG9rQnE3RjhOVjFLQXFVOVRySzJxajlUWGlZb2Y1eDFMS3N3aU1PRTMxcVdDc1A5LWR5dDhNMWN6d0Rnd0hXbm1rQ0FwWlJMWi1KbXUyY25vWEVzNmhob1k4aWRaSVJGeVhvRWNmdHExRlg3b2pVUEhYU3RHVUU1V2wyNG5lWFBpUEo3VzUyYmd6WHRTZWwtMA?oc=5",
+      "published": "2026-11-22T16:27:40+00:00",
+      "via": "aggregated",
+      "score": 96.1,
+      "breaking": false
+    },
+    {
+      "headline": "When Do the College Basketball AP Top 25 and Coaches Poll Come Out? What SEC Fans Should Know",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaTduOUQ2Y09Fb2lmQk9hYm1sT25rU2k1VTMyMmxGQWR3SmlLYjdpenFOOHVuN2pVRjZ1Zm5vNkFrVnNwOUQ3NHJMZ3F6MXdnenotYnpKYnlhVk0zcU5mUXFDcHRTS2p3STBqN3hzTnpLN2xldXZMS1RMdWJmck9XN3lwTQ?oc=5",
+      "published": "2026-11-23T14:45:00+00:00",
+      "via": "aggregated",
+      "score": 111.6,
+      "breaking": false
+    },
+    {
+      "headline": "2026 Maui Invitational: Bracket, schedule, scores",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-23/2026-maui-invitational-bracket-schedule-scores",
+      "published": "2026-11-23T15:55:00+00:00",
+      "via": "direct",
+      "score": 92.0,
+      "breaking": false
+    },
+    {
+      "headline": "Utah Stands Alone as College Football’s Last Undefeated Team After Former Coach’s Win",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb3p0NDdNYzB2a3AyNWQ1dnVuZUM4V1NTd2RHQUFpLTVINDhpa0tKMkZ1eWg4MVdIV25PUmwzQzFVVzRXWkFBS1V3ZGRiRTJ4RDRBLV9raktibEVhYUhpUlNadGZiUUlxYWZBUHhRLXNyWUg1Ny1FREtWVGI1V1NpT0VucVFjOWJ3STBJ?oc=5",
+      "published": "2026-11-22T13:10:55+00:00",
+      "via": "aggregated",
+      "score": 93.1,
+      "breaking": false
+    },
+    {
+      "headline": "AP Top 25 predictions: Who will rise, fall and enter the new men’s college basketball rankings?",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONXlGMHZVVG9ISlBYYm5OaGZQMmIxZWNYYTBreWJFZ2YzVDZkb0didDUzLVR3WkJac01pRG9GV0tiVGo5YTFUa3J1VTR2eWU4eXZveVVjam8tX0J5MVZSS0dnQ3d3R184d0JfVVdtVW5aaXpjNHJ2d3FPejZFdVZ3Yi1YX295YkM5aGFmYkg1cElURklOaFJXZ084cF9uSUhrZHRBM3QzMDdhR3l0TG55cw?oc=5",
+      "published": "2026-11-23T13:30:58+00:00",
+      "via": "aggregated",
+      "score": 99.2,
+      "breaking": false
+    },
+    {
+      "headline": "CBB Player To Watch Tonight: Ivan Kharchenkov Stream of NCAA Basketball",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMTNHTDdIZHR1LUw2VWRWWTlLeXRxOFF0YW0yZkRpdlAtaVlNTWN3ZGx4b3NUNDZ1dGdXY1pyN2pmaW5OR1N3c09kcEpZVHlCTWtKcnRWaHkwa1NKMzY2aFhLZ1o4VHhXOG1hZlRCZUFoMFc0bHFzNld1bl9yLVV2YWYxVk5aVU5GTkUyUHFNQW5Vd0Y2TmE5cDNhbEtUZkhYS0tR?oc=5",
+      "published": "2026-11-23T03:25:00+00:00",
+      "via": "aggregated",
+      "score": 97.8,
+      "breaking": false
+    },
+    {
+      "headline": "Top 25 Basketball Prediction: Houston Set to Take No. 1 as Duke Faces Major Ranking Drop",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ1dJMmNIZ29oNGVISDhZcU01YlhsNS16T09rc1hoS3h3YmN3X2Y0UndYZjZ4NzVSSlJpeF9DNVVxNk95MjZEZ0JCZDQ3NkJjRkVNdVZiTzl1cS1yOXB2U3dPdkJPd0lSSDhnQno3YVBhZmpCY0RldzA5MlRoWG9GTGhKeHFaa0MyUmg2eUs0TFFDcXZLdzJKSVMxcm1vNTFoYUZudnYxU0dHclNXTUJZV3F0WUFnZw?oc=5",
+      "published": "2026-11-23T11:17:44+00:00",
+      "via": "aggregated",
+      "score": 98.4,
+      "breaking": false
+    },
+    {
+      "headline": "3 observations from Indiana men’s basketball’s 90-76 win over Kentucky",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb2JzLXN5clNkeVNJY1haZHVzMXpBMEw4d3pTTlR0Vmc1NmxZaHFmOGpxeDJvXzZfemlHbkhtUFI2UFNoZnMxTUdUMi1IWFR6Z3FTZGJyWkJXeDdoTHlsSlhUQXpWaWZoOXV2SUgtVnR6ODVrbF9fS1EzWmVZZlVISE1WeVZEMm1DbW1TNVdPMA?oc=5",
+      "published": "2026-11-21T03:52:00+00:00",
+      "via": "aggregated",
+      "score": 87.9,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Why Houston deserves to be No. 1 in Top 25 And 1, other major polls",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-houston-top-25-and-1/",
+      "published": "2026-11-23T15:36:49+00:00",
+      "via": "direct",
+      "score": 91.9,
+      "breaking": false
+    },
+    {
+      "headline": "3 key stats from Indiana men’s basketball’s 90-76 win over Kentucky",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVzVpSnFVT1FKN2ZGcF9meTk1anNhU2JtcE15ZUhoWTBWdVpvLTdGSHhsTDBDMW5Ba01qbUJMUFRVejRjWXBOSW9xMXBTUDdQeUpWOExoWTJBc1d3Qk43eGhKY1F3S0tEb3czV1BvakoxNTVyazJCTDFzM1pKTHBMM3pUcjVpSzNyYUJKdlVjQUVVZUFoLWdZYkNkTUlFNFpTV0tScjlTM1FNWExac2stX0l0eUsyQQ?oc=5",
+      "published": "2026-11-21T05:04:00+00:00",
+      "via": "aggregated",
+      "score": 88.3,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball's Thanksgiving week primer: Most intriguing matchups, top NBA Draft prospects, predictions",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/thanksgiving-week-primer-maui-invitational-battle-4-atlantis-players-era/",
+      "published": "2026-11-23T15:56:29+00:00",
+      "via": "direct",
+      "score": 92.0,
+      "breaking": false
+    },
+    {
+      "headline": "Why Darian DeVries 'would love' to continue Indiana-Kentucky basketball rivalry",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2hzTV91TlhycjI0d2tBSXV6OE1fRHlJWVpBNUFPODBlYmd3Mk1UemIwSmZMblptNHJEOGpickozT1I3aUZDYlNoUmtjVHNRbC16d3QyWnllY3JHdng5Wkk4enM1RGhFeHBsczFDRmRSajY2UU0xckdQZjJzNmdBQ1RUZVhHMVo2?oc=5",
+      "published": "2026-11-21T05:36:00+00:00",
+      "via": "aggregated",
+      "score": 98.5,
+      "breaking": false
+    },
+    {
+      "headline": "2026 Week 12 NFL Fantasy Football Injury Report",
       "source": "NFL",
       "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZNDlPTi1nUkN4U0I4LWNIX2NXZm1MYy0yQ0ZBOWhxRXRGbndEYXVnT2ZETFppRUcxYkRCdzdfS29DdUIySUMya2FJWDVkYzdhbzd3X1BRSGpIUG1sdjRyVEcxYnRlaUk?oc=5",
-      "published": "2026-11-23T05:45:50+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWE80MlY4dmYwcFFRRE4tOGZPWlFfRW9obGxyQ21PWFh3SWN4UUU5SXpZclBmRHBGTHBKdTBDTVZZVktJdXFobGM2VWRQR1Nra09XMk5yUVQwZW9uaVVvVDBQajdaa2sySUhyMEt0S0ZYaFN3em0wcUtqNHZLcDNybVRNUUw4dGo0MVU5V0JwRlBkVk1P?oc=5",
+      "published": "2026-11-23T12:21:00+00:00",
+      "via": "aggregated",
+      "score": 90.8,
+      "breaking": false
+    },
+    {
+      "headline": "Curt Cignetti's Indiana faces College Football Playoff nightmare after stunning Washington upset",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPN2Iwa3M0UkYyTE9jYWxtVXQ1MXc3eXNvRC1JRUJiakFkNWk2azFpZXk1Y0ZuNUlHaHFZNnJMMzRrc1A1YVEyYlBXT2R6VjRRa3dDQzBhT3JHZGJWd2pseHFRdE5rTnVIQjRsTGNGOXd6SmpDUmRUd3VOS1R2enQtZ3lkSUZkZnh5d25GdGwzNjY0ZW15dzBQQWNlWkYxYkNEX2Y0WkNycHY4cFBUUlZWeDRHSTkzMkNRX1l1cDBYZEg2Q05TOW1oaDdWSFdPbzhkYlZweFY5UXVrTV9QbzVqdXRyd3VVNHJRVURlQm5ZMmRMbzNVY0pkNWwwVEZWNDlqMTJMTTY2Tnllb0E?oc=5",
+      "published": "2026-11-23T12:03:42+00:00",
+      "via": "aggregated",
+      "score": 90.7,
+      "breaking": false
+    },
+    {
+      "headline": "Numbers That Stood Out From Iowa Men's Basketball's Win At Xavier",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQV9sOXhIVy13NHNoSWJPTmZ1eU5wclRtUzRscVhVQl9LRkFGblVyR3lJZGNvYTdyU0JfRzRRTTB6UjFwS2ZVbjdoRXh1T3VzQ2t6RUJDV2xaWWdHQ2M0OVpjUHU2b0VaQ1loUVBDd0pyYXp5UGU5RHNFcVUyb0pvMU8wQjdtdHllTmhwQW13bkxxZHBLYXljSFZFUTFlMWxud1hzZmRRZTVBZw?oc=5",
+      "published": "2026-11-21T12:02:01+00:00",
+      "via": "aggregated",
+      "score": 90.7,
+      "breaking": false
+    },
+    {
+      "headline": "Rappler. . La Salle scrambles Final Four race, downs top-ranked rival UP WATCH: La Salle top star Jacob Cortez erupts for a season-high 22 points, tied with teammate Doy Dungo, as the Green Archers lead by as many as 16 ",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdFlNVGhacFhKNzI3R3d5NjlFTXZiR0UtVkh1Y2hXWFZHWmc4WTBzOWxsWWpWMHRuWGM0aUJUdXlnN1hyWlBPWnJYa3hCRGt1ZTlVcTJKZENIWm9fVEVDV1BLV29sc2hzbWlJMkZ3Rmg3SWtaR3g3SXIxQ05yV3l1X09TcWV6aGhBWHdTSzJEUmFCQ2UyNklFSmdZSlN3M1E5Xzd3MHdsaUtWZUJVWURwd1pHSUNUZUtqX083azYyengxeXN2elZvTzNocUJSbGdhWXhRNXdfOExsYlE?oc=5",
+      "published": "2026-11-22T13:42:23+00:00",
+      "via": "aggregated",
+      "score": 83.2,
+      "breaking": false
+    },
+    {
+      "headline": "FBS College Football Coach Fired After Badmouthing HC To Players & Their Parents",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR3BhQy1zMXh6djBZVURyZHppUGZxUENaYllOT1ZlVXJULXhYWGpETGlhUElTdmJmNzBGWXZHMTQxd0lId1NjS2pSa0ZmWks4WlBKNUlkRUxyaHMzeE54ZFRkOHhPcVJLSVlfelBTYmVfd2t5VHVGMkFYTkZaMXdrVlJhWGNlck9pTGp5dHdveVRsb05PUW84ZFgzUmlkU190R3dYWnlOUlBSQUJhajRYVzN4NkNKR1FON3ZaeHRqeWYtclhFZ09BZ2tidHRJVzRQRUZoaXNBbGdVVGVTZE9WQg?oc=5",
+      "published": "2026-11-23T06:35:09+00:00",
       "via": "aggregated",
       "score": 88.9,
       "breaking": false
@@ -312,57 +248,47 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSTJzREpzOUNFdVZlT2thR3pFOUZKOGZEZzdZX2RXMVlUZkZITjFZOGVnRXphM2N0ZHpjWWZEbkF6ajVKaEZidlRmUHdDb3BESWkxWjhUV2NWWmpWbkpZUlBlWW1qb0pGcHFzX0pBMU9iTWhxNXU1Z193Y3M4M284OE5vVQ?oc=5",
       "published": "2026-11-21T03:59:37+00:00",
       "via": "aggregated",
-      "score": 88.3,
+      "score": 88.0,
       "breaking": false
     },
     {
-      "headline": "With Indiana, Kentucky hoping to return to glory, Hoosiers look a step closer",
-      "source": "NCAA.COM",
-      "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-21/indiana-kentucky-hoping-return-glory-hoosiers-look-step-closer",
-      "published": "2026-11-21T17:08:03+00:00",
-      "via": "direct",
-      "score": 76.7,
+      "headline": "Can you name the top 15 scorers in Duke Blue Devils men's basketball history?",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTXIzYWJTX1FKbWlGS09ueFBrdjFsekd5MXJVMzNhR21MNDUzeXZ6VmQ2NzVranE0YUg2Y0FVTEd6RGhZQ1E2RTJoV1pzS3FIbXZxeDBwUmNvMVJrelBxV01vWGN4dm9Cb2g4WUFOT0NoRzFxekRtSXphcGJHbVYzbmhOSWQ3VC00VkFKZ3A3NkpISE5HRzUzUVVqY01ETGFDSEhsQmRDNkFyNTlrbDNLdkpNY2ktNTMxLWtxTENBbElvYzFxdUVRaGpnN29YdjFHSVZWUklteHVwMkk?oc=5",
+      "published": "2026-11-20T17:07:26+00:00",
+      "via": "aggregated",
+      "score": 76.4,
       "breaking": false
     },
     {
-      "headline": "Iowa football lands former Western Illinois basketball recruit",
-      "source": "IOWA",
+      "headline": "Iowa Basketball Hosts UMBC Tuesday After 83-65 Win Over Xavier",
+      "source": "IOWA STORYLINES",
       "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLVk4cVRia3ZZYXVpbno0cU9STmQ3THphV1p1SWpSZWcyTDdQVTh4WU1tV0Vfc04wVHRUbmNCMkRVTlpyQlBUWnJJMUV6YUZYYVNwVFIyaEZHUkNRc0RQcGFEYlZfR0xLbUp5LWRSdElGcUpZTHd3ZWI2c0tCVUhFanJ0Q0k?oc=5",
-      "published": "2026-11-23T02:11:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSlZqcW83TVM3M0FjT1BhZmhUdnh4UER1azhOMjFGUm1YXzhORzhUbmI2OTFtTGNrck1vME5Jb01aTmpxZVA1bTFCT1BsSUl4T3dXc2syYkdqZnhlOWJvdzFrTkFaQURFNHdPb2NsQzdLd0lIcWx4TVRBQVdLQ3dVUU1aU2tJUWpESkQ5YnR3UmxWSlVMeWdBMVlKQnM?oc=5",
+      "published": "2026-11-22T23:44:45+00:00",
       "via": "aggregated",
-      "score": 115.7,
+      "score": 102.6,
       "breaking": false
     },
     {
-      "headline": "TCU Fires Head Coach Sonny Dykes After Disappointing 2026 Football Season",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV2tvYlJvTzhzODQybEl3ajJlSzJqMkpGTElZTnB1S2RsOElkSGdISzZhMWc0d1d6VDY5WHl5UTg4Y283UFBUMUFSZXRGTm9FWXhIc2dRZEJzMFR5b2VodDRLdmJFSldtTGpsUmlpZXl5WUFrR0w4cVpZaHdobldreC1OUWZ2ekZycExlWDlRU196eEVST1BybUdULVptZDE0WTNZa0k2OHJMQzdXWkluVHBHUTVuLVo2TWtCTDJINEJETTJyU0RxN041TUpMdXc?oc=5",
-      "published": "2026-11-23T14:26:28+00:00",
-      "via": "aggregated",
-      "score": 91.8,
-      "breaking": false
-    },
-    {
-      "headline": "Numbers That Stood Out From Iowa Men's Basketball's Win At Xavier",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQV9sOXhIVy13NHNoSWJPTmZ1eU5wclRtUzRscVhVQl9LRkFGblVyR3lJZGNvYTdyU0JfRzRRTTB6UjFwS2ZVbjdoRXh1T3VzQ2t6RUJDV2xaWWdHQ2M0OVpjUHU2b0VaQ1loUVBDd0pyYXp5UGU5RHNFcVUyb0pvMU8wQjdtdHllTmhwQW13bkxxZHBLYXljSFZFUTFlMWxud1hzZmRRZTVBZw?oc=5",
-      "published": "2026-11-21T12:02:01+00:00",
-      "via": "aggregated",
-      "score": 91.0,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Houston cements place atop Top 25 And 1 after dominating Kansas",
+      "headline": "College basketball rankings: Coming off loss to Illinois, Duke survives Washington State's comeback bid",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/rankings-houston-cougars-top-25-and-1-kansas-kelvin-sampson/",
-      "published": "2026-11-20T17:59:00+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-duke-washington-state-top-25-and-1/",
+      "published": "2026-11-22T17:00:58+00:00",
       "via": "direct",
-      "score": 69.0,
+      "score": 84.3,
+      "breaking": false
+    },
+    {
+      "headline": "NFL injury roundup: Chargers’ Justin Herbert in concussion protocol",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVRqMXhCWFVwTGV3Q2RJYXU4MGhCc0hHb2dGdng2VFlqNGNaWUhha1BfU2FHbDNnVUpqMkFLQ3lyQXRtVGVTZngyTUN2RVJkSlNFNEphYUhtT2wxT1NTNnlPTVp4ckNtVW1RcmdHMjlaMF9MLU1ITHU3dExhQ1doQjhTZ2t4RGpZR3pNdlN5Q3NXS2o3MEd1WWpLYWRSRDA?oc=5",
+      "published": "2026-11-23T10:41:15+00:00",
+      "via": "aggregated",
+      "score": 90.2,
       "breaking": false
     },
     {
@@ -372,7 +298,27 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWjVhdDF2U0g5VFJVbUk1akt2V1lEUnp3X042NFBndGRUQ1NSTWNMUm9TWkdIbS1pOGM4UlluUC16eTQ0ZDdKb1dGaXMwcUV3X1JJTUdYMm12YnN1TmkzRWhZS3d3UExEUDRLX2c5SEhydVptQ2tFTDdpeG9hWWVpUk9LemdhNUpVbUlGNGcxU2VXLWZZVUJRVnlEaElEc2FuN3pSS2duTmsxZw?oc=5",
       "published": "2026-11-21T02:30:51+00:00",
       "via": "aggregated",
-      "score": 87.9,
+      "score": 87.5,
+      "breaking": false
+    },
+    {
+      "headline": "Tomorrow's Top 25 Today: Houston is new No. 1, Duke plummets in college basketball rankings prediction",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/tomorrows-top-25-today-houston-no-1-duke-college-basketball-rankings/",
+      "published": "2026-11-23T02:34:37+00:00",
+      "via": "direct",
+      "score": 87.5,
+      "breaking": false
+    },
+    {
+      "headline": "Iowa football lands former Western Illinois basketball recruit",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLVk4cVRia3ZZYXVpbno0cU9STmQ3THphV1p1SWpSZWcyTDdQVTh4WU1tV0Vfc04wVHRUbmNCMkRVTlpyQlBUWnJJMUV6YUZYYVNwVFIyaEZHUkNRc0RQcGFEYlZfR0xLbUp5LWRSdElGcUpZTHd3ZWI2c0tCVUhFanJ0Q0k?oc=5",
+      "published": "2026-11-23T02:11:00+00:00",
+      "via": "aggregated",
+      "score": 115.4,
       "breaking": false
     },
     {
@@ -382,17 +328,47 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-top-25-and-1-indiana-dominates-kentucky/",
       "published": "2026-11-21T16:33:11+00:00",
       "via": "direct",
-      "score": 76.5,
+      "score": 76.2,
       "breaking": false
     },
     {
-      "headline": "Utah Stands Alone as College Football’s Last Undefeated Team After Former Coach’s Win",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb3p0NDdNYzB2a3AyNWQ1dnVuZUM4V1NTd2RHQUFpLTVINDhpa0tKMkZ1eWg4MVdIV25PUmwzQzFVVzRXWkFBS1V3ZGRiRTJ4RDRBLV9raktibEVhYUhpUlNadGZiUUlxYWZBUHhRLXNyWUg1Ny1FREtWVGI1V1NpT0VucVFjOWJ3STBJ?oc=5",
-      "published": "2026-11-22T13:10:55+00:00",
+      "headline": "NFL insider appears to drop a major hint about Puka Nacua's future with the Los Angeles Rams amid season-ending injury",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMGF1MV9POHNYTU4wQlFYSTJRc0RacWtSRUh6Rld3Q0xUd1daaHd4aFhRLU5fVjFoYlM5SU1IandxaS1adkV0b29QVXE5QXhldndHQlVSeXpKZlhWbDFjWWZMOXZOVy1ucm8zVVVabGVjN3RIR2lnb2k3SGQwM2FCZTMzTDY2emtMbUhXMDJCd1ZIQ3hJTHQzNmQ2b1NuZUxDMDdXUmN5eUhnTF9ObnVmaFFBamZzZFNqQnpaLU9QMnR2LWh6MmJIdGlYNHN3ZWhFdUNFOUJVQWdrMXVHUEhnblBnazIzZkRvWktiMHU5TXM2TVpmNXFQYzBxQQ?oc=5",
+      "published": "2026-11-23T15:29:25+00:00",
       "via": "aggregated",
-      "score": 93.4,
+      "score": 91.8,
+      "breaking": true
+    },
+    {
+      "headline": "With Indiana, Kentucky hoping to return to glory, Hoosiers look a step closer",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-21/indiana-kentucky-hoping-return-glory-hoosiers-look-step-closer",
+      "published": "2026-11-21T17:08:03+00:00",
+      "via": "direct",
+      "score": 76.4,
+      "breaking": false
+    },
+    {
+      "headline": "Iowa basketball rolls past Xavier: Final score, recap",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcVZmMG0tVUZvRjF2WVJFN2djV1ZFS1lOcGhmU3JUeXMySmw5RWFFcTM4SUFlb1J0MjlBcnhQSXctMW9yTGNwNzZBVDJyalJpalRfMXFqM3AxVWpPRnhqNzZQSGZRdk5YZHZ3eUM2VnZsNVc3TzJGbzFXa0ZxTnJmbFlCWm1tUQ?oc=5",
+      "published": "2026-11-20T23:15:23+00:00",
+      "via": "aggregated",
+      "score": 86.4,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Houston cements place atop Top 25 And 1 after dominating Kansas",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/rankings-houston-cougars-top-25-and-1-kansas-kelvin-sampson/",
+      "published": "2026-11-20T17:59:00+00:00",
+      "via": "direct",
+      "score": 68.7,
       "breaking": false
     },
     {
@@ -402,15 +378,15 @@
       "url": "https://www.cbssports.com/college-basketball/news/2027-ncaa-tournament-projection-bracketology-houston-iillinois-virginia/",
       "published": "2026-11-20T19:17:25+00:00",
       "via": "direct",
-      "score": 69.4,
+      "score": 69.1,
       "breaking": false
     },
     {
-      "headline": "Iowa basketball rolls past Xavier: Final score, recap",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcVZmMG0tVUZvRjF2WVJFN2djV1ZFS1lOcGhmU3JUeXMySmw5RWFFcTM4SUFlb1J0MjlBcnhQSXctMW9yTGNwNzZBVDJyalJpalRfMXFqM3AxVWpPRnhqNzZQSGZRdk5YZHZ3eUM2VnZsNVc3TzJGbzFXa0ZxTnJmbFlCWm1tUQ?oc=5",
-      "published": "2026-11-20T23:15:23+00:00",
+      "headline": "TCU fires football coach Sonny Dykes with one game left in regular season",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNHFpSlA3NXZxdlVpbmtNdVFHVVhKZXJNOGcwd09tTlZFd3otYVBwb3hvMnE4ZWlYSWxLa3U2LVNzSjZhejNBdzdkNE83SXI1QTBWNy05UDFQLUdVRHhtc2QtTjNWZTNCMlNiVUxkY0F6T25zcmtfOXdua0kyM01jZjNuQ3Nja0UtNDlmbVUxT1pJZkpf?oc=5",
+      "published": "2026-11-23T00:28:35+00:00",
       "via": "aggregated",
       "score": 86.8,
       "breaking": false
