@@ -262,7 +262,7 @@ header{overflow:hidden}
  .lane .card .teamlogo{width:clamp(24px,2.55vw,39px);height:clamp(24px,2.55vw,39px)}
 }
 
-/* V8.6.21: TV-browser-safe team rows. Keep all card/viewport sizing intact. */
+/* V8.6.22: TV-browser-safe team rows. Keep all card/viewport sizing intact. */
 .lane .card .matchup{
   gap:clamp(3px,.5vh,6px);
   justify-content:center;
@@ -298,7 +298,7 @@ header{overflow:hidden}
 .lane .card .school-name{font-weight:900}
 .lane .card .name-divider{color:#a9c1dc;font-weight:600}
 
-/* V8.6.21: compact rotating game alerts, with a dedicated row only while active. */
+/* V8.6.22: compact rotating game alerts, with a dedicated row only while active. */
 #gameAlertStrip{display:none;height:38px;min-height:38px;align-items:center;gap:12px;padding:3px 1.3vw;background:#111f33;border-top:2px solid #e9aa46;border-bottom:1px solid #334c68;overflow:hidden;white-space:nowrap;font-size:clamp(12px,1.25vw,21px);font-weight:800}
 body.has-game-alerts #gameAlertStrip{display:flex}
 body.has-game-alerts #layout{height:calc(87% - 38px)}
@@ -312,12 +312,12 @@ body.has-game-alerts #layout{height:calc(87% - 38px)}
 @media(orientation:landscape) and (max-height:760px){body.has-game-alerts #layout{height:calc(100% - clamp(66px,13vh,90px) - 72px)}}
 @media(orientation:landscape) and (max-height:450px){body.has-game-alerts #layout{height:calc(100% - 123px)}#gameAlertStrip{height:38px;min-height:38px}}
 @media(orientation:portrait) and (max-width:900px){body.has-game-alerts #layout{height:auto}#gameAlertStrip{height:42px;min-height:42px}#gameAlertTitle{font-size:10px}#gameAlertNetwork{max-width:22%}}
-/* V8.6.21: news labels and clickable sources, same crawl height and speed. */
+/* V8.6.22: news labels and clickable sources, same crawl height and speed. */
 .crawl-text .news-category{color:#ffdb69;font-weight:1000;margin-right:.35em}
 .crawl-text .news-link{color:inherit;text-decoration:none}
 .crawl-text .news-link:focus-visible{outline:2px solid #ffdb69;outline-offset:3px}
 .crawl-badge{position:relative;z-index:3}.crawl-window{z-index:1;isolation:isolate;overflow:hidden}.news-source{font-weight:800;color:#9fc9ff;margin-right:.35em;font-size:.9em} 
-/* V8.6.21: floating pop-out above favorite cards; no scoreboard resizing. */
+/* V8.6.22: floating pop-out above favorite cards; no scoreboard resizing. */
 .favcard{position:relative;overflow:hidden}
 .hsn-popout{position:fixed;z-index:9999;pointer-events:none;overflow:visible;--burst:#4c9cff;--burst2:#fff;animation:hsn-pop-enter .32s ease-out both}
 .hsn-popout.ia{--burst:#ffcf25;--burst2:#fff}
@@ -338,11 +338,11 @@ body.has-game-alerts #layout{height:calc(87% - 38px)}
 @keyframes hsnMascotFrames{from{background-position:0 0}to{background-position:100% 0}}
 @media(prefers-reduced-motion:reduce){.hsn-mascot-art{animation:none}}
 
-/* HSN 8.6.21: Arkansas opponent scoring celebration */
-#hsnHogsPopup{position:fixed;z-index:10010;top:37%;left:50%;transform:translate(-50%,-50%) scale(.8);max-width:92vw;padding:clamp(12px,2vw,32px) clamp(20px,4vw,75px);border:4px solid #fff;border-radius:16px;background:linear-gradient(120deg,#a20b1a,#e22d38,#760613);box-shadow:0 0 35px #e22d38,0 8px 35px #000c;color:#fff;text-align:center;font-size:clamp(26px,5vw,84px);font-weight:1000;letter-spacing:.03em;text-shadow:3px 4px 0 #57000a,0 0 12px #fff9;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .15s,transform .15s,visibility .15s;white-space:nowrap}
+/* HSN 8.6.22: Arkansas opponent scoring celebration */
+#hsnHogsPopup{position:fixed;z-index:10010;top:50%;left:50%;transform:translate(-50%,-50%) scale(.8);max-width:92vw;padding:clamp(6px,1vw,16px) clamp(10px,2vw,38px);border:4px solid #fff;border-radius:16px;background:linear-gradient(120deg,#a20b1a,#e22d38,#760613);box-shadow:0 0 35px #e22d38,0 8px 35px #000c;color:#fff;text-align:center;font-size:clamp(13px,2.5vw,42px);font-weight:1000;letter-spacing:.03em;text-shadow:3px 4px 0 #57000a,0 0 12px #fff9;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .15s,transform .15s,visibility .15s;white-space:nowrap}
 #hsnHogsPopup.show{visibility:visible;opacity:1;transform:translate(-50%,-50%) scale(1)}
 @media(prefers-reduced-motion:reduce){#hsnHogsPopup{transition:none}}
-</style><style id="hsnDemoStyle">#hsnDemoBar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:7px 10px;background:#111d31;color:#fff;font:13px Arial,sans-serif}#hsnDemoBar button{padding:8px 12px;border:1px solid #7398c9;border-radius:6px;background:#24456f;color:white;cursor:pointer;font-weight:bold}#hsnDemoBar button:focus-visible{outline:3px solid #ffd85a}#hsnDemoBar span{color:#bacbe0}#hsnDemoBar strong{color:#ffda62}</style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK <span style="font-size:12px;color:#ffd35c;white-space:nowrap">V8.6.21</span></h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel">♫ Music: Off</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><div id="musicPanel" role="group" aria-label="Background music settings"><label for="musicVolume">Background music volume: <span id="musicVolumeLabel">10%</span></label><input id="musicVolume" type="range" min="0" max="50" value="10" step="1"><br><button id="musicMute" type="button">Mute</button><div id="musicHint">Original HSN sports instrumental. Press Music to start or stop. Music may require a click on Google TV.</div></div><audio id="hsnMusic" src="hsn-sports-music.wav" preload="none" loop></audio><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="gameAlertStrip" role="status" aria-label="Close games and upset watch"><span id="gameAlertTitle">🚨 HSN ALERTS</span><span id="gameAlertItem"></span><span id="gameAlertNetwork"></span><span id="gameAlertCounter"></span></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>NEWSWIRE</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
+</style><style id="hsnDemoStyle">#hsnDemoBar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:7px 10px;background:#111d31;color:#fff;font:13px Arial,sans-serif}#hsnDemoBar button{padding:8px 12px;border:1px solid #7398c9;border-radius:6px;background:#24456f;color:white;cursor:pointer;font-weight:bold}#hsnDemoBar button:focus-visible{outline:3px solid #ffd85a}#hsnDemoBar span{color:#bacbe0}#hsnDemoBar strong{color:#ffda62}</style><style>.ranked-game{outline:2px solid #e6bd50;outline-offset:-3px;box-shadow:inset 0 0 9px #e6bd5070}.ranked-matchup{outline:3px solid #ffdf72;outline-offset:-4px;box-shadow:inset 0 0 14px #ffdf7290}.ranked-matchup .badges:after{content:"TOP 25 MATCHUP";font-size:10px;font-weight:900;color:#ffdf72;background:#172133;padding:2px 4px}.fav-live-clock{font-size:clamp(14px,1.3vw,24px);color:#ffdf72;white-space:nowrap}.favmeta{white-space:normal!important}#top25Panel{position:fixed;right:12px;top:12vh;width:min(680px,94vw);max-height:82vh;z-index:10020;background:#10253f;color:white;border:2px solid #e6bd50;border-radius:12px;padding:14px;box-shadow:0 8px 30px #000b}#top25Panel[hidden]{display:none}#top25Close{float:right}#top25Panel h2{margin:0 0 8px;color:#ffdf72}#pollDate{font-size:13px;margin-bottom:8px}#pollRows{max-height:65vh;overflow:auto}.pollrow{display:grid;grid-template-columns:42px 32px minmax(0,1fr) 55px 55px;align-items:center;gap:7px;padding:7px;border-bottom:1px solid #527da3;font-size:clamp(12px,1.1vw,18px)}.pollrow img{width:30px;height:30px;object-fit:contain}.pollrow small{grid-column:3/-1;color:#ffdf72}.pollrow small:empty{display:none}</style></head><body><header><div class="hsn-brand"><img class="hsn-logo" src="hsn-logo.jpg" alt="HSN Helderbrand Sports Network"><div class="hsn-heading"><h1>HELDERBRAND SPORTS NETWORK <span style="font-size:12px;color:#ffd35c;white-space:nowrap">V8.6.22</span></h1><div class="hsn-sub"><b class="live-dot">● LIVE</b> NCAA DIVISION I · MEN'S BASKETBALL</div><div id="updated">Loading live scoreboard…</div></div></div><div class="controls"><span id="alertsNow">Checking alerts…</span><button id="top25Toggle" type="button" aria-expanded="false" aria-controls="top25Panel">🏆 TOP 25 ▼</button><button id="pause" type="button">⏸ Pause</button><button id="settings" type="button">⚙ Settings</button></div></header><section id="top25Panel" hidden aria-label="AP Top 25 rankings"><button id="top25Close" type="button">Close ✕</button><h2>AP TOP 25</h2><div id="pollDate">Loading rankings…</div><div id="pollRows" tabindex="0"></div></section><div id="layout"><main id="board" aria-label="NCAA basketball score ticker"></main><aside id="favorites" aria-label="Pinned Kentucky and Iowa games"><div id="favoriteGames">Checking today’s games…</div></aside></div><div id="gameAlertStrip" role="status" aria-label="Close games and upset watch"><span id="gameAlertTitle">🚨 HSN ALERTS</span><span id="gameAlertItem"></span><span id="gameAlertNetwork"></span><span id="gameAlertCounter"></span></div><div id="crawl" aria-label="Scrolling college basketball news"><div class="crawl-badge">HSN <small>NEWSWIRE</small></div><div class="crawl-window"><div id="crawlText" class="crawl-text">Loading college basketball headlines…</div></div></div>
 <div id="hsnHogsPopup" role="status" aria-live="polite">DOWN WITH THE HOGS!</div><div id="gameOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Game information"><div class="dialog"><h2 id="teams">Game details</h2><div class="big" id="bigscore"></div><p id="status"></p><p id="network"></p><p id="ytv"></p><div class="actions"><button id="watch">Open YouTube TV</button><button id="watchESPN">Open ESPN+</button><button id="closeGame">Back to Scores</button></div><p class="note">Streaming services open separately; you may need to find and select the game. Direct playback cannot be guaranteed.</p></div></div>
 <div id="settingsOverlay" class="shade" role="dialog" aria-modal="true" aria-label="Ticker settings"><div class="dialog"><h2>Scoreboard Settings</h2><div class="setting"><label for="speed">Scrolling speed</label><select id="speed"><option value="18">Slow</option><option value="32">Normal</option><option value="55">Fast</option></select></div><div class="setting"><label for="rows">Number of rows</label><select id="rows"><option value="4">4 rows (half-based live games)</option></select></div><div class="setting"><label for="alertsEnabled">Game alerts</label><select id="alertsEnabled"><option value="on">On</option><option value="off">Off</option></select></div><div class="setting"><label for="filter">Games displayed</label><select id="filter"><option value="all">All Division I</option><option value="tv">YouTube TV or ESPN+</option></select></div><div class="actions"><button id="saveSettings">Save settings</button><button id="cancelSettings">Cancel</button></div><p class="note">Settings are saved in this browser. Use arrow keys and Enter on a remote. Press Down from the final row to reach pinned games.</p></div></div>
 <script>
@@ -351,7 +351,7 @@ body.has-game-alerts #layout{height:calc(87% - 38px)}
 var API='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?limit=500&groups=50';
 var $=function(id){return document.getElementById(id)}, board=$('board'), settings={speed:32,rows:4,filter:'all',alerts:'on'};
 try{var saved=JSON.parse(localStorage.getItem('ncaa-ticker-v4')||'{}');if([18,32,55].includes(+saved.speed))settings.speed=+saved.speed;settings.rows=4;if(['all','tv'].includes(saved.filter))settings.filter=saved.filter;if(['on','off'].includes(saved.alerts))settings.alerts=saved.alerts}catch(e){}
-var gameStats={},statsPending={},events=[],futureEvents=[],rankings={},apById={},apByName={},scoreLoadBusy=false,lastScoreSuccess=0,lanes=[],paused=false,modal=false,last=0,focusedKey=null,focusBefore=null,activeGame=null;
+var apEntries=[],apLoaded=false,apDate="",gameStats={},statsPending={},events=[],futureEvents=[],rankings={},apById={},apByName={},scoreLoadBusy=false,lastScoreSuccess=0,lanes=[],paused=false,modal=false,last=0,focusedKey=null,focusBefore=null,activeGame=null;
 function cleanFeedText(v){return String(v==null?'':v).replace(/&apos;|&#0*39;|&#x0*27;/gi,"'").replace(/&amp;/gi,'&').replace(/([A-Za-z])undefined([si])\b/gi,"$1'$2").replace(/([A-Za-z])undefined\b/gi,"$1'").replace(/undefined/gi,'').replace(/\bRunnin\s+Bulldogs\b/gi,"Runnin' Bulldogs").replace(/\s+/g,' ').trim()}
 function esc(v){return cleanFeedText(v).replace(/[&<>"']/g,function(x){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]})}
 function isYtv(net){return net.toUpperCase().split(/[,·\/]+/).some(function(s){return /^(ESPN|ESPN2|ESPNU|ESPNEWS|ACCN|ACC NETWORK|SECN|SEC NETWORK|BIG TEN NETWORK|BTN|FS1|FS2|FOX|CBS|CBS SPORTS NETWORK|CBSSN|NBC|USA NETWORK|TNT|TBS|TRUTV|CW|THE CW|ION)$/.test(s.trim())})}
@@ -359,8 +359,8 @@ function isEspnPlus(net){return /ESPN\s*\+/i.test(net)}
 function logo(t){var team=t.team||{},ls=team.logos||[];return team.logo||(ls[0]&&ls[0].href)||''}
 function safeTeamColor(v){var c=String(v||'').replace(/^#/,'');return /^[0-9a-fA-F]{6}$/.test(c)?'#'+c.toUpperCase():''}
 function homeStyle(g){if(!g.homeColor)return '';var c=g.homeColor;var r=parseInt(c.slice(1,3),16),gr=parseInt(c.slice(3,5),16),b=parseInt(c.slice(5,7),16);var mix=function(a,b,t){return Math.round(a*(1-t)+b*t)};var tint='rgb('+mix(r,9,.57)+','+mix(gr,21,.57)+','+mix(b,37,.57)+')';var edge='rgb('+mix(r,180,.36)+','+mix(gr,194,.36)+','+mix(b,220,.36)+')';return ' style="--home-tint:'+tint+';--home-edge:'+edge+';--home-accent:'+c+'"'}
-function rank(t){var team=t.team||{},id=String(team.id||''),n=apById[id]||apByName[team.displayName]||0;if(n)return n;var feed=+(t.curatedRank&&t.curatedRank.current||0);return feed>=1&&feed<=25?feed:0}
-function applyRanks(){events.concat(futureEvents).forEach(function(g){g.awayRank=apById[g.awayId]||apByName[g.away]||g.awayRank||0;g.homeRank=apById[g.homeId]||apByName[g.home]||g.homeRank||0})}
+function rank(t){var team=t.team||{},id=String(team.id||''),n=apById[id]||apByName[team.displayName]||0;if(n||apLoaded)return n;var feed=+(t.curatedRank&&t.curatedRank.current||0);return feed>=1&&feed<=25?feed:0}
+function applyRanks(){events.concat(futureEvents).forEach(function(g){g.awayRank=apById[g.awayId]||apByName[g.away]||(apLoaded?0:g.awayRank)||0;g.homeRank=apById[g.homeId]||apByName[g.home]||(apLoaded?0:g.homeRank)||0})}
 function hsnClockSeconds(clock){var m=String(clock||'').match(/^(\d+):(\d+)/);return m?(+m[1]*60 + +m[2]):null}
 // A regulation 0:00 is not itself proof of a final; overtime may follow.
 function hsnPendingFinal(g){return g.state==='in' && g.period>=2 && /^0+:0+$/i.test(String(g.clock||'').trim())}
@@ -449,7 +449,7 @@ function hsnGameStatus(st,type,state,date){
  var period=Number(st.period)||0;
  var half=period===1?'1st Half':period===2?'2nd Half':period>2?(period===3?'OT':(period-2)+'OT'):'';
  var clock=cleanFeedText(st.displayClock||'').trim();
- if(/half(?:time)?/i.test(detail)||/half(?:time)?/i.test(String(type.name||'')))return 'Halftime';
+ if(/\bhalf[ -]?time\b/i.test(detail)||/HALFTIME/i.test(String(type.name||'')))return 'Halftime';
  if(clock&&clock!=='0:00'&&clock!=='00:00')return half?clock+' · '+half:clock;
  if(half)return half+(clock?' · '+clock:'');
  return detail;
@@ -460,7 +460,7 @@ function teamLine(name,url,points,ranking,school,nickname,record){
  var formatted=school&&nickname&&school.toLowerCase()!==nickname.toLowerCase()?'<strong class="school-name">'+esc(school)+'</strong><span class="name-divider"> – </span>'+esc(nickname):esc(name);
  return '<div class="teamline">'+(url?'<img class="teamlogo" src="'+esc(url)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">':'')+'<span class="teamlabel">'+(ranking?'<b class="card-rank">#'+ranking+'</b> ':'')+formatted+(record?'<span class="hsn-record"> ('+esc(record)+')</span>':'')+'</span>'+(points!==undefined&&points!==''?'<span class="team-points">'+esc(String(points))+'</span>':'')+'</div>';
 }
-function card(g){var b=alerts(g);var hogs=/\bArkansas Razorbacks\b/i.test(g.away)||/\bArkansas Razorbacks\b/i.test(g.home);return '<button type="button" class="card'+(b.includes('CLOSE GAME')?' closegame':'')+(b.some(function(x){return x.indexOf('UPSET')>=0})?' upset':'')+(b.includes('UPSET WATCH')?' upset-watch':'')+(g.eligible?' ytv':g.espnplus?' espnplus':'')+(g.homeColor?' home-colored':'')+(hogs?' hogs-game':'')+'"'+homeStyle(g)+' data-id="'+esc(g.id)+'" aria-label="Details: '+esc(g.away+' at '+g.home)+'">'+badgeHtml(g)+'<div class="names"><div class="matchup">'+teamLine(g.away,g.awayLogo,g.state==='pre'?'':g.awayPoints,g.awayRank,g.awaySchool,g.awayNickname,g.awayRecord)+teamLine(g.home,g.homeLogo,g.state==='pre'?'':g.homePoints,g.homeRank,g.homeSchool,g.homeNickname,g.homeRecord)+'</div></div><div class="bottom"><span class="game-status">'+esc(g.status)+'</span>'+(hogs?'<strong class="hogs-slogan">DOWN WITH THE HOGS!</strong>':'')+'<span class="network">'+esc(g.network)+'</span></div></button>'}
+function card(g){var b=alerts(g);var hogs=/\bArkansas Razorbacks\b/i.test(g.away)||/\bArkansas Razorbacks\b/i.test(g.home);return '<button type="button" class="card'+rankClass(g)+(b.includes('CLOSE GAME')?' closegame':'')+(b.some(function(x){return x.indexOf('UPSET')>=0})?' upset':'')+(b.includes('UPSET WATCH')?' upset-watch':'')+(g.eligible?' ytv':g.espnplus?' espnplus':'')+(g.homeColor?' home-colored':'')+(hogs?' hogs-game':'')+'"'+homeStyle(g)+' data-id="'+esc(g.id)+'" aria-label="Details: '+esc(g.away+' at '+g.home)+'">'+badgeHtml(g)+'<div class="names"><div class="matchup">'+teamLine(g.away,g.awayLogo,g.state==='pre'?'':g.awayPoints,g.awayRank,g.awaySchool,g.awayNickname,g.awayRecord)+teamLine(g.home,g.homeLogo,g.state==='pre'?'':g.homePoints,g.homeRank,g.homeSchool,g.homeNickname,g.homeRecord)+'</div></div><div class="bottom"><span class="game-status">'+esc(g.status)+'</span>'+(hogs?'<strong class="hogs-slogan">DOWN WITH THE HOGS!</strong>':'')+'<span class="network">'+esc(g.network)+'</span></div></button>'}
 
 function isFavorite(g){return ['96','2294'].some(function(id){return g.awayId===id||g.homeId===id})}
 function statCell(label,value){return '<span class="favstat"><b>'+esc(value==null?'—':value)+'</b><small>'+esc(label)+'</small></span>'}
@@ -496,11 +496,13 @@ async function fetchGameStats(g){
  gameStats[g.id]={at:Date.now(),teams:teamStats(d)};renderFavorites();
  }catch(e){gameStats[g.id]={at:Date.now(),teams:{}}}finally{delete statsPending[g.id]}
 }
+function favoriteClock(g){if(/halftime|waiting for official/i.test(g.status))return g.status;var half=g.period===1?'1st Half':g.period===2?'2nd Half':g.period>2?(g.period===3?'OT':(g.period-2)+'OT'):'';return [g.clock,half].filter(Boolean).join(' · ')||g.status;}
+function rankClass(g){return g.awayRank&&g.homeRank?' ranked-game ranked-matchup':g.awayRank||g.homeRank?' ranked-game':'';}
 function favoriteCard(g,which){var name=which==='KENTUCKY'?'Kentucky Wildcats':'Iowa Hawkeyes';
 var title='<div class="favtitle">★ '+which+'</div>';
 if(!g)return '<div class="favempty">'+title+'Next game not available</div>';
 function fteam(n,url,points,record){return '<div class="favteam">'+(url?'<img src="'+esc(url)+'" alt="" loading="lazy">':'')+'<span>'+esc(n)+(record?' <small class="hsn-record">('+esc(record)+')</small>':'')+'</span>'+(points!==undefined&&points!==''?'<strong class="fav-team-points">'+esc(String(points))+'</strong>':'')+'</div>'}
-return '<button type="button" class="favcard" data-id="'+esc(g.id)+'" aria-label="'+which+' game details">'+title+'<div class="favteams">'+fteam(g.away,g.awayLogo,g.state==='pre'?'':g.awayPoints,g.awayRecord)+fteam(g.home,g.homeLogo,g.state==='pre'?'':g.homePoints,g.homeRecord)+'</div><div class="favmeta">'+esc(g.status)+' · '+esc(g.network)+(g.state==='pre'?' · <span class="favcountdown" data-tip="'+g.date+'">'+countdown(g.date)+'</span>':'')+'</div>'+favoriteStats(g,name)+'</button>'}
+return '<button type="button" class="favcard'+rankClass(g)+'" data-id="'+esc(g.id)+'" aria-label="'+which+' game details">'+title+'<div class="favteams">'+fteam(g.away,g.awayLogo,g.state==='pre'?'':g.awayPoints,g.awayRecord)+fteam(g.home,g.homeLogo,g.state==='pre'?'':g.homePoints,g.homeRecord)+'</div><div class="favmeta">'+(g.state==='in'?'<strong class="fav-live-clock">'+esc(favoriteClock(g))+'</strong>':esc(g.status))+' · '+esc(g.network)+(g.state==='pre'?' · <span class="favcountdown" data-tip="'+g.date+'">'+countdown(g.date)+'</span>':'')+'</div>'+favoriteStats(g,name)+'</button>'}
 function countdown(t){var ms=t-Date.now();if(ms<=0)return 'Tipoff soon';var d=Math.floor(ms/86400000),h=Math.floor(ms%86400000/3600000),m=Math.floor(ms%3600000/60000);return 'TIPOFF IN '+(d?d+'d ':'')+h+'h '+m+'m'}
 function updateCountdowns(){document.querySelectorAll('[data-tip]').forEach(function(el){el.textContent=countdown(+el.dataset.tip)})}
 function renderFavorites(){futureEvents.forEach(function(g){if(g.network==='Network not listed'){var n=knownEventNetwork(g);if(n)updateGameNetwork(g,n)}});var all=events.concat(futureEvents);function pick(name){var id=name==='Kentucky Wildcats'?'96':'2294';var matches=all.filter(function(g){return isVerifiedFavorite(g,{id:id,name:name})});var live=matches.filter(function(g){return g.state==='in'});if(live.length)return live[0];var upcoming=matches.filter(function(g){return g.state==='pre'&&g.date>Date.now()-3600000}).sort(function(a,b){return a.date-b.date});if(upcoming.length)return upcoming[0];return matches.filter(function(g){return g.state==='post'}).sort(function(a,b){return b.date-a.date})[0]}var ky=pick('Kentucky Wildcats'),ia=pick('Iowa Hawkeyes');$('favoriteGames').innerHTML=favoriteCard(ky,'KENTUCKY')+favoriteCard(ia,'IOWA');hsnRestoreCelebrations();[ky,ia].forEach(function(g){if(g&&g.state!=='pre')fetchGameStats(g)})}
@@ -693,7 +695,7 @@ function paintGameAlertStrip(){
 }
 setInterval(function(){if(alertRotationList.length>1&&settings.alerts!=='off'){alertRotationIndex=(alertRotationIndex+1)%alertRotationList.length;paintGameAlertStrip()}},8000);
 function updateAlerts(){var live=events.filter(function(g){return g.state==='in'}),close=live.filter(function(g){return alerts(g).includes('CLOSE GAME')}).length,upset=live.filter(function(g){return alerts(g).includes('UPSET WATCH')}).length,ot=live.filter(function(g){return alerts(g).includes('OVERTIME')}).length;if(settings.alerts==='off'){$('alertsNow').textContent='Alerts off';return} $('alertsNow').innerHTML='<span class="alert-count'+(close?' active-close':'')+'"><span class="alert-symbol'+(close?' siren':'')+'" aria-hidden="true">🚨</span>'+close+' CLOSE</span> · <span class="alert-count'+(upset?' active-upset':'')+'"><span class="alert-symbol'+(upset?' flame':'')+'" aria-hidden="true">🔥</span>'+upset+' UPSET</span> · '+ot+' OT'}
-function render(){renderFavorites();updateAlerts();updateGameAlertStrip();var previous={};lanes.forEach(function(l){previous[l.name]=l.width?l.x/l.width:0});var sections=groups();board.innerHTML=sections.map(function(s,i){return '<section class="lane" data-lane="'+i+'"><div class="lanehead '+((i<2)?'category-live':s.name.indexOf('UPCOMING')>=0?'category-upcoming':'category-final')+'">'+esc(s.name)+' <span class="count">('+s.items.length+')</span></div><div class="window"><div class="belt">'+(s.items.length?'<div class="set">'+s.items.map(card).join('')+'</div><div class="set" aria-hidden="true">'+s.items.map(card).join('')+'</div>':'<div class="empty">No games in this category right now</div>')+'</div></div></section>'}).join('');lanes=sections.map(function(s,i){var node=board.querySelector('[data-lane="'+i+'"]'),belt=node.querySelector('.belt'),set=belt.querySelector('.set');var width=s.items.length?set.getBoundingClientRect().width:0;var l={name:s.name,items:s.items,x:(previous[s.name]||0)*width,width:width,belt:belt};belt.style.transform='translateX('+(-l.x)+'px)';return l});if(focusedKey){var btn=Array.from(board.querySelectorAll('.set:first-child .card')).find(function(b){return b.dataset.id===focusedKey});if(btn){btn.focus({preventScroll:true});ensureVisible(btn)}}}
+function render(){renderPollPanel();renderFavorites();updateAlerts();updateGameAlertStrip();var previous={};lanes.forEach(function(l){previous[l.name]=l.width?l.x/l.width:0});var sections=groups();board.innerHTML=sections.map(function(s,i){return '<section class="lane" data-lane="'+i+'"><div class="lanehead '+((i<2)?'category-live':s.name.indexOf('UPCOMING')>=0?'category-upcoming':'category-final')+'">'+esc(s.name)+' <span class="count">('+s.items.length+')</span></div><div class="window"><div class="belt">'+(s.items.length?'<div class="set">'+s.items.map(card).join('')+'</div><div class="set" aria-hidden="true">'+s.items.map(card).join('')+'</div>':'<div class="empty">No games in this category right now</div>')+'</div></div></section>'}).join('');lanes=sections.map(function(s,i){var node=board.querySelector('[data-lane="'+i+'"]'),belt=node.querySelector('.belt'),set=belt.querySelector('.set');var width=s.items.length?set.getBoundingClientRect().width:0;var l={name:s.name,items:s.items,x:(previous[s.name]||0)*width,width:width,belt:belt};belt.style.transform='translateX('+(-l.x)+'px)';return l});if(focusedKey){var btn=Array.from(board.querySelectorAll('.set:first-child .card')).find(function(b){return b.dataset.id===focusedKey});if(btn){btn.focus({preventScroll:true});ensureVisible(btn)}}}
 function ensureVisible(btn){var lane=lanes[+btn.closest('.lane').dataset.lane],win=btn.closest('.window');if(!lane||!lane.width)return;var x=btn.getBoundingClientRect(),w=win.getBoundingClientRect();if(x.left<w.left+12)lane.x=(lane.x-(w.left+12-x.left)+lane.width)%lane.width;else if(x.right>w.right-12)lane.x=(lane.x+(x.right-w.right+12))%lane.width;lane.belt.style.transform='translateX('+(-lane.x)+'px)'}
 function tick(t){var dt=last?Math.min(100,t-last):0;last=t;if(!paused&&!modal){lanes.forEach(function(l,i){if(l.width){l.x=(l.x+dt/1000*settings.speed*(1+i*.08)*(i<2?2:1))%l.width;l.belt.style.transform='translateX('+(-l.x)+'px)'}})}requestAnimationFrame(tick)}
 function pause(on){paused=on;$('pause').textContent=paused?'▶ Resume':'⏸ Pause'}
@@ -708,13 +710,16 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'||e.key==='Ba
 if(active&&active.classList.contains('favcard')){if(e.key==='Enter'){e.preventDefault();showOverlay(active.dataset.id);return}if(['ArrowLeft','ArrowRight','ArrowUp'].includes(e.key)){e.preventDefault();if(e.key==='ArrowUp'){var c=board.querySelector('.set:first-child .card');if(c)c.focus({preventScroll:true})}else{var favs=Array.from(document.querySelectorAll('#favoriteGames .favcard'));var at=favs.indexOf(active);if(favs.length)favs[(at+(e.key==='ArrowRight'?1:favs.length-1))%favs.length].focus()}}return}
 if(active&&active.classList.contains('card')){if(e.key==='Enter'){e.preventDefault();showOverlay(active.dataset.id);return}e.preventDefault();var laneIndex=+active.closest('.lane').dataset.lane,idx=lanes[laneIndex].items.findIndex(function(g){return g.id===active.dataset.id}),destLane=laneIndex,destIdx=idx;if(e.key==='ArrowRight')destIdx++;if(e.key==='ArrowLeft')destIdx--;if(e.key==='ArrowDown'&&laneIndex===lanes.length-1){var fav=document.querySelector('#favoriteGames .favcard');if(fav){fav.focus();e.preventDefault();return}}if(e.key==='ArrowDown')destLane=Math.min(lanes.length-1,laneIndex+1);if(e.key==='ArrowUp')destLane=Math.max(0,laneIndex-1);var items=lanes[destLane].items;if(!items.length)return;destIdx=(destIdx+items.length)%items.length;var target=Array.from(board.querySelectorAll('[data-lane="'+destLane+'"] .set:first-child .card'))[destIdx];if(target){target.focus({preventScroll:true});ensureVisible(target)}return}if(['ArrowDown','ArrowUp'].includes(e.key)&&active&&['pause','settings'].includes(active.id)){e.preventDefault();var first=board.querySelector('.set:first-child .card')||document.querySelector('#favoriteGames .favcard');if(first)first.focus({preventScroll:true})}});
 
+function renderPollPanel(){var rows=$('pollRows');if(!rows)return;var panel=$('top25Panel');if(panel.hidden)return;var scroll=rows.scrollTop;$('pollDate').textContent=apLoaded?(apDate?'Poll date: '+apDate:'AP poll retrieved; publication date unavailable'):'AP rankings unavailable — retrying automatically';rows.innerHTML=apEntries.map(function(t){var g=events.find(function(x){return x.state==='in'&&(x.awayId===t.id||x.homeId===t.id)});var rec=typeof t.record==='string'?t.record:'';if(!rec){var match=events.concat(futureEvents).find(function(x){return x.awayId===t.id||x.homeId===t.id});if(match)rec=match.awayId===t.id?match.awayRecord:match.homeRecord;}var move=t.previous>0?(t.previous===t.rank?'—':t.previous>t.rank?'▲ '+(t.previous-t.rank):'▼ '+(t.rank-t.previous)):'—';return '<div class="pollrow"><b>#'+t.rank+'</b>'+(t.logo?'<img alt="" src="'+esc(t.logo)+'">':'<span></span>')+'<span>'+esc(t.name)+'</span><span>'+esc(rec||'—')+'</span><span>'+esc(move)+'</span><small>'+esc(g?g.away+' '+g.awayPoints+' – '+g.homePoints+' '+g.home+' · '+g.status:'')+'</small></div>';}).join('');rows.scrollTop=scroll;}
+function closePoll(){ $('top25Panel').hidden=true;$('top25Toggle').setAttribute('aria-expanded','false');$('top25Toggle').focus();}
+$('top25Toggle').onclick=function(){if(!$('top25Panel').hidden){closePoll();return;}$('top25Panel').hidden=false;this.setAttribute('aria-expanded','true');renderPollPanel();$('top25Close').focus();if(!apLoaded)loadPolls();};$('top25Close').onclick=closePoll;document.addEventListener('pointerdown',function(e){if(!$('top25Panel').hidden&&!$('top25Panel').contains(e.target)&&!$('top25Toggle').contains(e.target))closePoll();});document.addEventListener('keydown',function(e){if(!$('top25Panel').hidden&&e.key==='Escape'){e.preventDefault();closePoll();}else if(!$('top25Panel').hidden&&['ArrowDown','ArrowUp'].includes(e.key)&&$('top25Panel').contains(document.activeElement)){e.preventDefault();$('pollRows').scrollTop+=e.key==='ArrowDown'?65:-65;}});
 async function loadPolls(){
  try{
   var url='https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/rankings';
   var r=await fetch(url+'?_hsn='+Date.now(),{cache:'no-store'});if(!r.ok)return;
   var data=await r.json(),polls=data.rankings||data.polls||[];
   if(!Array.isArray(polls)||!polls.length)return;
-  apById={};apByName={};rankings={};
+  var nextEntries=[];var nextIds={},nextNames={};rankings={};
   polls.forEach(function(p){
    var label=String(p.name||p.shortName||p.type||'').toLowerCase();
    var kind=/coach/.test(label)?'coaches':/associated|\bap\b|top 25/.test(label)?'ap':null;
@@ -722,16 +727,17 @@ async function loadPolls(){
    (p.ranks||p.entries||[]).forEach(function(t){
     var team=t.team||{},name=team.displayName||team.name||'',n=+(t.current||t.rank||t.position||0);
     if(n>=1&&n<=25){
-      if(kind==='ap'){if(team.id)apById[String(team.id)]=n;if(name)apByName[name]=n;}
+      if(kind==='ap'){if(team.id)nextIds[String(team.id)]=n;if(name)nextNames[name]=n;nextEntries.push({id:String(team.id||''),name:name,rank:n,logo:team.logo||((team.logos||[])[0]||{}).href||'',record:t.recordSummary||t.record||'',previous:Number(t.previous||t.previousRank||0)});apDate=p.date||p.lastUpdated||data.date||'';}
       if(name==='Kentucky Wildcats'||name==='Iowa Hawkeyes')(rankings[name]||(rankings[name]={}))[kind]=n;
     }
    });
   });
-  applyRanks();render();
- }catch(e){console.warn('Optional poll rankings unavailable:',e)}
+  if(nextEntries.length){apEntries=nextEntries.sort(function(a,b){return a.rank-b.rank});apById=nextIds;apByName=nextNames;apLoaded=true;}
+  applyRanks();render();renderPollPanel();
+ }catch(e){renderPollPanel();console.warn('Optional poll rankings unavailable:',e)}
 }
 
-// HSN 8.6.21: compare fresh scoreboard snapshots for Arkansas-opponent points.
+// HSN 8.6.22: compare fresh scoreboard snapshots for Arkansas-opponent points.
 // The first successful feed is a baseline, not a scoring event.
 var hsnHogsPrevious={},hsnHogsPopupTimer=null;
 function hsnIsArkansas(g,side){
@@ -771,7 +777,7 @@ async function load(){
   if(typeof renderCrawl==='function')renderCrawl();
   // Rebuild category membership, scores and alert classes from the same snapshot.
   render();hsnVerifyStuckGames();
-  $('updated').textContent='V8.6.21 · Updated '+new Date().toLocaleTimeString()+' · '+events.length+' games · Green = likely YouTube TV · Gold = ESPN+';
+  $('updated').textContent='V8.6.22 · Updated '+new Date().toLocaleTimeString()+' · '+events.length+' games · Green = likely YouTube TV · Gold = ESPN+';
  }catch(err){$('updated').textContent='Score feed unavailable · '+err.message+' · Last successful update '+(lastScoreSuccess?new Date(lastScoreSuccess).toLocaleTimeString():'none');if(!events.length)board.innerHTML='<div class="empty">Cannot load scores. Check internet connection or try again later. The free data feed may be temporarily unavailable.</div>'}
  finally{scoreLoadBusy=false}
 }
@@ -810,7 +816,7 @@ async function loadFuture(){
  found.forEach(function(g){enrichFavoriteNetwork(g)});
 }
 
-// HSN V8.6.21 Newswire: genuine ESPN basketball articles plus clearly labeled
+// HSN V8.6.22 Newswire: genuine ESPN basketball articles plus clearly labeled
 // game-derived headlines. No fabricated news and no unrelated sports.
 var crawlX=0,crawlWidth=0,crawlLast=0,newsHeadlines=[],newsArticles=[],lastNewsSuccess=0,newsRotation=0;
 var NEWS_CACHE='hsn-news.json';
@@ -974,27 +980,4 @@ setInterval(updateCountdowns,30000);setInterval(loadFuture,3600000);
 window.addEventListener('resize',function(){if(events.length)render()});load();loadFuture();loadPolls();setInterval(loadPolls,3600000);setInterval(load,30000);setInterval(function(){if(!scoreLoadBusy&&Date.now()-lastScoreSuccess>45000)load()},15000);document.addEventListener('visibilitychange',function(){if(!document.hidden&&Date.now()-lastScoreSuccess>15000)load()});window.addEventListener('focus',function(){if(Date.now()-lastScoreSuccess>15000)load()});requestAnimationFrame(tick);
 })();
 
-// HSN V8.4.1: TV-friendly music controls that automatically dismiss.
-(function(){
- const audio=document.getElementById('hsnMusic'), toggle=document.getElementById('musicToggle'), panel=document.getElementById('musicPanel'), slider=document.getElementById('musicVolume'), label=document.getElementById('musicVolumeLabel'), mute=document.getElementById('musicMute');
- let desired=10, hideTimer;
- try {const v=Number(localStorage.getItem('hsn-music-volume'));if(Number.isFinite(v)&&v>=0&&v<=50)desired=v;}catch(e){}
- slider.value=desired;audio.volume=desired/100;label.textContent=desired+'%';
- function update(){toggle.textContent=audio.paused?'♫ Music: Off':'♫ Music: On';toggle.setAttribute('aria-expanded',String(panel.classList.contains('open')));mute.textContent=audio.muted?'Unmute':'Mute';}
- function closePanel(){clearTimeout(hideTimer);panel.classList.remove('open');update();}
- function scheduleHide(){clearTimeout(hideTimer);hideTimer=setTimeout(closePanel,4500);}
- function showPanel(){panel.classList.add('open');update();scheduleHide();}
- toggle.addEventListener('click',async function(){
-   if(audio.paused){try{await audio.play()}catch(e){document.getElementById('musicHint').textContent='Your browser blocked playback. Press Music again or check TV sound settings.'}}
-   else{audio.pause()}
-   showPanel();
- });
- slider.addEventListener('input',function(){audio.volume=Number(slider.value)/100;label.textContent=slider.value+'%';audio.muted=false;try{localStorage.setItem('hsn-music-volume',slider.value)}catch(e){}update();scheduleHide()});
- mute.addEventListener('click',function(){audio.muted=!audio.muted;update();scheduleHide()});
- panel.addEventListener('focusin',scheduleHide);
- panel.addEventListener('pointerdown',scheduleHide);
- document.addEventListener('pointerdown',function(e){if(panel.classList.contains('open')&&!panel.contains(e.target)&&e.target!==toggle)closePanel()});
- document.addEventListener('keydown',function(e){if(e.key==='Escape'&&panel.classList.contains('open'))closePanel()});
- update();
-})();
 </script></body></html>
