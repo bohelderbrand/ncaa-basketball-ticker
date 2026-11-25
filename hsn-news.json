@@ -1,8 +1,18 @@
 {
-  "updated": "2026-11-25T18:45:41.904403+00:00",
+  "updated": "2026-11-25T19:51:09.573146+00:00",
   "sources": [
+    "AP TOP 25 TEAMS",
     "CBS SPORTS",
-    "NCAA.COM"
+    "COLLEGE FOOTBALL",
+    "FOX SPORTS",
+    "IOWA STORYLINES",
+    "KENTUCKY STORYLINES",
+    "MEN BASKETBALL STORYLINES",
+    "NCAA.COM",
+    "NFL",
+    "RACING",
+    "THE ATHLETIC",
+    "TOP 25"
   ],
   "ap_top25_teams": [
     "Cougars",
@@ -33,12 +43,12 @@
   ],
   "articles": [
     {
-      "headline": "Michigan matches worst start by reigning national champion in last 40 years: Why pressure is on Mike Boynton",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/michigan-worst-start-ncaa-tournament-winner-reigning-national-champion-mike-boynton/",
-      "published": "2026-11-25T01:59:29+00:00",
-      "via": "direct",
+      "headline": "MSU Basketball's Interesting Record On Thanksgiving In Past Five Years",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFVPQzVoQVBvUmEtRE8tdlJ1cXE1MVRhWVRHVTU0WThWQ1ZsYkxXOG9YcHNvb1dvM0IybVVPSGl2dE5YUGgtQ2xfY3YyLTlMU3FkSWpaY3RXX2pQV1AxanprQndBeHlpdDdiR19IQTNYQzlaRDBFcGIxT1Jra0p3ZkY5Q2JnY0FORFdiMGJqNXozSGJNMUNYb0VhTE9tbERvUVR4dGpqWDlBNnhweXhGbw?oc=5",
+      "published": "2026-11-25T15:00:00+00:00",
+      "via": "aggregated",
       "score": 98.4,
       "breaking": false
     },
@@ -49,8 +59,78 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-st-johns-rick-pitino-louisville-players-era-16/",
       "published": "2026-11-25T17:45:19+00:00",
       "via": "direct",
-      "score": 103.7,
+      "score": 103.3,
       "breaking": true
+    },
+    {
+      "headline": "Houston Cougars Now Co-Favorites to Win 2027 NCAA Men's College Basketball Championship",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaHJ0QXpnWWpOMmswZm1EbzZTRklkTk81dmxWam9MVzVOeV9aOXRzTDBWQURwYWU1Y3JFbkJfQ3VRaGplYTBvU3dwUHpFX1l1bUpxNHd2NHdORmR1VDNGWFE0UThFeExISHJBbjk2MkM3SXg3QzM1cEI1SmlPUVo1ZTBIaEZzSVY3RXZWajVIYnRMTFhTSlFmdnQwaDhtOTJFbm1iMnZSYWZ5Mk1odnRB?oc=5",
+      "published": "2026-11-25T02:51:47+00:00",
+      "via": "aggregated",
+      "score": 106.3,
+      "breaking": false
+    },
+    {
+      "headline": "Eastern Michigan football fires coach Chris Creighton after 13 seasons",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOam4zR2RPNG1jMkRvTWZNY2FPVlhkMV9XQ1l0RVc3Y3VOcDEtWjVQSzhPeDU0bHhIOWdPWWkwMWg2anVucWNmZ2VkaUthcnpocVVuQzNpRTJ1a29oM0JkNTJnS2lkQ0FBNEFHSkNwd0NfcGVDUlRQR1E4dVk3TzdaQkc4Q1AtcUZ4ampEdWR3?oc=5",
+      "published": "2026-11-25T18:23:46+00:00",
+      "via": "aggregated",
+      "score": 91.5,
+      "breaking": false
+    },
+    {
+      "headline": "Men's college basketball championship, Wooden Award odds: Gators, Haugh on top",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYkxxdFRmSVgzR2lsejBYbjdOZTZZTVhLSVE3b3JYQk9qZHFFUEEtY2lWdTh3VzBsNzRiZWdvNEc0ZkpUSUlTX180TktZcENKUHBKeGJpWXMwZFhWQ3BOVmFiV29jNFpycVR0b3pMQ0YtWS01Q3lyS1R3ZTVrR3VoUXJfNmZNMUstM2c3TTRyYTFmSi1GbXdsRXRmMzNhT3NhUmhFcU5uOEJJaWZpdVp4Yw?oc=5",
+      "published": "2026-11-24T22:27:00+00:00",
+      "via": "aggregated",
+      "score": 104.9,
+      "breaking": false
+    },
+    {
+      "headline": "Stanford Faces Colorado in November 25 Basketball Matchup",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwZmxPR19paVktRXVLcjI0N3RLZUlSbVJRcUY2UUdzbDRBcjZjUnNhV19pRldDOWdiRFJpbWpEU3ExNFpXZVNjTWhfd09XeDE0RmZOcmtLY2tOU3VDam9mSDcxVVo3YUlpVW1ESlRzUko?oc=5",
+      "published": "2026-11-25T05:20:11+00:00",
+      "via": "aggregated",
+      "score": 97.2,
+      "breaking": false
+    },
+    {
+      "headline": "The 25 Best Men's College Basketball Coaches of the Past 25 Years",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTl9FTEpqN1NZSWJ6MFQzdnZudlgzeEtpZGZ1THNCZFA4djRteEthM0ZhZ1ZyTjEyNnJiWExHdEx2MTExbS1SSkM4S1NWLWxuaWNHdFU4Qmh5cERpd3VCLTM0UkZRX0s4dko1QnZvb3ZEZTU2TGRzcVpkR0xxQ3FGUVdDSGtGdVBGYzVQNUZocE1jYl9QZmQ0dDNiT2dTVlA3bDh2NEVMRQ?oc=5",
+      "published": "2026-11-24T23:48:01+00:00",
+      "via": "aggregated",
+      "score": 105.3,
+      "breaking": false
+    },
+    {
+      "headline": "Michigan matches worst start by reigning national champion in last 40 years: Why pressure is on Mike Boynton",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/michigan-worst-start-ncaa-tournament-winner-reigning-national-champion-mike-boynton/",
+      "published": "2026-11-25T01:59:29+00:00",
+      "via": "direct",
+      "score": 98.0,
+      "breaking": false
+    },
+    {
+      "headline": "Men's college basketball rankings after Week 3: Updated Coaches Poll, AP Top 25",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb0VING9GTFFaWXpTemVWZV84dUQxMWRKODJGVGlEYjRyQkZPTzhja1RXbVFMT3dsaEtUSXJqWWpxaVJnZURWR0VMQnQxMjl4OWtrbEZEbTl4d3lQS2trTjFnUXN2dDMtU3Y1c1pBaHpaT2swNHEyUC1EZmhibmJ1d2ktQnFDcjdSMHczYmhGdmRaRVVkbmRtRmVXSHNqOVZPQjdlcG1ZaUc3V0M4SVJCTnFjYkJQaXZoazdHY2tqeF9MYm8?oc=5",
+      "published": "2026-11-23T19:14:00+00:00",
+      "via": "aggregated",
+      "score": 95.8,
+      "breaking": false
     },
     {
       "headline": "Jayden Daniels leads Commanders past Bengals on MNF; Florida State hires coach Glenn Schumann",
@@ -59,67 +139,47 @@
       "url": "https://www.cbssports.com/nfl/news/jayden-daniels-commanders-bengals-nfl-mnf-florida-state-coach-glenn-schumann/",
       "published": "2026-11-24T13:41:23+00:00",
       "via": "direct",
+      "score": 93.9,
+      "breaking": false
+    },
+    {
+      "headline": "NFL news roundup: Chiefs' Kenneth Walker III (groin) returns to practice; Broncos suspend J.K. Dobbins",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR0RDLVBTZ1JmQVpIX0RtaThPRFhjRm5SMkxMSVo3aGhIVGFtTGZwSVFXUXozRlI3VElkekNpbkFRdFFydUxCUksxbG01cnRyejk0cjViaUJ5XzBpbWFDWXp2eWhPWVd6eFkwSDVfNU5DN1lMSVpkaUV5aXlRd0ZiVEtraVpFTVNqUFAw?oc=5",
+      "published": "2026-11-24T17:59:15+00:00",
+      "via": "aggregated",
+      "score": 93.4,
+      "breaking": false
+    },
+    {
+      "headline": "Mercy Miller’s breakout against Kansas is just the beginning for Houston basketball",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdDZNSHlZNklvdjFoemYzUFA2TkhwUXpURUwwTTVtQ0QtbklMUnJ0UHIwMUdnR0VSWXJ3eDdrWkZQeTZRVHRyYU9WbEN0SEFoMGJib3U5elRYZ0ljVF9KOXFBdmNsVlktRkFONUNUTTZBd2FtT1dVLTRxTVYyZl9BUmhDa3hqWDBrTWxMbTBR?oc=5",
+      "published": "2026-11-23T17:51:48+00:00",
+      "via": "aggregated",
+      "score": 93.3,
+      "breaking": false
+    },
+    {
+      "headline": "Previewing No. 2 Virginia basketball’s matchup against Marquette",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPajVyT29Md29qaW9hVjJ3bzBjeXhrQ09sM3RxYW1tN052bzZWcGh3bG5JT3RfU0JsS0UwNDdSZU90VnQxcGE0TlVmQTJZbDAxc00yU2RyTUJIdlAyNXlfX2ROVVVqYkdXM0JGZkZBVmltUFA0VGNDTUJLQkJTNVVXQTdtU2JjSnRYZVprNDdTZWJOUFB5eXR0RlVQUEJJelF6dlEtOXowbGI4dkVx?oc=5",
+      "published": "2026-11-24T23:54:42+00:00",
+      "via": "aggregated",
+      "score": 95.4,
+      "breaking": false
+    },
+    {
+      "headline": "When Do the College Basketball AP Top 25 and Coaches Poll Come Out? What SEC Fans Should Know",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaTduOUQ2Y09Fb2lmQk9hYm1sT25rU2k1VTMyMmxGQWR3SmlLYjdpenFOOHVuN2pVRjZ1Zm5vNkFrVnNwOUQ3NHJMZ3F6MXdnenotYnpKYnlhVk0zcU5mUXFDcHRTS2p3STBqN3hzTnpLN2xldXZMS1RMdWJmck9XN3lwTQ?oc=5",
+      "published": "2026-11-23T14:45:00+00:00",
+      "via": "aggregated",
       "score": 94.3,
-      "breaking": false
-    },
-    {
-      "headline": "2026 Maui Invitational: Bracket, schedule, scores",
-      "source": "NCAA.COM",
-      "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-25/2026-maui-invitational-bracket-schedule-scores",
-      "published": "2026-11-25T14:10:00+00:00",
-      "via": "direct",
-      "score": 90.5,
-      "breaking": false
-    },
-    {
-      "headline": "Steelers bench Aaron Rodgers; Tennessee jumps Alabama in CFP rankings; Cubs land Teruaki Sato",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/nfl/news/steelers-bench-aaron-rodgers-nfl-tennessee-alabama-cfp-rankings-cubs-teruaki-sato-mlb/",
-      "published": "2026-11-25T13:50:08+00:00",
-      "via": "direct",
-      "score": 90.4,
-      "breaking": false
-    },
-    {
-      "headline": "Ranking college basketball's top newcomers: Illinois' Quentin Coleman earns Freshman of the Week honors",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/ranking-top-freshman-quentin-coleman-earns-freshman-of-the-week-honors/",
-      "published": "2026-11-24T14:38:03+00:00",
-      "via": "direct",
-      "score": 82.6,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Duke tumbles after second loss, Houston surges to No. 1 in Coaches Poll",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/coaches-poll-rankings-duke-tumbles-houston-surges/",
-      "published": "2026-11-23T20:46:41+00:00",
-      "via": "direct",
-      "score": 88.7,
-      "breaking": false
-    },
-    {
-      "headline": "CJ Rosser commits to North Carolina: Five-star forward is the next big recruiting win for Michael Malone",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/cj-rosser-commits-north-carolina-five-star-michael-malone-2027-recruiting-class/",
-      "published": "2026-11-23T23:07:42+00:00",
-      "via": "direct",
-      "score": 89.5,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Keep an eye on the 5-0 Ole Miss Rebels scratching right outside the Top 25 And 1",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/rankings-top-25-and-1-ole-miss-rebels/",
-      "published": "2026-11-24T14:25:37+00:00",
-      "via": "direct",
-      "score": 82.6,
       "breaking": false
     },
     {
@@ -129,17 +189,167 @@
       "url": "https://www.cbssports.com/college-basketball/news/jalen-davis-commits-to-gonzaga-bulldogs-land-no-13-ranked-prospect-in-2027-class/",
       "published": "2026-11-24T22:40:45+00:00",
       "via": "direct",
-      "score": 85.3,
+      "score": 84.9,
       "breaking": false
     },
     {
-      "headline": "College basketball's Thanksgiving week primer: Most intriguing matchups, top NBA Draft prospects, predictions",
+      "headline": "Where Gonzaga stands in updated Pac-12 basketball power rankings ahead of Feast Week",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcERwNU9EUlRNNjBzMDI0QTNNQms2dE51cnBsMHdlcDF6NlNJajJHY19LT3NjTmpodlBTbnpUdXBPUGpWVExKVXBuVXpHZzFaMUNyUEpYbkxSdXFHVEctbkhkUnBvVU4zTDVKT2lnNlgydzNLd05RVmxQRThKUVVqb3NHTE1tRWs0V2kyLUtveUxkV1hzVXRfQTl3dkQtZWlXQkJDY0dPUV9CeXpxTnBPUmQ2UzRaZklfWEtwNDRhWTgwUQ?oc=5",
+      "published": "2026-11-23T22:11:25+00:00",
+      "via": "aggregated",
+      "score": 84.8,
+      "breaking": false
+    },
+    {
+      "headline": "Ben Johnson’s Rise: How Bears Coach Became an NFL’s Sharpest Mind",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUXRuOXprODlDNzBwRTE0bVduV29MRHNlZmNscVY3RjZBUjhQdU0yQXNyb3ZBVW96NkI4ZzVrSjZ0Y0ZZeDQwWk5MRmkwVnNWc1hzQjJGRGxTOS1VZFNHbUxVWGFNME5oNU1TbFBUekRmZUg5YURsOWVtOXpwV2xmSkVBZU9wVUdxRGZXUUMwQVJqTFVBVUZpUXltRWw?oc=5",
+      "published": "2026-11-25T18:30:35+00:00",
+      "via": "aggregated",
+      "score": 91.6,
+      "breaking": false
+    },
+    {
+      "headline": "Alabama basketball can't catch Baylor in Las Vegas loss: Score, highlights",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONWZSLXJfSGlUaWZCQ0t2NTZ4dmlhbzdiWkZZZHlMZ0VTSFJMQ3NiTmFTNTdheXpyRHZrRk02SW45RF9QQzE4YzZOT05va3VIRDRlcXZuVktseU1TS1VmYV9GMHp1am9MN21paHVzZzNlZE9YWU9sek5WQjA5MFFHVzJmSVRMdVptQ2pRSDRoaEpWYk5FYS1hMm9SQU1UVE9yYk9EelNjQTlRcS14YnFZ?oc=5",
+      "published": "2026-11-25T00:00:41+00:00",
+      "via": "aggregated",
+      "score": 93.4,
+      "breaking": false
+    },
+    {
+      "headline": "2026 Maui Invitational: Bracket, schedule, scores",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-25/2026-maui-invitational-bracket-schedule-scores",
+      "published": "2026-11-25T14:10:00+00:00",
+      "via": "direct",
+      "score": 90.1,
+      "breaking": false
+    },
+    {
+      "headline": "Houston Basketball Makes History With New No. 1 AP Poll Ranking",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVgwOUNKTkxVMGpja2ZiQkdoemtvUU9zNnpSYXc2dUxzNzFBeC1JaWhILVRYeUY3OUw0WFF0ZzVNbUE5N1BZUkhXZXRkem1rblJTdXpHOTBLSGMyVF96LU1HdW01NFBNTmFYMk9pLS0wR0VFWWxxY290OUdnUjV5TlQzcUl4d0x5ZWk5Yg?oc=5",
+      "published": "2026-11-23T23:06:26+00:00",
+      "via": "aggregated",
+      "score": 85.1,
+      "breaking": false
+    },
+    {
+      "headline": "CJ Rosser commits to North Carolina: Five-star forward is the next big recruiting win for Michael Malone",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/thanksgiving-week-primer-maui-invitational-battle-4-atlantis-players-era/",
-      "published": "2026-11-23T15:56:29+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/cj-rosser-commits-north-carolina-five-star-michael-malone-2027-recruiting-class/",
+      "published": "2026-11-23T23:07:42+00:00",
       "via": "direct",
-      "score": 75.1,
+      "score": 89.1,
+      "breaking": false
+    },
+    {
+      "headline": "The Matchup: Riley Moss on NFL Contract, Secondary Success and Corner Stereotypes",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWFuN2FURW9nOTJMYXY1SzVrb0hMM21ySV83Z1ZQUXN5bkVweW9fWWlHaWw3X3lMZzA3c09QSkNsMjREMVRqanVyYndJQ3JlMXd2MGpnTDl2T1VPYXRvSV9iVUNXdDBCYTRuRWJaRTdPZjVWMWpnZC1DZFR3Y1RsWl9tMDMxWUQ2MHd0WTJQUGpYOTdOV21iSldrY3V3WTVlVll2LS13aHY1aER0bTgzRkEwcGR1dl9zRVhUNXd0dG51cmd0RG1TV25ldmE5c01KRkFF?oc=5",
+      "published": "2026-11-25T19:17:04+00:00",
+      "via": "aggregated",
+      "score": 101.8,
+      "breaking": false
+    },
+    {
+      "headline": "AP Top 25: Houston jumps to No. 1, Indiana and Memphis join latest college basketball rankings - The Athletic",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONXlGMHZVVG9ISlBYYm5OaGZQMmIxZWNYYTBreWJFZ2YzVDZkb0didDUzLVR3WkJac01pRG9GV0tiVGo5YTFUa3J1VTR2eWU4eXZveVVjam8tX0J5MVZSS0dnQ3d3R184d0JfVVdtVW5aaXpjNHJ2d3FPejZFdVZ3Yi1YX295YkM5aGFmYkg1cElURklOaFJXZ084cF9uSUhrZHRBM3QzMDdhR3l0TG55cw?oc=5",
+      "published": "2026-11-23T19:02:22+00:00",
+      "via": "aggregated",
+      "score": 83.7,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Duke tumbles after second loss, Houston surges to No. 1 in Coaches Poll",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/coaches-poll-rankings-duke-tumbles-houston-surges/",
+      "published": "2026-11-23T20:46:41+00:00",
+      "via": "direct",
+      "score": 88.3,
+      "breaking": false
+    },
+    {
+      "headline": "Tennessee Basketball Receives Its Newest AP Poll Ranking",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdkJrSnRzbFZrdi1Fel9fWWljZUM4RHcyRndtM2lEX0NIaXJGZDZsVHlWVU5oMVlGbFVrcnFMLUIwSTRfaHYtU0cyT2twYXZBbVBRYlc4Um9rb2xhdU5pTUNGemg1emJtUWZZTVNQUkVTdUsxWG9ZVXZBWEVqZEoxQ3VvYUxtNXV6Zkd2djk5Vmk3N09DcFFnOXExTDNYN2wzNWhPYktZdHVXTGxuRWhJakFFcmllOHk4RVRJd2JzQVg?oc=5",
+      "published": "2026-11-23T19:08:06+00:00",
+      "via": "aggregated",
+      "score": 83.8,
+      "breaking": false
+    },
+    {
+      "headline": "Commanders' Updated Depth Chart After Brandon Aiyuk Contract in NFL Free Agency",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTFpsQnNkR2tIYlBXVF9UVXd4amZFTDAwQVpYdDc0RDU3a0hmb0NFbEVYYUhlRU9NR0ppeTBRV0kyRUdSWWpKWGpRRDljVUtTZlY1Yl9Bck5XalMxSWpGZFdNYVdBX3dNZGRHQVpnVXl2b3UxaFhXV185MUQ4dmUySUlGQ19UZGFDVXJ0RkwxZ1FSZ1IwQm1IeFZWVGdWRVBjZVB6dWYyNlRGdUx0YV9mVExtaEV3NjdmNXVvUA?oc=5",
+      "published": "2026-11-25T18:38:38+00:00",
+      "via": "aggregated",
+      "score": 91.6,
+      "breaking": false
+    },
+    {
+      "headline": "Everything Tennessee Basketball Fans Should Know About the Players Era Tournament",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVkFSUkVsbU5tTU1GMjgyX21sSmQ2NGQxc3BqMmpqUVhQU1g1VDd4RkVFZDhLQUpSb1FWcUNlNERrdmhQaHVzZlBOZkM1SG12TnB4bDdpeXRMRTZOSG5Qa0ZqaTJCRllBaGstVXduSGdRM0FTM244d2dBcXgySnZvaE96ZXFsMl9XLXZXRm9oaHNjOW51Q1JJWkY0WVl1c3RjbTFPRTFJNVZ3TDlKemZLQVRQNm5xRnYwSC1YdU5yeW80OWpkMHQ4TFRycmNXWHl0UXY5Z0h6RnVaSGtRZ0hObzhB?oc=5",
+      "published": "2026-11-23T21:50:58+00:00",
+      "via": "aggregated",
+      "score": 84.7,
+      "breaking": false
+    },
+    {
+      "headline": "Steelers bench Aaron Rodgers; Tennessee jumps Alabama in CFP rankings; Cubs land Teruaki Sato",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/nfl/news/steelers-bench-aaron-rodgers-nfl-tennessee-alabama-cfp-rankings-cubs-teruaki-sato-mlb/",
+      "published": "2026-11-25T13:50:08+00:00",
+      "via": "direct",
+      "score": 90.0,
+      "breaking": false
+    },
+    {
+      "headline": "Houston Claims No. 1 in AP Men's Basketball Rankings",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUMFdYV3RGWlZnX3B0X3gzb0JOd1VNaUFtS2NwWGZWMGxac0pKd0dZaTN0ZUZidG5qQmFNbmJ1QmhnUHc3ZE1mTTF0bHh0V1ZKZk5CN1NFWm5kWDluckNVaU54QWRTNVdUMEE?oc=5",
+      "published": "2026-11-23T21:36:00+00:00",
+      "via": "aggregated",
+      "score": 84.6,
+      "breaking": false
+    },
+    {
+      "headline": "NHRA finals deliver championship drama at Pomona",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXVyOWxpLUVJbWdmRERpR2ZZSEJzN050NjdKb0xBTUZvLWNlNHZQdHZteHZWaGJ6MFlKaGd3anhFWmJCNlBSd1d2Q3pPVTRGYmZhVEdOc1BWVkhMeU9FVkFleUsxeEpnbkxaZkNyWG9vX3hSNEVEX0lHYW5NTVJqc1Z5MWFlMFpvcldkckNrRQ?oc=5",
+      "published": "2026-11-25T18:33:00+00:00",
+      "via": "aggregated",
+      "score": 91.6,
+      "breaking": false
+    },
+    {
+      "headline": "UH makes historic leap to No. 1 in AP basketball poll after Players Era 8 wins",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ2ZZaWExSGZBY0dvWnByeTFDY2VCTDhrSm5KZm9ac0kzMmdtSTVrcVVhTmNUUHhLUWVtV01zV1FLTnZrUVVpRlRQaldwaG9HaWJidkVabjBERlVhNFY0YnRNMkdxLUh1T3BRc3VhVEJaOWlWV3Fkb2g5c0FQMUJSc1Naa0FfZ1NsQUxZRkxyMlNUa0ROMHZkOThJMnIyWGxuc0NBREJDSFUxdw?oc=5",
+      "published": "2026-11-23T19:48:09+00:00",
+      "via": "aggregated",
+      "score": 84.0,
       "breaking": false
     },
     {
@@ -149,27 +359,7 @@
       "url": "https://www.cbssports.com/college-basketball/news/ap-top-25-poll-rankings-houston-duke-michigan-indiana/",
       "published": "2026-11-23T20:44:47+00:00",
       "via": "direct",
-      "score": 76.7,
-      "breaking": false
-    },
-    {
-      "headline": "2027 NBA Draft Big Board: Quentin Coleman's meteoric rise, Tyran Stokes stays at No. 1, returners boost stock",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/",
-      "published": "2026-11-23T16:18:33+00:00",
-      "via": "direct",
-      "score": 75.2,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Why Houston deserves to be No. 1 in Top 25 And 1, other major polls",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-houston-top-25-and-1/",
-      "published": "2026-11-23T15:36:49+00:00",
-      "via": "direct",
-      "score": 75.0,
+      "score": 76.3,
       "breaking": false
     },
     {
@@ -179,7 +369,47 @@
       "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-23/2026-players-era-16-bracket-schedule-scores",
       "published": "2026-11-23T20:08:32+00:00",
       "via": "direct",
-      "score": 76.5,
+      "score": 76.1,
+      "breaking": false
+    },
+    {
+      "headline": "2027 NBA Draft Big Board: Quentin Coleman's meteoric rise, Tyran Stokes stays at No. 1, returners boost stock",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/",
+      "published": "2026-11-23T16:18:33+00:00",
+      "via": "direct",
+      "score": 74.8,
+      "breaking": false
+    },
+    {
+      "headline": "College Football Coaches, Coordinators & GMs Fired in 2026: Full List",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VSmdwTDNsYVlaWEh0V1RpWHNBS1pQX3VmMVd5OHhOMkhpTkp4ZU1md0tEV0pRWGF1ZW5JNG02cU5pWlQ3ZHV2OWl4cldjNUdESFJLOU1HcGJzX0lBQlNQeGF3bEFaeU01aTE0d29FU2FfYVBT?oc=5",
+      "published": "2026-11-25T15:31:09+00:00",
+      "via": "aggregated",
+      "score": 90.6,
+      "breaking": true
+    },
+    {
+      "headline": "College basketball rankings: Keep an eye on the 5-0 Ole Miss Rebels scratching right outside the Top 25 And 1",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/rankings-top-25-and-1-ole-miss-rebels/",
+      "published": "2026-11-24T14:25:37+00:00",
+      "via": "direct",
+      "score": 82.2,
+      "breaking": false
+    },
+    {
+      "headline": "Ranking college basketball's top newcomers: Illinois' Quentin Coleman earns Freshman of the Week honors",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/ranking-top-freshman-quentin-coleman-earns-freshman-of-the-week-honors/",
+      "published": "2026-11-24T14:38:03+00:00",
+      "via": "direct",
+      "score": 82.3,
       "breaking": false
     },
     {
@@ -189,7 +419,37 @@
       "url": "https://www.cbssports.com/college-basketball/news/tomorrows-top-25-today-houston-no-1-duke-college-basketball-rankings/",
       "published": "2026-11-23T02:34:37+00:00",
       "via": "direct",
-      "score": 70.6,
+      "score": 70.2,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Why Houston deserves to be No. 1 in Top 25 And 1, other major polls",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-houston-top-25-and-1/",
+      "published": "2026-11-23T15:36:49+00:00",
+      "via": "direct",
+      "score": 74.6,
+      "breaking": false
+    },
+    {
+      "headline": "Four champions crowned at NHRA finals in Pomona",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX184anVmajFQUllPUW94aUIwdzAtcHNuUENnbEFMcUhvWWZFamI5QjFmYnQ0U1IxbFpVZmIyNGswRVdOeHpZZl8tX0VCQmZNcW5kQ0pBblRuaHpwbU03a3h3M3pSYWJRUU52WDQyY1FZZlVnUk5ReHFuMGNjajN1dWhXTVhLVGd5S0JTNA?oc=5",
+      "published": "2026-11-25T18:57:06+00:00",
+      "via": "aggregated",
+      "score": 91.7,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball's Thanksgiving week primer: Most intriguing matchups, top NBA Draft prospects, predictions",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/thanksgiving-week-primer-maui-invitational-battle-4-atlantis-players-era/",
+      "published": "2026-11-23T15:56:29+00:00",
+      "via": "direct",
+      "score": 74.7,
       "breaking": false
     }
   ]
