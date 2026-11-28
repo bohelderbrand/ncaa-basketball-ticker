@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T00:35:04.867870+00:00",
+  "updated": "2026-11-28T02:01:16.340878+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
@@ -8,8 +8,6 @@
     "FOX SPORTS",
     "IOWA",
     "IOWA STORYLINES",
-    "KENTUCKY",
-    "KENTUCKY STORYLINES",
     "MEN BASKETBALL STORYLINES",
     "NCAA.COM",
     "NFL",
@@ -46,153 +44,33 @@
   ],
   "articles": [
     {
-      "headline": "Men's Basketball Signs Four-Star Recruit Braxton Keathley - University of the Pacific",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHJFSjBlOWxZOGZiQjd2MDVQTUJtQTVMNU9ydVRTNjQ5Y2JmcGpNdVdMZkZfUXFSNGNvUzJfS3lpdFZvNWZyc25IbGQyakxjREJoVlVhOFNMdUpCa1gyeWRnZVVXb1B5Ylk5ek8teF9QOVNtSFczRHYtUDkzYTRvY3V1QWg3OVFSazNqdEZfdUhQWU1WZzlNMjBSalhHeENhSnMwdmpB?oc=5",
-      "published": "2026-11-26T18:13:35+00:00",
-      "via": "aggregated",
-      "score": 109.9,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: St. John's coach Rick Pitino gets shot at Louisville after it fired him in 2017",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-st-johns-rick-pitino-louisville-players-era-16/",
-      "published": "2026-11-26T14:55:12+00:00",
-      "via": "direct",
-      "score": 92.8,
-      "breaking": false
-    },
-    {
-      "headline": "Joe Lunardi's Bracketology has the Kentucky Wildcats missing the NCAA Tournament",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb09BSTNqTDJYNFFCWGhoUjFNemh5NjFZTk9YcFFGOEJha1ROZWltS1ZDeFRkb2hYbU5ralpvVl8zcG9KcXlTT2dldjB4Q2RBOV9Ua3paUmNyckxoZC1uQVItM3daXzVoaGotU21JWm56cUhRN0E2OXlWYmdzNHllbGJoT2ZSMHV5NlVPdllVYUpsRngzZ2dMSzJtRVYyc216TWJ1NEI4X2VOUzJMeDVxdEZ4Q19KMW5kN1c2WVAzUDV1eTB2YmtYT3hQbHhEUQ?oc=5",
-      "published": "2026-11-27T19:02:38+00:00",
-      "via": "aggregated",
-      "score": 106.2,
-      "breaking": false
-    },
-    {
       "headline": "UConn Men's Basketball: Dan Hurley Addresses Future of Huskies-Duke Rivalry",
       "source": "MEN BASKETBALL STORYLINES",
       "category": "NCAA NEWS",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQkUxcENqakhXazNiUkZ0WHh2Sm5wVGFSMG5BWDA3ZVpFalhwaFJOUVVuVHo1eTNNcVMxOGUydi03ZEd2cEg2Z0VFNlhKWENCUXJzMFVXdmQ5S2xQN0NoczI3U1IxTkNaNVNjYlYzZTFMbWM1blVFbUo0T1duc3NETnI2OHRrdjdxS1VMYU1vaWdCeFJxUEdsNnlnSUYtQ0dsUnNJbDJISEE?oc=5",
       "published": "2026-11-27T02:27:00+00:00",
       "via": "aggregated",
-      "score": 94.6,
-      "breaking": false
-    },
-    {
-      "headline": "Reusse: Gophers men’s basketball has its best coach in more than 25 years",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNamR2dUVUUG5weWNFWWFIUTJxdEhtNkJzTllCSlhacmV1UDk0MlU5aEVtQWZmTTRrc29XekMtZE1SZWlQTGwwRWNhWGx2Xy1RWEtEOHg1X0hUdHY1VjM3YlpVOG1IQ1lMdVp1RkI3dGxYWFQ2YW1xTExSZ1UzVTlOSFhtU25lNFZja3hEMDZIeVFUUUZiRjlXNU5GNDBfVzV0MVVYSi00dHBTc3gxYzU1Y0FlTnpFU2o1dlpSOFFZVTZ5STNjUTFXNWdXbWJjeEJCQ1E?oc=5",
-      "published": "2026-11-27T11:00:00+00:00",
-      "via": "aggregated",
-      "score": 115.5,
-      "breaking": false
-    },
-    {
-      "headline": "Houston Cougars Now Co-Favorites to Win 2027 NCAA Men's College Basketball Championship",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaHJ0QXpnWWpOMmswZm1EbzZTRklkTk81dmxWam9MVzVOeV9aOXRzTDBWQURwYWU1Y3JFbkJfQ3VRaGplYTBvU3dwUHpFX1l1bUpxNHd2NHdORmR1VDNGWFE0UThFeExISHJBbjk2MkM3SXg3QzM1cEI1SmlPUVo1ZTBIaEZzSVY3RXZWajVIYnRMTFhTSlFmdnQwaDhtOTJFbm1iMnZSYWZ5Mk1odnRB?oc=5",
-      "published": "2026-11-25T02:51:47+00:00",
-      "via": "aggregated",
-      "score": 88.8,
-      "breaking": false
-    },
-    {
-      "headline": "Michigan terrorized the Players Era Tournament last season; this year, the reigning champs are a November flop",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/michigan-worst-start-reigning-ncaa-tournament-champion-mike-boynton-players-era-16-miami/",
-      "published": "2026-11-27T16:12:02+00:00",
-      "via": "direct",
-      "score": 89.2,
-      "breaking": false
-    },
-    {
-      "headline": "Men’s College Basketball Power Rankings: Is this the most talented era since the 1990s?",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMC00bXBnQkFESGxvclhsSUJGam15QTB0elNvSzZmdmlnX3dSQ1ZKSU12elNueFg2QUlYYy02QklSeFZMQWN2bk9PR0EyYTVOWkdJeGJ4ZWptckV4OE1RTFBvdWk0bE1mX3BWZHh3U09RYkh3bV9mTzYwS2xXR2w3cHQ0SnBXbGY5QXFUV0o4ZGxEMERZSHJPeTZpN2RfNm5uTm05MEJ1YWpMSnAxUnc?oc=5",
-      "published": "2026-11-26T13:41:08+00:00",
-      "via": "aggregated",
-      "score": 88.4,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Biggest surprise this season? The 8-0 Pitt Panthers make Top 25 And 1 debut",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-8-0-pitt-panthers-top-25-and-1-debut/",
-      "published": "2026-11-27T19:00:20+00:00",
-      "via": "direct",
-      "score": 90.1,
-      "breaking": false
-    },
-    {
-      "headline": "Who are the winningest NCAA basketball coaches of all time?",
-      "source": "TOP 25",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbFJ0dGxwdzh0TFhoandjQ3VzTVNRenNQNklWT3kwYmR4Yk9uVGJMYkpmMU1uY0FGVU12cklOa0NXQkRxbEc5VXJsZXpQR2Nzckp3ZUxyeUJnRWszTHp0OWtRUHZXZjFEakEtNjYwN3lQQXc1LUpYZFZZNkw4NkVIQ0ZXTW1BOVE1N0hEcjhhdEJ4enpwVnlETHRKb25LMm80NE4zZXhVX29OUEdDamc?oc=5",
-      "published": "2026-11-25T06:42:00+00:00",
-      "via": "aggregated",
-      "score": 90.0,
-      "breaking": false
-    },
-    {
-      "headline": "College football coaching carousel: Tracker for every FBS coach change in 2026",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMXE5UmlNM2tvQllrc2JTQmRfOXJoempxeGN6WkxUdFhmLXhQel9rVVExRWdZUGRlcWpUcWg3M2tvamlCX2FHOElTc1lyRzVONVRFWDUxM01HRERLRWZ2MTZDVi00Zk5fY3RqVlpaWEtLekppcHVZS3BhQlZNUVdHM3B5NDRndTk5S0xNbHVYaEwxdEQ0Y3JaUHZOOE1hblVyWHE3QnpCM3RiX2FwaDZIcUVYX3NqaW1BZ1RSaWJDYkdWU2JwT09RV2N4OXJjNTA?oc=5",
-      "published": "2026-11-27T19:20:20+00:00",
-      "via": "aggregated",
-      "score": 90.3,
-      "breaking": false
-    },
-    {
-      "headline": "St. John’s men’s basketball clears first Players Era hurdle in decisive win over Oregon",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzJCYkdXamZJQ1FsV1VKRHdxMzJwZGFGc0xieTJmSXZBRjJWRDlXbE1hbTU0cl9Rak1lcFFLZ2J3MHhkSUo5UFo4RFlLcUtaM1pYOHdSRVJPNDFQbTRQU2ZnM0NseVN6RnpraWZQcEs4MnpuS0d5ak5Jb29jWDdVeFBIMXIyanNIUFN1SVJ5R3Ryb3QxdV9NSkN1TnlXU3d0SldJbA?oc=5",
-      "published": "2026-11-25T20:06:29+00:00",
-      "via": "aggregated",
-      "score": 82.5,
-      "breaking": false
-    },
-    {
-      "headline": "Boston College Faces UCF in Thanksgiving Basketball Matchup",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1oWjZhMEsydmdySnlVaXM1aUllRlBrQWJBMnVBSldXQ2lacEpnU01hWFJWZDJXMU9ZQ01hakUxNmRWd0hyRU9pYW9PdFF0eGp4TFRTX3hwMDFNZ3J6dWdELWd3?oc=5",
-      "published": "2026-11-26T18:57:00+00:00",
-      "via": "aggregated",
-      "score": 92.1,
+      "score": 94.1,
       "breaking": false
     },
     {
       "headline": "NCAA College Basketball Rankings: AP Top 25 Basketball Poll",
-      "source": "TOP 25",
-      "category": "TOP 25",
+      "source": "IOWA",
+      "category": "IOWA",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiclRXTGdGRmhNSVBZOEhVMjdaWTFWdXIwOFA4UTd6T0plQTJ0UmZlSUE2WEMwQmYzQ0NJam1KcWhVLVZXY1cwYWNKTU9GRjY4MXJacTlKX3BUdnlCYW1TdnVVX3pHcTQ?oc=5",
-      "published": "2026-11-27T23:40:20+00:00",
+      "published": "2026-11-28T00:31:26+00:00",
       "via": "aggregated",
-      "score": 99.7,
+      "score": 107.5,
       "breaking": false
     },
     {
-      "headline": "American College Basketball News, Videos, Scores, Teams, Standings, Stats",
-      "source": "FOX SPORTS",
+      "headline": "#22 UCLA Upsets #5 Arizona as the 2026-7 College Basketball Season Gets Underway",
+      "source": "MEN BASKETBALL STORYLINES",
       "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13N2o2RFZPdmNNcUtlbTdhQlF1VUxuT0dOdTNPODVzUXVxWFp0RTNxQlJlZVVXSnVfcW1NQldSRHJUUUVzQkZnbEJsbWFGV0I4RnVkb0JuYW1wRG1B?oc=5",
-      "published": "2026-11-26T21:29:55+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3BmU2M1a1pxaFRWMG9rQnE3RjhOVjFLQXFVOVRySzJxajlUWGlZb2Y1eDFMS3N3aU1PRTMxcVdDc1A5LWR5dDhNMWN6d0Rnd0hXbm1rQ0FwWlJMWi1KbXUyY25vWEVzNmhob1k4aWRaSVJGeVhvRWNmdHExRlg3b2pVUEhYU3RHVUU1V2wyNG5lWFBpUEo3VzUyYmd6WHRTZWwtMA?oc=5",
+      "published": "2026-11-26T18:35:25+00:00",
       "via": "aggregated",
-      "score": 83.0,
+      "score": 93.5,
       "breaking": false
     },
     {
@@ -202,137 +80,57 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQW0wakhFNVc3cUlKYU1PdWZ6QTdqVHQ5bkJ5MWhhQXo4bHN1M3ZuSWNaSTlGbE9zTnV2cVhLRnFmQndfU3FmUDZsZDFIeHEtSjI2VnhYdV9Kd0d5ODVMQ3BwXzNheWE5ZDMxaU9ZczNYdXEwRU9tcDd4SmZ1SmEtTkNkTXExa3h2ZzRmbk96dE83c1FLXzZIZDUxX1hyblNkaTZReWZRWlMwTXNMNV9KRWlpMHhyZVE2WGliRFp6WVFaZGJBaXpidlMzYWZ0dG9UWkh4UzB3?oc=5",
       "published": "2026-11-25T15:14:00+00:00",
       "via": "aggregated",
-      "score": 88.9,
-      "breaking": false
-    },
-    {
-      "headline": "2026 college football coaching carousel 2026: Tracking hirings and firings",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNFMyNS0zcVR6YUNDX2dJTnpfZnAzQmV6eGk5V2lLYUUweXlfMC15YUF1TmItR042UUtoSjU2OHBLZ1RGX1Jab0pPc2hMYzNlUXl5Yk1UUEwtOHVZTDliRlhRZERLNEg3aWhsOFBLVEhydUZ2bVBtc3hyUHFVQ196MFVaZGFvcjdQUi1KZ19lemdRaGs1czZtNW1QNWRCMU9MN3NfMTNB?oc=5",
-      "published": "2026-11-27T20:54:00+00:00",
-      "via": "aggregated",
-      "score": 90.8,
-      "breaking": false
-    },
-    {
-      "headline": "MSU Basketball's Interesting Record On Thanksgiving In Past Five Years",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFVPQzVoQVBvUmEtRE8tdlJ1cXE1MVRhWVRHVTU0WThWQ1ZsYkxXOG9YcHNvb1dvM0IybVVPSGl2dE5YUGgtQ2xfY3YyLTlMU3FkSWpaY3RXX2pQV1AxanprQndBeHlpdDdiR19IQTNYQzlaRDBFcGIxT1Jra0p3ZkY5Q2JnY0FORFdiMGJqNXozSGJNMUNYb0VhTE9tbERvUVR4dGpqWDlBNnhweXhGbw?oc=5",
-      "published": "2026-11-25T15:00:00+00:00",
-      "via": "aggregated",
-      "score": 80.8,
-      "breaking": false
-    },
-    {
-      "headline": "Brain Aneurysm Lands Late NASCAR Driver Stanley Smith's Daughter in ICU Just Days After Birthday",
-      "source": "RACING",
-      "category": "RACING",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOU1ERlExZEpiWTVNTkZIakFWdFBPZWZrVXllanM4OWNSdDUySWNiMmpJbi1ySkQxdlE0elUtZWpkSWJPOEd3azRnalFDN0pNbjJZMmNSYmxSWjAxa1VZbUtXcEZvZGxzdWRDU18xOWdSXzIwaTM2U3RrdnhxS0h2amdkRzdBMm1jdDlOaGMtSV80MTND?oc=5",
-      "published": "2026-11-27T13:49:23+00:00",
-      "via": "aggregated",
       "score": 88.4,
       "breaking": false
     },
     {
-      "headline": "2027 NFL Head Coach Candidate Hot Board",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsMU5HaXpnVHV6YUhqdjBKOWc3cGhsdUNIeFVaakxISVBBUFlSLXh2a012WWUtR0NWSDBiZzF4X3lfNDQ4ZWZ6Q0VzeUFidHdKQ1licTZ1cmltYXZUM0RtQlpzb3k4ZnFNZUU3V3Z5a2JyTG40?oc=5",
-      "published": "2026-11-27T12:00:15+00:00",
+      "headline": "Houston Cougars Now Co-Favorites to Win 2027 NCAA Men's College Basketball Championship",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaHJ0QXpnWWpOMmswZm1EbzZTRklkTk81dmxWam9MVzVOeV9aOXRzTDBWQURwYWU1Y3JFbkJfQ3VRaGplYTBvU3dwUHpFX1l1bUpxNHd2NHdORmR1VDNGWFE0UThFeExISHJBbjk2MkM3SXg3QzM1cEI1SmlPUVo1ZTBIaEZzSVY3RXZWajVIYnRMTFhTSlFmdnQwaDhtOTJFbm1iMnZSYWZ5Mk1odnRB?oc=5",
+      "published": "2026-11-25T02:51:47+00:00",
       "via": "aggregated",
-      "score": 87.8,
+      "score": 88.3,
       "breaking": false
     },
     {
-      "headline": "Instant Observations From Iowa Men's Basketball's Win Over UMBC",
-      "source": "IOWA",
+      "headline": "Iowa Basketball Notebook: Ben McCollum on Xavier, The State Of His Team, Keller Daugherty's Signing",
+      "source": "IOWA STORYLINES",
       "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeWgtdTktZmd5UHp1OWxDVXIwZE5qYWlvQmhfYld5c3FObC11cU5PcGNQbkpZWHNuMWpfVmlMRmU4UmxVMGUtRXh6MDBPNG9BVW5hX3NwS1NmUGVvMzhGcjVoSDR6TUQ3R2VwNHhJNGtRNTdFeHNjUjhrbzk1VWJpSFVjWkhndjBpRnNJWVcxNDJwcTNoOS1FMG9VLXVyTG5VWkluVmFpVQ?oc=5",
-      "published": "2026-11-25T01:44:59+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMTI0OW00VzRMX2RzSnBiSHdvSTlyZmtKQ0hUZVlmM2dRTzMtUHpoa19TRF9pZDJKanM4eUpleFJ2eS1VaHVWNEc3Yzc4amlUUWRUR1lXM3RBRGJ3SXZROHRyQXBWbEN3VUZqVWZxR0tPTzY3MzU1bW9zZHp4R2hBRlpYczMtZlJ2emlxUHpXRllMXzVjYTV0T181cFZULTYtU05PMk5ReTZUYWRwWllkTDltZk41RWFWODVXWW5DOHRuNFE?oc=5",
+      "published": "2026-11-26T23:05:16+00:00",
       "via": "aggregated",
-      "score": 84.4,
+      "score": 99.0,
       "breaking": false
     },
     {
-      "headline": "2026 Players Era 16: Bracket, schedule, scores",
-      "source": "NCAA.COM",
+      "headline": "Boston College Faces UCF in Thanksgiving Basketball Matchup",
+      "source": "MEN BASKETBALL STORYLINES",
       "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-26/2026-players-era-16-bracket-schedule-scores",
-      "published": "2026-11-26T15:33:00+00:00",
-      "via": "direct",
-      "score": 81.0,
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1oWjZhMEsydmdySnlVaXM1aUllRlBrQWJBMnVBSldXQ2lacEpnU01hWFJWZDJXMU9ZQ01hakUxNmRWd0hyRU9pYW9PdFF0eGp4TFRTX3hwMDFNZ3J6dWdELWd3?oc=5",
+      "published": "2026-11-26T18:57:00+00:00",
+      "via": "aggregated",
+      "score": 91.6,
       "breaking": false
     },
     {
-      "headline": "College basketball rankings: Arizona's hot streak continues as Wildcats win Maui Invitational",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-arizona-maui-invitationl/",
-      "published": "2026-11-27T15:33:16+00:00",
-      "via": "direct",
-      "score": 89.0,
-      "breaking": false
-    },
-    {
-      "headline": "2027 NCAA Tournament Bracketology: Kentucky drops out of projected 76-team field, Big Ten flounders",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/bracketology-2027-ncaa-tournament-kentucky-drops-out-projected-76-team/",
-      "published": "2026-11-27T16:05:47+00:00",
-      "via": "direct",
+      "headline": "From Dabo Swinney to the sales floor: Where college football's interim coaches end up",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdGJnOWZOa2N2ekRHZnkzcnBHdEs2eHFrd3NaT3I1WFY4enl6ZlhzbVdaQVZpa1BjdzNZZ0RWLWdETnA5QWQ0SDEyd3Zka2c0ZWZWMk1oUFEwWGY3eW1zNE9xTUFsS0E2cm1jaUVJdWVzcmFsZzQyNTB5YVBCRkhqN2w0eW5CRmJlU2E4NzZ5NmpFZmFOcjB3WmFkZXlROWNiN0xZ?oc=5",
+      "published": "2026-11-27T17:38:14+00:00",
+      "via": "aggregated",
       "score": 89.2,
       "breaking": false
     },
     {
-      "headline": "Brock Purdy, Derrick Henry, NFL Injury Statuses and Fantasy Impact for Week 12",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY2dhaGRaTzZNdHBrYlZxYnc4cHhIdGI4M3pPQm9rUENENDZxc21SUmFhZTVmYjFmNDhxUEs5SF81SEZPS3dpVlpTVUdHSi1WQV82dXcya0JiVDUtRUFmSjdqN3RNRU5FaE9fdVFUaHpsdUgxZXEteFRYN3RsTnd1cjFxVElMWVZ4Tkt4VFFtQUN1V3R5c0NKUFdjM01kekpZT3ZfNTQ2cnVubHRVY0RmSDdnVzZYY0VM?oc=5",
-      "published": "2026-11-27T22:14:11+00:00",
-      "via": "aggregated",
-      "score": 91.2,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball scores: Live, updated NCAA men's basketball scores",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSTlBeE5tbXJFVXhGTS1WTk1xR1h0SVRyQTZ4ckE1YnNYcXRxeHBDb3hscGhxdkVtcXRZWHNpQk5TZkJRYUs4Q0dsd0l5WUFoWldVNEZkNDVBM0RLVnZCVW1reTl1WnhiUGlBN3pQN1lFaVBIVVJEMFZ0c2k1b3JfY1Rtc1d3SVhjZHN3?oc=5",
-      "published": "2026-11-26T18:17:54+00:00",
-      "via": "aggregated",
-      "score": 81.9,
-      "breaking": false
-    },
-    {
-      "headline": "Steelers bench Aaron Rodgers; Tennessee jumps Alabama in CFP rankings; Cubs land Teruaki Sato",
+      "headline": "College basketball rankings: St. John's coach Rick Pitino gets shot at Louisville after it fired him in 2017",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/nfl/news/steelers-bench-aaron-rodgers-nfl-tennessee-alabama-cfp-rankings-cubs-teruaki-sato-mlb/",
-      "published": "2026-11-25T13:50:08+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-st-johns-rick-pitino-louisville-players-era-16/",
+      "published": "2026-11-26T14:55:12+00:00",
       "via": "direct",
-      "score": 72.4,
-      "breaking": false
-    },
-    {
-      "headline": "Michigan matches worst start by reigning national champion in last 40 years: Why pressure is on Mike Boynton",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/michigan-worst-start-ncaa-tournament-winner-reigning-national-champion-mike-boynton/",
-      "published": "2026-11-25T01:59:29+00:00",
-      "via": "direct",
-      "score": 80.5,
-      "breaking": false
-    },
-    {
-      "headline": "2026 Maui Invitational: Bracket, schedule, scores",
-      "source": "NCAA.COM",
-      "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-26/2026-maui-invitational-bracket-schedule-scores",
-      "published": "2026-11-26T15:30:00+00:00",
-      "via": "direct",
-      "score": 81.0,
+      "score": 92.3,
       "breaking": false
     },
     {
@@ -342,7 +140,167 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeTJsXzlLMS1fOE1QdzNvVGxMdjNiRDM4V01qNEx3Mk9jSjdjdTJ6TDZPSXZHOHp5bmFndzZBQUxiVEEzWnBNNU51QlcwanZ4aEt6R0RDbGE0YTl2NWhvZ2hYQ1dhZFNvNnRpNEZ5NTdjamJNaUZndFBqUzM3Y2dEMTk4TGFZN3UxakJueWdDQTBqQ3FCUGY5TS1WUklXYVhM0gGgAUFVX3lxTE9PR3lZbDFxNGJVdDlQalp2anJnUWlxUy1uWFFSdGpoR1h6SUFhLWZ5VmlnckY2VTF3ZDVaU2RYVkJJd1E0bVF4ZjhKNl9mTmZkYzBoWGVOTFllbEtsVGlkb01BdGxRY180ZGFvdVhybXhoazJiR0x0MlF2QWZfN2tibGdfbURmUVVXN1RUNjhsODRDNExjakFhemJfenJFNDI?oc=5",
       "published": "2026-11-27T19:10:50+00:00",
       "via": "aggregated",
-      "score": 90.2,
+      "score": 89.7,
+      "breaking": false
+    },
+    {
+      "headline": "2027 NCAA Tournament Bracketology: Kentucky drops out of projected 76-team field, Big Ten flounders",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/bracketology-2027-ncaa-tournament-kentucky-drops-out-projected-76-team/",
+      "published": "2026-11-28T01:04:20+00:00",
+      "via": "direct",
+      "score": 91.7,
+      "breaking": false
+    },
+    {
+      "headline": "MSU Basketball's Interesting Record On Thanksgiving In Past Five Years",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFVPQzVoQVBvUmEtRE8tdlJ1cXE1MVRhWVRHVTU0WThWQ1ZsYkxXOG9YcHNvb1dvM0IybVVPSGl2dE5YUGgtQ2xfY3YyLTlMU3FkSWpaY3RXX2pQV1AxanprQndBeHlpdDdiR19IQTNYQzlaRDBFcGIxT1Jra0p3ZkY5Q2JnY0FORFdiMGJqNXozSGJNMUNYb0VhTE9tbERvUVR4dGpqWDlBNnhweXhGbw?oc=5",
+      "published": "2026-11-25T15:00:00+00:00",
+      "via": "aggregated",
+      "score": 80.3,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball scores: Live, updated NCAA men's basketball scores",
+      "source": "MEN BASKETBALL STORYLINES",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSTlBeE5tbXJFVXhGTS1WTk1xR1h0SVRyQTZ4ckE1YnNYcXRxeHBDb3hscGhxdkVtcXRZWHNpQk5TZkJRYUs4Q0dsd0l5WUFoWldVNEZkNDVBM0RLVnZCVW1reTl1WnhiUGlBN3pQN1lFaVBIVVJEMFZ0c2k1b3JfY1Rtc1d3SVhjZHN3?oc=5",
+      "published": "2026-11-26T18:17:54+00:00",
+      "via": "aggregated",
+      "score": 81.4,
+      "breaking": false
+    },
+    {
+      "headline": "Men’s College Basketball Power Rankings: Is this the most talented era since the 1990s?",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMC00bXBnQkFESGxvclhsSUJGam15QTB0elNvSzZmdmlnX3dSQ1ZKSU12elNueFg2QUlYYy02QklSeFZMQWN2bk9PR0EyYTVOWkdJeGJ4ZWptckV4OE1RTFBvdWk0bE1mX3BWZHh3U09RYkh3bV9mTzYwS2xXR2w3cHQ0SnBXbGY5QXFUV0o4ZGxEMERZSHJPeTZpN2RfNm5uTm05MEJ1YWpMSnAxUnc?oc=5",
+      "published": "2026-11-26T13:41:08+00:00",
+      "via": "aggregated",
+      "score": 87.9,
+      "breaking": false
+    },
+    {
+      "headline": "NFL Injury Report Week 12: Friday Updates & Key News",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmRhU3pFZWpzOUdlVlFqenFzZmFfOHN6WkpGdTM4MmRSZ0JzSHpaUVNBajB5aFNndEdYQ3BuOE8wdHB0UHozcFRqcjdqY0phbkhWSzVKMkVnNFp2VWhTSTV4REV3dnkxWEx2RG1pakt0MDRJc1NFcW9kMHZMcEVaQ2FEY0QtclhmYnl6bDRfVXZRNmlxbWNNX0dkMk5id1dWNURRclZIRkdvbE1DSlI0Z1JHQ3BweDZiaEQ1SnFITHY?oc=5",
+      "published": "2026-11-28T01:02:00+00:00",
+      "via": "aggregated",
+      "score": 91.7,
+      "breaking": false
+    },
+    {
+      "headline": "Who are the winningest NCAA basketball coaches of all time?",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbFJ0dGxwdzh0TFhoandjQ3VzTVNRenNQNklWT3kwYmR4Yk9uVGJMYkpmMU1uY0FGVU12cklOa0NXQkRxbEc5VXJsZXpQR2Nzckp3ZUxyeUJnRWszTHp0OWtRUHZXZjFEakEtNjYwN3lQQXc1LUpYZFZZNkw4NkVIQ0ZXTW1BOVE1N0hEcjhhdEJ4enpwVnlETHRKb25LMm80NE4zZXhVX29OUEdDamc?oc=5",
+      "published": "2026-11-25T06:42:00+00:00",
+      "via": "aggregated",
+      "score": 89.6,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Arizona's hot streak continues as Wildcats win Maui Invitational",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-arizona-maui-invitationl/",
+      "published": "2026-11-27T15:33:16+00:00",
+      "via": "direct",
+      "score": 88.5,
+      "breaking": false
+    },
+    {
+      "headline": "St. John’s men’s basketball clears first Players Era hurdle in decisive win over Oregon",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzJCYkdXamZJQ1FsV1VKRHdxMzJwZGFGc0xieTJmSXZBRjJWRDlXbE1hbTU0cl9Rak1lcFFLZ2J3MHhkSUo5UFo4RFlLcUtaM1pYOHdSRVJPNDFQbTRQU2ZnM0NseVN6RnpraWZQcEs4MnpuS0d5ak5Jb29jWDdVeFBIMXIyanNIUFN1SVJ5R3Ryb3QxdV9NSkN1TnlXU3d0SldJbA?oc=5",
+      "published": "2026-11-25T20:06:29+00:00",
+      "via": "aggregated",
+      "score": 82.0,
+      "breaking": false
+    },
+    {
+      "headline": "Michigan terrorized the Players Era Tournament last season; this year, the reigning champs are a November flop",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/michigan-worst-start-reigning-ncaa-tournament-champion-mike-boynton-players-era-16-miami/",
+      "published": "2026-11-27T16:12:02+00:00",
+      "via": "direct",
+      "score": 88.7,
+      "breaking": false
+    },
+    {
+      "headline": "Brock Purdy, Derrick Henry, NFL Injury Statuses and Fantasy Impact for Week 12",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY2dhaGRaTzZNdHBrYlZxYnc4cHhIdGI4M3pPQm9rUENENDZxc21SUmFhZTVmYjFmNDhxUEs5SF81SEZPS3dpVlpTVUdHSi1WQV82dXcya0JiVDUtRUFmSjdqN3RNRU5FaE9fdVFUaHpsdUgxZXEteFRYN3RsTnd1cjFxVElMWVZ4Tkt4VFFtQUN1V3R5c0NKUFdjM01kekpZT3ZfNTQ2cnVubHRVY0RmSDdnVzZYY0VM?oc=5",
+      "published": "2026-11-27T22:14:11+00:00",
+      "via": "aggregated",
+      "score": 90.7,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: Biggest surprise this season? The 8-0 Pitt Panthers make Top 25 And 1 debut",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-8-0-pitt-panthers-top-25-and-1-debut/",
+      "published": "2026-11-27T19:00:20+00:00",
+      "via": "direct",
+      "score": 89.7,
+      "breaking": false
+    },
+    {
+      "headline": "American College Basketball News, Videos, Scores, Teams, Standings, Stats",
+      "source": "FOX SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13N2o2RFZPdmNNcUtlbTdhQlF1VUxuT0dOdTNPODVzUXVxWFp0RTNxQlJlZVVXSnVfcW1NQldSRHJUUUVzQkZnbEJsbWFGV0I4RnVkb0JuYW1wRG1B?oc=5",
+      "published": "2026-11-26T21:29:55+00:00",
+      "via": "aggregated",
+      "score": 82.5,
+      "breaking": false
+    },
+    {
+      "headline": "2026 Maui Invitational: Bracket, schedule, scores",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-26/2026-maui-invitational-bracket-schedule-scores",
+      "published": "2026-11-26T15:30:00+00:00",
+      "via": "direct",
+      "score": 80.5,
+      "breaking": false
+    },
+    {
+      "headline": "2026 Players Era 16: Bracket, schedule, scores",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-26/2026-players-era-16-bracket-schedule-scores",
+      "published": "2026-11-26T15:33:00+00:00",
+      "via": "direct",
+      "score": 80.5,
+      "breaking": false
+    },
+    {
+      "headline": "Oregon Ducks Updated Path to College Football Playoff, Big Ten Championship Game",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdmREOG1MWmlwajhTTlg0UWZHaWo5Z0plTW01RG9UN3lTVjg3SHlJRzlGYTJLODBxQ1lfSUlNdVVoMnZsdkFFNVB5ZEZxUVdubzVlNUtyVnZndFRhZ2JGZVlKMjhNcEltUmxUUl84YXpqdmhleVJJbERKN0VBNkpCM3p0VUVNQTdKQmtTQXNZNFNyYk1uYmdUbmJMRWV5MmM1QTJTVTFNbXlnb2g2ckZKVXlqQXVBOW5LdGFB?oc=5",
+      "published": "2026-11-27T23:00:49+00:00",
+      "via": "aggregated",
+      "score": 91.0,
+      "breaking": false
+    },
+    {
+      "headline": "Steelers bench Aaron Rodgers; Tennessee jumps Alabama in CFP rankings; Cubs land Teruaki Sato",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/nfl/news/steelers-bench-aaron-rodgers-nfl-tennessee-alabama-cfp-rankings-cubs-teruaki-sato-mlb/",
+      "published": "2026-11-25T13:50:08+00:00",
+      "via": "direct",
+      "score": 71.9,
       "breaking": false
     }
   ]
