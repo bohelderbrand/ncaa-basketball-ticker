@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T19:15:30.455365+00:00",
+  "updated": "2026-11-28T20:18:25.930727+00:00",
   "sources": [
     "AP TOP 25 TEAMS",
     "CBS SPORTS",
@@ -46,53 +46,43 @@
   ],
   "articles": [
     {
-      "headline": "UConn Men's Basketball: Dan Hurley Addresses Future of Huskies-Duke Rivalry",
-      "source": "MEN BASKETBALL STORYLINES",
-      "category": "NCAA NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQkUxcENqakhXazNiUkZ0WHh2Sm5wVGFSMG5BWDA3ZVpFalhwaFJOUVVuVHo1eTNNcVMxOGUydi03ZEd2cEg2Z0VFNlhKWENCUXJzMFVXdmQ5S2xQN0NoczI3U1IxTkNaNVNjYlYzZTFMbWM1blVFbUo0T1duc3NETnI2OHRrdjdxS1VMYU1vaWdCeFJxUEdsNnlnSUYtQ0dsUnNJbDJISEE?oc=5",
-      "published": "2026-11-27T02:27:00+00:00",
-      "via": "aggregated",
-      "score": 88.4,
-      "breaking": false
-    },
-    {
-      "headline": "Joe Lunardi's Bracketology has the Kentucky Wildcats missing the NCAA Tournament",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb09BSTNqTDJYNFFCWGhoUjFNemh5NjFZTk9YcFFGOEJha1ROZWltS1ZDeFRkb2hYbU5ralpvVl8zcG9KcXlTT2dldjB4Q2RBOV9Ua3paUmNyckxoZC1uQVItM3daXzVoaGotU21JWm56cUhRN0E2OXlWYmdzNHllbGJoT2ZSMHV5NlVPdllVYUpsRngzZ2dMSzJtRVYyc216TWJ1NEI4X2VOUzJMeDVxdEZ4Q19KMW5kN1c2WVAzUDV1eTB2YmtYT3hQbHhEUQ?oc=5",
-      "published": "2026-11-27T19:02:38+00:00",
-      "via": "aggregated",
-      "score": 99.9,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: Creighton enters Top 25 And 1, sets up Players Era title matchup with Louisville",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-creighton-enters-top-25-and-1/",
-      "published": "2026-11-28T17:14:12+00:00",
-      "via": "direct",
-      "score": 101.3,
-      "breaking": false
-    },
-    {
-      "headline": "Reusse: Gophers men’s basketball has its best coach in more than 25 years",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNamR2dUVUUG5weWNFWWFIUTJxdEhtNkJzTllCSlhacmV1UDk0MlU5aEVtQWZmTTRrc29XekMtZE1SZWlQTGwwRWNhWGx2Xy1RWEtEOHg1X0hUdHY1VjM3YlpVOG1IQ1lMdVp1RkI3dGxYWFQ2YW1xTExSZ1UzVTlOSFhtU25lNFZja3hEMDZIeVFUUUZiRjlXNU5GNDBfVzV0MVVYSi00dHBTc3gxYzU1Y0FlTnpFU2o1dlpSOFFZVTZ5STNjUTFXNWdXbWJjeEJCQ1E?oc=5",
-      "published": "2026-11-27T11:00:00+00:00",
-      "via": "aggregated",
-      "score": 109.2,
-      "breaking": false
-    },
-    {
       "headline": "Mark Pope buyout, contract details: How much it would cost Kentucky to fire coach after loss to Wichita State",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
       "url": "https://www.cbssports.com/college-basketball/news/mark-pope-buyout-contract-kentucky-coach/",
-      "published": "2026-11-28T04:55:23+00:00",
+      "published": "2026-11-28T19:23:27+00:00",
       "via": "direct",
-      "score": 99.2,
+      "score": 103.7,
+      "breaking": false
+    },
+    {
+      "headline": "NCAA College Basketball Rankings: AP Top 25 Basketball Poll",
+      "source": "TOP 25",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiclRXTGdGRmhNSVBZOEhVMjdaWTFWdXIwOFA4UTd6T0plQTJ0UmZlSUE2WEMwQmYzQ0NJam1KcWhVLVZXY1cwYWNKTU9GRjY4MXJacTlKX3BUdnlCYW1TdnVVX3pHcTQ?oc=5",
+      "published": "2026-11-28T19:43:10+00:00",
+      "via": "aggregated",
+      "score": 99.8,
+      "breaking": false
+    },
+    {
+      "headline": "Illinois Basketball Player Grades After Dominant Win Over Western Kentucky",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXZRZnZIZGR4T1J1cnVxMVZueVFSSGFZU3BadGwzLTVlTWRlazNVMG1kZFcteDV0dG1fQk9Ec1ZvMm1XYlJYajljd1lnd1JSQjhqWXJpMWFzTTdjY1ZGbGxnNTFUX2RRVTJodHpsTFd3aC1iRG5CM1ZYSjJoU2RsbTZIcm4wZVh3dWU0eW8zTUd1LWpTaS1aN0haR0xhWW5Yekp2bHZWUnp5SHF5U1BUYTdQandDc3ZvVEJmTWJn?oc=5",
+      "published": "2026-11-28T18:33:50+00:00",
+      "via": "aggregated",
+      "score": 107.4,
+      "breaking": false
+    },
+    {
+      "headline": "NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle), Justin Herbert (concussion), Parker Washington (shoulder), Bhayshul Tuten (ankle/foot) all out for Sunday",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPVnNHdERGYld2NkY5RERhLUpVMjhadU1xSXdDNWVqd3U4emNaMlFRZ1pSaXBGN2NxNkR3NzdtNXBHYXcxQWt0R1MyeU5LN1pnLVE1T1lmT3BCZ1NEWWd0YmctQmU5dFZPellHaXlVUzZGeGt3djI0Q0JXNmlLYzlqVHZ2X3dVSkg1UGYzeERsOW5mSllDMWozUFB4b3gtRXBEcjlfYnEzWWN2ZWplT3p0emN1YlVFU3ZITGdIb3NlOEZublBYRXU2TmlyWWgwd0JVM1dZajdDbjBYMVFsZ1JvUmxzXzExZ0IwbzBuemUyOEVPMXhHOVQ3bG1SSVZid0Q1T1p2Ml9ZS2dqaG1hZVhCZDVWVDF3OE5hY0ZwakVCaDlkR1c3Q2lCdnF5RUJWdDJFWGlJemtjZzJMVGRsQnZfQzhlenJNLXlnQ1A0OUZ4Z001Q1E?oc=5",
+      "published": "2026-11-28T19:06:42+00:00",
+      "via": "aggregated",
+      "score": 91.6,
       "breaking": false
     },
     {
@@ -102,77 +92,7 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZU01WXNYYmpSaGY1eXNrM0Ewd2xjTGdXQVFyTWpnQm1TaUQ0eVpoZkliVWN6XzUyZUItdmpxVDNnaC1yd0VYbzl3ODZ2SE9Celo5NGsxTzFwbFRwaEUtRlB2TjJjODNUVGdTam9FQ0pFQVJEcDRMMEJSMmFMT1RvbFFib1ozbnBiZ0EtM1VvUTl3V2pxdXB1SEV5Z3ZLcmxjdWZN?oc=5",
       "published": "2026-11-28T10:32:15+00:00",
       "via": "aggregated",
-      "score": 117.1,
-      "breaking": false
-    },
-    {
-      "headline": "How Mark Pope's inexplicable overtime coaching blunders doomed Kentucky in rock-bottom loss to Wichita State",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/mark-pope-overtime-coaching-blunders-kentucky-wichita-state/",
-      "published": "2026-11-28T06:10:43+00:00",
-      "via": "direct",
-      "score": 99.6,
-      "breaking": false
-    },
-    {
-      "headline": "Men's Basketball Signs Four-Star Recruit Braxton Keathley - University of the Pacific",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHJFSjBlOWxZOGZiQjd2MDVQTUJtQTVMNU9ydVRTNjQ5Y2JmcGpNdVdMZkZfUXFSNGNvUzJfS3lpdFZvNWZyc25IbGQyakxjREJoVlVhOFNMdUpCa1gyeWRnZVVXb1B5Ylk5ek8teF9QOVNtSFczRHYtUDkzYTRvY3V1QWg3OVFSazNqdEZfdUhQWU1WZzlNMjBSalhHeENhSnMwdmpB?oc=5",
-      "published": "2026-11-26T18:13:35+00:00",
-      "via": "aggregated",
-      "score": 103.7,
-      "breaking": false
-    },
-    {
-      "headline": "Brock Purdy, Derrick Henry, NFL Injury Statuses and Fantasy Impact for Week 12",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY2dhaGRaTzZNdHBrYlZxYnc4cHhIdGI4M3pPQm9rUENENDZxc21SUmFhZTVmYjFmNDhxUEs5SF81SEZPS3dpVlpTVUdHSi1WQV82dXcya0JiVDUtRUFmSjdqN3RNRU5FaE9fdVFUaHpsdUgxZXEteFRYN3RsTnd1cjFxVElMWVZ4Tkt4VFFtQUN1V3R5c0NKUFdjM01kekpZT3ZfNTQ2cnVubHRVY0RmSDdnVzZYY0VM?oc=5",
-      "published": "2026-11-27T22:14:11+00:00",
-      "via": "aggregated",
-      "score": 85.0,
-      "breaking": false
-    },
-    {
-      "headline": "Kentucky basketball coach Mark Pope booed off court after Wichita State loss",
-      "source": "KENTUCKY",
-      "category": "KENTUCKY",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTTRCLWFCdmdndVhLRU4tS0xJWTJ2WUZncmthcTJ5MjJneTF4MmstNEx3T3A4NnFXdWpWQ09tNy1aTUwwdHUyczlZeWkxcXJHVVhqNENXQ2tXdnJ2SzIzUmNIcE4xMnk1QzIyVVp6YV9RUXBvVDV0NkVuQWtyYzV1a2hvT3JOcDlDYnJRMHJyalR1RG1TMWt6a0hicFFKbHlR?oc=5",
-      "published": "2026-11-28T14:40:36+00:00",
-      "via": "aggregated",
-      "score": 118.5,
-      "breaking": false
-    },
-    {
-      "headline": "College basketball rankings: St. John's coach Rick Pitino gets shot at Louisville after it fired him in 2017",
-      "source": "CBS SPORTS",
-      "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-st-johns-rick-pitino-louisville-players-era-16/",
-      "published": "2026-11-26T14:55:12+00:00",
-      "via": "direct",
-      "score": 86.6,
-      "breaking": false
-    },
-    {
-      "headline": "St. John’s men’s basketball clears first Players Era hurdle in decisive win over Oregon",
-      "source": "AP TOP 25 TEAMS",
-      "category": "TOP 25",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzJCYkdXamZJQ1FsV1VKRHdxMzJwZGFGc0xieTJmSXZBRjJWRDlXbE1hbTU0cl9Rak1lcFFLZ2J3MHhkSUo5UFo4RFlLcUtaM1pYOHdSRVJPNDFQbTRQU2ZnM0NseVN6RnpraWZQcEs4MnpuS0d5ak5Jb29jWDdVeFBIMXIyanNIUFN1SVJ5R3Ryb3QxdV9NSkN1TnlXU3d0SldJbA?oc=5",
-      "published": "2026-11-25T20:06:29+00:00",
-      "via": "aggregated",
-      "score": 76.3,
-      "breaking": false
-    },
-    {
-      "headline": "# 9 Tennessee Men’s Basketball Battles Iowa State for Players Era Championship Spot",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ09ZMEh3Qnd0bzhyeDNHRzdTQXhYN0lyQ1lRTUd1dXpEVk51SEtjWDdKYkdVcmJfeGVWOFNPR29pUG5XZzh6d3FCR0tobHpRalpadGRkakZNNGVPcEoxS2lDcVVfYWxacjBfUmpjX21GZHZaTWs1cFVpRnRVMGNjWEkxanNVUVFLcHBacWRSYTBocjZQUGJZV19Hb09jMmQzNkh5dkRzUExsRVVWNEJrWlJLeGdMWEJKZjB4Q2c4RlVEbDI2?oc=5",
-      "published": "2026-11-25T20:00:48+00:00",
-      "via": "aggregated",
-      "score": 96.3,
+      "score": 116.7,
       "breaking": false
     },
     {
@@ -182,27 +102,27 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMC00bXBnQkFESGxvclhsSUJGam15QTB0elNvSzZmdmlnX3dSQ1ZKSU12elNueFg2QUlYYy02QklSeFZMQWN2bk9PR0EyYTVOWkdJeGJ4ZWptckV4OE1RTFBvdWk0bE1mX3BWZHh3U09RYkh3bV9mTzYwS2xXR2w3cHQ0SnBXbGY5QXFUV0o4ZGxEMERZSHJPeTZpN2RfNm5uTm05MEJ1YWpMSnAxUnc?oc=5",
       "published": "2026-11-26T13:41:08+00:00",
       "via": "aggregated",
-      "score": 82.1,
+      "score": 81.8,
       "breaking": false
     },
     {
-      "headline": "St. John’s men’s basketball gets gritty win over Iowa State in their Players Era Festival finale",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZGhFM1lyU211ejBZb0h6LTVPdm5GdnhfNjVnUFM2Sl9hdW5Dd295VmZNei0zMzhOZmZIeG9RaG5DVDZLWDZvWHQ2empiRk1VdXVVT0VwQll4UU41VnhGTzNiOEZKeEJoOEI1cUJCS2kzd2N5d3BjekIxLWprbGN5NHVWd1hjVm9hSGUxNTJlVmpyZTR1VXhsdTItS3hmaEo4aUZhTkx6UG5SbXhIMTlHVTczZHV4VnVvN01BU0JNekMzY1ZJb0o2ZFp1WFdBOC1sbTA4UGZJMkRCd2loVGo5b0FkVnhGbm5KSUZKWEtiZlBrSnJxM2RXcFFwZVo?oc=5",
-      "published": "2026-11-28T02:18:00+00:00",
+      "headline": "Men's Basketball Signs Four-Star Recruit Braxton Keathley - University of the Pacific",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHJFSjBlOWxZOGZiQjd2MDVQTUJtQTVMNU9ydVRTNjQ5Y2JmcGpNdVdMZkZfUXFSNGNvUzJfS3lpdFZvNWZyc25IbGQyakxjREJoVlVhOFNMdUpCa1gyeWRnZVVXb1B5Ylk5ek8teF9QOVNtSFczRHYtUDkzYTRvY3V1QWg3OVFSazNqdEZfdUhQWU1WZzlNMjBSalhHeENhSnMwdmpB?oc=5",
+      "published": "2026-11-26T18:13:35+00:00",
       "via": "aggregated",
-      "score": 102.3,
+      "score": 103.3,
       "breaking": false
     },
     {
-      "headline": "$8 Million College Football Coach Is Favorite to Replace Colorado HC Deion Sanders: Insider",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR0RVS0ZSUVlpLVFyY3BSOGNab2NTZGgyNzBrbmc1M1ljaFZxVFFjcWNfaC1fX2pZcjZlRVZaRU5mcDU3MFhwdzE1WGo1WUhFcFF0aVpQMFhYb011azFYR1A1X2M2OFo5YkwxVEt4NndaMVd4Ykx1amhYaTREcHRuLWZwcmppcjZWQzNWRG5xeV9NNkVCYl9KNWZNY1l5bVNIRF9zX094RENKajF1bHpsM3Vn?oc=5",
-      "published": "2026-11-28T14:30:17+00:00",
+      "headline": "Texas Division 1 College Basketball Top 10 Initial Power Ranking",
+      "source": "AP TOP 25 TEAMS",
+      "category": "TOP 25",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYlg3eDVNMERYeDIxN3E5Uzg0TEhKNG1TNHlycGlFTm02djdOc3VpSnI2VV96UjIwMlkyZkQ3QzlvQlI4TkZJMEMzT3dDRkNRVEZZZ0FoSWZLLTdPRUxJcEpoOU9Sc2pCNzNvMUgzVmNKTTdaTXlqVHZxLTVyLWV1Zno4SmdfVjBOdlBpeUxqQzRheTJIMzJKLW1JeWF6Z1ZEQ25kSnRCTW9XVEoyRVhBZ05B?oc=5",
+      "published": "2026-11-28T19:29:06+00:00",
       "via": "aggregated",
-      "score": 90.4,
+      "score": 99.7,
       "breaking": false
     },
     {
@@ -212,77 +132,77 @@
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNOGJwYl9vcXVERk9VcmJtV0Y1WUF2WG90aE5ZeDQ0Y0tMUHFSZk5TOW0tVzdVTU5ncFh2aWpYcWZmZjhCNDBkd2VsNXMxVFlPSWVtYVMtTngyM05FckFROTh0Z1pLXzZESFQxQ3FxeEtwdVBIckRua1hqRU5BNENUSmh2c1k3RGNNRUZrTkw1dExFYzRaN213OVpLQ1ZhdHZIazNRLTJhREU3d1NtY3JTc2IyTWNVNDZkOFRGaTNhYUsyR09rSmVnVml3OWYwN25OTWdJSnBwOTQ4S3N6NXNhWnBUajM5Vk0?oc=5",
       "published": "2026-11-28T02:49:26+00:00",
       "via": "aggregated",
-      "score": 102.5,
+      "score": 102.2,
       "breaking": false
     },
     {
-      "headline": "NFL injury tracker Week 12: Latest news, fantasy implications as Brock Purdy (ankle), Justin Herbert (concussion), Parker Washington (shoulder), Bhayshul Tuten (ankle/foot) all out for Sunday",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPVnNHdERGYld2NkY5RERhLUpVMjhadU1xSXdDNWVqd3U4emNaMlFRZ1pSaXBGN2NxNkR3NzdtNXBHYXcxQWt0R1MyeU5LN1pnLVE1T1lmT3BCZ1NEWWd0YmctQmU5dFZPellHaXlVUzZGeGt3djI0Q0JXNmlLYzlqVHZ2X3dVSkg1UGYzeERsOW5mSllDMWozUFB4b3gtRXBEcjlfYnEzWWN2ZWplT3p0emN1YlVFU3ZITGdIb3NlOEZublBYRXU2TmlyWWgwd0JVM1dZajdDbjBYMVFsZ1JvUmxzXzExZ0IwbzBuemUyOEVPMXhHOVQ3bG1SSVZid0Q1T1p2Ml9ZS2dqaG1hZVhCZDVWVDF3OE5hY0ZwakVCaDlkR1c3Q2lCdnF5RUJWdDJFWGlJemtjZzJMVGRsQnZfQzhlenJNLXlnQ1A0OUZ4Z001Q1E?oc=5",
-      "published": "2026-11-28T18:58:21+00:00",
+      "headline": "Andrej Stojakovic plays through illness in Illinois basketball win",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV0FiYWVWbGlxdDlNaDJaeTlXREhOV0RBN3owbFBudFl5cE94eEJ0UWpxZHd6TTBPM2hMM2JWZzJwdlJBSnljeVN1LUxJRkM5WUxZOXdKdGZUM3ZRdGVLNVJlb3l1eDFtZzQ3cFJOMFJsQjFEUEJZblJHbGFFNGFwQkVwX0kwYmNCSUFQZWhuNTEzMG9jSUlDandjdEZyWndtTC1FVXlMM082Zw?oc=5",
+      "published": "2026-11-28T10:32:15+00:00",
       "via": "aggregated",
-      "score": 91.9,
+      "score": 104.7,
       "breaking": false
     },
     {
-      "headline": "Iowa Basketball Notebook: Ben McCollum on Xavier, The State Of His Team, Keller Daugherty's Signing",
-      "source": "IOWA STORYLINES",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMTI0OW00VzRMX2RzSnBiSHdvSTlyZmtKQ0hUZVlmM2dRTzMtUHpoa19TRF9pZDJKanM4eUpleFJ2eS1VaHVWNEc3Yzc4amlUUWRUR1lXM3RBRGJ3SXZROHRyQXBWbEN3VUZqVWZxR0tPTzY3MzU1bW9zZHp4R2hBRlpYczMtZlJ2emlxUHpXRllMXzVjYTV0T181cFZULTYtU05PMk5ReTZUYWRwWllkTDltZk41RWFWODVXWW5DOHRuNFE?oc=5",
-      "published": "2026-11-26T23:05:16+00:00",
+      "headline": "9 NASCAR Drivers Set to Compete in the 2026 Snowball Derby",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jVnpSSF9RbjlKTGRkQ1BJcVpIdy01MUNiWU1EYUowVUVoN19kWGNTekVpWXM2a2piNmxKYmphU1h5alVEa0RCanV0OEVnT0lxODgzVUtCWW1RVnhXSzNoVmxLTklRaHJLQWNaTEo3WFNWZw?oc=5",
+      "published": "2026-11-28T16:26:10+00:00",
       "via": "aggregated",
-      "score": 93.3,
+      "score": 90.7,
       "breaking": false
     },
     {
-      "headline": "Injury-Based NFL Player Props - Week 12",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02cDBZTURlUDNnZ1lzODkzRl9uWVBYMDl3NGY4OHhEX25UVmlPMEVxa3RyZUtzellYM2NURmFOQnhoamFzaXkwemRhZHB1Zlk2eGVHVUFHRm9Qa1pGa2p2MUxVRjhaZDhjZDdCSFJkTFg?oc=5",
-      "published": "2026-11-28T05:29:52+00:00",
+      "headline": "Reusse: Gophers men’s basketball has its best coach in more than 25 years",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNamR2dUVUUG5weWNFWWFIUTJxdEhtNkJzTllCSlhacmV1UDk0MlU5aEVtQWZmTTRrc29XekMtZE1SZWlQTGwwRWNhWGx2Xy1RWEtEOHg1X0hUdHY1VjM3YlpVOG1IQ1lMdVp1RkI3dGxYWFQ2YW1xTExSZ1UzVTlOSFhtU25lNFZja3hEMDZIeVFUUUZiRjlXNU5GNDBfVzV0MVVYSi00dHBTc3gxYzU1Y0FlTnpFU2o1dlpSOFFZVTZ5STNjUTFXNWdXbWJjeEJCQ1E?oc=5",
+      "published": "2026-11-27T11:00:00+00:00",
       "via": "aggregated",
-      "score": 87.4,
+      "score": 108.9,
       "breaking": false
     },
     {
-      "headline": "Cherry Swats Program Record Nine Shots as Men's Hoops Closes Out Maryland, 75-71",
+      "headline": "St. John’s men’s basketball gets gritty win over Iowa State in their Players Era Festival finale",
       "source": "IOWA",
       "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORmxyeDNqM0hkbWo1QVh2cDNrWGxmUW4yZ2xxWkg1d1hOaFc5YVBtUWZsdWtvUlRWRUFLenJVVzIySUFQXzktVERDajFKbURrZ1lEcjBZSGtGOWtmcGZLN2ZsWHdsX2E4cVlUeXMxdVJQQzIxTjF3bVlBRGNWQXhMc29wTW12cWFGVHNKeFN0NFg2eGpNRjNFeGlGNC1hYnJSVEt0ZU4yZWM5T2NjTm5CdFd1Nmp5TllJZkFaVG5iM21ZTUJLSUdXLTFxRm5EZVZ1dlVxVnRYa0RLZHZXM2pF?oc=5",
-      "published": "2026-11-26T13:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZGhFM1lyU211ejBZb0h6LTVPdm5GdnhfNjVnUFM2Sl9hdW5Dd295VmZNei0zMzhOZmZIeG9RaG5DVDZLWDZvWHQ2empiRk1VdXVVT0VwQll4UU41VnhGTzNiOEZKeEJoOEI1cUJCS2kzd2N5d3BjekIxLWprbGN5NHVWd1hjVm9hSGUxNTJlVmpyZTR1VXhsdTItS3hmaEo4aUZhTkx6UG5SbXhIMTlHVTczZHV4VnVvN01BU0JNekMzY1ZJb0o2ZFp1WFdBOC1sbTA4UGZJMkRCd2loVGo5b0FkVnhGbm5KSUZKWEtiZlBrSnJxM2RXcFFwZVo?oc=5",
+      "published": "2026-11-28T02:18:00+00:00",
       "via": "aggregated",
-      "score": 89.9,
+      "score": 102.0,
       "breaking": false
     },
     {
-      "headline": "2026 Players Era 16: Bracket, schedule, scores",
-      "source": "NCAA.COM",
+      "headline": "UConn Men's Basketball: Dan Hurley Addresses Future of Huskies-Duke Rivalry",
+      "source": "MEN BASKETBALL STORYLINES",
       "category": "NCAA NEWS",
-      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-26/2026-players-era-16-bracket-schedule-scores",
-      "published": "2026-11-26T15:33:00+00:00",
-      "via": "direct",
-      "score": 74.8,
-      "breaking": false
-    },
-    {
-      "headline": "Men's Hoops Faces San Diego State On Thursday At Players Era Tournament",
-      "source": "IOWA",
-      "category": "IOWA",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdC1uc1lsY1FLMlpzclZWbkdkNlktZ2U5eTRGMFBMczBEcFZMTExjLUNwZkRIVlYwNFpSSmpfRXR2eVZTaG43VTVSVTM4UFVON1ZaNTdEek54YjdVSnlRZnhXTHNWZjJPMGx1UDc1NzAwQS1nTF9tM0h3OTRPc1ZDRWNQNFB1a2U5STlkRzVKNjM3RV9GWVJZUXJ2eEtLM0Y5aUJIbnBZeDFCYUtQeG11ajZ5YUMxTEt1dFN3bHZvZw?oc=5",
-      "published": "2026-11-26T02:20:05+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQkUxcENqakhXazNiUkZ0WHh2Sm5wVGFSMG5BWDA3ZVpFalhwaFJOUVVuVHo1eTNNcVMxOGUydi03ZEd2cEg2Z0VFNlhKWENCUXJzMFVXdmQ5S2xQN0NoczI3U1IxTkNaNVNjYlYzZTFMbWM1blVFbUo0T1duc3NETnI2OHRrdjdxS1VMYU1vaWdCeFJxUEdsNnlnSUYtQ0dsUnNJbDJISEE?oc=5",
+      "published": "2026-11-27T02:27:00+00:00",
       "via": "aggregated",
-      "score": 86.4,
+      "score": 88.0,
       "breaking": false
     },
     {
-      "headline": "Michigan terrorized the Players Era Tournament last season; this year, the reigning champs are a November flop",
+      "headline": "Schaak Returns to Bremotion for Fourth Consecutive NASCAR Euro Series Campaign",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTklQeUxYdVFEc3pDM05ReVFSVjhLQmJpN1lfWTRESVl3b0xzTDJvU3IxU1NYWll0dXhNNDNmb1FiMG84cUFobExJY3pSSjBjMjVUNzFOcTMxNjJTQ2VFRm9pZjNnMjF2RHFOTFBfYnY0OE9EN0tkUmlEc0dHTlVLbDJXTWFKZGFWVlBDeWN6VTJoTHdyWFNheWdxcXo1WTMwRUdzSFRQeU5Kd3d3ZVRHUDJiZmV0QUdkR0JiM1d1MmtGU2VCWC1uMzJyRk9zNkFkM1kydkVLMA?oc=5",
+      "published": "2026-11-28T20:12:51+00:00",
+      "via": "aggregated",
+      "score": 90.0,
+      "breaking": false
+    },
+    {
+      "headline": "How Mark Pope's inexplicable overtime coaching blunders doomed Kentucky in rock-bottom loss to Wichita State",
       "source": "CBS SPORTS",
       "category": "NCAA NEWS",
-      "url": "https://www.cbssports.com/college-basketball/news/michigan-worst-start-reigning-ncaa-tournament-champion-mike-boynton-players-era-16-miami/",
-      "published": "2026-11-27T16:12:02+00:00",
+      "url": "https://www.cbssports.com/college-basketball/news/mark-pope-overtime-coaching-blunders-kentucky-wichita-state/",
+      "published": "2026-11-28T06:10:43+00:00",
       "via": "direct",
-      "score": 83.0,
+      "score": 99.3,
       "breaking": false
     },
     {
@@ -292,17 +212,67 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeUdaWE5pZDZja2w3cWJJMzdORW81NWd1dnVYdnc4dHc4SUFoUmNSR0h3ckNUTUJEWERUQkxSVFc5b0xPdXgxN2hNTnVFZE9EME4yWDROV295ZWN0TWI4Zlh5RGZ2TVhQZy1QVmxmbUJQQnk3WV9ZWlJBTlFvTjhxNUItQW4?oc=5",
       "published": "2026-11-26T08:56:00+00:00",
       "via": "aggregated",
-      "score": 88.6,
+      "score": 88.2,
       "breaking": false
     },
     {
-      "headline": "In wake of Nyheim Hines injury, here's what 'standard' NFL contract says about banned off-field activities",
-      "source": "NFL",
-      "category": "NFL",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOdlhnNnF5Um53Zk94OVhBQ2lnZXV0aW03VXNNbmJuU2tQV1h6Z0ttRXNQZ1cyTzNPRExGLWhjUmN3aTRTTnFDSjROUW1YUjVFUmNKM212dWF3T0hEemFMYWVhVWFBOUp1dGFiT21BMVlSSFFjMHl0b0c3RlBjS0d6WHVLMXN4QnRUODZNYklHcFBESnRTTjB3bmlKQ0duT2p2Szd1Ulg1M2dqeEtrQTdVZGMxOVZyWUlmZVZYT2FYTlJXc2ZlQnhxTmFicHlha3YxdFBfc2hDNWFzUzRwSnhJVTZOVW01amN5Q3YtSVRKNmVOU19MMThxQXN0OTAxZUtfckZkZlAzYnRiWEVoSkVLMVZBSHdwX0g2?oc=5",
-      "published": "2026-11-28T10:29:58+00:00",
+      "headline": "College basketball rankings: Creighton enters Top 25 And 1, sets up Players Era title matchup with Louisville",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-creighton-enters-top-25-and-1/",
+      "published": "2026-11-28T17:14:12+00:00",
+      "via": "direct",
+      "score": 101.0,
+      "breaking": false
+    },
+    {
+      "headline": "Joe Lunardi's Bracketology has the Kentucky Wildcats missing the NCAA Tournament",
+      "source": "KENTUCKY",
+      "category": "KENTUCKY",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb09BSTNqTDJYNFFCWGhoUjFNemh5NjFZTk9YcFFGOEJha1ROZWltS1ZDeFRkb2hYbU5ralpvVl8zcG9KcXlTT2dldjB4Q2RBOV9Ua3paUmNyckxoZC1uQVItM3daXzVoaGotU21JWm56cUhRN0E2OXlWYmdzNHllbGJoT2ZSMHV5NlVPdllVYUpsRngzZ2dMSzJtRVYyc216TWJ1NEI4X2VOUzJMeDVxdEZ4Q19KMW5kN1c2WVAzUDV1eTB2YmtYT3hQbHhEUQ?oc=5",
+      "published": "2026-11-27T19:02:38+00:00",
       "via": "aggregated",
-      "score": 89.1,
+      "score": 99.6,
+      "breaking": false
+    },
+    {
+      "headline": "College basketball rankings: St. John's coach Rick Pitino gets shot at Louisville after it fired him in 2017",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-st-johns-rick-pitino-louisville-players-era-16/",
+      "published": "2026-11-26T14:55:12+00:00",
+      "via": "direct",
+      "score": 86.2,
+      "breaking": false
+    },
+    {
+      "headline": "Iowa Basketball Notebook: Ben McCollum on Xavier, The State Of His Team, Keller Daugherty's Signing",
+      "source": "IOWA STORYLINES",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMTI0OW00VzRMX2RzSnBiSHdvSTlyZmtKQ0hUZVlmM2dRTzMtUHpoa19TRF9pZDJKanM4eUpleFJ2eS1VaHVWNEc3Yzc4amlUUWRUR1lXM3RBRGJ3SXZROHRyQXBWbEN3VUZqVWZxR0tPTzY3MzU1bW9zZHp4R2hBRlpYczMtZlJ2emlxUHpXRllMXzVjYTV0T181cFZULTYtU05PMk5ReTZUYWRwWllkTDltZk41RWFWODVXWW5DOHRuNFE?oc=5",
+      "published": "2026-11-26T23:05:16+00:00",
+      "via": "aggregated",
+      "score": 92.9,
+      "breaking": false
+    },
+    {
+      "headline": "Jesse Love Admits One Driver Sent Him Chasing Supercars Down Under",
+      "source": "RACING",
+      "category": "RACING",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNVJwZkpSU1lFQWREZ0ZONHNQblpoSTRXRVFqWEEyWVpKZ0pqX1BlTEdEYnpoME5FeFM3VlFVUUxXNzktdTBON09GaWlKM1pJMU1OZUpUYm5wRklEeEYybTlrRmszOEJ0dkxHeEFVeFdKT0NwbWdGTUtSODBRbGNreUpacTZLVzNucjE4bg?oc=5",
+      "published": "2026-11-28T18:53:59+00:00",
+      "via": "aggregated",
+      "score": 91.5,
+      "breaking": false
+    },
+    {
+      "headline": "Cherry Swats Program Record Nine Shots as Men's Hoops Closes Out Maryland, 75-71",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORmxyeDNqM0hkbWo1QVh2cDNrWGxmUW4yZ2xxWkg1d1hOaFc5YVBtUWZsdWtvUlRWRUFLenJVVzIySUFQXzktVERDajFKbURrZ1lEcjBZSGtGOWtmcGZLN2ZsWHdsX2E4cVlUeXMxdVJQQzIxTjF3bVlBRGNWQXhMc29wTW12cWFGVHNKeFN0NFg2eGpNRjNFeGlGNC1hYnJSVEt0ZU4yZWM5T2NjTm5CdFd1Nmp5TllJZkFaVG5iM21ZTUJLSUdXLTFxRm5EZVZ1dlVxVnRYa0RLZHZXM2pF?oc=5",
+      "published": "2026-11-27T04:13:12+00:00",
+      "via": "aggregated",
+      "score": 94.6,
       "breaking": false
     },
     {
@@ -312,7 +282,17 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-arizona-maui-invitationl/",
       "published": "2026-11-27T15:33:16+00:00",
       "via": "direct",
-      "score": 82.8,
+      "score": 82.4,
+      "breaking": false
+    },
+    {
+      "headline": "$8 Million College Football Coach Is Favorite to Replace Colorado HC Deion Sanders: Insider",
+      "source": "COLLEGE FOOTBALL",
+      "category": "COLLEGE FOOTBALL",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR0RVS0ZSUVlpLVFyY3BSOGNab2NTZGgyNzBrbmc1M1ljaFZxVFFjcWNfaC1fX2pZcjZlRVZaRU5mcDU3MFhwdzE1WGo1WUhFcFF0aVpQMFhYb011azFYR1A1X2M2OFo5YkwxVEt4NndaMVd4Ykx1amhYaTREcHRuLWZwcmppcjZWQzNWRG5xeV9NNkVCYl9KNWZNY1l5bVNIRF9zX094RENKajF1bHpsM3Vn?oc=5",
+      "published": "2026-11-28T14:30:17+00:00",
+      "via": "aggregated",
+      "score": 90.1,
       "breaking": false
     },
     {
@@ -322,7 +302,27 @@
       "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-8-0-pitt-panthers-top-25-and-1-debut/",
       "published": "2026-11-27T19:00:20+00:00",
       "via": "direct",
-      "score": 83.9,
+      "score": 83.6,
+      "breaking": false
+    },
+    {
+      "headline": "Men's Hoops Faces San Diego State On Thursday At Players Era Tournament",
+      "source": "IOWA",
+      "category": "IOWA",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdC1uc1lsY1FLMlpzclZWbkdkNlktZ2U5eTRGMFBMczBEcFZMTExjLUNwZkRIVlYwNFpSSmpfRXR2eVZTaG43VTVSVTM4UFVON1ZaNTdEek54YjdVSnlRZnhXTHNWZjJPMGx1UDc1NzAwQS1nTF9tM0h3OTRPc1ZDRWNQNFB1a2U5STlkRzVKNjM3RV9GWVJZUXJ2eEtLM0Y5aUJIbnBZeDFCYUtQeG11ajZ5YUMxTEt1dFN3bHZvZw?oc=5",
+      "published": "2026-11-26T02:20:05+00:00",
+      "via": "aggregated",
+      "score": 86.0,
+      "breaking": false
+    },
+    {
+      "headline": "American College Basketball News, Videos, Scores, Teams, Standings, Stats",
+      "source": "FOX SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13N2o2RFZPdmNNcUtlbTdhQlF1VUxuT0dOdTNPODVzUXVxWFp0RTNxQlJlZVVXSnVfcW1NQldSRHJUUUVzQkZnbEJsbWFGV0I4RnVkb0JuYW1wRG1B?oc=5",
+      "published": "2026-11-26T21:29:55+00:00",
+      "via": "aggregated",
+      "score": 76.4,
       "breaking": false
     },
     {
@@ -332,17 +332,37 @@
       "url": "https://www.cbssports.com/college-basketball/news/bracketology-2027-ncaa-tournament-kentucky-drops-out-projected-76-team/",
       "published": "2026-11-28T01:04:20+00:00",
       "via": "direct",
-      "score": 85.9,
+      "score": 85.6,
       "breaking": false
     },
     {
-      "headline": "College Football Injury Report: Latest Rivalry Weekend updates at Michigan, Auburn, Tennessee & more",
-      "source": "COLLEGE FOOTBALL",
-      "category": "COLLEGE FOOTBALL",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdGoxNVprczh6ZG43REYtNWdHeTc1ZkFwWXhvWEE2LXhkZWNIcTZkQXNKQW4yOFlIaWZMN2J0VVlCaVZNNFFmQUxwQWdBVzN6TWdkWXBNSDFMelpWVFFoX3UtX3Rjb2ZjTzJpOTlnWExFUjBCN3RhRHNUQ21SUFBCNXNSVUlXMjU4cHlNMEllSzNReHg3UmRuTFVYM2gyM1RzV1pMQ0RwZmdJTE4yWGtfSlR3LUd0R2Zha3p4a2FTY3NnMkxYdTU2LUJDNXNvZkp0U3pqbnRVYVJGeV9odHc?oc=5",
-      "published": "2026-11-28T02:16:05+00:00",
+      "headline": "Brock Purdy, Derrick Henry, NFL Injury Statuses and Fantasy Impact for Week 12",
+      "source": "NFL",
+      "category": "NFL",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY2dhaGRaTzZNdHBrYlZxYnc4cHhIdGI4M3pPQm9rUENENDZxc21SUmFhZTVmYjFmNDhxUEs5SF81SEZPS3dpVlpTVUdHSi1WQV82dXcya0JiVDUtRUFmSjdqN3RNRU5FaE9fdVFUaHpsdUgxZXEteFRYN3RsTnd1cjFxVElMWVZ4Tkt4VFFtQUN1V3R5c0NKUFdjM01kekpZT3ZfNTQ2cnVubHRVY0RmSDdnVzZYY0VM?oc=5",
+      "published": "2026-11-27T22:14:11+00:00",
       "via": "aggregated",
-      "score": 96.3,
+      "score": 84.6,
+      "breaking": false
+    },
+    {
+      "headline": "Michigan terrorized the Players Era Tournament last season; this year, the reigning champs are a November flop",
+      "source": "CBS SPORTS",
+      "category": "NCAA NEWS",
+      "url": "https://www.cbssports.com/college-basketball/news/michigan-worst-start-reigning-ncaa-tournament-champion-mike-boynton-players-era-16-miami/",
+      "published": "2026-11-27T16:12:02+00:00",
+      "via": "direct",
+      "score": 82.6,
+      "breaking": false
+    },
+    {
+      "headline": "2026 Players Era 16: Bracket, schedule, scores",
+      "source": "NCAA.COM",
+      "category": "NCAA NEWS",
+      "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-26/2026-players-era-16-bracket-schedule-scores",
+      "published": "2026-11-26T15:33:00+00:00",
+      "via": "direct",
+      "score": 74.4,
       "breaking": false
     },
     {
@@ -352,7 +372,7 @@
       "url": "https://www.ncaa.com/news/basketball-men/article/2026-11-26/2026-maui-invitational-bracket-schedule-scores",
       "published": "2026-11-26T15:30:00+00:00",
       "via": "direct",
-      "score": 74.7,
+      "score": 74.4,
       "breaking": false
     }
   ]
